@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MFHGEX0MC9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MFHGEX0MC9');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Install StyleScout Bookmarklet</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0f1117; color: #f3f4f6; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+    .card { max-width: 650px; width: 100%; background: #171923; border: 1px solid #232736; padding: 32px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); }
+    h1 { font-size: 22px; margin-bottom: 12px; }
+    p { color: #9ca3af; font-size: 14px; line-height: 1.5; margin-bottom: 20px; }
+    .drag-container { margin: 24px 0; text-align: center; padding: 20px; background: #11131a; border: 2px dashed #374151; border-radius: 12px; }
+    .bookmark-btn { display: inline-block; padding: 12px 24px; background: #22c55e; color: #ffffff; font-weight: 700; font-size: 15px; text-decoration: none; border-radius: 8px; cursor: grab; box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3); transition: all 0.3s ease; }
+    .bookmark-btn:hover { transform: scale(1.02); box-shadow: 0 6px 20px rgba(34, 197, 94, 0.4); }
+    textarea { width: 100%; height: 140px; background: #11131a; color: #4ade80; border: 1px solid #232736; border-radius: 8px; padding: 12px; font-family: monospace; font-size: 12px; resize: none; margin-top: 10px; }
+    .action-btn { margin-top: 12px; padding: 10px 18px; border: none; border-radius: 8px; background: #3b82f6; color: white; font-weight: 600; cursor: pointer; transition: opacity 0.2s ease; }
+    .action-btn:hover { opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>➕ Install StyleScout Bookmarklet</h1>
+    <p>Drag the button below directly into your Chrome or Edge Bookmarks Bar:</p>
+    <div class="drag-container">
+      <a id="bookmarkletLink" class="bookmark-btn" href="#">🛒 Capture with StyleScout</a>
+    </div>
+    <p>Or copy the code below to paste manually into a bookmark's URL field:</p>
+    <textarea id="code" readonly></textarea>
+    <button class="action-btn" onclick="copyCode()">Copy Code to Clipboard</button>
+  </div>
+
+  <script>
+    const rawCode = `javascript:(()=>{const e=document.querySelector("#productTitle,#landingImage");const t=window.location.hostname.toLowerCase();let o="",r="",n="",c="",i=[];const a=e=>{if(!e||typeof e!=="string")return!1;const t=e.toLowerCase();return!t.includes("logo")&&!t.includes("icon")&&!t.startsWith("data:")&&(t.includes("amazon")||t.includes("flixcart")||t.includes("myntassets"))};if(t.includes("amazon")){o="Amazon";r=(document.querySelector("#productTitle")||{}).textContent?.trim()||"";n=(document.querySelector("#bylineInfo")||{}).textContent?.trim()||"";c=(document.querySelector(".a-price-whole")||{}).textContent?.trim()||"";const e=document.querySelectorAll("#landingImage,#imgBlkFront,#altImages img");e.forEach(e=>{let t=e.src||e.getAttribute("data-src")||"";t=t.replace("._SS40_","._SL1500_").replace("._SY695_","._SL1500_").replace("._SY675_","._SL1500_").replace("_SY741_","_SL1500_").replace("_SY625_","_SL1500_");a(t)&&i.push(t)})}else if(t.includes("flipkart")){o="Flipkart";r=(document.querySelector(".B_NuCI,h1._6ERy25")||{}).textContent?.trim()||"";n=(document.querySelector(".G63y2t,.mI9P2C")||{}).textContent?.trim()||"";c=(document.querySelector(".Nx9bqj,._30jeq3")||{}).textContent?.trim()||"";const e=document.querySelectorAll("img[src*='flixcart.com/image/']");e.forEach(e=>{let t=e.src;t=t.replace(/\\/image\\/(\\d+)\\/\\d+\\//,"/image/$1/1280/");a(t)&&i.push(t)})}else if(t.includes("myntra")){o="Myntra";r=(document.querySelector('[data-testid="product-title"],.pdp-name')||{}).textContent?.trim()||"";n=r?r.split(" ")[0]:"";c=(document.querySelector('[data-testid="price"],.pdp-price')||{}).textContent?.trim()||"";const e=document.querySelectorAll(".image-grid-image,img[src*='myntassets.com']");e.forEach(e=>{let t=e.src||e.getAttribute("data-src")||"";a(t)&&i.push(t)})}else{alert("StyleScout: Open an Amazon, Flipkart, or Myntra product page.");return}const d=[...new Set(i)],m=d[0]||"",l=d[1]||m,u=d[2]||l||m,p=c.replace(/[^\\d]/g,""),s={name:r||"Unknown",brand:n||"Unknown",price:p?parseInt(p,10):0,url:location.href,site:o,image:m,gallery:[m,l,u]},f=encodeURIComponent(JSON.stringify(s));window.open("https://www.mystylescout.in/Tools/importer.html#data="+f,"_blank")})();`;
+
+    document.getElementById("code").value = rawCode;
+    document.getElementById("bookmarkletLink").href = rawCode;
+
+    function copyCode() {
+      navigator.clipboard.writeText(rawCode).then(() => {
+        alert("Bookmarklet code copied to clipboard!");
+      }).catch(() => {
+        const textarea = document.getElementById("code");
+        textarea.select();
+        document.execCommand("copy");
+        alert("Bookmarklet code copied to clipboard!");
+      });
+    }
+  </script>
+</body>
+</html>
