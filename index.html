@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MFHGEX0MC9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MFHGEX0MC9');
+  
+</script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>StyleScout - Compare Sneaker, Watch & Apparel Prices in India</title>
+<meta name="description" content="Compare prices for sneakers, watches, and apparel across Amazon, Flipkart, and Myntra. Find the best deals and save money with StyleScout India.">
+<meta name="keywords" content="price comparison India, sneaker prices, watch deals, apparel discounts, Amazon vs Flipkart, Myntra deals">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="bg-shell" aria-hidden="true">
+      <div class="orb orb-one"></div>
+      <div class="orb orb-two"></div>
+      <div class="orb orb-three"></div>
+    </div>
+
+    <nav class="navbar glass" aria-label="Main navigation">
+      <div class="logo-wrap">
+        <span class="brand-mark">S</span>
+        <span class="logo-text">StyleScout</span>
+      </div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#brands">Brands</a>
+        <a href="#featured">Featured</a>
+        <a href="#footer">About</a>
+      </div>
+      <div class="nav-actions">
+        <button class="ghost-btn" id="wishlistBtn">Wishlist <span id="wishlistCount">0</span></button>
+        <button class="login-btn" id="loginBtn">Login</button>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <span class="eyebrow">Luxury deals. Better decisions.</span>
+          <h1 class="hero-title">
+            <span class="title-line"><span class="word" style="--i: 0">Find.</span></span>
+            <span class="title-line"><span class="word" style="--i: 1">Compare.</span></span>
+            <span class="title-line"><span class="word" style="--i: 2">Save.</span></span>
+          </h1>
+<p class="hero-subtitle">Compare prices for sneakers, watches, and apparel across Amazon, Flipkart, and Myntra to find the best deals in India.</p>          
+          <div class="search-panel">
+<input id="searchInput" type="text" placeholder="Search for best sneaker deals, watches, apparel..." />           
+ <button id="voiceSearchBtn" type="button">🎤</button>
+            <button id="searchButton" type="button">Search</button>
+          </div>
+
+          <div class="chip-row">
+            <button class="chip">Nike</button>
+            <button class="chip">Adidas</button>
+            <button class="chip">Puma</button>
+            <button class="chip">Watches</button>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-glow"></div>
+          <div class="product-float product-main tilt-card">
+            <div class="mini-tag">Best find</div>
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Sneaker" />
+            <div class="float-info">
+              <div><span>Now</span><strong>4,299</strong></div>
+              <button type="button" class="primary-btn small">View deal</button>
+            </div>
+          </div>
+          <div class="product-float product-mini one tilt-card">
+            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80" alt="Watch" />
+          </div>
+          <div class="product-float product-mini two tilt-card">
+            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=700&q=80" alt="Apparel" />
+          </div>
+        </div>
+      </section>
+
+      <section class="brands-section" id="brands">
+        <div class="section-head">
+          <span class="eyebrow">SHOP BY BRAND</span>
+          <h2>Trusted brands</h2>
+        </div>
+        <div class="brand-grid" id="brandGrid"></div>
+      </section>
+
+      <section class="catalog" id="featured">
+        <div class="section-heading">
+          <span class="eyebrow">Curated picks</span>
+          <h2>Best value right now</h2>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar" id="filterBar" aria-label="Product filters">
+          <button class="filter-chip active" data-filter="all">All</button>
+          <button class="filter-chip" data-filter="sneakers">Sneakers</button>
+          <button class="filter-chip" data-filter="watches">Watches</button>
+          <button class="filter-chip" data-filter="apparel">Apparel</button>
+          
+          <select id="sortSelect" class="sort-select">
+            <option value="best">🔥 Best Deal</option>
+            <option value="priceLow">💸 Lowest Price</option>
+            <option value="priceHigh">💎 Highest Price</option>
+            <option value="scoreHigh">⭐ Highest Deal Score</option>
+          </select>
+        </div>
+
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <!-- OLD FOOTER RESTORED -->
+    <footer id="footer">
+      <div class="footer-brand">StyleScout</div>
+      <p>Scout smart. Dress better.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#featured">Deals</a>
+        <a href="#footer">Privacy</a>
+      </div>
+      <span>© 2026 StyleScout</span>
+    </footer>
+
+    <!-- Brand Modal -->
+    <div class="brand-modal" id="brandModal">
+      <div class="brand-modal-content">
+        <button class="brand-close" id="brandClose">×</button>
+<img id="brandLogo" class="brand-modal-logo" src="" alt="">        <h2 id="brandName"></h2>
+        <div id="brandCategories" class="brand-category-list"></div>
+        <button id="viewBrandProducts" class="brand-view-btn">View Products</button>
+      </div>
+    </div>
+
+    <!-- Quick View Modal with Arrows -->
+    <div class="modal" id="quickViewModal">
+      <div class="modal-panel glass">
+        <button class="close-modal" id="closeModal">×</button>
+        <div class="modal-gallery">
+          <div class="gallery-stage">
+            <button class="gallery-arrow left" id="prevImage">‹</button>
+            <img id="modalMainImage" src="" alt="" />
+            <button class="gallery-arrow right" id="nextImage">›</button>
+          </div>
+        </div>
+        <div class="modal-info">
+          <span class="eyebrow" id="modalBrand"></span>
+          <h3 id="modalTitle"></h3>
+          <div class="modal-price-block">
+            <div>
+              <span class="price-label">Now</span>
+              <strong id="modalCurrentPrice">0</strong>
+            </div>
+            <div>
+              <span class="price-label">Was</span>
+              <span id="modalOldPrice">0</span>
+            </div>
+          </div>
+          <div class="stat-pills">
+            <span id="modalDiscount">0% off</span>
+            <span>Free returns</span>
+            <span>3+ stores</span>
+          </div>
+          <div class="store-list" id="modalStores"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wishlist Drawer -->
+    <div class="wishlist-drawer" id="wishlistDrawer">
+      <div class="drawer-header">
+        <h3>Saved Items</h3>
+        <button class="drawer-close" id="drawerClose">×</button>
+      </div>
+      <div class="drawer-content" id="drawerContent"></div>
+    </div>
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+
+    <!-- Login Modal -->
+    <div class="login-modal" id="loginModal">
+      <div class="login-card">
+        <button class="login-close" id="loginClose">×</button>
+        <div class="login-logo">
+          <div class="logo-box">S</div>
+          <h2>StyleScout</h2>
+        </div>
+        <p class="login-subtitle">Welcome back. Find smarter deals.</p>
+        <input id="loginName" type="text" class="login-input" placeholder="Enter your name">
+        <button id="loginSubmit" class="continue-btn">Continue</button>
+      </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+    <canvas id="particleCanvas"></canvas>
+    
+    <script src="script.js"></script>
+    <!-- SEO Content Section -->
+<section class="seo-content" style="padding: 40px; max-width: 1200px; margin: 0 auto;">
+    <h2 style="font-size: 2rem; margin-bottom: 20px;">Why StyleScout is India's Best Price Comparison Site</h2>
+    <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 15px;">
+        Are you tired of searching multiple websites to find the lowest price? StyleScout is your ultimate 
+        <strong>price comparison site for India</strong>. We track <strong>best sneaker deals</strong>, 
+        <strong>cheap watches online</strong>, and <strong>apparel discounts</strong> all in one place.
+    </p>
+    <p style="font-size: 1rem; line-height: 1.6;">
+        Whether you are comparing <strong>Amazon vs Flipkart</strong> prices or hunting for exclusive 
+        <strong>Myntra deals</strong>, our tool helps bargain hunters across India save money effortlessly. 
+        Stop guessing, start saving with StyleScout.
+    </p>
+</section>
+  </body>
+</html>
