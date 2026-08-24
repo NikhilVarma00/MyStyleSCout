@@ -138,6 +138,106 @@ const products = [
   ]
 },
 
+{
+  id: "campus-terminator-n",
+  name: "Campus Terminator (N) Running Shoes",
+  brand: "CAMPUS",
+  price: 1299,
+  category: "sneakers",
+  oldPrice: 1434,
+  discount: 9,
+  image: "https://m.media-amazon.com/images/I/41kDogsaPdL._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/41kDogsaPdL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41oHwwY5QCL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41Z2ACFQyrL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/519VapMAUVL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41I9jVA29NL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41-gBwYt8qL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/7116DVkEANL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/7116DVkEANL._SY695_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 1434, url: "https://www.flipkart.com/campus-terminator-n-running-shoes-men/p/itm29ac3efb0d51d?pid=SHOG2QYYKH2ZQZQC&lid=LSTSHOG2QYYKH2ZQZQCOSPMZG&marketplace=FLIPKART&q=Campus+Men+Terminator+%28N%29+Running+Shoes&store=osp%2Fcil%2F1cu&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=94deab9c-2763-4c52-b3c7-3293ee5fec36.SHOG2QYYKH2ZQZQC.SEARCH&ppt=sp&ppn=sp&ssid=1z71j80i340000001787570093868&qH=196bbb25ec21a0b7&ov_redirect=true" },
+    { name: "Amazon", price: 1299, url: "https://www.amazon.in/Campus-Mens-Terminator-Running-Shoes/dp/B095T3QVDM?pf_rd_r=3AHD3TEV1R1MHBK992FT&pf_rd_p=a1f490ce-fe55-425e-9932-455f92f72533&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=a4ed1f6ffc0008333426c9c3d1f0ae33&ref_=as_li_ss_tl" },
+    { name: "Myntra", price: 1434, url: "https://www.myntra.com/sports-shoes/campus/campus-terminator-n-men-lace-up-running-shoes/14439664/buy" }
+  ]
+},
+{
+  id: "asian-everest-24-trekking",
+  name: "ASIAN EVEREST-24 Trekking Shoes",
+  brand: "ASIAN",
+  price: 1499,
+  category: "sneakers",
+  oldPrice: 1749,
+  discount: 14,
+  image: "https://m.media-amazon.com/images/I/41wUoMomstL._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/41wUoMomstL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/416Mh8lL2VL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51b9swF+2BL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51p5o+yWQKL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51zUCkWEKgL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51+KF+h0lkL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41DGMusy3xL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81joo71tqbL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81joo71tqbL._SY695_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 1749, url: "https://www.flipkart.com/asian-everest-24-hiking-boots-outdoor-trekking-water-resistant-sneakers-men/p/itme32ddc910dda8?pid=SHOH8XVZVZAU48DT&lid=LSTSHOH8XVZVZAU48DT28QF8N&marketplace=FLIPKART&q=ASIAN+Mens+Running+Shoes+for+Men+I+Sport+Shoes+for+Boys+with+Eva+Sole+for+Extra+Jump+I+Casual+Shoes+for+Men+Delta-21&store=osp%2Fcil%2F1cu&srno=s_1_8&otracker=search&otracker1=search&fm=Search&iid=en_YufyCOFgEInNVNWirj5ZSLxxp7tMOG0SEMJpe6lWIoNfJDp5xjwByrQ9miZqSB_jmekorIW70sNnf9B0mz1fcZ3e44mKXPWOFqlJ1V6RTmKNkyB6MtcpXsO1gpfOsgJQ&ppt=sp&ppn=sp&ssid=u7th3n3lq80000001787570285740&qH=bfb43b31137da7f6&ov_redirect=true" },
+    { name: "Amazon", price: 1499, url: "https://www.amazon.in/ASIAN-EVEREST-24-Trekking-Outdoor-Comfortable/dp/B0DVGXYQGL?crid=2AX0SX4V438XY&dib=eyJ2IjoiMSJ9.MGiQMEHqSvoGYY1lK3ZuYu3kOdmxJ3Vi7M4ypK7i4K-4brP3tyTIJONYQXMdEtrFP8A55fRHdOGp670AdfF4IxkSPdDiYEC-n5NB8O1Qn_igxTYrZld6xkP3bL39qKmtcv8LOJabmdG-i9lNJkMZqzdR9FPrgoLPYD5Oxo2iKNxTcy5D-MAPhK5LarLbrXTcXzGAaMKowQlItahmAb06m3vvLf3gu5tbA9NPD6ozq99bBIWCegnvbS8VUHaJ-2--xzIiYKSSFPt7xHbIW7DOnOcezfWzrumMPju2skC4QdY.4sQ6HL_nDW_0rp9WEis4pkG-WAiJCUoDmHiVJPumUM0&dib_tag=se&keywords=asian%2BEVEREST-24%2BHiking%2Bboots%2Boutdoor%2BTrekking%2B-%2BWater%2BResistant%2BBoots%2BSneakers%2BFor%2BMen%2B%28Grey%2B%2C%2B7%29&nsdOptOutParam=true&qid=1787570377&s=shoes&sprefix=asian%2Beverest-24%2Bhiking%2Bboots%2Boutdoor%2Btrekking%2B-%2Bwater%2Bresistant%2Bboots%2Bsneakers%2Bfor%2Bmen%2Bgrey%2B%2C%2B7%2B%2Cshoes%2C300&sr=1-6&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=75f57dc0561353c904e6928cb63665fc&ref_=as_li_ss_tl" },
+    { name: "Myntra", price: 1662, url: "https://www.myntra.com/casual-shoes/asian/asian-men-everyday-trekking-shoes/32579974/buy" }
+  ]
+},
+{
+  id: "sparx-sm-171-running",
+  name: "Sparx SM-171 Running Shoes",
+  brand: "SPARX",
+  price: 1124,
+  category: "sneakers",
+  oldPrice: 1259,
+  discount: 11,
+  image: "https://m.media-amazon.com/images/I/41MLa4jDeyL._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/41MLa4jDeyL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51rlCD1qUkL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51QQOeS2l7L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41AiqM99yCL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41XMIS+86UL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41YIkw2ZbTL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81SezP6G9QL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81SezP6G9QL._SX695_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 1259, url: "https://www.flipkart.com/sparx-sm-171-running-shoes-men/p/itm0c1f8896ae3fd?pid=SHOEPP78ZDNNAHJR&marketplace=FLIPKART&lid=LSTSHOEPP78ZDNNAHJR8THQ3Y&q=SPARX+Sports+Shoe+SM-171+for+Me&fm=Search&pageUID=1787570736792" },
+    { name: "Amazon", price: 1124, url: "https://www.amazon.in/Sparx-Mens-Black-Green-Running/dp/B0788MZWPL?crid=16P4DDLVBRQVC&dib=eyJ2IjoiMSJ9.Xntr3diUOYXlAhK5bYrZzKiyAlEP8Ij2OdWuOEUbmtT-8b__YS9o-zWXcGFcgmhdwV9HAKBNIKpLckyxyG52HdT4j7dVgunELUMw8mKFQcoULjqlmjNOHhVM8CLwwNKnLm2KOgG4GtaYfSZbwsOY5zwskdwiJ83MuRo1DxM2naL0e1IJ5zw3M374Mq3T0yDrh_ktVnMbdJHjIYjhJ7rc7fTlyX_jo1i3G-USF4dIXYvpqCjOmvCqXiJh7g5BidHQ6jJeb4HABawl3QxJ95HPj9MUBhoLJaLk9I9OVq6SVvU.muDMJ-gD03f1_SQFZx1wypWwE3C0GLsVbZruxFLHCv4&dib_tag=se&keywords=mens%2Bshoes%2Bbranded&qid=1787570679&s=shoes&sprefix=mens%2Bs%2Cshoes%2C284&sr=1-2-spons&aref=hgzvteJCdI&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=452dab779ee2ccab9b3cfe9bd4a6f9be&ref_=as_li_ss_tl" }
+  ]
+},
+{
+  id: "sparx-sm-680-running",
+  name: "Sparx SM 680 Running Shoes",
+  brand: "SPARX",
+  price: 1039,
+  category: "sneakers",
+  oldPrice: 1039,
+  discount: 0,
+  image: "https://m.media-amazon.com/images/I/31JRVT72niL._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/31JRVT72niL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/412M3g-hjbL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41yuecjAozL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51kTUwNZYqL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51HL8WXEosL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51JZymfMNDL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/613HEGjY-eL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/613HEGjY-eL._SY695_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 1039, url: "https://www.flipkart.com/sparx-sm-680-running-shoes-men/p/itmd11d2dbc874f9?pid=SHOGCVYM8GZGDBBH&lid=LSTSHOGCVYM8GZGDBBHBP7FB7&marketplace=FLIPKART&q=Sparx+Men+SM-+680&store=osp%2Fcil%2F1cu&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=c12a5399-7168-4b2d-8e8b-48df4cc879b3.SHOGCVYM8GZGDBBH.SEARCH&ppt=sp&ppn=sp&ssid=c3rck0h3c00000001787571051671&qH=e83cba15632c820d&ov_redirect=true" },
+    { name: "Amazon", price: 1039, url: "https://www.amazon.in/Sparx-SM-680-Black-Golden-Sports/dp/B0C5T7QT87?crid=3PX36GKLVG96L&dib=eyJ2IjoiMSJ9.2jV15uCcIuFAoiPk0Ss77MmfY6UflxglFkdE9ZOUeYzhhZn-3T35_pumQbKnf-u4cCYeenaZwHvlNtGrfuoZHvUMbYywObzDyqxLfNS1mu_8ctYaLcgmdVbmasE6ze6Lx156qU_Vc1q4nX9SHkO1GqngMiyzIASSlKwYpxnNXAvsVLYeu92ZgmyYKd78bdFnCFHfSeTGDgVn3SuiiF3nLmD9YuoJiwjaqKwHg0_VqFdSRjEQK-LbYX4geTnaMnDFrYL7wEBPlBXpEWIxcxHEAT_Y-a7JEiuuxENE-wEf7GM.TbTaiTiy97SdYDNxlkvpVCeyo0LBGqi8hViwIzDd1x0&dib_tag=se&keywords=Sparx%2BMen%2BSM-778%2BBlack%2BMesh%2BRunning%2BNon-Marking%2BShoes&nsdOptOutParam=true&qid=1787570936&s=shoes&sprefix=mens%2Bshoes%2Bbranded%2Cshoes%2C628&sr=1-9&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=7fc0988878e4f922c257974e4743824d&ref_=as_li_ss_tl" }
+  ]
+}
+
 ];
 
 const $ = (id) => document.getElementById(id);
