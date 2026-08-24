@@ -236,7 +236,106 @@ const products = [
     { name: "Flipkart", price: 1039, url: "https://www.flipkart.com/sparx-sm-680-running-shoes-men/p/itmd11d2dbc874f9?pid=SHOGCVYM8GZGDBBH&lid=LSTSHOGCVYM8GZGDBBHBP7FB7&marketplace=FLIPKART&q=Sparx+Men+SM-+680&store=osp%2Fcil%2F1cu&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=c12a5399-7168-4b2d-8e8b-48df4cc879b3.SHOGCVYM8GZGDBBH.SEARCH&ppt=sp&ppn=sp&ssid=c3rck0h3c00000001787571051671&qH=e83cba15632c820d&ov_redirect=true" },
     { name: "Amazon", price: 1039, url: "https://www.amazon.in/Sparx-SM-680-Black-Golden-Sports/dp/B0C5T7QT87?crid=3PX36GKLVG96L&dib=eyJ2IjoiMSJ9.2jV15uCcIuFAoiPk0Ss77MmfY6UflxglFkdE9ZOUeYzhhZn-3T35_pumQbKnf-u4cCYeenaZwHvlNtGrfuoZHvUMbYywObzDyqxLfNS1mu_8ctYaLcgmdVbmasE6ze6Lx156qU_Vc1q4nX9SHkO1GqngMiyzIASSlKwYpxnNXAvsVLYeu92ZgmyYKd78bdFnCFHfSeTGDgVn3SuiiF3nLmD9YuoJiwjaqKwHg0_VqFdSRjEQK-LbYX4geTnaMnDFrYL7wEBPlBXpEWIxcxHEAT_Y-a7JEiuuxENE-wEf7GM.TbTaiTiy97SdYDNxlkvpVCeyo0LBGqi8hViwIzDd1x0&dib_tag=se&keywords=Sparx%2BMen%2BSM-778%2BBlack%2BMesh%2BRunning%2BNon-Marking%2BShoes&nsdOptOutParam=true&qid=1787570936&s=shoes&sprefix=mens%2Bshoes%2Bbranded%2Cshoes%2C628&sr=1-9&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=7fc0988878e4f922c257974e4743824d&ref_=as_li_ss_tl" }
   ]
-}
+},
+
+{
+  id: "casio-mtp-vd01d-blue",
+  name: "Casio Enticer Analog Blue Dial Watch",
+  brand: "CASIO",
+  price: 2993,
+  category: "watches",
+  oldPrice: 4195,
+  discount: 29,
+  image: "https://m.media-amazon.com/images/I/61V9Kj-JkkL._SL1000_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/5172VzZuOfL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61V9Kj-JkkL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61V9Kj-JkkL._SY879_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 4195, url: "https://www.flipkart.com/casio-mtp-vd01d-2bvudf-mtp-vd01-analog-watch-men/p/itmf8hxbtxybgh9b?pid=WATF8HUCS33JB2GH&marketplace=FLIPKART&lid=LSTWATF8HUCS33JB2GHHG0BPQ&hl_lid=LSTWATF8HUCS33JB2GHDA6H69&q=Casio+Enticer+Analog+Black+Dial+Mens+Watch+-+MTP-VD01GL-1EVUDF+%28A1369%29&fm=Search&pageUID=1787572150857" },
+    { name: "Amazon", price: 2993, url: "https://www.amazon.in/Casio-Enticer-Analog-Watch-MTP-VD01D-1EVUDF-A1362/dp/B07BS3LCTS?dib=eyJ2IjoiMSJ9.r21ey79e3pI1dIXqhQ-MKRcOtlMrYfRagzl0oqQNbGcArUbhjlEi0rgsC8wkO3t4Y2zPdg8HOo7ddGyPrEzzDylRgQD6NgvE_LBrdwiLD6cYDcQV2Td02nbryx8pBmOAORZOvdKuwhTlPHlClyf6836c40PB1T1Xpm-6WDABi0BugBCQdnVsi2Uxuk5Wo56oqM_wFN3VYUkqgcAMz21ru6E66BHROrwVLwd7RBuBJJkbe6KemdG_rzRptpDc7ZcFCsj5pX3FDMkznoiTRGlu7fkvgNsOcTXEYnKtqTclqc0.ZU1z09-uyQFYprfvsiQy0blL5DIgDwGy6FlJi8LBI78&dib_tag=se&pf_rd_i=2563504031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&qid=1787571989&rnid=6648218031&s=apparel&sr=1-6&th=1&linkCode=ll2&tag=stylescoutin2-21&linkId=0670f77f3d9831d7b138e80e898e7224&ref_=as_li_ss_tl" },
+    { name: "Myntra", price: 2995, url: "https://www.myntra.com/watches/casio/casio-mens-mtp-vd01d-2bvudf-blue-analog-dial-metal-a1363/7264980/buy" }
+  ]
+},
+{
+  id: "casio-mtp-vd01gl-black",
+  name: "Casio Enticer Analog Black Dial Watch",
+  brand: "CASIO",
+  price: 2994,
+  category: "watches",
+  oldPrice: 2995,
+  discount: 0,
+  image: "https://m.media-amazon.com/images/I/414VdtnDLRL._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/414VdtnDLRL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31W+TYIsbFL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31NBLhq6SuL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41sS+saInDL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31YL2HqvliL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41NwRMfAvrL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61S+NClCbIL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61S+NClCbIL._SX679_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 2995, url: "https://www.flipkart.com/casio-mtp-vd01gl-1evudf-mtp-vd01-analog-watch-men/p/itmf98twgdtbangu?pid=WATF97UY5SYHDSFP&lid=LSTWATF97UY5SYHDSFPRROCTR&marketplace=FLIPKART&q=Casio+Enticer+Analog+Black+Dial+Mens+Watch+-+MTP-VD01GL-1EVUDF+%28A1369%29&store=r18%2Ff13&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=67a156c2-b80f-4251-ae97-1db9e6c302d7.WATF97UY5SYHDSFP.SEARCH&ppt=sp&ppn=sp&ssid=o75a4g0icg0000001787572027298&qH=48bb031b86a339fc&ov_redirect=true" },
+    { name: "Amazon", price: 2994, url: "https://www.amazon.in/Casio-Enticer-Analog-Watch-MTP-VD01GL-1EVUDF-A1369/dp/B07DD25LJ8?dib=eyJ2IjoiMSJ9.r21ey79e3pI1dIXqhQ-MKRcOtlMrYfRagzl0oqQNbGcArUbhjlEi0rgsC8wkO3t4Y2zPdg8HOo7ddGyPrEzzDylRgQD6NgvE_LBrdwiLD6cYDcQV2Td02nbryx8pBmOAORZOvdKuwhTlPHlClyf6836c40PB1T1Xpm-6WDABi0BugBCQdnVsi2Uxuk5Wo56oqM_wFN3VYUkqgcAMz21ru6E66BHROrwVLwd7RBuBJJkbe6KemdG_rzRptpDc7ZcFCsj5pX3FDMkznoiTRGlu7fkvgNsOcTXEYnKtqTclqc0.ZU1z09-uyQFYprfvsiQy0blL5DIgDwGy6FlJi8LBI78&dib_tag=se&pf_rd_i=2563504031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&qid=1787571989&rnid=6648218031&s=apparel&sr=1-7&linkCode=ll2&tag=stylescoutin2-21&linkId=f20c07273fdacd9523cd792ebd4b2b0c&ref_=as_li_ss_tl" },
+    { name: "Myntra", price: 2995, url: "https://www.myntra.com/watches/casio/casio-mens-mtp-vd01gl-1evudf-black-analog-dial-genuine-leather-a1369/7370471/buy" }
+  ]
+},
+
+{
+  id: "titan-workwear-green",
+  name: "Titan Workwear Green Dial Watch",
+  brand: "Titan",
+  price: 3375,
+  category: "watches",
+  oldPrice: 3845,
+  discount: 12,
+  image: "https://m.media-amazon.com/images/I/41-P-cV9nZL._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/41-P-cV9nZL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41Ielg25yAL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41RsxHMLb1L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/316VvxJoGvL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41jF3pajjkL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/4133crnnHtL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/511B0fTOENL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/511B0fTOENL._SX679_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 3845, url: "https://www.flipkart.com/titan-workwear-green-dial-leather-strap-analog-watch-men/p/itmcd1e852819152?pid=WATFVHZ5UHSFWBFH&lid=LSTWATFVHZ5UHSFWBFHRYQZGR&marketplace=FLIPKART&q=Titan+Workwear+Quartz+Analog+Hunter+Green+Dial+Olive+Green+Leather+Strap+Watch+for+Men+-+NT1802NL02&store=r18%2Ff13&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=dab09868-02a4-4ab6-91a2-175d1998d893.WATFVHZ5UHSFWBFH.SEARCH&ppt=sp&ppn=sp&ssid=1xhjli1jlc0000001787572903748&qH=bce393ff710479e6&ov_redirect=true" },
+    { name: "Amazon", price: 3375, url: "https://www.amazon.in/Titan-Workwear-Leather-Men-NS1802NL02-NT1802NL02/dp/B08JM33QNK?pd_rd_w=hRTCp&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PANNHHPV8SQVH70K62H5&pd_rd_wg=FxNGS&pd_rd_r=2df0599b-3b2f-4d46-b735-f15a1b2dbd85&pd_rd_i=B08JM33QNK&th=1&linkCode=ll2&tag=stylescoutin2-21&linkId=35a67836bae9d5db2f00d70298493f7e&ref_=as_li_ss_tl" }
+  ]
+},
+
+{
+  id: "us-polo-cargos",
+  name: "U.S. Polo Assn. Denim Co. Men Cargos",
+  brand: "U.S. POLO ASSN.",
+  price: 1672,
+  category: "apparel",
+  oldPrice: 1761,
+  discount: 5,
+  image: "https://m.media-amazon.com/images/I/31xS15p-6+L._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/31xS15p-6+L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31OJZsRIefL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/312bpGADS3L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41sE8Lq-wwL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31JzFXmxoyL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31lEz0LVDmL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41oQ29E-V7L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61Jzd5c0TqL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61Jzd5c0TqL._SX679_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 1761, url: "https://www.flipkart.com/u-s-polo-assn-denim-co-men-cargos/p/itm09ec224dd67fe?pid=CRGHD5WGWVWKU63C&lid=LSTCRGHD5WGWVWKU63CNAO3HT&marketplace=FLIPKART&q=U.S.+Polo+Assn.+Denim+Co.+Apparel+Regular+Casual+Pants+cargo&store=clo%2Fvua%2Frqy%2Fnli&srno=s_1_20&otracker=search&otracker1=search&fm=Search&iid=a05a5f85-0e29-46d5-afc7-d0f1e4e735e0.CRGHD5WGWVWKU63C.SEARCH&ppt=sp&ppn=sp&ssid=ndbx55pan40000001787573386004&qH=b4e97f7209e56729&ov_redirect=true" },
+    { name: "Amazon", price: 1672, url: "https://www.amazon.in/U-S-Denim-Co-Straight-Trousers_UDTRO0264_34/dp/B0F9KW659K?dib=eyJ2IjoiMSJ9.ucNtci6SCFsAjIqlA1dngAVZgImIdtXuk307wRKk1zDTaMlhuARc1mgLGPrRIy7EIUcWGlYDeJzzt2y3c6MKWx4_3rXpY2lw58O8H_i0s4-_DqT6VKTNiyT1eFUnPgtRxk2hppkTxGaHnp9RCKKriJAGQ5bJyy_HQWS_M5jy9cFBW6VHXze3AnZaskLkIfnhpKv63js_CCZbkBzkRFjiHYK89GBu7GpjbfxsgNnxUEmHGu205ya9OvA9BIDgiPVc9FpdLVNzbCIoGe2dApyI5HnXlnRxxkP-uKjkexVxbDs.jsRBit0tYHAOBZzNm7WoMC-LsP9qp2mVmu9O9HkrQm8&dib_tag=se&keywords=cargo&qid=1787573246&refinements=p_123%3A390827&rnid=91049095031&s=apparel&sr=1-1&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=f3d15c0bb29da9bd88de709b076f1aea&ref_=as_li_ss_tl" }
+  ]
+},
+
+
 
 ];
 
