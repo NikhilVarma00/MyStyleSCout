@@ -110,7 +110,33 @@ const products = [
         url: "https://www.amazon.in/SPARX-SD0323G-BLACK-Sneakers-SD0323GBKWH0009/dp/B07PJ9329H?pd_rd_w=5RpG6&content-id=amzn1.sym.d5adbf9e-6741-468c-b4ab-68672b21a512&pf_rd_p=d5adbf9e-6741-468c-b4ab-68672b21a512&pf_rd_r=F2XNQKXCQ3J3AKHHXFJP&pd_rd_wg=Uc2HH&pd_rd_r=1ae81e52-ff7f-4f4a-b219-f128de051c0a&pd_rd_i=B077N6PY6M&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=0de56070b566cb1f4024ce2db2f1df0a&ref_=as_li_ss_tl" }
     
     ]
-  }
+  },
+
+  {
+  id: "puma-club-ii-era-l",
+  name: "Puma Club II Era L Sneakers",
+  brand: "PUMA",
+  price: 3069,
+  category: "sneakers",
+  oldPrice: 4689,
+  discount: 35,
+  image: "https://m.media-amazon.com/images/I/21DVW7zXVHL._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/21DVW7zXVHL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21iMkHAesiL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21piVBIPd3L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21qPTN4zKtL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21ATE6gpDzL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31nHYV9HtBL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41go+RXCeBL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41go+RXCeBL._SY695_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 3069, url: "https://www.flipkart.com/puma-club-ii-era-l-sneakers-men/p/itmfff4ce7c2a5ac?pid=SHOHJZ8BK6MPWVYW&lid=LSTSHOHJZ8BK6MPWVYWHOVOOM&marketplace=FLIPKART&q=Puma+Men+Club+II+Era+Sneaker&store=osp%2Fcil%2Fe1f&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=9d446482-6a7c-4677-b7e7-df1e58f891dd.SHOHJZ8BK6MPWVYW.SEARCH&ppt=sp&ppn=sp&ssid=j5ajo9faao0000001787564011249&qH=092bf8e24c5efdd0&ov_redirect=true" },
+    { name: "Amazon", price: 3069, url: "https://www.amazon.in/Puma-Club-II-Era-Sneakers/dp/B0F7TVXRGZ?crid=36100X39188OF&dib=eyJ2IjoiMSJ9.JovLsSVe6SyuTsUbX02y76_umVNZ4FvE7nxbZSKrr6IXVM0HPDnmOhm97SleYD4pXJjCY-335UWJF5atHok0vHAdc2-BzBJJeGMO_jD__v_UolBzUrhABck81j8u6k4WpYsLvzjVlcrks7e4NKXDfn4e9K7SgjITcefXJ1wXWjttWCTeXIGmyTid_wxKCNrCVdj7AtjDWvZEAd_wdeJ7Uy5njTV20aONwJsR3VcY8UBTOWVxmYfYSz-aE-YQOoJRMsCNo8Y6HYEnO84SSxN-b03Zygic1HMSJqJMujMrzF8.ZZm0cIlg1zTXN8cmGt9OJyy2CZfU1h8Y7Z4HKZzN3Zw&dib_tag=se&keywords=Puma%2BMen%2BClub%2BII%2BEra%2BL%2BSneaker&qid=1787564075&sprefix=puma%2Bmen%2Bclub%2Bii%2Bera%2Bl%2Bsneaker%2Caps%2C297&sr=8-1&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=96a26223021257ca976329f57a045069&ref_=as_li_ss_tl" },
+    { name: "Myntra", price: 4689, url: "https://www.myntra.com/casual-shoes/puma/puma-unisex-club-ii-era-leather-sneakers/39535481/buy" }
+  ]
+},
 
 ];
 
