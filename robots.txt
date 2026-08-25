@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /Tools/
 
-Sitemap: https://mystylescout.in/sitemap.xml
+Sitemap: https://www.mystylescout.in/sitemap.xml
