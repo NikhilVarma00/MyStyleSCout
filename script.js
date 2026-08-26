@@ -352,6 +352,7 @@ const modalStores = $("modalStores");
 const closeModalBtn = $("closeModal");
 const prevImage = $("prevImage");
 const nextImage = $("nextImage");
+const modalWishlistBtn = $("modalWishlistBtn");
 const toast = $("toast");
 const searchInput = $("searchInput");
 const searchButton = $("searchButton");
@@ -509,7 +510,12 @@ function openQuickView(product) {
       <span class="store-price">${money(store.price)}</span>
     </a>
   `).join('');
-  
+
+  modalWishlistBtn.dataset.id = product.id;
+  const isSaved = wishlist.includes(product.id);
+  modalWishlistBtn.classList.toggle('active', isSaved);
+  modalWishlistBtn.textContent = isSaved ? '♥' : '♡';
+
   modal.classList.add('visible');
   document.body.classList.add('modal-open');
 }
@@ -523,6 +529,7 @@ function changeImage(direction) {
 
 prevImage.addEventListener('click', () => changeImage(-1));
 nextImage.addEventListener('click', () => changeImage(1));
+modalWishlistBtn.addEventListener('click', toggleWishlist);
 
 closeModalBtn.addEventListener('click', () => {
   modal.classList.remove('visible');
