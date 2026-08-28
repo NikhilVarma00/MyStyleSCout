@@ -335,7 +335,104 @@ const products = [
   ]
 },
 
-
+{
+  id: "us-polo-abor-30-white",
+  name: "U.S. Polo Assn. ABOR 3.0 White Classic Canvas Sneakers",
+  brand: "U.S. POLO ASSN.",
+  price: 2045,
+  category: "sneakers",
+  oldPrice: 2046,
+  discount: 0,
+  image: "https://m.media-amazon.com/images/I/31Q0UHF5QjL._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/31Q0UHF5QjL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/418YcAYMi2L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/317upKvyclL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21CNHyHmQQL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31Qi766SXUL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/412kVJhYo4L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61Xa5nUCKBL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61Xa5nUCKBL._SY695_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 2046, url: "https://www.flipkart.com/u-s-polo-assn-abor-3-0-sneakers-men/p/itm3453e95ac23b6?pid=SHOHC5JJG9BSCVZZ&lid=LSTSHOHC5JJG9BSCVZZSTUPSH&marketplace=FLIPKART&q=U.S.+Polo+ASSN.+Mens+Abor+3.0&store=search.flipkart.com&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=93afa5e2-ee63-4a4a-9db1-5757a88e572c.SHOHC5JJG9BSCVZZ.SEARCH&ppt=sp&ppn=sp&ssid=ocbr65nznk0000001787915977200&qH=f5fa342bb80b2d54&ov_redirect=true&ov_redirect=true" },
+    { name: "Amazon", price: 2045, url: "https://www.amazon.in/U-S-Polo-Assn-Sneaker-White/dp/B0F8V9DL2S?crid=3PCX8QF9F4RMG&dd=hmh43oKv1UG3XeW4sVbtMA%2C%2C&dib=eyJ2IjoiMSJ9.A5uaOBrRd78LCRRFTHo0fOr2XQEJOFcv4iYaje1wubBae0KCH0r4hQzb2oa5KCm_yrqJQiVcxIYTGqZsQIVu6SatqOiNKqavqU8olWb9Ywvjb19iew31la9bUaNuwgr_9fJWnnA1nDPcPlYB-CE48I7gx-TUmNJZKLJpvubXrKYBw3BATeqR-5XZs_ch3QpAjZ6UnW4abb0b4bBeOvKuNpeyZdvc9UEbrtc03F76wSFkGe79bKieaQwGZoQ3IM0l1kYLTZWGbwEWwLR0OSEXjl3xtoSLxf5kEuWr65rkf1Q.T98pS-ruzIlsYPjrF6_J56YFxwMWsm9QVowWUSYZOeI&dib_tag=se&keywords=sneakers&qid=1787915879&refinements=p_90%3A6741118031&sprefix=sneakers%2Caps%2C331&sr=8-10&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=1abaecb8d89d750bcf360859a2bd8fe3&ref_=as_li_ss_tl" },
+    { name: "Myntra", price: 2045, url: "https://www.myntra.com/casual-shoes/u.s.+polo+assn./us-polo-assn-men-abor-30-off-white-classic-canvas-sneakers/34132978/buy" }
+  ]
+},
+{
+  id: "us-polo-clane-20-black",
+  name: "U.S. Polo Assn. CLANE 2.0 Black Sneakers",
+  brand: "U.S. POLO ASSN.",
+  price: 2767,
+  category: "sneakers",
+  oldPrice: 4799,
+  discount: 42,
+  image: "https://m.media-amazon.com/images/I/41VDYVrAWLL._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/41VDYVrAWLL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41kan7POQLL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31V3sMVnU-L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41tmIEXlS-L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41iZokRyUaL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31K30KijZVL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/710mQePLuWL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/710mQePLuWL._SY695_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 2767, url: "https://www.flipkart.com/u-s-polo-assn-clane-2-0-sneakers-men/p/itm8319e2a050a2a?pid=SHOH94C9HYKTEHAJ&lid=LSTSHOH94C9HYKTEHAJQUKTX8&marketplace=FLIPKART&q=U.S.+POLO+ASSN.+Mens+Rojas+2.0-Parent+Sneaker.&store=osp%2Fcil%2Fe1f&srno=s_1_6&otracker=search&otracker1=search&fm=Search&iid=862b7f5e-6fdd-4876-9d0b-14785b2f312a.SHOH94C9HYKTEHAJ.SEARCH&ppt=sp&ppn=sp&ssid=xjxcr4p9680000001787916242953&qH=8418c2c7654d57c5&ov_redirect=true" },
+    { name: "Amazon", price: 2767, url: "https://www.amazon.in/U-S-Polo-Assn-CLANE-Sneakers/dp/B0DVGSF6PY?crid=U16PNIFXNCTI&dib=eyJ2IjoiMSJ9.GvrSyRURppDXrv1qCixNfutaqPlAaRLDNj_XkN6b_zOdY3Vr-rvXVNTKrJXHpR9flCVxe2hoaVjrHprM69DqPB-e9M_B_DJBMKnDZ9QVA8Bmif0JanxrIwQKQwYg4_8LRxYu77GA-qJwCWY5Zo0KbJFGrqS0d3zeulgG1AYXkiSqSDkLDCXha4XoujyrOzqXvA0a48pe99LmS8UHj-4aDhxPMeoXgdzRBJW8_C0d58SVNOJ85HBo1LWpDLWrJFXZU-L0ZWeClqx-znPiP2Q5UKvrGYwB984DP8rYt7yBKUw.COdLuA46457MqO8JoFSfgIUcQ8E84O0eq3rDSLFGnPI&dib_tag=se&keywords=U.S.%2BPOLO%2BASSN.%2BCLANE%2B2.0%2BSneakers%2BFor%2BMen%2B%28Black%2B%2C%2B10%29%5D&nsdOptOutParam=true&qid=1787916275&sprefix=u.s.%2Bpolo%2Bassn.%2Bclane%2B2.0%2Bsneakers%2Bfor%2Bmen%2Bblack%2B%2C%2B10%2B%2Caps%2C452&sr=8-1&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=5925007b9c77af6f72c24b78b2c848cd&ref_=as_li_ss_tl" }
+  ]
+},
+{
+  id: "us-polo-coba-20",
+  name: "U.S. Polo Assn. Coba 2.0 Sneakers",
+  brand: "U.S. POLO ASSN.",
+  price: 3112,
+  category: "sneakers",
+  oldPrice: 3119,
+  discount: 0,
+  image: "https://m.media-amazon.com/images/I/41SbWGxsoBL._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/41SbWGxsoBL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41JoAxpgc1L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/319ruiEPVpL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/313oMTBiXfL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/3160JzjZqyL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41wemfnDQpL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71kr9r4kM8L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71kr9r4kM8L._SY695_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 3112, url: "https://www.flipkart.com/u-s-polo-assn-sneakers-men/p/itm1c75638cf65eb?pid=SHOHGNS4KARSCP9J&lid=LSTSHOHGNS4KARSCP9JJZOCKT&marketplace=FLIPKART&q=us+polo+shoes&store=osp&srno=s_1_6&otracker=AS_Query_OrganicAutoSuggest_5_10_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_5_10_na_na_na&fm=search-autosuggest&iid=9f195a22-4255-405f-9df4-3678a8629b2f.SHOHGNS4KARSCP9J.SEARCH&ppt=sp&ppn=sp&ssid=b13k6ekgcg0000001787916481427&qH=ab06ce0a8954dffe&ov_redirect=true" },
+    { name: "Amazon", price: 3112, url: "https://www.amazon.in/U-S-Assn-Stylish-Casual-Sneaker/dp/B0G4VRB7RM?crid=ZEH3E9XW36QP&dib=eyJ2IjoiMSJ9.ebAESvPjBv-_sqMqdEuL8py4hHWeR6Nsxy1btN8zyMjbvVZ_QZrjYTGD_PuBUyHcb01NEXU4GVlg1XiD-lndoYMkLeL__6bm0TbcKKT0eNOqcc3yUV5UbUpSRyFp3yX23A8K_4witYArKXG0OwKf74t0qfxR8tmK8QQct3l_HFimjk-g9QAa0twKW_RPmD2c-DH7ihHb9JdTAbZlBNG_uAXAsoFTehTtEtrgKPBiBPTaaPO3C6nRPjyCRoZBS2tjUKccYWGAaOOV5_31pZHl-_TTSI7PVKcDeyUurY5mGN0.QEbqMSkr8dEnlHchw7wA8zK3V0_hrqfR8ZMwz41-bKE&dib_tag=se&keywords=us%2Bpolo%2Bshoes%2Bfor%2Bman&qid=1787916414&sprefix=us%2Bpolo%2Bs%2Caps%2C273&sr=8-30&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=fdb9c52a2fe6e646f54e7e1d83e34b0b&ref_=as_li_ss_tl" }
+  ]
+},
+{
+  id: "nike-run-defy",
+  name: "Nike Run Defy Running Shoes",
+  brand: "NIKE",
+  price: 2796,
+  category: "sneakers",
+  oldPrice: 3995,
+  discount: 30,
+  image: "https://m.media-amazon.com/images/I/313yEFxvBtL._SL1500_.jpg",
+  gallery: [
+    "https://m.media-amazon.com/images/I/313yEFxvBtL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/412e6ozi9iL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41W7rI1KTFL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31LHBNejcAL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31BgeJS0DGL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31V1bl95xrL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61Fq4JdF3ML._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61Fq4JdF3ML._AC_SY879_.jpg"
+  ],
+  stores: [
+    { name: "Flipkart", price: 2796, url: "https://www.flipkart.com/nike-run-defy-running-shoes-men/p/itm06f9f57f79cc2?pid=SHOHGWN9YEWZTWNA&lid=LSTSHOHGWN9YEWZTWNA9CAFLU&marketplace=FLIPKART&q=Nike+Mens+Run+Defy+Running+Shoes&store=osp%2Fcil%2F1cu&spotlightTagId=default_TrendingId_osp%2Fcil%2F1cu&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=a5019f01-0a67-4cec-83da-d6d9ae7c11c5.SHOHGWN9YEWZTWNA.SEARCH&ppt=sp&ppn=sp&ssid=emxkd5boe80000001787916956422&qH=f2697e55b1534dc1&ov_redirect=true" },
+    { name: "Amazon", price: 2796, url: "https://www.amazon.in/Nike-Black-Glacier-Blue-Green-Strike-Running/dp/B0FBRCT5XD?crid=2V9MA9T8V8LTU&dib=eyJ2IjoiMSJ9.kL0c_Y4zbdQ-6i4_GRzzIXnz1AISatntqyxN0nP9BwHevCrbuYMeXpEy4LbjKHq_7G4yLSqNFhlFan_jkZ1SkvRhXXdIhBfXYo5kLmUjQfLpCiqmc2bVIdk_hlbbE_qdKE9e7mzI8pD0Cbun7PrAppNxOtJpkNy4d3TxoV6lOqr1iQnETEF1XUW4fgdlVpzqbDuU72YBYiwG4fbmtsMUIkfhETCgncJNlO0RoE76mLhZkYddupjjpZr57nC9gxjEQwUIONjikSzy0JjCWUXdK16z6fK2Nssh03FBWI6UJRI.Pwy1cHvHzttneCz0AV_1Zt9bxzJVcYAhZz-Xsl0dEKY&dib_tag=se&keywords=nike%2Bsneakers&qid=1787916916&refinements=p_36%3A-300000&rnid=4516629031&sprefix=nike%2Bsneakers%2Caps%2C271&sr=8-8&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=8faabe1454ae6af3b30fdc9214bdaec5&ref_=as_li_ss_tl" },
+    { name: "Myntra", price: 3995, url: "https://www.myntra.com/sports-shoes/nike/nike-run-defy-mens-road-running-shoes/43109453/buy" }
+  ]
+}
 
 ];
 
