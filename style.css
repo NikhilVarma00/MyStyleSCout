@@ -719,3 +719,39 @@ body.modal-open { overflow: hidden; }
   background: #10201e;
   color: #ffffff;
 }
+
+/* =========================================================
+   QUICK VIEW — PERFECT BOTTOM ALIGNMENT
+========================================================= */
+
+.product-card {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.product-card h3 {
+  min-height: 72px !important;
+  margin-bottom: 14px !important;
+}
+
+.product-card .price-row {
+  min-height: 42px !important;
+  margin-bottom: 18px !important;
+}
+
+.product-card .quick-view-btn {
+  margin-top: auto !important;
+  width: 100% !important;
+  height: 60px !important;
+  min-height: 60px !important;
+  flex-shrink: 0 !important;
+}
+
+/* Keep all cards in the same row height */
+.product-grid {
+  align-items: stretch;
+}
+
+.product-card {
+  height: 100% !important;
+}
