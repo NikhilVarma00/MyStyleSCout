@@ -15,9 +15,9 @@
 
     <meta name="cuelinks-verification" content="VERIFY-CL-UAQUCPER"><meta name="cuelinks-verification" content="VERIFY-CL-UAQUCPER">
 
-    <title>StyleScout - Compare Sneaker, Watch & Apparel Prices in India</title>
-<meta name="description" content="Compare prices for sneakers, watches, and apparel across Amazon, Flipkart, and Myntra. Find the best deals and save money with StyleScout India.">
-<meta name="keywords" content="price comparison India, sneaker prices, watch deals, apparel discounts, Amazon vs Flipkart, Myntra deals">
+    <title>StyleScout - Compare Sneaker Prices in India</title>
+<meta name="description" content="Compare sneaker prices across Amazon, Flipkart, and Myntra. Find the best sneaker deals in India with StyleScout.">
+<meta name="keywords" content="sneaker price comparison India, sneaker deals, Amazon vs Flipkart vs Myntra, sneakers India">
 
     <link rel="canonical" href="https://www.mystylescout.in/" />
 
@@ -27,14 +27,14 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.mystylescout.in/" />
     <meta property="og:site_name" content="StyleScout" />
-    <meta property="og:title" content="StyleScout - Compare Sneaker, Watch & Apparel Prices in India" />
-    <meta property="og:description" content="Compare prices for sneakers, watches, and apparel across Amazon, Flipkart, and Myntra. Find the best deals and save money with StyleScout India." />
+    <meta property="og:title" content="StyleScout - Compare Sneaker Prices in India" />
+    <meta property="og:description" content="Compare sneaker prices across Amazon, Flipkart, and Myntra. Find the best sneaker deals in India with StyleScout." />
     <meta property="og:image" content="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="StyleScout - Compare Sneaker, Watch & Apparel Prices in India" />
-    <meta name="twitter:description" content="Compare prices for sneakers, watches, and apparel across Amazon, Flipkart, and Myntra. Find the best deals and save money with StyleScout India." />
+    <meta name="twitter:title" content="StyleScout - Compare Sneaker Prices in India" />
+    <meta name="twitter:description" content="Compare sneaker prices across Amazon, Flipkart, and Myntra. Find the best sneaker deals in India with StyleScout." />
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80" />
 
     <!-- Structured data -->
@@ -44,7 +44,7 @@
       "@type": "WebSite",
       "name": "StyleScout",
       "url": "https://www.mystylescout.in/",
-      "description": "Compare prices for sneakers, watches, and apparel across Amazon, Flipkart, and Myntra."
+      "description": "Compare sneaker prices across Amazon, Flipkart, and Myntra."
     }
     </script>
 
@@ -52,7 +52,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  </head>
+      <style>
+      .filter-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+      .filter-action-btn{border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);color:inherit;border-radius:999px;padding:10px 16px;cursor:pointer}
+      .filter-action-btn span{opacity:.65;font-size:.8rem;margin-left:6px}
+      .filter-modal{position:fixed;inset:0;background:rgba(0,0,0,.62);backdrop-filter:blur(8px);display:none;align-items:center;justify-content:center;z-index:9999;padding:20px}
+      .filter-modal.active{display:flex}
+      .filter-panel{width:min(520px,100%);background:#111827;border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:24px;box-shadow:0 20px 80px rgba(0,0,0,.45)}
+      .filter-panel-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:22px}
+      .filter-panel-header h3{margin:4px 0 0}
+      .filter-close{background:none;border:0;color:inherit;font-size:30px;cursor:pointer}
+      .filter-fields{display:grid;gap:16px}
+      .filter-fields label{display:grid;gap:7px;font-size:.9rem}
+      .filter-fields select,.filter-fields input{width:100%;box-sizing:border-box;background:#0b1220;color:inherit;border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:11px 12px}
+      .filter-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+      .filter-panel-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:24px}
+      .filter-clear-btn,.filter-apply-btn{border:0;border-radius:10px;padding:11px 18px;cursor:pointer}
+      .filter-clear-btn{background:rgba(255,255,255,.08);color:inherit}
+      .filter-apply-btn{background:#18c964;color:#07110b;font-weight:700}
+      @media(max-width:600px){.filter-row{grid-template-columns:1fr}.filter-action-btn span{display:none}}
+    </style>
+</head>
 
   <body>
     <div class="bg-shell" aria-hidden="true">
@@ -64,12 +84,13 @@
     <nav class="navbar glass" aria-label="Main navigation">
       <div class="logo-wrap">
         <span class="brand-mark">S</span>
-        <span class="logo-text">StyleScout</span>
+<span class="logo-text">
+  <span class="logo-style">Style</span><span class="logo-scout">Scout</span>
+</span>
       </div>
       <div class="nav-links">
         <a href="#home">Home</a>
-        <a href="#brands">Brands</a>
-        <a href="#featured">Featured</a>
+        <a href="#featured">Sneakers</a>
         <a href="#footer">About</a>
       </div>
       <div class="nav-actions">
@@ -87,18 +108,11 @@
             <span class="title-line"><span class="word" style="--i: 1">Compare.</span></span>
             <span class="title-line"><span class="word" style="--i: 2">Save.</span></span>
           </h1>
-<p class="hero-subtitle">Compare prices for sneakers, watches, and apparel across Amazon, Flipkart, and Myntra to find the best deals in India.</p>          
+<p class="hero-subtitle">Compare sneaker prices across Amazon, Flipkart, and Myntra to find the best deals in India.</p>          
           <div class="search-panel">
-<input id="searchInput" type="text" placeholder="Search for best sneaker deals, watches, apparel..." />           
+<input id="searchInput" type="text" placeholder="Search sneakers, brands, or stores..." />           
  <button id="voiceSearchBtn" type="button">🎤</button>
             <button id="searchButton" type="button">Search</button>
-          </div>
-
-          <div class="chip-row">
-            <button class="chip">Nike</button>
-            <button class="chip">Adidas</button>
-            <button class="chip">Puma</button>
-            <button class="chip">Watches</button>
           </div>
         </div>
 
@@ -112,21 +126,7 @@
               <button type="button" class="primary-btn small">View deal</button>
             </div>
           </div>
-          <div class="product-float product-mini one tilt-card">
-            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80" alt="Watch" />
-          </div>
-          <div class="product-float product-mini two tilt-card">
-            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=700&q=80" alt="Apparel" />
-          </div>
         </div>
-      </section>
-
-      <section class="brands-section" id="brands">
-        <div class="section-head">
-          <span class="eyebrow">SHOP BY BRAND</span>
-          <h2>Trusted brands</h2>
-        </div>
-        <div class="brand-grid" id="brandGrid"></div>
       </section>
 
       <section class="catalog" id="featured">
@@ -134,19 +134,14 @@
           <span class="eyebrow">Curated picks</span>
           <h2>Best value right now</h2>
         </div>
-
-        <!-- Filter Bar -->
-        <div class="filter-bar" id="filterBar" aria-label="Product filters">
-          <button class="filter-chip active" data-filter="all">All</button>
-          <button class="filter-chip" data-filter="sneakers">Sneakers</button>
-          <button class="filter-chip" data-filter="watches">Watches</button>
-          <button class="filter-chip" data-filter="apparel">Apparel</button>
-          
-          <select id="sortSelect" class="sort-select">
+        <div class="filter-bar" id="filterBar" aria-label="Sneaker filters">
+          <button class="filter-chip active" data-filter="all">All Sneakers</button>
+          <button class="filter-action-btn" id="openFilterBtn" type="button">☰ Filter <span id="filterSummary">No filters applied</span></button>
+          <select id="sortSelect" class="sort-select" aria-label="Sort sneakers">
             <option value="best">🔥 Best Deal</option>
             <option value="priceLow">💸 Lowest Price</option>
             <option value="priceHigh">💎 Highest Price</option>
-            <option value="scoreHigh">⭐ Highest Deal Score</option>
+            <option value="scoreHigh">⭐ Highest Discount</option>
           </select>
         </div>
 
@@ -156,7 +151,9 @@
 
     <!-- OLD FOOTER RESTORED -->
     <footer id="footer">
-      <div class="footer-brand">StyleScout</div>
+<div class="footer-brand">
+  <span class="logo-style">Style</span><span class="logo-scout">Scout</span>
+</div>
       <p>Scout smart. Dress better.</p>
       <div class="footer-links">
         <a href="#home">Home</a>
@@ -166,13 +163,51 @@
       <span>© 2026 StyleScout</span>
     </footer>
 
-    <!-- Brand Modal -->
-    <div class="brand-modal" id="brandModal">
-      <div class="brand-modal-content">
-        <button class="brand-close" id="brandClose">×</button>
-<img id="brandLogo" class="brand-modal-logo" src="" alt="">        <h2 id="brandName"></h2>
-        <div id="brandCategories" class="brand-category-list"></div>
-        <button id="viewBrandProducts" class="brand-view-btn">View Products</button>
+    <!-- Sneaker Filter Modal -->
+    <div class="filter-modal" id="filterModal">
+      <div class="filter-panel">
+        <div class="filter-panel-header">
+          <div>
+            <span class="eyebrow">FILTER SNEAKERS</span>
+            <h3>Find your sneaker</h3>
+          </div>
+          <button class="filter-close" id="closeFilterBtn" type="button">×</button>
+        </div>
+
+        <div class="filter-fields">
+          <label>Brand
+            <select id="filterBrand"></select>
+          </label>
+
+          <label>Store
+            <select id="filterStore"></select>
+          </label>
+
+          <div class="filter-row">
+            <label>Min price
+              <input id="filterMinPrice" type="number" min="0" placeholder="₹0">
+            </label>
+            <label>Max price
+              <input id="filterMaxPrice" type="number" min="0" placeholder="₹10,000+">
+            </label>
+          </div>
+
+          <label>Minimum discount
+            <select id="filterMinDiscount">
+              <option value="0">Any discount</option>
+              <option value="10">10%+</option>
+              <option value="20">20%+</option>
+              <option value="30">30%+</option>
+              <option value="40">40%+</option>
+              <option value="50">50%+</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="filter-panel-actions">
+          <button id="clearAdvancedFilters" type="button" class="filter-clear-btn">Clear all</button>
+          <button id="applyAdvancedFilters" type="button" class="filter-apply-btn">Apply filters</button>
+        </div>
       </div>
     </div>
 
@@ -241,16 +276,14 @@
     <script src="script.js"></script>
     <!-- SEO Content Section -->
 <section class="seo-content" style="padding: 40px; max-width: 1200px; margin: 0 auto;">
-    <h2 style="font-size: 2rem; margin-bottom: 20px;">Why StyleScout is India's Best Price Comparison Site</h2>
+    <h2 style="font-size: 2rem; margin-bottom: 20px;">Compare Sneaker Prices Across India</h2>
     <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 15px;">
-        Shopping for sneakers, watches, or apparel usually means opening five different tabs just to check
-        who has the better price. StyleScout does that work for you, pulling live prices from Amazon,
-        Flipkart, and Myntra into one place so you can see the full picture before you buy.
+        StyleScout helps you compare sneaker prices across Amazon, Flipkart, and Myntra in one place.
+        Search for a sneaker, check the available stores, and compare prices before you buy.
     </p>
     <p style="font-size: 1rem; line-height: 1.6;">
-        Whether you're comparing a pair of sneakers across Amazon and Flipkart or hunting down a watch
-        deal on Myntra, StyleScout helps you spot the best price without the guesswork — so you can shop
-        smarter and save more on every purchase in India.
+        Use the filters to narrow sneakers by brand, store, price range, and discount, then open the product
+        to compare the available retailer prices.
     </p>
 </section>
   </body>

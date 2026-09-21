@@ -335,3 +335,387 @@ body.modal-open { overflow: hidden; }
     gap: 10px !important;
   }
 }
+
+/* =========================================================
+   STYLESCOUT SORT DROPDOWN
+========================================================= */
+
+.sort-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  min-width: 220px;
+  height: 52px;
+  padding: 0 46px 0 18px;
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.035)
+    );
+
+  color: #f5f7f7;
+
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  outline: none;
+  cursor: pointer;
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+
+  /* Custom arrow */
+  background-image:
+    linear-gradient(45deg, transparent 50%, #78efc6 50%),
+    linear-gradient(135deg, #78efc6 50%, transparent 50%),
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.035)
+    );
+
+  background-position:
+    calc(100% - 21px) 22px,
+    calc(100% - 15px) 22px,
+    0 0;
+
+  background-size:
+    6px 6px,
+    6px 6px,
+    100% 100%;
+
+  background-repeat: no-repeat;
+}
+
+.sort-select:hover {
+  border-color: rgba(120, 239, 198, 0.45);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(120, 239, 198, 0.10),
+      rgba(255, 255, 255, 0.045)
+    );
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.22),
+    0 0 0 1px rgba(120, 239, 198, 0.08);
+
+  transform: translateY(-1px);
+}
+
+.sort-select:focus {
+  border-color: rgba(120, 239, 198, 0.65);
+
+  box-shadow:
+    0 0 0 3px rgba(120, 239, 198, 0.10),
+    0 10px 30px rgba(0, 0, 0, 0.22);
+}
+
+/* Dropdown options */
+
+.sort-select option {
+  background: #111c1c;
+  color: #f5f7f7;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 12px;
+}
+
+/* Selected option */
+
+.sort-select option:checked {
+  background: #1c3934;
+  color: #78efc6;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .sort-select {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+/* =========================================================
+   FILTER BAR — MATCH ALL THREE CONTROLS
+========================================================= */
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+/* ALL SNEAKERS */
+
+.filter-bar .filter-chip {
+  box-sizing: border-box;
+
+  width: 238px;
+  height: 52px;
+  min-height: 52px;
+
+  padding: 0 20px;
+
+  border-radius: 26px;
+
+  border: 1px solid rgba(120, 239, 198, 0.55);
+
+  background: rgba(120, 239, 198, 0.10);
+
+  color: #78efc6;
+
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.filter-bar .filter-chip:hover,
+.filter-bar .filter-chip.active {
+  background: rgba(120, 239, 198, 0.16);
+
+  border-color: #78efc6;
+
+  color: #78efc6;
+
+  transform: translateY(-1px);
+}
+
+
+/* FILTER */
+
+#openFilterBtn {
+  box-sizing: border-box;
+
+  width: 238px !important;
+  min-width: 238px !important;
+  max-width: 238px !important;
+
+  height: 52px !important;
+  min-height: 52px !important;
+
+  padding: 0 20px !important;
+
+  border-radius: 26px !important;
+
+  border: 1px solid rgba(120, 239, 198, 0.55);
+
+  background: rgba(120, 239, 198, 0.10);
+
+  color: #ffffff;
+
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  cursor: pointer;
+
+  white-space: nowrap;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+#openFilterBtn:hover {
+  background: rgba(120, 239, 198, 0.16);
+  border-color: #78efc6;
+  transform: translateY(-1px);
+}
+/* BEST DEAL */
+
+.sort-select {
+  box-sizing: border-box;
+
+  width: 238px;
+  height: 52px;
+  min-height: 52px;
+
+  padding: 0 42px 0 20px;
+
+  border-radius: 26px;
+
+  border: 1px solid rgba(120, 239, 198, 0.55);
+
+  background-color: rgba(120, 239, 198, 0.10);
+
+  color: #78efc6;
+
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image:
+    linear-gradient(
+      45deg,
+      transparent 50%,
+      #78efc6 50%
+    ),
+    linear-gradient(
+      135deg,
+      #78efc6 50%,
+      transparent 50%
+    );
+
+  background-position:
+    calc(100% - 20px) 22px,
+    calc(100% - 14px) 22px;
+
+  background-size:
+    6px 6px,
+    6px 6px;
+
+  background-repeat: no-repeat;
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.sort-select:hover {
+  background-color: rgba(120, 239, 198, 0.16);
+
+  border-color: #78efc6;
+
+  transform: translateY(-1px);
+}
+
+.sort-select:focus {
+  outline: none;
+
+  border-color: #78efc6;
+
+  box-shadow:
+    0 0 0 3px rgba(120, 239, 198, 0.10);
+}
+
+.sort-select option {
+  background: #10201e;
+  color: #ffffff;
+}
+
+
+/* FILTER SUMMARY */
+
+#filterSummary {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+  .filter-bar {
+    flex-wrap: wrap;
+  }
+
+  .filter-bar .filter-chip,
+  #openFilterBtn,
+  .sort-select {
+    width: 100%;
+  }
+
+}/* =========================================================
+   STYLES COUT — WHITE + MINT
+========================================================= */
+
+.logo-style {
+  color: #ffffff !important;
+}
+
+.logo-scout {
+  color: #78efc6 !important;
+}
+
+/* =========================================================
+   FILTER BAR — WHITE + MINT
+========================================================= */
+
+.filter-bar .filter-chip,
+#openFilterBtn,
+.sort-select {
+  box-sizing: border-box;
+
+  width: 238px;
+  height: 52px;
+  min-height: 52px;
+
+  border-radius: 26px;
+
+  border: 1px solid rgba(120, 239, 198, 0.55);
+
+  background: rgba(120, 239, 198, 0.10);
+
+  color: #ffffff;
+
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.filter-bar .filter-chip:hover,
+.filter-bar .filter-chip.active,
+#openFilterBtn:hover,
+.sort-select:hover {
+  background: rgba(120, 239, 198, 0.16);
+
+  border-color: #78efc6;
+
+  color: #ffffff;
+}
+
+#filterSummary {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.sort-select option {
+  background: #10201e;
+  color: #ffffff;
+}
