@@ -1,440 +1,3 @@
-const allProducts = [  {
-    id: "sparx", name: "Sparx SM 439 White Sneakers", brand: "Sparx", price: 636, category: "sneakers", oldPrice: 849, discount: 16,
-    image: "https://m.media-amazon.com/images/I/61UoRfL+urL._SY695_.jpg",
-    gallery: ["https://rukminim2.flixcart.com/image/1536/1536/xif0q/shoe/x/i/g/-original-imahqyhbermvhjzv.jpeg", "https://rukminim2.flixcart.com/image/480/640/xif0q/shoe/k/v/s/-original-imahqyhbtzpkf2dy.jpeg", "https://rukminim2.flixcart.com/image/480/640/xif0q/shoe/o/z/t/-original-imahqyhbzzytnfvg.jpeg"],
-    stores: [
-      { name: "Flipkart", price: 715, url: "https://www.flipkart.com/sparx-men-sm-439-white-sneakers/p/itm2fb11e75ce1bf" },
-      { name: "Amazon", price: 636, url: "https://www.amazon.in/dp/B07Y548LQW?tag=stylescoutin2-21" },
-      { name: "Myntra", price: 849, url: "https://www.myntra.com/casual-shoes/sparx/sparx-men-dip-textured-comfort-insole-lace-up-shoes/12567852/buy" }
-    ]
-  },
-  {
-    id: "nike", name: "Nike Run Defy", brand: "Nike", price: 3995, category: "sneakers", oldPrice: 3955, discount: 0,
-    image: "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_1.jpg?rnd=20200526195200&tr=w-1080",
-    gallery: ["https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_4.jpg?rnd=20200526195200&tr=w-1080", "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_7.jpg?rnd=20200526195200&tr=w-1080", "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_6.jpg?rnd=20200526195200&tr=w-1080"],
-    stores: [
-      { name: "Amazon", price: 3955, url: "https://www.amazon.in/Nike-Running-Shoes-Black-Anthracite/dp/B0DYLF9JV5?tag=stylescoutin2-21" },
-      { name: "Flipkart", price: 3955, url: "https://dl.flipkart.com/s/czoexUNNNN" },
-      { name: "Myntra", price: 3955, url: "https://www.myntra.com/sports-shoes/nike/nike-run-defy-mens-road-running-shoes/34806262/buy" }
-    ]
-  },
-  {
-    id: "puma", name: "Puma Men Velocity Trn Running Shoe", brand: "Puma", price: 2426, category: "sneakers", oldPrice: 4799, discount: 33,
-    image: "https://m.media-amazon.com/images/I/61TFZhU8ifL._SY695_.jpg",
-    gallery: ["https://m.media-amazon.com/images/I/515KDSm0QeL._SY695_.jpg", "https://rukminim1.flixcart.com/image/1536/1536/xif0q/shoe/s/c/9/-watermarked-original-imahjghvn9fhhraq.jpeg?q=90", "https://m.media-amazon.com/images/I/51LO6JDOxZL._SY695_.jpg"],
-    stores: [
-      { name: "Amazon", price: 2426, url: "https://www.amazon.in/Puma-Velocity-Black-Lava-Blast-Running/dp/B0BG83ZHKP?tag=stylescoutin2-21" },
-      { name: "Flipkart", price: 3599, url: "https://dl.flipkart.com/s/czc_VBNNNN" }
-    ]
-  },
-  {
-    id: "boat", name: "boAt Wave Fortune Smart Watch", brand: "boAt", price: 2131, category: "watches", oldPrice: 3299, discount: 35,
-    image: "https://m.media-amazon.com/images/I/61thhBuY28L._SX522_.jpg",
-    gallery: ["https://m.media-amazon.com/images/I/61Bhsjlok5L._SL1500_.jpg", "https://m.media-amazon.com/images/I/61miAQat4wL._SL1500_.jpg", "https://m.media-amazon.com/images/I/61yp2YqPQwL._SL1500_.jpg"],
-    stores: [
-      { name: "Myntra", price: 2131, url: "https://www.myntra.com/smart-watches/boat/boat-wave-fortune-smart-watch/30052870/buy" },
-      { name: "Amazon", price: 3299, url: "https://www.amazon.in/boAt-Wave-Fortune-Bluetooth-Assistant/dp/B0D4M3NSV9?tag=stylescoutin2-21" }
-    ]
-  },
-  {
-    id: "noise", name: "Noise ColorFit Pro 4 Alpha", brand: "Noise", price: 1999, category: "watches", oldPrice: 2499, discount: 20,
-    image: "https://m.media-amazon.com/images/I/61jOliJK5CL._SX522_.jpg",
-    gallery: ["https://m.media-amazon.com/images/I/61X1cTE9kLL._SL1500_.jpg", "https://m.media-amazon.com/images/I/615jI2hiFRL._SL1500_.jpg", "https://m.media-amazon.com/images/I/61tj9NjGrbL._SL1500_.jpg"],
-    stores: [
-      { name: "Myntra", price: 1999, url: "https://www.myntra.com/smart-watches/noise/noise-unisex-colorfit-pro-4-alpha-178-amoled-display-smart-watch/34285208/buy" },
-      { name: "Amazon", price: 2499, url: "https://www.amazon.in/Noise-ColorFit-Bluetooth-instacharge-Functional/dp/B0BGSV43WY?tag=stylescoutin2-21" }
-    ]
-  },
-  {
-    id: "polo", name: "U.S. Polo Assn. Classic Shirt", brand: "U.S. Polo Assn.", price: 1699, category: "apparel", oldPrice: 1699, discount: 4,
-    image: "https://m.media-amazon.com/images/I/51u8Jrjd0NL._SX679_.jpg",
-    gallery: ["https://m.media-amazon.com/images/I/61adQXXo0hL._SX679_.jpg", "https://m.media-amazon.com/images/I/51iWP0fglpL._SX679_.jpg", "https://m.media-amazon.com/images/I/512XlfVXN9L._SX679_.jpg"],
-    stores: [
-      { name: "Myntra", price: 1699, url: "https://www.myntra.com/shirts/u.s.+polo+assn./us-polo-assn-men-classic-spread-collar-solid-cotton-casual-shirt/30650406/buy" },
-      { name: "Amazon", price: 1699, url: "https://www.amazon.in/U-S-Assn-Solid-Regular-USSHTFX0511_White/dp/B0DFCFLGPD?tag=stylescoutin2-21" }
-    ]
-  },
-  {
-    id: "roadster", name: "Roadster Striped Polo", brand: "Roadster", price: 503, category: "apparel", oldPrice: 496, discount: 0,
-    image: "https://rukminim1.flixcart.com/image/800/1070/xif0q/t-shirt/x/o/b/s-37933609-roadster-original-imahksezkr8j5yxf.jpeg?q=90",
-    gallery: ["https://rukminim1.flixcart.com/image/1528/1528/xif0q/t-shirt/y/5/h/s-37933609-roadster-original-imahksezgnq5zffg.jpeg?q=90", "https://rukminim1.flixcart.com/image/1528/1528/xif0q/t-shirt/j/5/o/s-37933609-roadster-original-imahksezvmfdwcfs.jpeg?q=90", "https://rukminim1.flixcart.com/image/1528/1528/xif0q/t-shirt/4/z/t/s-37933609-roadster-original-imahksezabxrwzb3.jpeg?q=90"],
-    stores: [
-      { name: "Myntra", price: 503, url: "https://www.myntra.com/tshirts/roadster/the-roadster-life-co-horizontal-striped-polo-collar-t-shirt/37933609/buy" },
-      { name: "Flipkart", price: 496, url: "https://dl.flipkart.com/s/c6oxCONNNN" }
-    ]
-  },
-  {
-    id: "puma-shatter", name: "PUMA Court Shatter Mid", brand: "PUMA", price: 2589, category: "sneakers", oldPrice: 4000, discount: 35,
-    image: "https://m.media-amazon.com/images/I/51cw59me6yL._SY695_.jpg",
-    gallery: ["https://m.media-amazon.com/images/I/51cw59me6yL._SY695_.jpg", "https://m.media-amazon.com/images/I/31xCUOQ5U0L._SS40_.jpg", "https://m.media-amazon.com/images/I/21rUwyi2ciL._SS40_.jpg"],
-    stores: [
-      { name: "Flipkart", price: 4000, url: "https://www.flipkart.com/puma-court-shatter-mid-sneakers-men/p/itme3f616e533d21" },
-      { name: "Amazon", price: 2589, url: "https://www.amazon.in/Puma-Court-Shatter-Black-White-Sneaker/dp/B0DWK4LHFM?tag=stylescoutin2-21" },
-      { name: "Myntra", price: 2589, url: "https://www.myntra.com/casual-shoes/puma/puma-court-shatter-men-sportstyle-sneakers/32695233/buy" }
-    ]
-  },
-  {
-    id: "puma-black", name: "PUMA Smashic Black Sneakers", brand: "PUMA", price: 1800, category: "sneakers", oldPrice: 2800, discount: 36,
-    image: "https://m.media-amazon.com/images/I/41NtbP4mYoL._SY695_.jpg",
-    gallery: ["https://m.media-amazon.com/images/I/41NtbP4mYoL._SY695_.jpg", "https://m.media-amazon.com/images/I/31sk1RR8HUL._SS40_.jpg", "https://m.media-amazon.com/images/I/21Mi-ExhwPL._SS40_.jpg"],
-    stores: [
-      { name: "Flipkart", price: 2800, url: "https://www.flipkart.com/puma-smashic-sneakers-men/p/itm99621d83293b7" },
-      { name: "Amazon", price: 1800, url: "https://www.amazon.in/Puma-Unisex-Adult-Smashic-Black-Matte-Sneaker/dp/B0BSLJ245T?tag=stylescoutin2-21" },
-      { name: "Myntra", price: 2024, url: "https://www.myntra.com/casual-shoes/puma/puma-smashic-comfort-casual-sneakers/21767158/buy" }
-    ]
-  },
-  {
-    id: "puma-white", name: "PUMA Smashic WMN White Sneakers", brand: "PUMA", price: 1569, category: "sneakers", oldPrice: 1752, discount: 10,
-    image: "https://m.media-amazon.com/images/I/51-CObvtVsL._SY675_.jpg",
-    gallery: ["https://m.media-amazon.com/images/I/51-CObvtVsL._SY675_.jpg", "https://m.media-amazon.com/images/I/31D3WVDSRIL._SS40_.jpg", "https://m.media-amazon.com/images/I/21BiJGldf0L._SS40_.jpg"],
-    stores: [
-      { name: "Flipkart", price: 1752, url: "https://www.flipkart.com/puma-smashic-wmn-running-shoes-women/p/itm9773001e4cc02" },
-      { name: "Amazon", price: 1569, url: "https://www.amazon.in/Puma-Womens-Smashic-White-Peony-Matte-Sneaker/dp/B0BSLKNSCK?tag=stylescoutin2-21" },
-      { name: "Myntra", price: 1574, url: "https://www.myntra.com/casual-shoes/puma/puma-smashic-women-comfort-casual-sneakers/21766806/buy" }
-    ]
-  },
-{
-      id: "Sparx SM S23", name: "Sparx SM 323 | Stylish, Comfortable | Sneakers For Men", brand: "Sparx", price: 629, category: "sneakers", oldPrice: 799, discount: 25,
-    image: "https://m.media-amazon.com/images/I/61SjrdVQLWL._SY695_.jpg",
-    gallery: ["https://m.media-amazon.com/images/I/61Uqt55AryL._SY695_.jpg",
-       "https://m.media-amazon.com/images/I/71TtqkkjMvL._SY695_.jpg", 
-      "https://m.media-amazon.com/images/I/61kvl75S8gL._SY695_.jpg",
-    "https://m.media-amazon.com/images/I/61iFZ60PIPL._SY695_.jpg",
-  "https://m.media-amazon.com/images/I/51riWl8MSFL._SY695_.jpg"
-  ],
-    stores: [
-      { name: "Flipkart", price: 629, 
-        url: "https://dl.flipkart.com/s/EzK1bgNNNN" },
-      { name: "Amazon", price: 674, 
-        url: "https://www.amazon.in/SPARX-SD0323G-BLACK-Sneakers-SD0323GBKWH0009/dp/B07PJ9329H?pd_rd_w=5RpG6&content-id=amzn1.sym.d5adbf9e-6741-468c-b4ab-68672b21a512&pf_rd_p=d5adbf9e-6741-468c-b4ab-68672b21a512&pf_rd_r=F2XNQKXCQ3J3AKHHXFJP&pd_rd_wg=Uc2HH&pd_rd_r=1ae81e52-ff7f-4f4a-b219-f128de051c0a&pd_rd_i=B077N6PY6M&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=0de56070b566cb1f4024ce2db2f1df0a&ref_=as_li_ss_tl" }
-    
-    ]
-  },
-
-  {
-  id: "puma-club-ii-era-l",
-  name: "Puma Club II Era L Sneakers",
-  brand: "PUMA",
-  price: 3069,
-  category: "sneakers",
-  oldPrice: 4689,
-  discount: 35,
-  image: "https://m.media-amazon.com/images/I/21DVW7zXVHL._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/21DVW7zXVHL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/21iMkHAesiL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/21piVBIPd3L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/21qPTN4zKtL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/21ATE6gpDzL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31nHYV9HtBL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41go+RXCeBL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41go+RXCeBL._SY695_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 3069, url: "https://www.flipkart.com/puma-club-ii-era-l-sneakers-men/p/itmfff4ce7c2a5ac?pid=SHOHJZ8BK6MPWVYW&lid=LSTSHOHJZ8BK6MPWVYWHOVOOM&marketplace=FLIPKART&q=Puma+Men+Club+II+Era+Sneaker&store=osp%2Fcil%2Fe1f&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=9d446482-6a7c-4677-b7e7-df1e58f891dd.SHOHJZ8BK6MPWVYW.SEARCH&ppt=sp&ppn=sp&ssid=j5ajo9faao0000001787564011249&qH=092bf8e24c5efdd0&ov_redirect=true" },
-    { name: "Amazon", price: 3069, url: "https://www.amazon.in/Puma-Club-II-Era-Sneakers/dp/B0F7TVXRGZ?crid=36100X39188OF&dib=eyJ2IjoiMSJ9.JovLsSVe6SyuTsUbX02y76_umVNZ4FvE7nxbZSKrr6IXVM0HPDnmOhm97SleYD4pXJjCY-335UWJF5atHok0vHAdc2-BzBJJeGMO_jD__v_UolBzUrhABck81j8u6k4WpYsLvzjVlcrks7e4NKXDfn4e9K7SgjITcefXJ1wXWjttWCTeXIGmyTid_wxKCNrCVdj7AtjDWvZEAd_wdeJ7Uy5njTV20aONwJsR3VcY8UBTOWVxmYfYSz-aE-YQOoJRMsCNo8Y6HYEnO84SSxN-b03Zygic1HMSJqJMujMrzF8.ZZm0cIlg1zTXN8cmGt9OJyy2CZfU1h8Y7Z4HKZzN3Zw&dib_tag=se&keywords=Puma%2BMen%2BClub%2BII%2BEra%2BL%2BSneaker&qid=1787564075&sprefix=puma%2Bmen%2Bclub%2Bii%2Bera%2Bl%2Bsneaker%2Caps%2C297&sr=8-1&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=96a26223021257ca976329f57a045069&ref_=as_li_ss_tl" },
-    { name: "Myntra", price: 4689, url: "https://www.myntra.com/casual-shoes/puma/puma-unisex-club-ii-era-leather-sneakers/39535481/buy" }
-  ]
-},
-
-{
-  id: "campus-terminator-n",
-  name: "Campus Terminator (N) Running Shoes",
-  brand: "CAMPUS",
-  price: 1299,
-  category: "sneakers",
-  oldPrice: 1434,
-  discount: 9,
-  image: "https://m.media-amazon.com/images/I/41kDogsaPdL._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/41kDogsaPdL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41oHwwY5QCL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41Z2ACFQyrL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/519VapMAUVL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41I9jVA29NL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41-gBwYt8qL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/7116DVkEANL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/7116DVkEANL._SY695_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 1434, url: "https://www.flipkart.com/campus-terminator-n-running-shoes-men/p/itm29ac3efb0d51d?pid=SHOG2QYYKH2ZQZQC&lid=LSTSHOG2QYYKH2ZQZQCOSPMZG&marketplace=FLIPKART&q=Campus+Men+Terminator+%28N%29+Running+Shoes&store=osp%2Fcil%2F1cu&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=94deab9c-2763-4c52-b3c7-3293ee5fec36.SHOG2QYYKH2ZQZQC.SEARCH&ppt=sp&ppn=sp&ssid=1z71j80i340000001787570093868&qH=196bbb25ec21a0b7&ov_redirect=true" },
-    { name: "Amazon", price: 1299, url: "https://www.amazon.in/Campus-Mens-Terminator-Running-Shoes/dp/B095T3QVDM?pf_rd_r=3AHD3TEV1R1MHBK992FT&pf_rd_p=a1f490ce-fe55-425e-9932-455f92f72533&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=a4ed1f6ffc0008333426c9c3d1f0ae33&ref_=as_li_ss_tl" },
-    { name: "Myntra", price: 1434, url: "https://www.myntra.com/sports-shoes/campus/campus-terminator-n-men-lace-up-running-shoes/14439664/buy" }
-  ]
-},
-{
-  id: "asian-everest-24-trekking",
-  name: "ASIAN EVEREST-24 Trekking Shoes",
-  brand: "ASIAN",
-  price: 1499,
-  category: "sneakers",
-  oldPrice: 1749,
-  discount: 14,
-  image: "https://m.media-amazon.com/images/I/41wUoMomstL._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/41wUoMomstL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/416Mh8lL2VL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/51b9swF+2BL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/51p5o+yWQKL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/51zUCkWEKgL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/51+KF+h0lkL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41DGMusy3xL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81joo71tqbL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81joo71tqbL._SY695_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 1749, url: "https://www.flipkart.com/asian-everest-24-hiking-boots-outdoor-trekking-water-resistant-sneakers-men/p/itme32ddc910dda8?pid=SHOH8XVZVZAU48DT&lid=LSTSHOH8XVZVZAU48DT28QF8N&marketplace=FLIPKART&q=ASIAN+Mens+Running+Shoes+for+Men+I+Sport+Shoes+for+Boys+with+Eva+Sole+for+Extra+Jump+I+Casual+Shoes+for+Men+Delta-21&store=osp%2Fcil%2F1cu&srno=s_1_8&otracker=search&otracker1=search&fm=Search&iid=en_YufyCOFgEInNVNWirj5ZSLxxp7tMOG0SEMJpe6lWIoNfJDp5xjwByrQ9miZqSB_jmekorIW70sNnf9B0mz1fcZ3e44mKXPWOFqlJ1V6RTmKNkyB6MtcpXsO1gpfOsgJQ&ppt=sp&ppn=sp&ssid=u7th3n3lq80000001787570285740&qH=bfb43b31137da7f6&ov_redirect=true" },
-    { name: "Amazon", price: 1499, url: "https://www.amazon.in/ASIAN-EVEREST-24-Trekking-Outdoor-Comfortable/dp/B0DVGXYQGL?crid=2AX0SX4V438XY&dib=eyJ2IjoiMSJ9.MGiQMEHqSvoGYY1lK3ZuYu3kOdmxJ3Vi7M4ypK7i4K-4brP3tyTIJONYQXMdEtrFP8A55fRHdOGp670AdfF4IxkSPdDiYEC-n5NB8O1Qn_igxTYrZld6xkP3bL39qKmtcv8LOJabmdG-i9lNJkMZqzdR9FPrgoLPYD5Oxo2iKNxTcy5D-MAPhK5LarLbrXTcXzGAaMKowQlItahmAb06m3vvLf3gu5tbA9NPD6ozq99bBIWCegnvbS8VUHaJ-2--xzIiYKSSFPt7xHbIW7DOnOcezfWzrumMPju2skC4QdY.4sQ6HL_nDW_0rp9WEis4pkG-WAiJCUoDmHiVJPumUM0&dib_tag=se&keywords=asian%2BEVEREST-24%2BHiking%2Bboots%2Boutdoor%2BTrekking%2B-%2BWater%2BResistant%2BBoots%2BSneakers%2BFor%2BMen%2B%28Grey%2B%2C%2B7%29&nsdOptOutParam=true&qid=1787570377&s=shoes&sprefix=asian%2Beverest-24%2Bhiking%2Bboots%2Boutdoor%2Btrekking%2B-%2Bwater%2Bresistant%2Bboots%2Bsneakers%2Bfor%2Bmen%2Bgrey%2B%2C%2B7%2B%2Cshoes%2C300&sr=1-6&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=75f57dc0561353c904e6928cb63665fc&ref_=as_li_ss_tl" },
-    { name: "Myntra", price: 1662, url: "https://www.myntra.com/casual-shoes/asian/asian-men-everyday-trekking-shoes/32579974/buy" }
-  ]
-},
-{
-  id: "sparx-sm-171-running",
-  name: "Sparx SM-171 Running Shoes",
-  brand: "SPARX",
-  price: 1124,
-  category: "sneakers",
-  oldPrice: 1259,
-  discount: 11,
-  image: "https://m.media-amazon.com/images/I/41MLa4jDeyL._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/41MLa4jDeyL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/51rlCD1qUkL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/51QQOeS2l7L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41AiqM99yCL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41XMIS+86UL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41YIkw2ZbTL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81SezP6G9QL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81SezP6G9QL._SX695_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 1259, url: "https://www.flipkart.com/sparx-sm-171-running-shoes-men/p/itm0c1f8896ae3fd?pid=SHOEPP78ZDNNAHJR&marketplace=FLIPKART&lid=LSTSHOEPP78ZDNNAHJR8THQ3Y&q=SPARX+Sports+Shoe+SM-171+for+Me&fm=Search&pageUID=1787570736792" },
-    { name: "Amazon", price: 1124, url: "https://www.amazon.in/Sparx-Mens-Black-Green-Running/dp/B0788MZWPL?crid=16P4DDLVBRQVC&dib=eyJ2IjoiMSJ9.Xntr3diUOYXlAhK5bYrZzKiyAlEP8Ij2OdWuOEUbmtT-8b__YS9o-zWXcGFcgmhdwV9HAKBNIKpLckyxyG52HdT4j7dVgunELUMw8mKFQcoULjqlmjNOHhVM8CLwwNKnLm2KOgG4GtaYfSZbwsOY5zwskdwiJ83MuRo1DxM2naL0e1IJ5zw3M374Mq3T0yDrh_ktVnMbdJHjIYjhJ7rc7fTlyX_jo1i3G-USF4dIXYvpqCjOmvCqXiJh7g5BidHQ6jJeb4HABawl3QxJ95HPj9MUBhoLJaLk9I9OVq6SVvU.muDMJ-gD03f1_SQFZx1wypWwE3C0GLsVbZruxFLHCv4&dib_tag=se&keywords=mens%2Bshoes%2Bbranded&qid=1787570679&s=shoes&sprefix=mens%2Bs%2Cshoes%2C284&sr=1-2-spons&aref=hgzvteJCdI&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=452dab779ee2ccab9b3cfe9bd4a6f9be&ref_=as_li_ss_tl" }
-  ]
-},
-{
-  id: "sparx-sm-680-running",
-  name: "Sparx SM 680 Running Shoes",
-  brand: "SPARX",
-  price: 1039,
-  category: "sneakers",
-  oldPrice: 1039,
-  discount: 0,
-  image: "https://m.media-amazon.com/images/I/31JRVT72niL._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/31JRVT72niL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/412M3g-hjbL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41yuecjAozL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/51kTUwNZYqL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/51HL8WXEosL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/51JZymfMNDL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/613HEGjY-eL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/613HEGjY-eL._SY695_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 1039, url: "https://www.flipkart.com/sparx-sm-680-running-shoes-men/p/itmd11d2dbc874f9?pid=SHOGCVYM8GZGDBBH&lid=LSTSHOGCVYM8GZGDBBHBP7FB7&marketplace=FLIPKART&q=Sparx+Men+SM-+680&store=osp%2Fcil%2F1cu&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=c12a5399-7168-4b2d-8e8b-48df4cc879b3.SHOGCVYM8GZGDBBH.SEARCH&ppt=sp&ppn=sp&ssid=c3rck0h3c00000001787571051671&qH=e83cba15632c820d&ov_redirect=true" },
-    { name: "Amazon", price: 1039, url: "https://www.amazon.in/Sparx-SM-680-Black-Golden-Sports/dp/B0C5T7QT87?crid=3PX36GKLVG96L&dib=eyJ2IjoiMSJ9.2jV15uCcIuFAoiPk0Ss77MmfY6UflxglFkdE9ZOUeYzhhZn-3T35_pumQbKnf-u4cCYeenaZwHvlNtGrfuoZHvUMbYywObzDyqxLfNS1mu_8ctYaLcgmdVbmasE6ze6Lx156qU_Vc1q4nX9SHkO1GqngMiyzIASSlKwYpxnNXAvsVLYeu92ZgmyYKd78bdFnCFHfSeTGDgVn3SuiiF3nLmD9YuoJiwjaqKwHg0_VqFdSRjEQK-LbYX4geTnaMnDFrYL7wEBPlBXpEWIxcxHEAT_Y-a7JEiuuxENE-wEf7GM.TbTaiTiy97SdYDNxlkvpVCeyo0LBGqi8hViwIzDd1x0&dib_tag=se&keywords=Sparx%2BMen%2BSM-778%2BBlack%2BMesh%2BRunning%2BNon-Marking%2BShoes&nsdOptOutParam=true&qid=1787570936&s=shoes&sprefix=mens%2Bshoes%2Bbranded%2Cshoes%2C628&sr=1-9&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=7fc0988878e4f922c257974e4743824d&ref_=as_li_ss_tl" }
-  ]
-},
-
-{
-  id: "casio-mtp-vd01d-blue",
-  name: "Casio Enticer Analog Blue Dial Watch",
-  brand: "CASIO",
-  price: 2993,
-  category: "watches",
-  oldPrice: 4195,
-  discount: 29,
-  image: "https://m.media-amazon.com/images/I/61V9Kj-JkkL._SL1000_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/5172VzZuOfL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61V9Kj-JkkL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61V9Kj-JkkL._SY879_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 4195, url: "https://www.flipkart.com/casio-mtp-vd01d-2bvudf-mtp-vd01-analog-watch-men/p/itmf8hxbtxybgh9b?pid=WATF8HUCS33JB2GH&marketplace=FLIPKART&lid=LSTWATF8HUCS33JB2GHHG0BPQ&hl_lid=LSTWATF8HUCS33JB2GHDA6H69&q=Casio+Enticer+Analog+Black+Dial+Mens+Watch+-+MTP-VD01GL-1EVUDF+%28A1369%29&fm=Search&pageUID=1787572150857" },
-    { name: "Amazon", price: 2993, url: "https://www.amazon.in/Casio-Enticer-Analog-Watch-MTP-VD01D-1EVUDF-A1362/dp/B07BS3LCTS?dib=eyJ2IjoiMSJ9.r21ey79e3pI1dIXqhQ-MKRcOtlMrYfRagzl0oqQNbGcArUbhjlEi0rgsC8wkO3t4Y2zPdg8HOo7ddGyPrEzzDylRgQD6NgvE_LBrdwiLD6cYDcQV2Td02nbryx8pBmOAORZOvdKuwhTlPHlClyf6836c40PB1T1Xpm-6WDABi0BugBCQdnVsi2Uxuk5Wo56oqM_wFN3VYUkqgcAMz21ru6E66BHROrwVLwd7RBuBJJkbe6KemdG_rzRptpDc7ZcFCsj5pX3FDMkznoiTRGlu7fkvgNsOcTXEYnKtqTclqc0.ZU1z09-uyQFYprfvsiQy0blL5DIgDwGy6FlJi8LBI78&dib_tag=se&pf_rd_i=2563504031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&qid=1787571989&rnid=6648218031&s=apparel&sr=1-6&th=1&linkCode=ll2&tag=stylescoutin2-21&linkId=0670f77f3d9831d7b138e80e898e7224&ref_=as_li_ss_tl" },
-    { name: "Myntra", price: 2995, url: "https://www.myntra.com/watches/casio/casio-mens-mtp-vd01d-2bvudf-blue-analog-dial-metal-a1363/7264980/buy" }
-  ]
-},
-{
-  id: "casio-mtp-vd01gl-black",
-  name: "Casio Enticer Analog Black Dial Watch",
-  brand: "CASIO",
-  price: 2994,
-  category: "watches",
-  oldPrice: 2995,
-  discount: 0,
-  image: "https://m.media-amazon.com/images/I/414VdtnDLRL._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/414VdtnDLRL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31W+TYIsbFL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31NBLhq6SuL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41sS+saInDL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31YL2HqvliL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41NwRMfAvrL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61S+NClCbIL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61S+NClCbIL._SX679_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 2995, url: "https://www.flipkart.com/casio-mtp-vd01gl-1evudf-mtp-vd01-analog-watch-men/p/itmf98twgdtbangu?pid=WATF97UY5SYHDSFP&lid=LSTWATF97UY5SYHDSFPRROCTR&marketplace=FLIPKART&q=Casio+Enticer+Analog+Black+Dial+Mens+Watch+-+MTP-VD01GL-1EVUDF+%28A1369%29&store=r18%2Ff13&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=67a156c2-b80f-4251-ae97-1db9e6c302d7.WATF97UY5SYHDSFP.SEARCH&ppt=sp&ppn=sp&ssid=o75a4g0icg0000001787572027298&qH=48bb031b86a339fc&ov_redirect=true" },
-    { name: "Amazon", price: 2994, url: "https://www.amazon.in/Casio-Enticer-Analog-Watch-MTP-VD01GL-1EVUDF-A1369/dp/B07DD25LJ8?dib=eyJ2IjoiMSJ9.r21ey79e3pI1dIXqhQ-MKRcOtlMrYfRagzl0oqQNbGcArUbhjlEi0rgsC8wkO3t4Y2zPdg8HOo7ddGyPrEzzDylRgQD6NgvE_LBrdwiLD6cYDcQV2Td02nbryx8pBmOAORZOvdKuwhTlPHlClyf6836c40PB1T1Xpm-6WDABi0BugBCQdnVsi2Uxuk5Wo56oqM_wFN3VYUkqgcAMz21ru6E66BHROrwVLwd7RBuBJJkbe6KemdG_rzRptpDc7ZcFCsj5pX3FDMkznoiTRGlu7fkvgNsOcTXEYnKtqTclqc0.ZU1z09-uyQFYprfvsiQy0blL5DIgDwGy6FlJi8LBI78&dib_tag=se&pf_rd_i=2563504031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&qid=1787571989&rnid=6648218031&s=apparel&sr=1-7&linkCode=ll2&tag=stylescoutin2-21&linkId=f20c07273fdacd9523cd792ebd4b2b0c&ref_=as_li_ss_tl" },
-    { name: "Myntra", price: 2995, url: "https://www.myntra.com/watches/casio/casio-mens-mtp-vd01gl-1evudf-black-analog-dial-genuine-leather-a1369/7370471/buy" }
-  ]
-},
-
-{
-  id: "titan-workwear-green",
-  name: "Titan Workwear Green Dial Watch",
-  brand: "Titan",
-  price: 3375,
-  category: "watches",
-  oldPrice: 3845,
-  discount: 12,
-  image: "https://m.media-amazon.com/images/I/41-P-cV9nZL._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/41-P-cV9nZL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41Ielg25yAL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41RsxHMLb1L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/316VvxJoGvL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41jF3pajjkL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/4133crnnHtL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/511B0fTOENL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/511B0fTOENL._SX679_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 3845, url: "https://www.flipkart.com/titan-workwear-green-dial-leather-strap-analog-watch-men/p/itmcd1e852819152?pid=WATFVHZ5UHSFWBFH&lid=LSTWATFVHZ5UHSFWBFHRYQZGR&marketplace=FLIPKART&q=Titan+Workwear+Quartz+Analog+Hunter+Green+Dial+Olive+Green+Leather+Strap+Watch+for+Men+-+NT1802NL02&store=r18%2Ff13&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=dab09868-02a4-4ab6-91a2-175d1998d893.WATFVHZ5UHSFWBFH.SEARCH&ppt=sp&ppn=sp&ssid=1xhjli1jlc0000001787572903748&qH=bce393ff710479e6&ov_redirect=true" },
-    { name: "Amazon", price: 3375, url: "https://www.amazon.in/Titan-Workwear-Leather-Men-NS1802NL02-NT1802NL02/dp/B08JM33QNK?pd_rd_w=hRTCp&content-id=amzn1.sym.a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_p=a5646ec7-a2de-49f1-8d39-15f8f2eef501&pf_rd_r=PANNHHPV8SQVH70K62H5&pd_rd_wg=FxNGS&pd_rd_r=2df0599b-3b2f-4d46-b735-f15a1b2dbd85&pd_rd_i=B08JM33QNK&th=1&linkCode=ll2&tag=stylescoutin2-21&linkId=35a67836bae9d5db2f00d70298493f7e&ref_=as_li_ss_tl" }
-  ]
-},
-
-{
-  id: "us-polo-cargos",
-  name: "U.S. Polo Assn. Denim Co. Men Cargos",
-  brand: "U.S. POLO ASSN.",
-  price: 1672,
-  category: "apparel",
-  oldPrice: 1761,
-  discount: 5,
-  image: "https://m.media-amazon.com/images/I/31xS15p-6+L._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/31xS15p-6+L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31OJZsRIefL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/312bpGADS3L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41sE8Lq-wwL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31JzFXmxoyL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31lEz0LVDmL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41oQ29E-V7L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61Jzd5c0TqL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61Jzd5c0TqL._SX679_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 1761, url: "https://www.flipkart.com/u-s-polo-assn-denim-co-men-cargos/p/itm09ec224dd67fe?pid=CRGHD5WGWVWKU63C&lid=LSTCRGHD5WGWVWKU63CNAO3HT&marketplace=FLIPKART&q=U.S.+Polo+Assn.+Denim+Co.+Apparel+Regular+Casual+Pants+cargo&store=clo%2Fvua%2Frqy%2Fnli&srno=s_1_20&otracker=search&otracker1=search&fm=Search&iid=a05a5f85-0e29-46d5-afc7-d0f1e4e735e0.CRGHD5WGWVWKU63C.SEARCH&ppt=sp&ppn=sp&ssid=ndbx55pan40000001787573386004&qH=b4e97f7209e56729&ov_redirect=true" },
-    { name: "Amazon", price: 1672, url: "https://www.amazon.in/U-S-Denim-Co-Straight-Trousers_UDTRO0264_34/dp/B0F9KW659K?dib=eyJ2IjoiMSJ9.ucNtci6SCFsAjIqlA1dngAVZgImIdtXuk307wRKk1zDTaMlhuARc1mgLGPrRIy7EIUcWGlYDeJzzt2y3c6MKWx4_3rXpY2lw58O8H_i0s4-_DqT6VKTNiyT1eFUnPgtRxk2hppkTxGaHnp9RCKKriJAGQ5bJyy_HQWS_M5jy9cFBW6VHXze3AnZaskLkIfnhpKv63js_CCZbkBzkRFjiHYK89GBu7GpjbfxsgNnxUEmHGu205ya9OvA9BIDgiPVc9FpdLVNzbCIoGe2dApyI5HnXlnRxxkP-uKjkexVxbDs.jsRBit0tYHAOBZzNm7WoMC-LsP9qp2mVmu9O9HkrQm8&dib_tag=se&keywords=cargo&qid=1787573246&refinements=p_123%3A390827&rnid=91049095031&s=apparel&sr=1-1&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=f3d15c0bb29da9bd88de709b076f1aea&ref_=as_li_ss_tl" }
-  ]
-},
-
-{
-  id: "us-polo-abor-30-white",
-  name: "U.S. Polo Assn. ABOR 3.0 White Classic Canvas Sneakers",
-  brand: "U.S. POLO ASSN.",
-  price: 2045,
-  category: "sneakers",
-  oldPrice: 2046,
-  discount: 0,
-  image: "https://m.media-amazon.com/images/I/31Q0UHF5QjL._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/31Q0UHF5QjL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/418YcAYMi2L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/317upKvyclL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/21CNHyHmQQL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31Qi766SXUL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/412kVJhYo4L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61Xa5nUCKBL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61Xa5nUCKBL._SY695_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 2046, url: "https://www.flipkart.com/u-s-polo-assn-abor-3-0-sneakers-men/p/itm3453e95ac23b6?pid=SHOHC5JJG9BSCVZZ&lid=LSTSHOHC5JJG9BSCVZZSTUPSH&marketplace=FLIPKART&q=U.S.+Polo+ASSN.+Mens+Abor+3.0&store=search.flipkart.com&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=93afa5e2-ee63-4a4a-9db1-5757a88e572c.SHOHC5JJG9BSCVZZ.SEARCH&ppt=sp&ppn=sp&ssid=ocbr65nznk0000001787915977200&qH=f5fa342bb80b2d54&ov_redirect=true&ov_redirect=true" },
-    { name: "Amazon", price: 2045, url: "https://www.amazon.in/U-S-Polo-Assn-Sneaker-White/dp/B0F8V9DL2S?crid=3PCX8QF9F4RMG&dd=hmh43oKv1UG3XeW4sVbtMA%2C%2C&dib=eyJ2IjoiMSJ9.A5uaOBrRd78LCRRFTHo0fOr2XQEJOFcv4iYaje1wubBae0KCH0r4hQzb2oa5KCm_yrqJQiVcxIYTGqZsQIVu6SatqOiNKqavqU8olWb9Ywvjb19iew31la9bUaNuwgr_9fJWnnA1nDPcPlYB-CE48I7gx-TUmNJZKLJpvubXrKYBw3BATeqR-5XZs_ch3QpAjZ6UnW4abb0b4bBeOvKuNpeyZdvc9UEbrtc03F76wSFkGe79bKieaQwGZoQ3IM0l1kYLTZWGbwEWwLR0OSEXjl3xtoSLxf5kEuWr65rkf1Q.T98pS-ruzIlsYPjrF6_J56YFxwMWsm9QVowWUSYZOeI&dib_tag=se&keywords=sneakers&qid=1787915879&refinements=p_90%3A6741118031&sprefix=sneakers%2Caps%2C331&sr=8-10&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=1abaecb8d89d750bcf360859a2bd8fe3&ref_=as_li_ss_tl" },
-    { name: "Myntra", price: 2045, url: "https://www.myntra.com/casual-shoes/u.s.+polo+assn./us-polo-assn-men-abor-30-off-white-classic-canvas-sneakers/34132978/buy" }
-  ]
-},
-{
-  id: "us-polo-clane-20-black",
-  name: "U.S. Polo Assn. CLANE 2.0 Black Sneakers",
-  brand: "U.S. POLO ASSN.",
-  price: 2767,
-  category: "sneakers",
-  oldPrice: 4799,
-  discount: 42,
-  image: "https://m.media-amazon.com/images/I/41VDYVrAWLL._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/41VDYVrAWLL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41kan7POQLL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31V3sMVnU-L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41tmIEXlS-L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41iZokRyUaL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31K30KijZVL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/710mQePLuWL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/710mQePLuWL._SY695_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 2767, url: "https://www.flipkart.com/u-s-polo-assn-clane-2-0-sneakers-men/p/itm8319e2a050a2a?pid=SHOH94C9HYKTEHAJ&lid=LSTSHOH94C9HYKTEHAJQUKTX8&marketplace=FLIPKART&q=U.S.+POLO+ASSN.+Mens+Rojas+2.0-Parent+Sneaker.&store=osp%2Fcil%2Fe1f&srno=s_1_6&otracker=search&otracker1=search&fm=Search&iid=862b7f5e-6fdd-4876-9d0b-14785b2f312a.SHOH94C9HYKTEHAJ.SEARCH&ppt=sp&ppn=sp&ssid=xjxcr4p9680000001787916242953&qH=8418c2c7654d57c5&ov_redirect=true" },
-    { name: "Amazon", price: 2767, url: "https://www.amazon.in/U-S-Polo-Assn-CLANE-Sneakers/dp/B0DVGSF6PY?crid=U16PNIFXNCTI&dib=eyJ2IjoiMSJ9.GvrSyRURppDXrv1qCixNfutaqPlAaRLDNj_XkN6b_zOdY3Vr-rvXVNTKrJXHpR9flCVxe2hoaVjrHprM69DqPB-e9M_B_DJBMKnDZ9QVA8Bmif0JanxrIwQKQwYg4_8LRxYu77GA-qJwCWY5Zo0KbJFGrqS0d3zeulgG1AYXkiSqSDkLDCXha4XoujyrOzqXvA0a48pe99LmS8UHj-4aDhxPMeoXgdzRBJW8_C0d58SVNOJ85HBo1LWpDLWrJFXZU-L0ZWeClqx-znPiP2Q5UKvrGYwB984DP8rYt7yBKUw.COdLuA46457MqO8JoFSfgIUcQ8E84O0eq3rDSLFGnPI&dib_tag=se&keywords=U.S.%2BPOLO%2BASSN.%2BCLANE%2B2.0%2BSneakers%2BFor%2BMen%2B%28Black%2B%2C%2B10%29%5D&nsdOptOutParam=true&qid=1787916275&sprefix=u.s.%2Bpolo%2Bassn.%2Bclane%2B2.0%2Bsneakers%2Bfor%2Bmen%2Bblack%2B%2C%2B10%2B%2Caps%2C452&sr=8-1&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=5925007b9c77af6f72c24b78b2c848cd&ref_=as_li_ss_tl" }
-  ]
-},
-{
-  id: "us-polo-coba-20",
-  name: "U.S. Polo Assn. Coba 2.0 Sneakers",
-  brand: "U.S. POLO ASSN.",
-  price: 3112,
-  category: "sneakers",
-  oldPrice: 3119,
-  discount: 0,
-  image: "https://m.media-amazon.com/images/I/41SbWGxsoBL._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/41SbWGxsoBL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41JoAxpgc1L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/319ruiEPVpL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/313oMTBiXfL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/3160JzjZqyL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41wemfnDQpL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71kr9r4kM8L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71kr9r4kM8L._SY695_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 3112, url: "https://www.flipkart.com/u-s-polo-assn-sneakers-men/p/itm1c75638cf65eb?pid=SHOHGNS4KARSCP9J&lid=LSTSHOHGNS4KARSCP9JJZOCKT&marketplace=FLIPKART&q=us+polo+shoes&store=osp&srno=s_1_6&otracker=AS_Query_OrganicAutoSuggest_5_10_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_5_10_na_na_na&fm=search-autosuggest&iid=9f195a22-4255-405f-9df4-3678a8629b2f.SHOHGNS4KARSCP9J.SEARCH&ppt=sp&ppn=sp&ssid=b13k6ekgcg0000001787916481427&qH=ab06ce0a8954dffe&ov_redirect=true" },
-    { name: "Amazon", price: 3112, url: "https://www.amazon.in/U-S-Assn-Stylish-Casual-Sneaker/dp/B0G4VRB7RM?crid=ZEH3E9XW36QP&dib=eyJ2IjoiMSJ9.ebAESvPjBv-_sqMqdEuL8py4hHWeR6Nsxy1btN8zyMjbvVZ_QZrjYTGD_PuBUyHcb01NEXU4GVlg1XiD-lndoYMkLeL__6bm0TbcKKT0eNOqcc3yUV5UbUpSRyFp3yX23A8K_4witYArKXG0OwKf74t0qfxR8tmK8QQct3l_HFimjk-g9QAa0twKW_RPmD2c-DH7ihHb9JdTAbZlBNG_uAXAsoFTehTtEtrgKPBiBPTaaPO3C6nRPjyCRoZBS2tjUKccYWGAaOOV5_31pZHl-_TTSI7PVKcDeyUurY5mGN0.QEbqMSkr8dEnlHchw7wA8zK3V0_hrqfR8ZMwz41-bKE&dib_tag=se&keywords=us%2Bpolo%2Bshoes%2Bfor%2Bman&qid=1787916414&sprefix=us%2Bpolo%2Bs%2Caps%2C273&sr=8-30&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=fdb9c52a2fe6e646f54e7e1d83e34b0b&ref_=as_li_ss_tl" }
-  ]
-},
-{
-  id: "nike-run-defy",
-  name: "Nike Run Defy Running Shoes",
-  brand: "NIKE",
-  price: 2796,
-  category: "sneakers",
-  oldPrice: 3995,
-  discount: 30,
-  image: "https://m.media-amazon.com/images/I/313yEFxvBtL._SL1500_.jpg",
-  gallery: [
-    "https://m.media-amazon.com/images/I/313yEFxvBtL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/412e6ozi9iL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41W7rI1KTFL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31LHBNejcAL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31BgeJS0DGL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31V1bl95xrL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61Fq4JdF3ML._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61Fq4JdF3ML._AC_SY879_.jpg"
-  ],
-  stores: [
-    { name: "Flipkart", price: 2796, url: "https://www.flipkart.com/nike-run-defy-running-shoes-men/p/itm06f9f57f79cc2?pid=SHOHGWN9YEWZTWNA&lid=LSTSHOHGWN9YEWZTWNA9CAFLU&marketplace=FLIPKART&q=Nike+Mens+Run+Defy+Running+Shoes&store=osp%2Fcil%2F1cu&spotlightTagId=default_TrendingId_osp%2Fcil%2F1cu&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=a5019f01-0a67-4cec-83da-d6d9ae7c11c5.SHOHGWN9YEWZTWNA.SEARCH&ppt=sp&ppn=sp&ssid=emxkd5boe80000001787916956422&qH=f2697e55b1534dc1&ov_redirect=true" },
-    { name: "Amazon", price: 2796, url: "https://www.amazon.in/Nike-Black-Glacier-Blue-Green-Strike-Running/dp/B0FBRCT5XD?crid=2V9MA9T8V8LTU&dib=eyJ2IjoiMSJ9.kL0c_Y4zbdQ-6i4_GRzzIXnz1AISatntqyxN0nP9BwHevCrbuYMeXpEy4LbjKHq_7G4yLSqNFhlFan_jkZ1SkvRhXXdIhBfXYo5kLmUjQfLpCiqmc2bVIdk_hlbbE_qdKE9e7mzI8pD0Cbun7PrAppNxOtJpkNy4d3TxoV6lOqr1iQnETEF1XUW4fgdlVpzqbDuU72YBYiwG4fbmtsMUIkfhETCgncJNlO0RoE76mLhZkYddupjjpZr57nC9gxjEQwUIONjikSzy0JjCWUXdK16z6fK2Nssh03FBWI6UJRI.Pwy1cHvHzttneCz0AV_1Zt9bxzJVcYAhZz-Xsl0dEKY&dib_tag=se&keywords=nike%2Bsneakers&qid=1787916916&refinements=p_36%3A-300000&rnid=4516629031&sprefix=nike%2Bsneakers%2Caps%2C271&sr=8-8&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=8faabe1454ae6af3b30fdc9214bdaec5&ref_=as_li_ss_tl" },
-    { name: "Myntra", price: 3995, url: "https://www.myntra.com/sports-shoes/nike/nike-run-defy-mens-road-running-shoes/43109453/buy" }
-  ]
-}
-
-];
-
 const $ = (id) => document.getElementById(id);
 
 const productGrid = $("productGrid");
@@ -481,15 +44,8 @@ const loginClose = $("loginClose");
 const loginName = $("loginName");
 const loginSubmit = $("loginSubmit");
 
-/*
-  SNEAKER ONLY
-  --------------------------------------------------
-  The original product array above can still contain
-  older watches/apparel data, but StyleScout only
-  displays sneakers now.
-*/
-const products = allProducts.filter(product => product.category === "sneakers");
 
+let products = [];
 let wishlist = JSON.parse(localStorage.getItem("stylescout_wishlist") || "[]");
 
 let currentFilter = "all";
@@ -1115,36 +671,37 @@ function openQuickView(product) {
     ];
 
 
+  const lowestPrice = Math.min(...product.stores.map(s => s.price));
+
   modalStores.innerHTML =
     product.stores
       .map(store => {
-
+        const isBest = store.price === lowestPrice;
         return `
           <a
-            class="store-card"
+            class="store-card ${isBest ? "best-price" : ""}"
             href="${store.url}"
             target="_blank"
             rel="noopener noreferrer"
+            onclick="gtag('event','store_click',{store_name:'${store.name}',product_id:'${product.id}',price:${store.price}})"
             style="
               text-decoration:none;
               color:inherit;
             "
           >
-
             <span class="store-name">
               ${store.name}
+              ${isBest ? '<span class="best-badge">BEST</span>' : ''}
             </span>
-
             <span class="store-price">
               ${money(store.price)}
             </span>
-
           </a>
         `;
-
       })
       .join("");
 
+  modalStores.innerHTML += `<a href="products/${product.id}.html" style="display:block;text-align:center;margin-top:14px;color:#78efc6;text-decoration:none;font-size:13px;font-weight:600;">View full details →</a>`;
 
   modalWishlistBtn.dataset.id =
     product.id;
@@ -1744,20 +1301,6 @@ function draw() {
 draw();
 
 
-/* =========================================================
-   INITIALIZE
-========================================================= */
-
-populateFilterOptions();
-
-syncFilterControls();
-
-updateFilterSummary();
-
-renderProducts();
-
-wishlistCount.textContent =
-  wishlist.length;
 
 
 /* =========================================================
@@ -1954,3 +1497,35 @@ drawerOverlay.addEventListener(
   }
 );
 
+/* =========================================================
+   LOAD PRODUCTS FROM products.json
+========================================================= */
+
+(async function loadProductsFromJson() {
+  try {
+    const res = await fetch("products.json?t=" + Date.now());
+    if (!res.ok) throw new Error("products.json not found");
+    const data = await res.json();
+    if (!Array.isArray(data)) throw new Error("products.json is not an array");
+
+    products.length = 0;
+    products.push(...data.filter(p => p.category === "sneakers"));
+
+    console.log(`✓ Loaded ${products.length} sneakers from products.json`);
+
+    populateFilterOptions();
+    syncFilterControls();
+    updateFilterSummary();
+    renderProducts();
+    wishlistCount.textContent = wishlist.length;
+
+  } catch (e) {
+    console.warn("Could not load products.json:", e.message);
+    if (productGrid) {
+      productGrid.innerHTML = `
+        <div class="empty-state">
+          No products loaded. Make sure products.json exists next to index.html.
+        </div>`;
+    }
+  }
+})();

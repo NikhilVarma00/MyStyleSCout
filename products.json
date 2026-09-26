@@ -1,0 +1,805 @@
+[
+  {
+    "id": "nike-run-defy",
+    "name": "Nike Run Defy",
+    "brand": "Nike",
+    "price": 3995,
+    "category": "sneakers",
+    "oldPrice": 3955,
+    "discount": 0,
+    "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_1.jpg?rnd=20200526195200&tr=w-1080",
+    "gallery": [
+      "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_4.jpg?rnd=20200526195200&tr=w-1080",
+      "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_7.jpg?rnd=20200526195200&tr=w-1080",
+      "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_6.jpg?rnd=20200526195200&tr=w-1080"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 3955,
+        "url": "https://www.amazon.in/Nike-Running-Shoes-Black-Anthracite/dp/B0DYLF9JV5?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 3955,
+        "url": "https://dl.flipkart.com/s/czoexUNNNN"
+      },
+      {
+        "name": "Myntra",
+        "price": 3955,
+        "url": "https://www.myntra.com/sports-shoes/nike/nike-run-defy-mens-road-running-shoes/34806262/buy"
+      }
+    ],
+    "priceHistory": [
+      3955
+    ]
+  },
+  {
+    "id": "sparx-sm-323",
+    "name": "Sparx SM 323 | Stylish, Comfortable | Sneakers For Men",
+    "brand": "Sparx",
+    "price": 629,
+    "category": "sneakers",
+    "oldPrice": 799,
+    "discount": 25,
+    "image": "https://m.media-amazon.com/images/I/61SjrdVQLWL._SY695_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61Uqt55AryL._SY695_.jpg",
+      "https://m.media-amazon.com/images/I/71TtqkkjMvL._SY695_.jpg",
+      "https://m.media-amazon.com/images/I/61kvl75S8gL._SY695_.jpg",
+      "https://m.media-amazon.com/images/I/61iFZ60PIPL._SY695_.jpg",
+      "https://m.media-amazon.com/images/I/51riWl8MSFL._SY695_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Flipkart",
+        "price": 629,
+        "url": "https://dl.flipkart.com/s/EzK1bgNNNN"
+      },
+      {
+        "name": "Amazon",
+        "price": 674,
+        "url": "https://www.amazon.in/SPARX-SD0323G-BLACK-Sneakers-SD0323GBKWH0009/dp/B07PJ9329H?tag=stylescoutin2-21"
+      }
+    ],
+    "priceHistory": [
+      674,
+      629
+    ]
+  },
+  {
+    "id": "puma-club-ii-era-l",
+    "name": "Puma Club II Era L Sneakers",
+    "brand": "PUMA",
+    "price": 3069,
+    "category": "sneakers",
+    "oldPrice": 4689,
+    "discount": 35,
+    "image": "https://m.media-amazon.com/images/I/21DVW7zXVHL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/21DVW7zXVHL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/21iMkHAesiL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/21piVBIPd3L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/21qPTN4zKtL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/21ATE6gpDzL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31nHYV9HtBL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41go+RXCeBL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Flipkart",
+        "price": 3069,
+        "url": "https://www.flipkart.com/puma-club-ii-era-l-sneakers-men/p/itmfff4ce7c2a5ac"
+      },
+      {
+        "name": "Amazon",
+        "price": 3069,
+        "url": "https://www.amazon.in/Puma-Club-II-Era-Sneakers/dp/B0F7TVXRGZ?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Myntra",
+        "price": 4689,
+        "url": "https://www.myntra.com/casual-shoes/puma/puma-unisex-club-ii-era-leather-sneakers/39535481/buy"
+      }
+    ],
+    "priceHistory": [
+      4689,
+      3069
+    ]
+  },
+  {
+    "id": "campus-terminator-n",
+    "name": "Campus Terminator (N) Running Shoes",
+    "brand": "CAMPUS",
+    "price": 1299,
+    "category": "sneakers",
+    "oldPrice": 1434,
+    "discount": 9,
+    "image": "https://m.media-amazon.com/images/I/41kDogsaPdL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/41kDogsaPdL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41oHwwY5QCL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41Z2ACFQyrL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/519VapMAUVL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41I9jVA29NL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41-gBwYt8qL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/7116DVkEANL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Flipkart",
+        "price": 1434,
+        "url": "https://www.flipkart.com/campus-terminator-n-running-shoes-men/p/itm29ac3efb0d51d"
+      },
+      {
+        "name": "Amazon",
+        "price": 1299,
+        "url": "https://www.amazon.in/Campus-Mens-Terminator-Running-Shoes/dp/B095T3QVDM?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Myntra",
+        "price": 1434,
+        "url": "https://www.myntra.com/sports-shoes/campus/campus-terminator-n-men-lace-up-running-shoes/14439664/buy"
+      }
+    ],
+    "priceHistory": [
+      1434,
+      1299
+    ]
+  },
+  {
+    "id": "asian-everest-24-trekking",
+    "name": "ASIAN EVEREST-24 Trekking Shoes",
+    "brand": "ASIAN",
+    "price": 1499,
+    "category": "sneakers",
+    "oldPrice": 1749,
+    "discount": 14,
+    "image": "https://m.media-amazon.com/images/I/41wUoMomstL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/41wUoMomstL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/416Mh8lL2VL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51b9swF+2BL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51p5o+yWQKL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51zUCkWEKgL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51+KF+h0lkL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41DGMusy3xL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81joo71tqbL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Flipkart",
+        "price": 1749,
+        "url": "https://www.flipkart.com/asian-everest-24-hiking-boots-outdoor-trekking-water-resistant-sneakers-men/p/itme32ddc910dda8"
+      },
+      {
+        "name": "Amazon",
+        "price": 1499,
+        "url": "https://www.amazon.in/ASIAN-EVEREST-24-Trekking-Outdoor-Comfortable/dp/B0DVGXYQGL?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Myntra",
+        "price": 1662,
+        "url": "https://www.myntra.com/casual-shoes/asian/asian-men-everyday-trekking-shoes/32579974/buy"
+      }
+    ],
+    "priceHistory": [
+      1749,
+      1662,
+      1499
+    ]
+  },
+  {
+    "id": "sparx-sm-171-running",
+    "name": "Sparx SM-171 Running Shoes",
+    "brand": "SPARX",
+    "price": 1124,
+    "category": "sneakers",
+    "oldPrice": 1259,
+    "discount": 11,
+    "image": "https://m.media-amazon.com/images/I/41MLa4jDeyL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/41MLa4jDeyL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51rlCD1qUkL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51QQOeS2l7L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41AiqM99yCL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41XMIS+86UL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41YIkw2ZbTL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81SezP6G9QL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Flipkart",
+        "price": 1259,
+        "url": "https://www.flipkart.com/sparx-sm-171-running-shoes-men/p/itm0c1f8896ae3fd"
+      },
+      {
+        "name": "Amazon",
+        "price": 1124,
+        "url": "https://www.amazon.in/Sparx-Mens-Black-Green-Running/dp/B0788MZWPL?tag=stylescoutin2-21"
+      }
+    ],
+    "priceHistory": [
+      1259,
+      1124
+    ]
+  },
+  {
+    "id": "sparx-sm-680-running",
+    "name": "Sparx SM 680 Running Shoes",
+    "brand": "SPARX",
+    "price": 1039,
+    "category": "sneakers",
+    "oldPrice": 1039,
+    "discount": 0,
+    "image": "https://m.media-amazon.com/images/I/31JRVT72niL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/31JRVT72niL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/412M3g-hjbL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41yuecjAozL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51kTUwNZYqL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51HL8WXEosL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51JZymfMNDL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/613HEGjY-eL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Flipkart",
+        "price": 1039,
+        "url": "https://www.flipkart.com/sparx-sm-680-running-shoes-men/p/itmd11d2dbc874f9"
+      },
+      {
+        "name": "Amazon",
+        "price": 1039,
+        "url": "https://www.amazon.in/Sparx-SM-680-Black-Golden-Sports/dp/B0C5T7QT87?tag=stylescoutin2-21"
+      }
+    ],
+    "priceHistory": [
+      1039
+    ]
+  },
+  {
+    "id": "us-polo-abor-30-white",
+    "name": "U.S. Polo Assn. ABOR 3.0 White Classic Canvas Sneakers",
+    "brand": "U.S. POLO ASSN.",
+    "price": 2045,
+    "category": "sneakers",
+    "oldPrice": 2046,
+    "discount": 0,
+    "image": "https://m.media-amazon.com/images/I/31Q0UHF5QjL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/31Q0UHF5QjL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/418YcAYMi2L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/317upKvyclL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/21CNHyHmQQL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31Qi766SXUL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/412kVJhYo4L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Xa5nUCKBL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Flipkart",
+        "price": 2046,
+        "url": "https://www.flipkart.com/u-s-polo-assn-abor-3-0-sneakers-men/p/itm3453e95ac23b6"
+      },
+      {
+        "name": "Amazon",
+        "price": 2045,
+        "url": "https://www.amazon.in/U-S-Polo-Assn-Sneaker-White/dp/B0F8V9DL2S?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Myntra",
+        "price": 2045,
+        "url": "https://www.myntra.com/casual-shoes/u.s.+polo+assn./us-polo-assn-men-abor-30-off-white-classic-canvas-sneakers/34132978/buy"
+      }
+    ],
+    "priceHistory": [
+      2046,
+      2045
+    ]
+  },
+  {
+    "id": "us-polo-coba-20",
+    "name": "U.S. Polo Assn. Coba 2.0 Sneakers",
+    "brand": "U.S. POLO ASSN.",
+    "price": 3112,
+    "category": "sneakers",
+    "oldPrice": 3119,
+    "discount": 0,
+    "image": "https://m.media-amazon.com/images/I/41SbWGxsoBL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/41SbWGxsoBL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41JoAxpgc1L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/319ruiEPVpL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/313oMTBiXfL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/3160JzjZqyL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41wemfnDQpL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71kr9r4kM8L._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Flipkart",
+        "price": 3112,
+        "url": "https://www.flipkart.com/u-s-polo-assn-sneakers-men/p/itm1c75638cf65eb"
+      },
+      {
+        "name": "Amazon",
+        "price": 3112,
+        "url": "https://www.amazon.in/U-S-Assn-Stylish-Casual-Sneaker/dp/B0G4VRB7RM?tag=stylescoutin2-21"
+      }
+    ],
+    "priceHistory": [
+      3119,
+      3112
+    ]
+  },
+  {
+    "id": "nike-run-defy-black",
+    "name": "Nike Run Defy Running Shoes",
+    "brand": "NIKE",
+    "price": 2796,
+    "category": "sneakers",
+    "oldPrice": 3995,
+    "discount": 30,
+    "image": "https://m.media-amazon.com/images/I/313yEFxvBtL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/313yEFxvBtL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/412e6ozi9iL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41W7rI1KTFL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31LHBNejcAL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31BgeJS0DGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31V1bl95xrL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Fq4JdF3ML._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Flipkart",
+        "price": 2796,
+        "url": "https://www.flipkart.com/nike-run-defy-running-shoes-men/p/itm06f9f57f79cc2"
+      },
+      {
+        "name": "Amazon",
+        "price": 2796,
+        "url": "https://www.amazon.in/Nike-Black-Glacier-Blue-Green-Strike-Running/dp/B0FBRCT5XD?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Myntra",
+        "price": 3995,
+        "url": "https://www.myntra.com/sports-shoes/nike/nike-run-defy-mens-road-running-shoes/43109453/buy"
+      }
+    ],
+    "priceHistory": [
+      3995,
+      2796
+    ]
+  },
+  {
+    "id": "puma-smashic-comfort-casual-sneakers",
+    "name": "Puma | Smashic Comfort Casual Sneakers",
+    "brand": "PUMA",
+    "price": 1574,
+    "category": "sneakers",
+    "oldPrice": 1659,
+    "discount": 5,
+    "image": "https://m.media-amazon.com/images/I/41NtbP4mYoL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/41NtbP4mYoL.jpg",
+      "https://m.media-amazon.com/images/I/31sk1RR8HUL.jpg",
+      "https://m.media-amazon.com/images/I/21Mi-ExhwPL.jpg",
+      "https://m.media-amazon.com/images/I/21-P91IL-6L.jpg",
+      "https://m.media-amazon.com/images/I/31KekflxpVL.jpg",
+      "https://m.media-amazon.com/images/I/31xlQBhQx0L.jpg",
+      "https://m.media-amazon.com/images/I/41EYxl-K-RL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1659,
+        "url": "https://www.amazon.in/Puma-Unisex-Adult-Smashic-Black-Matte-Sneaker/dp/B0BSLJ245T?th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=80e9596f0ce2de8607404e406d7c060e&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1575,
+        "url": "https://www.flipkart.com/puma-smashic-casuals-men/p/itm99621d83293b7"
+      },
+      {
+        "name": "Myntra",
+        "price": 1574,
+        "url": "https://www.myntra.com/casual-shoes/puma/puma-smashic-comfort-casual-sneakers/21767158/buy"
+      }
+    ],
+    "priceHistory": [
+      1659,
+      1575,
+      1574
+    ]
+  },
+  {
+    "id": "puma-mens-court-shatter-mid-sneaker",
+    "name": "Puma Mens Court Shatter Mid Sneaker",
+    "brand": "PUMA",
+    "price": 2400,
+    "category": "sneakers",
+    "oldPrice": 2799,
+    "discount": 14,
+    "image": "https://m.media-amazon.com/images/I/51cw59me6yL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/51cw59me6yL.jpg",
+      "https://m.media-amazon.com/images/I/31xCUOQ5U0L.jpg",
+      "https://m.media-amazon.com/images/I/21rUwyi2ciL.jpg",
+      "https://m.media-amazon.com/images/I/21cC6v-yQkL.jpg",
+      "https://m.media-amazon.com/images/I/31shlurYEKL.jpg",
+      "https://m.media-amazon.com/images/I/318WoLibyBL.jpg",
+      "https://m.media-amazon.com/images/I/311iy-vSZcL.jpg",
+      "https://m.media-amazon.com/images/I/41pVWvrLELL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2749,
+        "url": "https://www.amazon.in/Puma-Court-Shatter-Black-White-Sneaker/dp/B0DWK4LHFM?th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=b8c685277400731e7c4948ba6484b82f&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2400,
+        "url": "https://dl.flipkart.com/s/lcwGoMuuuN"
+      },
+      {
+        "name": "Myntra",
+        "price": 2799,
+        "url": "https://www.myntra.com/casual-shoes/puma/puma-court-shatter-men-sportstyle-sneakers/32695233/buy"
+      }
+    ],
+    "priceHistory": [
+      2799,
+      2749,
+      2400
+    ]
+  },
+  {
+    "id": "puma-men-velocity-trn-running-shoe",
+    "name": "Puma Men Velocity Trn Running Shoe",
+    "brand": "PUMA",
+    "price": 1482,
+    "category": "sneakers",
+    "oldPrice": 2426,
+    "discount": 39,
+    "image": "https://m.media-amazon.com/images/I/515KDSm0QeL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/515KDSm0QeL.jpg",
+      "https://m.media-amazon.com/images/I/31pQYjo8sgL.jpg",
+      "https://m.media-amazon.com/images/I/31KK-wkWD0L.jpg",
+      "https://m.media-amazon.com/images/I/31yUIIb5OcL.jpg",
+      "https://m.media-amazon.com/images/I/41OddW6kESL.jpg",
+      "https://m.media-amazon.com/images/I/41-BKfLbpIL.jpg",
+      "https://m.media-amazon.com/images/I/41xQLKmHyKL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2426,
+        "url": "https://www.amazon.in/Puma-Velocity-Black-Lava-Blast-Running/dp/B0BG83ZHKP?th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=94230c102a5f6cc46d62754cd5dfea72&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1482,
+        "url": "https://www.flipkart.com/puma-velocity-trn-running-shoes-men/p/itme887e4ef27a3a"
+      }
+    ],
+    "priceHistory": [
+      2426,
+      1482
+    ]
+  },
+  {
+    "id": "u-s-polo-assn-men-lace-up-sneaker-shoes",
+    "name": "U.S. Polo ASSN. Men Lace Up Sneaker Shoes",
+    "brand": "U.S. POLO ASSN.",
+    "price": 4799,
+    "category": "sneakers",
+    "oldPrice": 4799,
+    "discount": 0,
+    "image": "https://m.media-amazon.com/images/I/710mQePLuWL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/710mQePLuWL.jpg",
+      "https://m.media-amazon.com/images/I/41VDYVrAWLL.jpg",
+      "https://m.media-amazon.com/images/I/41kan7POQLL.jpg",
+      "https://m.media-amazon.com/images/I/31V3sMVnU-L.jpg",
+      "https://m.media-amazon.com/images/I/41tmIEXlS-L.jpg",
+      "https://m.media-amazon.com/images/I/41iZokRyUaL.jpg",
+      "https://m.media-amazon.com/images/I/31K30KijZVL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 4799,
+        "url": "https://www.amazon.in/U-S-Polo-Assn-CLANE-Sneakers/dp/B0DVGSF6PY?th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=a7a3f139f9651374d04a5bd1aff8f110&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 4799,
+        "url": "https://dl.flipkart.com/s/l3TxiJuuuN"
+      }
+    ],
+    "priceHistory": [
+      4799,
+      2999
+    ]
+  },
+  {
+    "id": "sparx-sneakers-for-men-sm-439-lace-up-casual-shoes-with-lightweight-design-cushioned-comfort-durable-sole",
+    "name": "SPARX Sneakers for Men SM-439 Lace-Up Casual Shoes with Lightweight Design, Cushioned Comfort & Durable Sole",
+    "brand": "SPARX",
+    "price": 649,
+    "category": "sneakers",
+    "oldPrice": 849,
+    "discount": 24,
+    "image": "https://m.media-amazon.com/images/I/61fkiIJjrbL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/31xxPfPDkbL.jpg",
+      "https://m.media-amazon.com/images/I/41hiF9VMICL.jpg",
+      "https://m.media-amazon.com/images/I/41myDTzhDbL.jpg",
+      "https://m.media-amazon.com/images/I/31guYwlaTyL.jpg",
+      "https://m.media-amazon.com/images/I/31pbkH5n9wL.jpg",
+      "https://m.media-amazon.com/images/I/41hNtcE+hrL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 654,
+        "url": "https://www.amazon.in/SPARX-Sneakers-Lace-Up-Lightweight-Cushioned/dp/B0C5T4W7DR?dib=eyJ2IjoiMSJ9.2X6XuA2rjQPmAaK42vWWaMeAiQvi4g5jkKfxV2rGhOUO_tGdbiyzxM7dwSjgcOLpC2uzGy4K2Sb-9uoOVe257drjznsmlrmDu4UY3cpWplgVSToAsd83cbR0M2j21oJDcUjZi1SH9ZEiqrn8KXTfOdPpd2bAKrzS6RVqWMZc-SGuQ8yEvqwPbmFCoQzxzWCD2N4Zjpjgvd85cgQl6x1xX2FrYjFzlNqaI7QgWbAWTxNINtkJkH3DFKFYkazL5AIhLnxB0hKGJ7ODrLM7xg6KQlrEh0N8bnjGc_tviBsK8LY.9hFaqmbODPu7lKao0ou3kGnAl884khW4Z3ZCVx7OvNk&dib_tag=se&keywords=Sparx%2BSM%2B439%2BWhite%2BSneakers&qid=1790389264&sr=8-8&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=2f96382e3e1b805912c510757d5a5bc8&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 649,
+        "url": "https://www.flipkart.com/sparx-sm-439-stylish-comfortable-sneakers-men/p/itm2fb11e75ce1bf"
+      },
+      {
+        "name": "Myntra",
+        "price": 849,
+        "url": "https://www.myntra.com/casual-shoes/sparx/sparx-men-white-solid-sneakers/10715812/buy"
+      }
+    ],
+    "priceHistory": [
+      849,
+      654,
+      649
+    ]
+  },
+  {
+    "id": "puma-smashic-women-s-comfort-casual-sneakers",
+    "name": "Puma | Smashic Women's Comfort Casual Sneakers",
+    "brand": "PUMA",
+    "price": 1574,
+    "category": "sneakers",
+    "oldPrice": 1799,
+    "discount": 13,
+    "image": "https://m.media-amazon.com/images/I/51-CObvtVsL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/31D3WVDSRIL.jpg",
+      "https://m.media-amazon.com/images/I/21BiJGldf0L.jpg",
+      "https://m.media-amazon.com/images/I/31hCe-aWDTL.jpg",
+      "https://m.media-amazon.com/images/I/31Tuye+QqhL.jpg",
+      "https://m.media-amazon.com/images/I/31k2mvLonqL.jpg",
+      "https://m.media-amazon.com/images/I/31QByTzRCmL.jpg",
+      "https://m.media-amazon.com/images/I/31qpxhQKKFL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1799,
+        "url": "https://www.amazon.in/Puma-Womens-Smashic-White-Peony-Matte-Sneaker/dp/B0BSLL5BKT?crid=1VKOPPZDFGNLR&dib=eyJ2IjoiMSJ9.8azKZ0NLAF2OpXl-nq0WSGypfz6t8xRW_PZM0dy2ZnsDqC57LyB8dwlH-Hzbdps5v4UE24gIw6A2N_1ycCvMoNUuiixJOH196DyOi_sT_BpxgXKWMU7u4GVH_cl1WjFVPzM89qEGAhGiEgJ8VHpf28RsZ_JhO6g-Beadnk8N26gFby4tDhmgpxGWqJzbVu8K18LLC4bc-Cy91wzehHY-uW8So_C2w4s30KScid8OxoAdeq5q-BVokRmDKIV6T8C6pFlU_p5Z_MxqyLaNuBJxCkvmtpusaqIaDSWCAQgTldY.Hf71VH2sc2YUMnUSn8WQw92oHDy0-93qJEDHVSjTmEU&dib_tag=se&keywords=puma%2Bsmash%2Bwmn%2Bwhite%2Bsneakers&nsdOptOutParam=true&qid=1790391554&sprefix=puma%2Bsmashic%2Bwmn%2Bwhite%2Bsneaker%2Caps%2C1176&sr=8-21&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=fd6962838a02dd82f7c95c1d4007e204&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1575,
+        "url": "https://www.flipkart.com/puma-smashic-wmn-running-shoes-women/p/itm9773001e4cc02"
+      },
+      {
+        "name": "Myntra",
+        "price": 1574,
+        "url": "https://www.myntra.com/casual-shoes/puma/puma-smashic-womens-comfort-casual-sneakers/39315474/buy"
+      }
+    ],
+    "priceHistory": [
+      1799,
+      1575,
+      1574
+    ]
+  },
+  {
+    "id": "sparx-mens-sparx-men-blue-stylish-sneakers-shoe",
+    "name": "Sparx Mens Sparx Men Blue Stylish Sneakers Shoe",
+    "brand": "SPARX",
+    "price": 636,
+    "category": "sneakers",
+    "oldPrice": 725,
+    "discount": 12,
+    "image": "https://m.media-amazon.com/images/I/71Q7PNseF2L.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71Q7PNseF2L.jpg",
+      "https://m.media-amazon.com/images/I/31aLkQ0-FXL.jpg",
+      "https://m.media-amazon.com/images/I/51kHeeSuzAL.jpg",
+      "https://m.media-amazon.com/images/I/5113O7HqfgL.jpg",
+      "https://m.media-amazon.com/images/I/41pQVAls8wL.jpg",
+      "https://m.media-amazon.com/images/I/51bOLnExQ6L.jpg",
+      "https://m.media-amazon.com/images/I/51fLR-MEYlL.jpg",
+      "https://m.media-amazon.com/images/I/41ko2GpHpnL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 636,
+        "url": "https://www.amazon.in/dp/B09PVH44XR?_encoding=UTF8&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=a2f07a6f369a5b06b53e0d571560314e&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 725,
+        "url": "https://www.flipkart.com/sparx-sm-734-stylish-comfortable-sneakers-men/p/itm1d0d481220af3?pid=SHOGBJAA6EJGMH5C&lid=LSTSHOGBJAA6EJGMH5CBJQPQS&marketplace=FLIPKART&q=sm+734&store=osp%2Fcil%2Fe1f&srno=s_1_13&otracker=search&otracker1=search&fm=Search&iid=9484cf11-fc84-48ab-a62b-8eaef2923632.SHOGBJAA6EJGMH5C.SEARCH&ppt=sp&ppn=sp&ssid=ou3ql3wuyo0000001790413334130&qH=458c69711043d2de&ov_redirect=true"
+      },
+      {
+        "name": "Myntra",
+        "price": 636,
+        "url": "https://www.myntra.com/casual-shoes/sparx/sparx-men-perforated-lace-up-sneakers/25143366/buy"
+      }
+    ],
+    "priceHistory": [
+      725,
+      636
+    ]
+  },
+  {
+    "id": "red-tape-men-s-sneakers-white-blue-mesh-pu-round-toe-lace-up",
+    "name": "Red Tape Men's Sneakers White Blue Mesh Pu Round Toe Lace-Up",
+    "brand": "Red Tape",
+    "price": 968,
+    "category": "sneakers",
+    "oldPrice": 1206,
+    "discount": 20,
+    "image": "https://m.media-amazon.com/images/I/71DrBfTBk2L.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71DrBfTBk2L.jpg",
+      "https://m.media-amazon.com/images/I/41HhNXB7+dL.jpg",
+      "https://m.media-amazon.com/images/I/314EBuIlVyL.jpg",
+      "https://m.media-amazon.com/images/I/31dIC9tX1UL.jpg",
+      "https://m.media-amazon.com/images/I/41FTbH2+3dL.jpg",
+      "https://m.media-amazon.com/images/I/41CLkbXCN2L.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 968,
+        "url": "https://www.amazon.in/Red-Tape-Sneakers-Round-Lace-Up/dp/B0H6WMWQ5B?th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=d5ad43d0cd6b9b8e308bbca196954809&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1206,
+        "url": "https://www.flipkart.com/red-tape-grey-lifestyle-casual-shoes-men-sneakers/p/itmf7841a137b7ff?pid=SHOHQVQF5ZDCJ7SH&lid=LSTSHOHQVQF5ZDCJ7SHFLAXJW&marketplace=FLIPKART&q=RED+TAPE+Lifestyle+Casual+Shoes+for+Men+Outdoors+For+Men+%28+grey&store=osp%2Fcil%2Fe1f&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=c369b719-e4bf-4c5d-aa52-76cd28a41d65.SHOHQVQF5ZDCJ7SH.SEARCH&ppt=sp&ppn=sp&ssid=ule2vk7bc00000001790414528782&qH=fa502abc576f7a2a&ov_redirect=true"
+      },
+      {
+        "name": "Myntra",
+        "price": 1104,
+        "url": "https://www.myntra.com/casual-shoes/red+tape/red-tape-men-perforations-sneakers/40348540/buy"
+      }
+    ],
+    "priceHistory": [
+      1206,
+      1104,
+      968
+    ]
+  },
+  {
+    "id": "boldfit-sneakers-for-man-lightweight-shoes-for-men-comfortable-sneakers-for-men-air-mesh-casual-shoes-mens-soft-cushion-insole-lace-up-casual-boys-shoe-sneaker-dripbloc",
+    "name": "Boldfit Sneakers for Man Lightweight Shoes for Men Comfortable Sneakers for Men Air Mesh Casual Shoes Mens Soft Cushion Insole Lace Up Casual Boys Shoe Sneaker DripBloc",
+    "brand": "Boldfit",
+    "price": 899,
+    "category": "sneakers",
+    "oldPrice": 3999,
+    "discount": 78,
+    "image": "https://m.media-amazon.com/images/I/61TWEg3pXpL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61TWEg3pXpL.jpg",
+      "https://m.media-amazon.com/images/I/31FyOE-++4L.jpg",
+      "https://m.media-amazon.com/images/I/41QOUt+EJ3L.jpg",
+      "https://m.media-amazon.com/images/I/31D1vvXexNL.jpg",
+      "https://m.media-amazon.com/images/I/41iD5YpxzNL.jpg",
+      "https://m.media-amazon.com/images/I/41Vdi8xqlgL.jpg",
+      "https://m.media-amazon.com/images/I/41JPHyGoJYL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 899,
+        "url": "https://www.amazon.in/Boldfit-Sneakers-Lightweight-Comfortable-DripBloc/dp/B0FYQF9FLP?th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=c38809467c9283247d59cc91151b0127&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 3999,
+        "url": "https://www.flipkart.com/boldfit-dripbloc-mens-soft-cushion-insole-lace-up-casual-boys-shoe-sneaker-sneakers-men/p/itm560ba540b924e?pid=SHOHGF26HGNBHAHT&marketplace=FLIPKART&lid=LSTSHOHGF26HGNBHAHTCI8KNE&q=Boldfit+Sneakers+Sneaker+DripBloc&fm=Search&pageUID=1790415661328"
+      },
+      {
+        "name": "Myntra",
+        "price": 899,
+        "url": "https://www.myntra.com/casual-shoes/boldfit/boldfit-men-perforations-sneakers/38767425/buy"
+      }
+    ],
+    "priceHistory": [
+      3999,
+      899
+    ]
+  },
+  {
+    "id": "bacca-bucci-men-s-energy-afterburn-disruptor-sneakers",
+    "name": "Bacca Bucci Men's Energy Afterburn Disruptor Sneakers",
+    "brand": "Bacca Bucci",
+    "price": 979,
+    "category": "sneakers",
+    "oldPrice": 979,
+    "discount": 0,
+    "image": "https://m.media-amazon.com/images/I/6157WaPyAyL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/6157WaPyAyL.jpg",
+      "https://m.media-amazon.com/images/I/31hbPXn2-AL.jpg",
+      "https://m.media-amazon.com/images/I/41jCVgA5pLL.jpg",
+      "https://m.media-amazon.com/images/I/516B2w+3J5L.jpg",
+      "https://m.media-amazon.com/images/I/41KzS1KOXCL.jpg",
+      "https://m.media-amazon.com/images/I/416I6XEI9pL.jpg",
+      "https://m.media-amazon.com/images/I/31EFVHG0K0L.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 979,
+        "url": "https://www.amazon.in/Bacca-Afterburn-Disruptor-Multiple-Sneakers-White/dp/B07S7MTB5G?th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=ef9da9cee417a795eb98b3cb715956b7&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 979,
+        "url": "https://www.flipkart.com/bacca-bucci-men-energy-afterburn-disruptor-multiple-sports-fashion-training-gym-shoes/p/itmfgyhyxtpecvhu"
+      }
+    ],
+    "priceHistory": [
+      979
+    ]
+  },
+  {
+    "id": "bata-men-s-lace-up-sneaker",
+    "name": "Bata Men's Lace-up Sneaker",
+    "brand": "Bata",
+    "price": 971,
+    "category": "sneakers",
+    "oldPrice": 1619,
+    "discount": 40,
+    "image": "https://m.media-amazon.com/images/I/51LoLwn9lcL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/51LoLwn9lcL.jpg",
+      "https://m.media-amazon.com/images/I/31z7bCo2PUL.jpg",
+      "https://m.media-amazon.com/images/I/21BO-raFhEL.jpg",
+      "https://m.media-amazon.com/images/I/31tZdE36mFL.jpg",
+      "https://m.media-amazon.com/images/I/41S5lXi1yML.jpg",
+      "https://m.media-amazon.com/images/I/41To-D8rtgL.jpg",
+      "https://m.media-amazon.com/images/I/51v+RPxG3bL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 971,
+        "url": "https://www.amazon.in/Bata-Men-Casual-Derby-Shoes/dp/B09WYD7NVB?th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=d2909ba9ac4852207216902fab7e3d2a&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1619,
+        "url": "https://www.flipkart.com/bata-corporate-casuals-men/p/itmf3716e07a9c81?pid=SHOGC4HP7GGMGNJC&lid=LSTSHOGC4HP7GGMGNJCOFCRHL&marketplace=FLIPKART&q=bata+laceup&store=osp%2Fcil&srno=s_2_61&otracker=search&otracker1=search&fm=Search&iid=17b2ef7f-e970-4876-b821-71e8ac8f4a4d.SHOGC4HP7GGMGNJC.SEARCH&ppt=sp&ppn=sp&ssid=10kycqlx0w0000001790416640181&qH=aa6f4995f9a46b91&ov_redirect=true"
+      },
+      {
+        "name": "Myntra",
+        "price": 971,
+        "url": "https://www.myntra.com/casual-shoes/bata/bata-men-black-sneakers/17358358/buy"
+      }
+    ],
+    "priceHistory": [
+      1619,
+      971
+    ]
+  }
+]
