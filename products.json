@@ -801,5 +801,164 @@
       1619,
       971
     ]
+  },
+  {
+    "id": "puma-men-melanite-sneaker",
+    "name": "Puma Men Melanite Sneaker",
+    "brand": "PUMA",
+    "price": 1578,
+    "category": "sneakers",
+    "oldPrice": 4499,
+    "discount": 65,
+    "image": "https://m.media-amazon.com/images/I/71Jl2OlZ4aL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71Jl2OlZ4aL.jpg",
+      "https://m.media-amazon.com/images/I/31i3DKGW3tL.jpg",
+      "https://m.media-amazon.com/images/I/31Sevkg+PLL.jpg",
+      "https://m.media-amazon.com/images/I/41mtZUp-aoL.jpg",
+      "https://m.media-amazon.com/images/I/31pj6293-uL.jpg",
+      "https://m.media-amazon.com/images/I/31zXPNMBM7L.jpg",
+      "https://m.media-amazon.com/images/I/31WObynoz8L.jpg",
+      "https://m.media-amazon.com/images/I/41WthftaBRL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1649,
+        "url": "https://www.amazon.in/dp/B0C5J93ZHQ?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1578,
+        "url": "https://www.flipkart.com/puma-melanite-slip-sneakers-men/p/itm9c812e010ea3a"
+      },
+      {
+        "name": "Myntra",
+        "price": 4499,
+        "url": "https://www.myntra.com/casual-shoes/puma/puma-men-melanite-slip-on-sneakers/22275526/buy"
+      }
+    ],
+    "priceHistory": [
+      4499,
+      1649,
+      1578
+    ]
+  },
+  {
+    "id": "skechers-men-summits-brisbane-sneakers",
+    "name": "Skechers Men Summits Brisbane Sneakers",
+    "brand": "Skechers",
+    "price": 2060,
+    "category": "sneakers",
+    "oldPrice": 4299,
+    "discount": 50,
+    "image": "https://m.media-amazon.com/images/I/81zlutgZlzL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/81zlutgZlzL.jpg",
+      "https://m.media-amazon.com/images/I/41K8UtvUA9L.jpg",
+      "https://m.media-amazon.com/images/I/31p9lilNLqL.jpg",
+      "https://m.media-amazon.com/images/I/31pFtkiJHmL.jpg",
+      "https://m.media-amazon.com/images/I/41keBXNZv+L.jpg",
+      "https://m.media-amazon.com/images/I/41koNl6Wq4L.jpg",
+      "https://m.media-amazon.com/images/I/410nIlm2EaL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2406,
+        "url": "https://www.amazon.in/dp/B09XXR4TXK?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2060,
+        "url": "https://www.flipkart.com/skechers-summits-brisbane-running-shoes-men/p/itm9ef1be4d64ad7?pid=SHOGFHWZEUCYTH84"
+      },
+      {
+        "name": "Myntra",
+        "price": 4299,
+        "url": "https://www.myntra.com/casual-shoes/skechers/skechers-men-black-summits---brisbane-sneakers/12470608/buy"
+      }
+    ],
+    "priceHistory": [
+      4299,
+      2406,
+      2060
+    ]
+  },
+  {
+    "id": "asian-men-thunder-07-stylish-casual-mid-top-sneaker-and-trendy-shoes-with-laces-for-men-boys-perfect-college-parties-and-outings-lightweight-comfortable-and-durable-for-all-day-use",
+    "name": "ASIAN Men THUNDER-07 Stylish Casual Mid Top Sneaker and Trendy Shoes with Laces for Men & Boys, Perfect, College, Parties and Outings, Lightweight, Comfortable, and Durable for All-Day Use",
+    "brand": "ASIAN",
+    "price": 654,
+    "category": "sneakers",
+    "oldPrice": 827,
+    "discount": 21,
+    "image": "https://m.media-amazon.com/images/I/71ivYMOzncL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71ivYMOzncL.jpg",
+      "https://m.media-amazon.com/images/I/41AVAwlfWIL.jpg",
+      "https://m.media-amazon.com/images/I/416Mh8lL2VL.jpg",
+      "https://m.media-amazon.com/images/I/41YK8T8lqDL.jpg",
+      "https://m.media-amazon.com/images/I/41CCqjuy36L.jpg",
+      "https://m.media-amazon.com/images/I/41-y8dX7lqL.jpg",
+      "https://m.media-amazon.com/images/I/41q6d86aL0L.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 769,
+        "url": "https://www.amazon.in/dp/B0DJD6VH94?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 827,
+        "url": "https://www.flipkart.com/asian-casual-sneaker-shoes-men-soft-cushioned-insole-thunder-07-sneakers/p/itm9d3cfe9110fcf"
+      },
+      {
+        "name": "Myntra",
+        "price": 654,
+        "url": "https://www.myntra.com/shoes/asian/asian-thunder-07-kids-colourblocked-lace-ups-sneakers/35989350/buy"
+      }
+    ],
+    "priceHistory": [
+      827,
+      769,
+      654
+    ]
+  },
+  {
+    "id": "asian-men-s-cosco-13-sports-running-walking-gym-school-shoes-lightweight-eva-sole-extra-jump-casual-sneaker-lace-up-shoes-for-men-s-boy-s",
+    "name": "ASIAN Men's Cosco-13 Sports Running,Walking & Gym, School Shoes Lightweight Eva Sole Extra Jump Casual Sneaker Lace-Up Shoes for Men's & Boy's",
+    "brand": "ASIAN",
+    "price": 649,
+    "category": "sneakers",
+    "oldPrice": 805,
+    "discount": 19,
+    "image": "https://m.media-amazon.com/images/I/61im5BIhEXL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61im5BIhEXL.jpg",
+      "https://m.media-amazon.com/images/I/41J9+cbLNzL.jpg",
+      "https://m.media-amazon.com/images/I/51WcjYDpK7L.jpg",
+      "https://m.media-amazon.com/images/I/41TDIAmM1NL.jpg",
+      "https://m.media-amazon.com/images/I/41wuQomdGmL.jpg",
+      "https://m.media-amazon.com/images/I/410waaLT+cL.jpg",
+      "https://m.media-amazon.com/images/I/41DGMusy3xL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 649,
+        "url": "https://www.amazon.in/dp/B09QXPQQB5?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 805,
+        "url": "https://www.flipkart.com/asian-wndr-cosco-13-full-black-school-shoes-running-shoes-walking-shoes-sports-shoes-gym-shoes-running-shoes-men/p/itm07d046960183a"
+      }
+    ],
+    "priceHistory": [
+      805,
+      649
+    ]
   }
 ]
