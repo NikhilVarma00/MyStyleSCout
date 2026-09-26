@@ -267,8 +267,17 @@ body.modal-open { overflow: hidden; }
 ========================================================= */
 
 .product-card { display: flex !important; flex-direction: column !important; }
-.product-card h3 { min-height: 72px !important; margin-bottom: 14px !important; }
-.product-card .price-row { min-height: 42px !important; margin-bottom: 18px !important; }
+.product-card h3 {
+  min-height: 72px !important;
+  max-height: 72px !important;
+  margin-bottom: 14px !important;
+  font-size: 1.1rem !important;
+  line-height: 1.3 !important;
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+}.product-card .price-row { min-height: 42px !important; margin-bottom: 18px !important; }
 .product-card .quick-view-btn { margin-top: auto !important; width: 100% !important; height: 60px !important; min-height: 60px !important; flex-shrink: 0 !important; }
 .product-grid { align-items: stretch; }
 .product-card { height: 100% !important; }
