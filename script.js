@@ -588,6 +588,7 @@ function renderProducts() {
               <img
                 src="${product.image}"
                 alt="${product.name}"
+                loading="lazy"
               />
 
             </div>
@@ -1157,6 +1158,7 @@ function renderSearchResults(filtered) {
             <img
               src="${product.image}"
               alt="${product.name}"
+              loading="lazy"
             />
 
           </div>
@@ -1737,6 +1739,9 @@ if (loginSubmit) {
    PARTICLES
 ========================================================= */
 
+if (window.innerWidth > 680) {
+
+
 const canvas =
   document.getElementById(
     "particleCanvas"
@@ -1910,6 +1915,7 @@ if (canvas) {
   draw();
 
 }
+}
 
 
 /* =========================================================
@@ -1963,6 +1969,7 @@ function renderWishlistDrawer() {
             <img
               src="${product.image}"
               alt="${product.name}"
+              loading="lazy"
             />
 
 
