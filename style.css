@@ -276,6 +276,7 @@ body.modal-open { overflow: hidden; }
   overflow: hidden !important;
   display: -webkit-box !important;
   -webkit-line-clamp: 3 !important;
+    line-clamp: 3 !important;
   -webkit-box-orient: vertical !important;
 }.product-card .price-row { min-height: 42px !important; margin-bottom: 18px !important; }
 .product-card .quick-view-btn { margin-top: auto !important; width: 100% !important; height: 60px !important; min-height: 60px !important; flex-shrink: 0 !important; }

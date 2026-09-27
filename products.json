@@ -1309,5 +1309,165 @@
     "priceHistory": [
       1659
     ]
+  },
+  {
+    "id": "campus-men-s-dripp-sneakers",
+    "name": "Campus Men's DRIPP Sneakers",
+    "brand": "Campus",
+    "price": 1599,
+    "category": "sneakers",
+    "oldPrice": 1885,
+    "discount": 15,
+    "image": "https://m.media-amazon.com/images/I/61n8RHPDGwL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61n8RHPDGwL.jpg",
+      "https://m.media-amazon.com/images/I/31yN3IFc2mL.jpg",
+      "https://m.media-amazon.com/images/I/41tYd99RwhL.jpg",
+      "https://m.media-amazon.com/images/I/41o88oM85DL.jpg",
+      "https://m.media-amazon.com/images/I/41AwbIzHSJL.jpg",
+      "https://m.media-amazon.com/images/I/41Qmi4A8-FL.jpg",
+      "https://m.media-amazon.com/images/I/41+ROlarHrL.jpg",
+      "https://m.media-amazon.com/images/I/41-gBwYt8qL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1599,
+        "url": "https://www.amazon.in/dp/B0G1GSDRWS?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1815,
+        "url": "https://www.flipkart.com/campus-dripp-sneakers-men/p/itm1eafd61400c18"
+      },
+      {
+        "name": "Myntra",
+        "price": 1885,
+        "url": "https://www.myntra.com/shoes/campus/campus-dripp-men-colourblocked-pu-sneakers/37666446/buy"
+      }
+    ],
+    "priceHistory": [
+      1885,
+      1815,
+      1599
+    ]
+  },
+  {
+    "id": "skechers-men-modern-cool-sneakers",
+    "name": "Skechers Men Modern Cool Sneakers",
+    "brand": "Skechers",
+    "price": 1679,
+    "category": "sneakers",
+    "oldPrice": 2799,
+    "discount": 40,
+    "image": "https://m.media-amazon.com/images/I/812bDWwelpL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/812bDWwelpL.jpg",
+      "https://m.media-amazon.com/images/I/310-kjePdhL.jpg",
+      "https://m.media-amazon.com/images/I/31uQ85H6TEL.jpg",
+      "https://m.media-amazon.com/images/I/31D1bUodrqL.jpg",
+      "https://m.media-amazon.com/images/I/31F36DQorZL.jpg",
+      "https://m.media-amazon.com/images/I/41D1+OAN24L.jpg",
+      "https://m.media-amazon.com/images/I/31JBb1kEWjL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1679,
+        "url": "https://www.amazon.in/dp/B0CBVP2ZNT?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2799,
+        "url": "https://www.flipkart.com/skechers-modern-cool-sneakers-men/p/itm22aaa871d18da?pid=SHOGQTKZDHFCZCCX&marketplace=FLIPKART"
+      },
+      {
+        "name": "Myntra",
+        "price": 2599,
+        "url": "https://www.myntra.com/casual-shoes/skechers/skechers-men-modern-cool-memory-foam-sneakers/23864654/buy"
+      }
+    ],
+    "priceHistory": [
+      2799,
+      2599,
+      1679
+    ]
+  },
+  {
+    "id": "woodland-men-s-leather-casual-shoe",
+    "name": "Woodland Men's Leather Casual Shoe",
+    "brand": "Woodland",
+    "price": 2199,
+    "category": "sneakers",
+    "oldPrice": 3595,
+    "discount": 39,
+    "image": "https://m.media-amazon.com/images/I/61VqXkwsWML.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61VqXkwsWML.jpg",
+      "https://m.media-amazon.com/images/I/31unFVdEKtL.jpg",
+      "https://m.media-amazon.com/images/I/41g5C3OYfZL.jpg",
+      "https://m.media-amazon.com/images/I/41FvCornmvL.jpg",
+      "https://m.media-amazon.com/images/I/41jIk3t7m7L.jpg",
+      "https://m.media-amazon.com/images/I/41qiWe7VMkL.jpg",
+      "https://m.media-amazon.com/images/I/41YB5qJvwXL.jpg",
+      "https://m.media-amazon.com/images/I/41HY6z+UYEL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2199,
+        "url": "https://www.amazon.in/dp/B06W2NL3GP?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Myntra",
+        "price": 3595,
+        "url": "https://www.myntra.com/casual-shoes/woodland/woodland-men-brown-leather-casual-shoes/1859114/buy"
+      }
+    ],
+    "priceHistory": [
+      3595,
+      2199
+    ]
+  },
+  {
+    "id": "skechers-mens-edgeride-sneaker",
+    "name": "Skechers Mens Edgeride Sneaker",
+    "brand": "Skechers",
+    "price": 4059,
+    "category": "sneakers",
+    "oldPrice": 4549,
+    "discount": 11,
+    "image": "https://m.media-amazon.com/images/I/718FsM0m6KL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/718FsM0m6KL.jpg",
+      "https://m.media-amazon.com/images/I/316Lh9nv8eL.jpg",
+      "https://m.media-amazon.com/images/I/31D+KF9YYuL.jpg",
+      "https://m.media-amazon.com/images/I/41B3u+iDgzL.jpg",
+      "https://m.media-amazon.com/images/I/31q9yBz2XXL.jpg",
+      "https://m.media-amazon.com/images/I/41cNpNSBy5L.jpg",
+      "https://m.media-amazon.com/images/I/31fiuIPIMxL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 4059,
+        "url": "https://www.amazon.in/dp/B0F6VHHN6Z?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 4199,
+        "url": "https://www.flipkart.com/skechers-edgeride-sneakers-men/p/itm29004022402d2"
+      },
+      {
+        "name": "Myntra",
+        "price": 4549,
+        "url": "https://www.myntra.com/sports-shoes/skechers/skechers-edgeride-men-lace-ups-walking-shoes/37048607/buy"
+      }
+    ],
+    "priceHistory": [
+      4549,
+      4199,
+      4059
+    ]
   }
 ]
