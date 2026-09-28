@@ -451,3 +451,172 @@ body.modal-open { overflow: hidden; }
   }
 
 }
+
+/* =========================================================
+   FINAL MOBILE OVERFLOW + QUICK VIEW FIX
+   Applied on top of the current StyleScout CSS.
+   ========================================================= */
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+main,
+footer,
+.navbar,
+.hero,
+.hero-copy,
+.hero-visual,
+.search-panel,
+.product-grid,
+.filter-bar {
+  min-width: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 680px) {
+  /* Keep the whole homepage inside the phone viewport */
+  .navbar {
+    width: calc(100% - 18px) !important;
+    max-width: calc(100% - 18px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    gap: 8px !important;
+  }
+
+  .logo-wrap {
+    min-width: 0 !important;
+    flex-shrink: 1 !important;
+  }
+
+  .logo-text {
+    white-space: nowrap;
+  }
+
+  .nav-links {
+    display: none !important;
+  }
+
+  .nav-actions {
+    min-width: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  main {
+    width: calc(100% - 18px) !important;
+    max-width: calc(100% - 18px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .hero {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .hero-copy {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .hero-title {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .word {
+    max-width: 100% !important;
+    font-size: clamp(3rem, 15vw, 3.5rem) !important;
+    letter-spacing: -0.07em !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .hero-subtitle {
+    max-width: 100% !important;
+  }
+
+  .search-panel {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Quick-view modal must never exceed the phone viewport */
+  .modal {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  .modal-panel {
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: calc(100dvh - 20px) !important;
+    margin: 0 !important;
+    padding: 14px !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+
+  .modal-gallery,
+  .gallery-stage,
+  .modal-info {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .gallery-stage {
+    max-height: 330px !important;
+  }
+
+  .gallery-stage img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 330px !important;
+    object-fit: contain !important;
+  }
+
+  .modal-info {
+    overflow: hidden !important;
+  }
+
+  .modal-info h3 {
+    max-width: 100% !important;
+    overflow-wrap: anywhere !important;
+    word-break: break-word !important;
+  }
+
+  .store-list,
+  .store-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .store-card {
+    overflow: hidden !important;
+  }
+
+  .close-modal {
+    top: 8px !important;
+    right: 8px !important;
+  }
+}
