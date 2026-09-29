@@ -1,37 +1,42 @@
 [
   {
     "id": "nike-run-defy",
-    "name": "Nike Run Defy",
-    "brand": "Nike",
-    "price": 3995,
+    "name": "Nike Run Defy Running Shoes",
+    "brand": "NIKE",
+    "price": 2796,
     "category": "sneakers",
-    "oldPrice": 3955,
-    "discount": 0,
-    "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_1.jpg?rnd=20200526195200&tr=w-1080",
+    "oldPrice": 3995,
+    "discount": 30,
+    "image": "https://m.media-amazon.com/images/I/313yEFxvBtL._SL1500_.jpg",
     "gallery": [
-      "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_4.jpg?rnd=20200526195200&tr=w-1080",
-      "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_7.jpg?rnd=20200526195200&tr=w-1080",
-      "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM9594-002_6.jpg?rnd=20200526195200&tr=w-1080"
+      "https://m.media-amazon.com/images/I/313yEFxvBtL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/412e6ozi9iL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41W7rI1KTFL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31LHBNejcAL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31BgeJS0DGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31V1bl95xrL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Fq4JdF3ML._SL1500_.jpg"
     ],
     "stores": [
       {
-        "name": "Amazon",
-        "price": 3955,
-        "url": "https://www.amazon.in/Nike-Running-Shoes-Black-Anthracite/dp/B0DYLF9JV5?tag=stylescoutin2-21"
+        "name": "Flipkart",
+        "price": 2796,
+        "url": "https://www.flipkart.com/nike-run-defy-running-shoes-men/p/itm06f9f57f79cc2"
       },
       {
-        "name": "Flipkart",
-        "price": 3955,
-        "url": "https://dl.flipkart.com/s/czoexUNNNN"
+        "name": "Amazon",
+        "price": 2796,
+        "url": "https://www.amazon.in/Nike-Black-Glacier-Blue-Green-Strike-Running/dp/B0FBRCT5XD?tag=stylescoutin2-21"
       },
       {
         "name": "Myntra",
-        "price": 3955,
-        "url": "https://www.myntra.com/sports-shoes/nike/nike-run-defy-mens-road-running-shoes/34806262/buy"
+        "price": 3995,
+        "url": "https://www.myntra.com/sports-shoes/nike/nike-run-defy-mens-road-running-shoes/43109453/buy"
       }
     ],
     "priceHistory": [
-      3955
+      3995,
+      2796
     ]
   },
   {
@@ -331,46 +336,6 @@
     "priceHistory": [
       3119,
       3112
-    ]
-  },
-  {
-    "id": "nike-run-defy-black",
-    "name": "Nike Run Defy Running Shoes",
-    "brand": "NIKE",
-    "price": 2796,
-    "category": "sneakers",
-    "oldPrice": 3995,
-    "discount": 30,
-    "image": "https://m.media-amazon.com/images/I/313yEFxvBtL._SL1500_.jpg",
-    "gallery": [
-      "https://m.media-amazon.com/images/I/313yEFxvBtL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/412e6ozi9iL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/41W7rI1KTFL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/31LHBNejcAL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/31BgeJS0DGL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/31V1bl95xrL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61Fq4JdF3ML._SL1500_.jpg"
-    ],
-    "stores": [
-      {
-        "name": "Flipkart",
-        "price": 2796,
-        "url": "https://www.flipkart.com/nike-run-defy-running-shoes-men/p/itm06f9f57f79cc2"
-      },
-      {
-        "name": "Amazon",
-        "price": 2796,
-        "url": "https://www.amazon.in/Nike-Black-Glacier-Blue-Green-Strike-Running/dp/B0FBRCT5XD?tag=stylescoutin2-21"
-      },
-      {
-        "name": "Myntra",
-        "price": 3995,
-        "url": "https://www.myntra.com/sports-shoes/nike/nike-run-defy-mens-road-running-shoes/43109453/buy"
-      }
-    ],
-    "priceHistory": [
-      3995,
-      2796
     ]
   },
   {
@@ -1468,6 +1433,432 @@
       4549,
       4199,
       4059
+    ]
+  },
+  {
+    "id": "adidas-air-fleetfly-men-s-running-shoes-granit-byello-lightweight-cushioned-sports-shoes-for-daily-runs-training",
+    "name": "adidas Air-Fleetfly Men's Running Shoes - Granit/BYELLO | Lightweight & Cushioned Sports Shoes for Daily Runs & Training",
+    "brand": "adidas",
+    "price": 1600,
+    "category": "sneakers",
+    "oldPrice": 3999,
+    "discount": 45,
+    "image": "https://m.media-amazon.com/images/I/61yiFr4TgxL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61yiFr4TgxL.jpg",
+      "https://m.media-amazon.com/images/I/41KndW+hipL.jpg",
+      "https://m.media-amazon.com/images/I/31RprfTpb8L.jpg",
+      "https://m.media-amazon.com/images/I/413N-w0In2L.jpg",
+      "https://m.media-amazon.com/images/I/412IkFkCYuL.jpg",
+      "https://m.media-amazon.com/images/I/41sMNUbx2kL.jpg",
+      "https://m.media-amazon.com/images/I/3136zWQNzBL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2199,
+        "url": "https://www.amazon.in/dp/B0FC2KWHS3?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1600,
+        "url": "https://dl.flipkart.com/s/GI6bdAuuuN"
+      },
+      {
+        "name": "Myntra",
+        "price": 3999,
+        "url": "https://www.myntra.com/sports-shoes/adidas/adidas-air-fleetfly-2-m-men-lace-ups-running-sports-shoes/40557673/buy"
+      }
+    ],
+    "priceHistory": [
+      3999,
+      2199,
+      1600
+    ]
+  },
+  {
+    "id": "adidas-men-enry-flux-m-running-shoe",
+    "name": "adidas Men Enry Flux M Running Shoe",
+    "brand": "adidas",
+    "price": 2619,
+    "category": "sneakers",
+    "oldPrice": 4799,
+    "discount": 45,
+    "image": "https://m.media-amazon.com/images/I/71H9pMAHE-L.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71H9pMAHE-L.jpg",
+      "https://m.media-amazon.com/images/I/41CcyK2Ih0L.jpg",
+      "https://m.media-amazon.com/images/I/41i6QnBmjfL.jpg",
+      "https://m.media-amazon.com/images/I/41hrLYCqT3L.jpg",
+      "https://m.media-amazon.com/images/I/41+1jnPBPiL.jpg",
+      "https://m.media-amazon.com/images/I/412UNOcaMiL.jpg",
+      "https://m.media-amazon.com/images/I/41pGIrcbpxL.jpg",
+      "https://m.media-amazon.com/images/I/41d0gvo24LL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2619,
+        "url": "https://www.amazon.in/dp/B0C4DR1524?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 4799,
+        "url": "https://www.flipkart.com/adidas-enry-flux-m-running-shoes-men/p/itm17eda55d19928"
+      }
+    ],
+    "priceHistory": [
+      4799,
+      2619
+    ]
+  },
+  {
+    "id": "adidas-mens-hopskotch-sneaker-m-sneaker",
+    "name": "adidas Mens Hopskotch Sneaker M Sneaker",
+    "brand": "adidas",
+    "price": 2328,
+    "category": "sneakers",
+    "oldPrice": 2621,
+    "discount": 11,
+    "image": "https://m.media-amazon.com/images/I/61jWBuBQ7QL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61jWBuBQ7QL.jpg",
+      "https://m.media-amazon.com/images/I/41cWeGh3TkL.jpg",
+      "https://m.media-amazon.com/images/I/41rg7Gi-JkL.jpg",
+      "https://m.media-amazon.com/images/I/41562YXzlbL.jpg",
+      "https://m.media-amazon.com/images/I/31Q6ZGUO9vL.jpg",
+      "https://m.media-amazon.com/images/I/31VYSU9lrfL.jpg",
+      "https://m.media-amazon.com/images/I/51rXrtiNVbL.jpg",
+      "https://m.media-amazon.com/images/I/41Dpg6TcoIL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2328,
+        "url": "https://www.amazon.in/dp/B0GYP63SHQ?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Myntra",
+        "price": 2621,
+        "url": "https://www.myntra.com/casual-shoes/adidas/adidas-men-hopskotch-sneaker-m-sneakers/41542443/buy"
+      }
+    ],
+    "priceHistory": [
+      2621,
+      2328
+    ]
+  },
+  {
+    "id": "adidas-mens-cloudfoam-flex-laces-sports-shoes",
+    "name": "adidas Mens Cloudfoam Flex - Laces Sports Shoes",
+    "brand": "adidas",
+    "price": 2249,
+    "category": "sneakers",
+    "oldPrice": 2399,
+    "discount": 6,
+    "image": "https://m.media-amazon.com/images/I/61Weocsg3dL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61Weocsg3dL.jpg",
+      "https://m.media-amazon.com/images/I/31GJF7i93DL.jpg",
+      "https://m.media-amazon.com/images/I/31P5H0Up0XL.jpg",
+      "https://m.media-amazon.com/images/I/31J8O0B0o2L.jpg",
+      "https://m.media-amazon.com/images/I/31uMZuyHnAL.jpg",
+      "https://m.media-amazon.com/images/I/51AjZbvVDQL.jpg",
+      "https://m.media-amazon.com/images/I/51YBqL3UKhL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2249,
+        "url": "https://www.amazon.in/dp/B0F2B8QWDN?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2399,
+        "url": "https://www.flipkart.com/adidas-for-men/p/itme8abd0955e735"
+      },
+      {
+        "name": "Myntra",
+        "price": 2249,
+        "url": "https://www.myntra.com/sports-shoes/adidas/adidas-cloudfoam-flex---laces/41495563/buy"
+      }
+    ],
+    "priceHistory": [
+      2399,
+      2249
+    ]
+  },
+  {
+    "id": "asian-victoria-01-chunky-sneakers-for-women-girls-lightweight-fashion-shoes-with-cushioned-sole-cool-colour-design-stylish-look-for-casual-wear-travel-college-outfits",
+    "name": "ASIAN Victoria-01 Chunky Sneakers for Women & Girls | Lightweight Fashion Shoes with Cushioned Sole, Cool Colour Design & Stylish Look for Casual Wear, Travel, College & Outfits",
+    "brand": "ASIAN",
+    "price": 770,
+    "category": "sneakers",
+    "oldPrice": 889,
+    "discount": 13,
+    "image": "https://m.media-amazon.com/images/I/615ZqjoDh7L.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/615ZqjoDh7L.jpg",
+      "https://m.media-amazon.com/images/I/31EVtWqpEGL.jpg",
+      "https://m.media-amazon.com/images/I/41x9mbyX49L.jpg",
+      "https://m.media-amazon.com/images/I/51OnOdCAMfL.jpg",
+      "https://m.media-amazon.com/images/I/51q-cwtNQyL.jpg",
+      "https://m.media-amazon.com/images/I/51JiQDBCFEL.jpg",
+      "https://m.media-amazon.com/images/I/51mitbfXZNL.jpg",
+      "https://m.media-amazon.com/images/I/41lN6D5O8KL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 770,
+        "url": "https://www.amazon.in/dp/B0G9RJ395R?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 889,
+        "url": "https://www.flipkart.com/asian-victoria-01-womens-chunky-sneakers-lightweight-stylish-shoes-girls-women/p/itm6fa7e629cc667"
+      }
+    ],
+    "priceHistory": [
+      889,
+      770
+    ]
+  },
+  {
+    "id": "red-tape-women-s-sneakers-grey-pu-round-toe-lace-up-comfort-grip-5-uk",
+    "name": "Red Tape Women's Sneakers Grey Pu Round Toe Lace-Up Comfort Grip, 5 UK",
+    "brand": "Red Tape",
+    "price": 944,
+    "category": "sneakers",
+    "oldPrice": 995,
+    "discount": 5,
+    "image": "https://m.media-amazon.com/images/I/610D5TyVS1L.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/610D5TyVS1L.jpg",
+      "https://m.media-amazon.com/images/I/31A2ey+mf6L.jpg",
+      "https://m.media-amazon.com/images/I/31ShuOaG9EL.jpg",
+      "https://m.media-amazon.com/images/I/21JYr2KvMWL.jpg",
+      "https://m.media-amazon.com/images/I/31wFf1NWrbL.jpg",
+      "https://m.media-amazon.com/images/I/41QdtUIQXvL.jpg",
+      "https://m.media-amazon.com/images/I/41R-A--7kwL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 995,
+        "url": "https://www.amazon.in/dp/B0H6FH574L?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 944,
+        "url": "https://dl.flipkart.com/s/XzyduyNNNN"
+      }
+    ],
+    "priceHistory": [
+      995,
+      944
+    ]
+  },
+  {
+    "id": "campus-women-moren-running-shoes",
+    "name": "Campus Women MOREN Running Shoes",
+    "brand": "Campus",
+    "price": 1079,
+    "category": "sneakers",
+    "oldPrice": 1379,
+    "discount": 22,
+    "image": "https://m.media-amazon.com/images/I/61-cJAC+QSL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61-cJAC+QSL.jpg",
+      "https://m.media-amazon.com/images/I/415tfLYilyL.jpg",
+      "https://m.media-amazon.com/images/I/51iHDI2xBxL.jpg",
+      "https://m.media-amazon.com/images/I/41KjES6qM0L.jpg",
+      "https://m.media-amazon.com/images/I/41Z4-hdbMmL.jpg",
+      "https://m.media-amazon.com/images/I/412rYE8ElVL.jpg",
+      "https://m.media-amazon.com/images/I/41d432Mf72L.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1379,
+        "url": "https://www.amazon.in/dp/B0HCBNRB31?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1379,
+        "url": "https://www.flipkart.com/campus-moren-running-shoes-women/p/itm7b0f5e30f5e83?pid=SHOHPHNWAMCB9CRY&lid=LSTSHOHPHNWAMCB9CRYIRYRWK&marketplace=FLIPKART&q=Campus+Women+MOREN+Running+Shoes&store=osp%2Fiko%2Fd20&srno=s_1_12&otracker=search&otracker1=search&fm=Search&iid=882fb3d0-d095-445b-8d37-06fe2ce680ec.SHOHPHNWAMCB9CRY.SEARCH&ppt=sp&ppn=sp&qH=f7b28e95c831c1b1&ov_redirect=true"
+      },
+      {
+        "name": "Myntra",
+        "price": 1079,
+        "url": "https://www.myntra.com/sports-shoes/campus/campus-women-mesh-running-shoes/44538937/buy"
+      }
+    ],
+    "priceHistory": [
+      1379,
+      1079
+    ]
+  },
+  {
+    "id": "skechers-women-grand-92-be-lifted-sneakers",
+    "name": "Skechers Women Grand 92 Be Lifted Sneakers",
+    "brand": "Skechers",
+    "price": 4199,
+    "category": "sneakers",
+    "oldPrice": 6465,
+    "discount": 35,
+    "image": "https://m.media-amazon.com/images/I/71cok6eCsKL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71cok6eCsKL.jpg",
+      "https://m.media-amazon.com/images/I/31Imr3-rFhL.jpg",
+      "https://m.media-amazon.com/images/I/314UzgnxmlL.jpg",
+      "https://m.media-amazon.com/images/I/31Q-xfv-dnL.jpg",
+      "https://m.media-amazon.com/images/I/318Ax9raq2L.jpg",
+      "https://m.media-amazon.com/images/I/31QJbNE6QSL.jpg",
+      "https://m.media-amazon.com/images/I/31wyS9CYmQL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 4199,
+        "url": "https://www.amazon.in/dp/B0CX6RNB87?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 6465,
+        "url": "https://www.flipkart.com/skechers-grand-92-lifted-sneakers-women/p/itm2ffae0e4666c0"
+      },
+      {
+        "name": "Myntra",
+        "price": 4199,
+        "url": "https://www.myntra.com/casual-shoes/skechers/skechers-grand-92---be-lifted-women-lace-up-sneakers/30548328/buy"
+      }
+    ],
+    "priceHistory": [
+      6465,
+      4199
+    ]
+  },
+  {
+    "id": "puma-women-carina-2-0-sneaker",
+    "name": "Puma Women Carina 2.0 Sneaker",
+    "brand": "PUMA",
+    "price": 2499,
+    "category": "sneakers",
+    "oldPrice": 2500,
+    "discount": 0,
+    "image": "https://m.media-amazon.com/images/I/41rJEZbdIyL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/41rJEZbdIyL.jpg",
+      "https://m.media-amazon.com/images/I/21Sd2783BCL.jpg",
+      "https://m.media-amazon.com/images/I/214lHIUZt9L.jpg",
+      "https://m.media-amazon.com/images/I/21umHbLnaxL.jpg",
+      "https://m.media-amazon.com/images/I/31O4fcJLzgL.jpg",
+      "https://m.media-amazon.com/images/I/41nC358HRtL.jpg",
+      "https://m.media-amazon.com/images/I/31nkdfH5cUL.jpg",
+      "https://m.media-amazon.com/images/I/31rC3Dqce7L.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2499,
+        "url": "https://www.amazon.in/dp/B0DBG1GNQD?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2500,
+        "url": "https://www.flipkart.com/puma-carina-2-0-lace-up-women/p/itme3e71515ecfa9?pid=SHOH4EH2QTVF94H4&marketplace=FLIPKART&ov_redirect=true"
+      },
+      {
+        "name": "Myntra",
+        "price": 2499,
+        "url": "https://www.myntra.com/casual-shoes/puma/puma-women-carina-20-solid-round-toe-sneakers/31078517/buy"
+      }
+    ],
+    "priceHistory": [
+      2500,
+      2499
+    ]
+  },
+  {
+    "id": "adidas-womens-advantage-base-2-0-sneaker",
+    "name": "adidas Womens Advantage Base 2.0 Sneaker",
+    "brand": "adidas",
+    "price": 2639,
+    "category": "sneakers",
+    "oldPrice": 2717,
+    "discount": 3,
+    "image": "https://m.media-amazon.com/images/I/411mBcU+bnL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/411mBcU+bnL.jpg",
+      "https://m.media-amazon.com/images/I/41vgejWAmoL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2717,
+        "url": "https://www.amazon.in/dp/B0GPR9LQ72?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2639,
+        "url": "https://www.flipkart.com/adidas-advantage-base-2-0-sneakers-women/p/itm5794798571e42?pid=SHOHJJ8KBZWJXCVF&lid=LSTSHOHJJ8KBZWJXCVF91HLKI&marketplace=FLIPKART&q=ADIDAS+ADVANTAGE+BASE+2.0+Sneakers+For+women&store=osp%2Fiko&srno=s_1_8&otracker=search&otracker1=search&fm=Search&iid=3cca228e-cb48-4e3c-879c-a8c7f149476b.SHOHJJ8KBZWJXCVF.SEARCH&ppt=sp&ppn=sp&qH=f13761ff50a87c07&ov_redirect=true"
+      },
+      {
+        "name": "Myntra",
+        "price": 2639,
+        "url": "https://www.myntra.com/sports-shoes/adidas/adidas-advantage-base-20-women-sports-shoes/40122480/buy"
+      }
+    ],
+    "priceHistory": [
+      2717,
+      2639
+    ]
+  },
+  {
+    "id": "nike-womens-court-vision-sneakers",
+    "name": "Nike Womens Court Vision Sneakers",
+    "brand": "Nike",
+    "price": 5471,
+    "category": "sneakers",
+    "oldPrice": 5471,
+    "discount": 0,
+    "image": "https://m.media-amazon.com/images/I/61exGBNsgRL._AC_SX342_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61exGBNsgRL._AC_SX342_.jpg",
+      "https://m.media-amazon.com/images/I/61exGBNsgRL._AC_SX385_.jpg",
+      "https://m.media-amazon.com/images/I/61exGBNsgRL._AC_SX425_.jpg",
+      "https://m.media-amazon.com/images/I/61exGBNsgRL._AC_SX466_.jpg",
+      "https://m.media-amazon.com/images/I/61exGBNsgRL._AC_SX522_.jpg",
+      "https://m.media-amazon.com/images/I/61exGBNsgRL._AC_SX569_.jpg",
+      "https://m.media-amazon.com/images/I/61exGBNsgRL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/31r7ButSOxL._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/213AT5qj1kL._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/316C8LGp3RL._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/31V8jmvFXGL._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/310ZeWn3ZLL._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/31CiB4WlW2L._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/31kZGQXjrML._AC_SR38,50_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 5471,
+        "url": "https://www.amazon.in/dp/B0FRNKH9B3?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 5471,
+        "url": "https://www.flipkart.com/nike-w-court-vision-lo-le-sneakers-women/p/itm26642a79694af?pid=SHOHHAE6HKENC7FY&lid=LSTSHOHHAE6HKENC7FYQB5EVR&marketplace=FLIPKART&q=Nike+Womens+Court+Vision+Sneakers&store=osp%2Fiko%2Fsx7&srno=s_1_14&otracker=search&otracker1=search&fm=Search&iid=098bb2cd-ae02-41a9-92c3-e1fc5329c7c2.SHOHHAE6HKENC7FY.SEARCH&ppt=sp&ppn=sp&ssid=i1ejp2g9680000001790664630942&qH=8d5e4cb88ab90093&ov_redirect=true"
+      },
+      {
+        "name": "Myntra",
+        "price": 5471,
+        "url": "https://www.myntra.com/casual-shoes/nike/nike-court-vision-low-womens-shoes/40498492/buy"
+      }
+    ],
+    "priceHistory": [
+      5471
     ]
   }
 ]
