@@ -1860,5 +1860,488 @@
     "priceHistory": [
       5471
     ]
+  },
+  {
+    "id": "bacca-bucci-men-lace-up-sneaker-shoes",
+    "name": "Bacca Bucci Men Lace Up Sneaker Shoes",
+    "brand": "Bacca Bucci",
+    "price": 1673,
+    "category": "sneakers",
+    "oldPrice": 1680,
+    "discount": 0,
+    "image": "https://m.media-amazon.com/images/I/513j-4W6+hL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/513j-4W6+hL.jpg",
+      "https://m.media-amazon.com/images/I/310jbsTHrTL.jpg",
+      "https://m.media-amazon.com/images/I/51vxBW9SzFL.jpg",
+      "https://m.media-amazon.com/images/I/41L5wtwevrL.jpg",
+      "https://m.media-amazon.com/images/I/41XOUtNAldL.jpg",
+      "https://m.media-amazon.com/images/I/417n3TppPTL.jpg",
+      "https://m.media-amazon.com/images/I/41RiUCXcNCL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1673,
+        "url": "https://www.amazon.in/dp/B0DMFLDDZS?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1673,
+        "url": "https://www.flipkart.com/bacca-bucci-evolve-casuals-men/p/itm58935b79fe681"
+      },
+      {
+        "name": "Myntra",
+        "price": 1680,
+        "url": "https://www.myntra.com/casual-shoes/bacca20bucci/bacca-bucci-men-evolve-the-ultimate-low-top-sandstone-sneakers/32247856/buy"
+      }
+    ],
+    "priceHistory": [
+      1680,
+      1673
+    ]
+  },
+  {
+    "id": "campus-men-og-27-sneakers",
+    "name": "Campus Men Og-27 Sneakers",
+    "brand": "Campus",
+    "price": 1289,
+    "category": "sneakers",
+    "oldPrice": 1465,
+    "discount": 12,
+    "image": "https://m.media-amazon.com/images/I/51G7Lqk3wWL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/51G7Lqk3wWL.jpg",
+      "https://m.media-amazon.com/images/I/31Zb43kodVL.jpg",
+      "https://m.media-amazon.com/images/I/31qAWM+Ms4L.jpg",
+      "https://m.media-amazon.com/images/I/316IkbGJ1bL.jpg",
+      "https://m.media-amazon.com/images/I/41kYDujzUnL.jpg",
+      "https://m.media-amazon.com/images/I/41wZtsChqXL.jpg",
+      "https://m.media-amazon.com/images/I/41p+OGlAXnL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1289,
+        "url": "https://www.amazon.in/dp/B0DCGFPQVV?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1465,
+        "url": "https://www.flipkart.com/campus-og-27-men-s-casual-shoes-cushioned-insole-sleek-pu-upper-lace-up-sneakers-men/p/itm1f4414e9b2c46?pid=SHOH3G9WNDHHHPAK&lid=LSTSHOH3G9WNDHHHPAK9NLOIC&marketplace=FLIPKART"
+      },
+      {
+        "name": "Myntra",
+        "price": 1465,
+        "url": "https://www.myntra.com/casual-shoes/campus/campus-og-27-men-lace-up-sneakers/30528613/buy"
+      }
+    ],
+    "priceHistory": [
+      1465,
+      1289
+    ]
+  },
+  {
+    "id": "sparx-casual-sneakers-for-men-trendy-lace-up-shoes-with-soft-cushioning-lightweight-comfort-durable-sole-everyday-fashion-wear",
+    "name": "SPARX Casual Sneakers for Men – Trendy Lace-Up Shoes with Soft Cushioning, Lightweight Comfort, Durable Sole & Everyday Fashion Wear",
+    "brand": "Brand: SPARX",
+    "price": 543,
+    "category": "sneakers",
+    "oldPrice": 1113,
+    "discount": 51,
+    "image": "https://m.media-amazon.com/images/I/61GdjiF6U2L.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61GdjiF6U2L.jpg",
+      "https://m.media-amazon.com/images/I/215OnwE8txL.jpg",
+      "https://m.media-amazon.com/images/I/410pKQGcQPL.jpg",
+      "https://m.media-amazon.com/images/I/41Pxfq9d0kL.jpg",
+      "https://m.media-amazon.com/images/I/41P6QNWbOrL.jpg",
+      "https://m.media-amazon.com/images/I/51clX4aeuEL.jpg",
+      "https://m.media-amazon.com/images/I/413h-t+UbNL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1113,
+        "url": "https://www.amazon.in/dp/B0FBRF27DT?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 543,
+        "url": "https://www.flipkart.com/sparx-sm-9066-stylish-comfortable-sneakers-men/p/itm83716f14c1115?pid=SHOHCREMWQFAJN5Y&marketplace=FLIPKART&lid=LSTSHOHCREMWQFAJN5YKJVSNH&q=SPARX+Casual+Sneakers+for+Men+%E2%80%93+Trendy+Lace-Up+Shoes+with+Soft+Cushioning%2C+Lightweight+Comfort%2C+Durable+Sole+&fm=Search&pageUID=1790696531443"
+      },
+      {
+        "name": "Myntra",
+        "price": 799,
+        "url": "https://www.myntra.com/casual-shoes/sparx/sparx-men-colourblocked-lace-ups-sneakers/34762715/buy"
+      }
+    ],
+    "priceHistory": [
+      1113,
+      799,
+      543
+    ]
+  },
+  {
+    "id": "red-chief-sports-lace-up-low-ankle-casual-shoes-for-men-sneakers-for-man-men-casual-shoes-c6004",
+    "name": "Red Chief Sports Lace Up Low Ankle Casual Shoes for Men | Sneakers for Man | Men Casual Shoes | C6004",
+    "brand": "Red Chief",
+    "price": 2024,
+    "category": "sneakers",
+    "oldPrice": 2250,
+    "discount": 10,
+    "image": "https://m.media-amazon.com/images/I/61qIJP147bL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61qIJP147bL.jpg",
+      "https://m.media-amazon.com/images/I/31O-MCFjoHL.jpg",
+      "https://m.media-amazon.com/images/I/51ehuVPVm7L.jpg",
+      "https://m.media-amazon.com/images/I/31IE9uJQaKL.jpg",
+      "https://m.media-amazon.com/images/I/614zltLhLvL.jpg",
+      "https://m.media-amazon.com/images/I/41YZiVNg9PL.jpg",
+      "https://m.media-amazon.com/images/I/41eNlVUH5-L.jpg",
+      "https://m.media-amazon.com/images/I/41HRaSPcczL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2250,
+        "url": "https://www.amazon.in/dp/B0DV4SM3V5?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2024,
+        "url": "https://www.flipkart.com/red-chief-luxecore-lace-up-low-ankle-casual-shoes-men-sneakers/p/itma86012a7274c5"
+      }
+    ],
+    "priceHistory": [
+      2250,
+      2024
+    ]
+  },
+  {
+    "id": "lancer-mens-sneaker-701-sneaker",
+    "name": "Lancer Mens Sneaker-701 Sneaker",
+    "brand": "Brand: Lancer",
+    "price": 791,
+    "category": "sneakers",
+    "oldPrice": 998,
+    "discount": 21,
+    "image": "https://m.media-amazon.com/images/I/71PyMkEtSgL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71PyMkEtSgL.jpg",
+      "https://m.media-amazon.com/images/I/41+bLeE-KHL.jpg",
+      "https://m.media-amazon.com/images/I/41cesoRFQnL.jpg",
+      "https://m.media-amazon.com/images/I/41otP9cbKOL.jpg",
+      "https://m.media-amazon.com/images/I/41iJC+yH9YL.jpg",
+      "https://m.media-amazon.com/images/I/41LUjL1GhsL.jpg",
+      "https://m.media-amazon.com/images/I/41EVUszxdDL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 998,
+        "url": "https://www.amazon.in/dp/B0GN9BYGDN?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 791,
+        "url": "https://www.flipkart.com/lancer-sneaker-701-sneakers-men/p/itma3025b0a8326b"
+      },
+      {
+        "name": "Myntra",
+        "price": 870,
+        "url": "https://www.myntra.com/casual-shoes/lancer/lancer-men-colourblocked-sneakers/42048887/buy"
+      }
+    ],
+    "priceHistory": [
+      998,
+      870,
+      791
+    ]
+  },
+  {
+    "id": "power-mens-extreme-leather-running-shoes",
+    "name": "Power Mens Extreme Leather Running Shoes",
+    "brand": "Power",
+    "price": 1379,
+    "category": "sneakers",
+    "oldPrice": 1499,
+    "discount": 8,
+    "image": "https://m.media-amazon.com/images/I/81EQ4CcaQpL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/81EQ4CcaQpL.jpg",
+      "https://m.media-amazon.com/images/I/41C8E1XMvML.jpg",
+      "https://m.media-amazon.com/images/I/51v+RPxG3bL.jpg",
+      "https://m.media-amazon.com/images/I/41WYEfKKUKL.jpg",
+      "https://m.media-amazon.com/images/I/514WyI9-ALL.jpg",
+      "https://m.media-amazon.com/images/I/31aRfZIrYOL.jpg",
+      "https://m.media-amazon.com/images/I/31WNG4PxMzL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1379,
+        "url": "https://www.amazon.in/dp/B097C6S4GN?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1499,
+        "url": "https://www.flipkart.com/power-extreme-leather-running-shoes/p/itmdq9pjhybmfrvn"
+      },
+      {
+        "name": "Myntra",
+        "price": 1499,
+        "url": "https://www.myntra.com/sports-shoes/power/power-men-grey-leather-road-running-non-marking-shoes/14617690/buy"
+      }
+    ],
+    "priceHistory": [
+      1499,
+      1379
+    ]
+  },
+  {
+    "id": "converse-chuck-taylor-all-star-malden-street-black-low-top-sneaker",
+    "name": "Converse Chuck Taylor All Star Malden Street Black Low Top Sneaker",
+    "brand": "Converse",
+    "price": 3999,
+    "category": "sneakers",
+    "oldPrice": 3999,
+    "discount": 0,
+    "image": "https://m.media-amazon.com/images/I/61jpRCxZMrL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61jpRCxZMrL.jpg",
+      "https://m.media-amazon.com/images/I/31ysM5zdvNL.jpg",
+      "https://m.media-amazon.com/images/I/31VA0-j1VLL.jpg",
+      "https://m.media-amazon.com/images/I/31KH+m2kC8L.jpg",
+      "https://m.media-amazon.com/images/I/41JA1pSGkGL.jpg",
+      "https://m.media-amazon.com/images/I/41WJNFP5VNL.jpg",
+      "https://m.media-amazon.com/images/I/31VNgP0EVeL.jpg",
+      "https://m.media-amazon.com/images/I/41q94cUT4RL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 3999,
+        "url": "https://www.amazon.in/dp/B0DHY5TMVF?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 3999,
+        "url": "https://www.flipkart.com/converse-chuck-taylor-all-star-malden-street-casuals-unisex/p/itm8351ac2f280b8?pid=SHOHB4QYR9MWYXQE&lid=LSTSHOHB4QYR9MWYXQEXZNLBL&marketplace=FLIPKART&q=Converse+Chuck+Taylor+All+Star+Malden+Street+Black+Low+Top+Sneaker&store=osp&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=24d8a1fd-bbf4-4637-b2a4-9184e5a8d2bf.SHOHB4QYR9MWYXQE.SEARCH&ppt=sp&ppn=sp&ssid=1hsxjl5ce80000001790734935869&qH=8cdd9d0d8dfac3cc&ov_redirect=true"
+      },
+      {
+        "name": "Myntra",
+        "price": 3999,
+        "url": "https://www.myntra.com/casual-shoes/converse/converse-unisex-chuck-taylor-all-star-malden-street-low-top-sneakers/31001590/buy"
+      }
+    ],
+    "priceHistory": [
+      3999
+    ]
+  },
+  {
+    "id": "reebok-men-s-sneakers-canvarsity-zane-casual-shoe-stylish-shoes-for-casual-and-everyday-wear",
+    "name": "Reebok Men's Sneakers - Canvarsity Zane - Casual Shoe - Stylish Shoes for Casual and Everyday Wear",
+    "brand": "Reebok",
+    "price": 1579,
+    "category": "sneakers",
+    "oldPrice": 1819,
+    "discount": 13,
+    "image": "https://m.media-amazon.com/images/I/51Jp-OOobHL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/51Jp-OOobHL.jpg",
+      "https://m.media-amazon.com/images/I/21KS7YKIWFL.jpg",
+      "https://m.media-amazon.com/images/I/31RZkAqop6L.jpg",
+      "https://m.media-amazon.com/images/I/31cc1pR0npL.jpg",
+      "https://m.media-amazon.com/images/I/31PZ2LAyO1L.jpg",
+      "https://m.media-amazon.com/images/I/31QQxMPihrL.jpg",
+      "https://m.media-amazon.com/images/I/31QfEEZvVoL.jpg",
+      "https://m.media-amazon.com/images/I/318JP7sdPvL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1579,
+        "url": "https://www.amazon.in/dp/B0H3BRWN6Y?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1645,
+        "url": "https://www.flipkart.com/reebok-canvarsity-zane-running-shoes-men/p/itm5d3e5b15f8886"
+      },
+      {
+        "name": "Myntra",
+        "price": 1819,
+        "url": "https://www.myntra.com/shoes/reebok/reebok-men-cots-zane-everyday-sneakers/37796190/buy"
+      }
+    ],
+    "priceHistory": [
+      1819,
+      1645,
+      1579
+    ]
+  },
+  {
+    "id": "new-balance-men-bb550-sneaker",
+    "name": "New Balance Men BB550 Sneaker",
+    "brand": "new balance",
+    "price": 7983,
+    "category": "sneakers",
+    "oldPrice": 9299,
+    "discount": 14,
+    "image": "https://m.media-amazon.com/images/I/61uEf0Z5+EL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61uEf0Z5+EL.jpg",
+      "https://m.media-amazon.com/images/I/21+2UmDphhL.jpg",
+      "https://m.media-amazon.com/images/I/31K3Jc9qsjL.jpg",
+      "https://m.media-amazon.com/images/I/219ID6NnyHL.jpg",
+      "https://m.media-amazon.com/images/I/314c067vYJL.jpg",
+      "https://m.media-amazon.com/images/I/21qSlK6nctL.jpg",
+      "https://m.media-amazon.com/images/I/41PZiXn6bsL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 8849,
+        "url": "https://www.amazon.in/dp/B0FL79Y7Q6?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 7983,
+        "url": "https://www.flipkart.com/new-balance-bb550-sneakers-men/p/itm09c36b86ac669?pid=SHOGZUH2HZ26FGVJ&marketplace=FLIPKART&lid=LSTSHOGZUH2HZ26FGVJDEH5GZ&pageUID=1790735522760"
+      },
+      {
+        "name": "Myntra",
+        "price": 9299,
+        "url": "https://www.myntra.com/casual-shoes/new+balance/new-balance-men-bb550-leather-sneakers/42935095/buy"
+      }
+    ],
+    "priceHistory": [
+      9299,
+      8849,
+      7983
+    ]
+  },
+  {
+    "id": "sparx-sneakers-for-men-sm-1045-lace-up-casual-shoes-with-lightweight-design-cushioned-comfort-durable-sole",
+    "name": "SPARX Sneakers for Men SM-1045 Lace-Up Casual Shoes with Lightweight Design, Cushioned Comfort & Durable Sole",
+    "brand": "Brand: SPARX",
+    "price": 806,
+    "category": "sneakers",
+    "oldPrice": 854,
+    "discount": 6,
+    "image": "https://m.media-amazon.com/images/I/61+bCr1sB4L.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61+bCr1sB4L.jpg",
+      "https://m.media-amazon.com/images/I/31tbew-S7jL.jpg",
+      "https://m.media-amazon.com/images/I/41sDPZchUUL.jpg",
+      "https://m.media-amazon.com/images/I/415+mP-y6OL.jpg",
+      "https://m.media-amazon.com/images/I/31q5w4enALL.jpg",
+      "https://m.media-amazon.com/images/I/317Fs1sbyyL.jpg",
+      "https://m.media-amazon.com/images/I/41oFTpuJ41L.jpg",
+      "https://m.media-amazon.com/images/I/41u79mbxDBL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 806,
+        "url": "https://www.amazon.in/dp/B0F8NKH893?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 854,
+        "url": "https://www.flipkart.com/sparx-sm-1045-sneakers-men/p/itmda73bedb7434a"
+      },
+      {
+        "name": "Myntra",
+        "price": 806,
+        "url": "https://www.myntra.com/casual-shoes/sparx/sparx-round-toe-laser-cuts-sneakers/34018820/buy"
+      }
+    ],
+    "priceHistory": [
+      854,
+      806
+    ]
+  },
+  {
+    "id": "campus-men-og-31-sneakers",
+    "name": "Campus Men Og-31 Sneakers",
+    "brand": "Campus",
+    "price": 1219,
+    "category": "sneakers",
+    "oldPrice": 1385,
+    "discount": 12,
+    "image": "https://m.media-amazon.com/images/I/61QJyL7W6mL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61QJyL7W6mL.jpg",
+      "https://m.media-amazon.com/images/I/41I58OLIPtL.jpg",
+      "https://m.media-amazon.com/images/I/31MRkORa2jL.jpg",
+      "https://m.media-amazon.com/images/I/41BsTtRon-L.jpg",
+      "https://m.media-amazon.com/images/I/41lxBi4ZenL.jpg",
+      "https://m.media-amazon.com/images/I/413JF8IS5QL.jpg",
+      "https://m.media-amazon.com/images/I/41-gBwYt8qL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1219,
+        "url": "https://www.amazon.in/dp/B0DCGDKJCS?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1335,
+        "url": "https://www.flipkart.com/campus-og-31-sneakers-men/p/itmdf63b68e722c0"
+      },
+      {
+        "name": "Myntra",
+        "price": 1385,
+        "url": "https://www.myntra.com/shoes/campus/campus-og-31-men-lace-up-sneaker/30528610/buy"
+      }
+    ],
+    "priceHistory": [
+      1385,
+      1335,
+      1219
+    ]
+  },
+  {
+    "id": "wrogn-men-s-pu-sneakers-lace-up-design-cushioned-breathable-sole",
+    "name": "WROGN Men's PU Sneakers | Lace-Up Design | Cushioned Breathable Sole",
+    "brand": "WROGN",
+    "price": 1470,
+    "category": "sneakers",
+    "oldPrice": 1749,
+    "discount": 16,
+    "image": "https://m.media-amazon.com/images/I/31Ytf8G9sBL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/31Ytf8G9sBL.jpg",
+      "https://m.media-amazon.com/images/I/31Fekd0uFeL.jpg",
+      "https://m.media-amazon.com/images/I/210BH0eQz2L.jpg",
+      "https://m.media-amazon.com/images/I/21IT12mZWdL.jpg",
+      "https://m.media-amazon.com/images/I/21M-m+nJT3L.jpg",
+      "https://m.media-amazon.com/images/I/2148nz0CaLL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1470,
+        "url": "https://www.amazon.in/dp/B0GWZPMR4K?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1749,
+        "url": "https://dl.flipkart.com/s/SdBXdwuuuN"
+      },
+      {
+        "name": "Myntra",
+        "price": 1679,
+        "url": "https://www.myntra.com/casual-shoes/wrogn/wrogn-men-pu-sneakers/39641606/buy"
+      }
+    ],
+    "priceHistory": [
+      1749,
+      1679,
+      1470
+    ]
   }
 ]
