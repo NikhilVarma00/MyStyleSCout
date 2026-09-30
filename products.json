@@ -1083,38 +1083,33 @@
     "brand": "Boldfit",
     "price": 899,
     "category": "sneakers",
-    "oldPrice": 1599,
-    "discount": 44,
-    "image": "https://m.media-amazon.com/images/I/51cBLPZrEIL.jpg",
+    "oldPrice": 1299,
+    "discount": 31,
+    "image": "https://m.media-amazon.com/images/I/51kYPPJ4QpL.jpg",
     "gallery": [
-      "https://m.media-amazon.com/images/I/51cBLPZrEIL.jpg",
-      "https://m.media-amazon.com/images/I/31Oe81XrSWL.jpg",
-      "https://m.media-amazon.com/images/I/415g6+jlFNL.jpg",
-      "https://m.media-amazon.com/images/I/417Qm+oiJJL.jpg",
-      "https://m.media-amazon.com/images/I/419MHShOWXL.jpg",
-      "https://m.media-amazon.com/images/I/41rCGevuWOL.jpg",
-      "https://m.media-amazon.com/images/I/31LBZI0SFwL.jpg"
+      "https://m.media-amazon.com/images/I/51kYPPJ4QpL.jpg",
+      "https://m.media-amazon.com/images/I/31N+62j6FuL.jpg",
+      "https://m.media-amazon.com/images/I/41H1zc4cqdL.jpg",
+      "https://m.media-amazon.com/images/I/41yDr27p5zL.jpg",
+      "https://m.media-amazon.com/images/I/418G7C5YXgL.jpg",
+      "https://m.media-amazon.com/images/I/41AdP1qLIwL.jpg",
+      "https://m.media-amazon.com/images/I/31k+5f0O-BL.jpg",
+      "https://m.media-amazon.com/images/I/41LBbmD0pjL.jpg"
     ],
     "stores": [
       {
         "name": "Amazon",
-        "price": 1199,
-        "url": "https://www.amazon.in/dp/B0F948SY2B?tag=stylescoutin2-21"
+        "price": 899,
+        "url": "https://www.amazon.in/dp/B0GSW7B35B?tag=stylescoutin2-21"
       },
       {
         "name": "Flipkart",
-        "price": 1599,
-        "url": "https://www.flipkart.com/boldfit-sneakers-men/p/itma77f9d6cac369"
-      },
-      {
-        "name": "Myntra",
-        "price": 899,
-        "url": "https://www.myntra.com/casual-shoes/boldfit/boldfit-sneakers-shoes-for-men-skyline-white-navy/34421522/buy"
+        "price": 1299,
+        "url": "https://www.flipkart.com/boldfit-skyline-stylish-sneakers-shoes-men-pu-upper-cushioned-insole/p/itm67090694ed5ad?pid=SHOHMHZ8HY4Y2TAD&marketplace=FLIPKART&lid=LSTSHOHMHZ8HY4Y2TADCRYC7C&pageUID=1790747265780"
       }
     ],
     "priceHistory": [
-      1599,
-      1199,
+      1299,
       899
     ]
   },
@@ -2342,6 +2337,161 @@
       1749,
       1679,
       1470
+    ]
+  },
+  {
+    "id": "woodland-men-s-leather-sneaker",
+    "name": "Woodland Men's Leather Sneaker",
+    "brand": "Woodland",
+    "price": 1899,
+    "category": "sneakers",
+    "oldPrice": 2601,
+    "discount": 27,
+    "image": "https://m.media-amazon.com/images/I/71mcQ5CSpUL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71mcQ5CSpUL.jpg",
+      "https://m.media-amazon.com/images/I/41t3usXhPmL.jpg",
+      "https://m.media-amazon.com/images/I/41-fmocHRxL.jpg",
+      "https://m.media-amazon.com/images/I/416-zRSXkcL.jpg",
+      "https://m.media-amazon.com/images/I/41zSXC42Q5L.jpg",
+      "https://m.media-amazon.com/images/I/41ZAG5ZIt0L.jpg",
+      "https://m.media-amazon.com/images/I/41S5tjO44zL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1899,
+        "url": "https://www.amazon.in/dp/B0BJY2GKZP?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1899,
+        "url": "https://www.flipkart.com/woodland-lace-up-lightweight-breathable-comfortable-daily-use-casuals-men/p/itm48d9a8f32cfc6"
+      },
+      {
+        "name": "Myntra",
+        "price": 2601,
+        "url": "https://www.myntra.com/casual-shoes/woodland/woodland-men-leather-derbys/22082106/buy"
+      }
+    ],
+    "priceHistory": [
+      2601,
+      1899
+    ]
+  },
+  {
+    "id": "reebok-men-s-baseliner-shoe-high-performance-sports-tennis-shoe-with-superior-traction",
+    "name": "Reebok Men's - Baseliner Shoe - High Performance Sports - Tennis Shoe with Superior Traction.",
+    "brand": "Reebok",
+    "price": 2299,
+    "category": "sneakers",
+    "oldPrice": 3999,
+    "discount": 43,
+    "image": "https://m.media-amazon.com/images/I/51vq7Nmml2L.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/51vq7Nmml2L.jpg",
+      "https://m.media-amazon.com/images/I/315CPeAsBeL.jpg",
+      "https://m.media-amazon.com/images/I/31kqac31T-L.jpg",
+      "https://m.media-amazon.com/images/I/31ZGs0kxpZL.jpg",
+      "https://m.media-amazon.com/images/I/41DrtzlfMAL.jpg",
+      "https://m.media-amazon.com/images/I/31wqsWBM1eL.jpg",
+      "https://m.media-amazon.com/images/I/317BAWQje6L.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2299,
+        "url": "https://www.amazon.in/Reebok-RMSOPA4120-Baseliner-White/dp/B0G9391HHW?crid=OQ7QDBI8R04J&dib=eyJ2IjoiMSJ9.4IwLqjrl9JZL4eSgWIumWlw7y79oOBBuNqIzO7JDa35f0RqdlUmGZsPTJWslIbMEbyhwxjvL_ENFhMHwsWSdIdAhwChu_89noQmrJTHDmtz7cojxTXvgeLB9EI1RrmSO1lUXWUztYbim82H8YdZnry6IOy_zd3phZqXWfhEOJuvWYW4v7zNpt1g3SaFbgxM7D9IrO4h7-Rb7dEkztLWXXmYHyca7Axh25KLBP9o7dZXVuCL54H5wMIqVq95_DbDYzmLpnqGzpes33OPWgOqWDUdQh7WW3m6OqjEqeTEqi8g.Tu_W1riB6cpEAoebiA-ZLbeRTj9bIR6QpiMNWHFOBjo&dib_tag=se&keywords=Reebok%2BMen%27s%2B-%2BBaseliner%2BShoe%2B-%2BHigh%2BPerformance%2BSports%2B-%2BTennis%2BShoe%2Bwith%2BSuperior%2BTraction..&nsdOptOutParam=true&qid=1790745698&sprefix=reebok%2Bmen%27s%2B-%2Bbaseliner%2Bshoe%2B-%2Bhigh%2Bperformance%2Bsports%2B-%2Btennis%2Bshoe%2Bwith%2Bsuperior%2Btraction..%2Caps%2C254&sr=8-1-spons&aref=Gf1Py2jYUG&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=28828ba42c38d1b0d24208e58fd1efb8&ref_=as_li_ss_tl"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2599,
+        "url": "https://www.flipkart.com/reebok-baseliner-tennis-shoes-men/p/itm7b52c82ea156f"
+      },
+      {
+        "name": "Myntra",
+        "price": 3999,
+        "url": "https://www.myntra.com/sports-shoes/reebok/reebok-men-baseliner-tennis-shoes/34262741/buy"
+      }
+    ],
+    "priceHistory": [
+      3999,
+      2599,
+      2299
+    ]
+  },
+  {
+    "id": "neeman-s-the-brunch-loafers-for-men-comfortable-flexible-breathable-knitted-upper-and-faux-leather",
+    "name": "Neeman's The Brunch Loafers for Men | Comfortable, Flexible & Breathable Knitted Upper and Faux Leather",
+    "brand": "Neeman's",
+    "price": 1599,
+    "category": "sneakers",
+    "oldPrice": 1599,
+    "discount": 0,
+    "image": "https://m.media-amazon.com/images/I/6195CGoW1oL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/6195CGoW1oL.jpg",
+      "https://m.media-amazon.com/images/I/31ruJ5CaCTL.jpg",
+      "https://m.media-amazon.com/images/I/31jVFo8IlkL.jpg",
+      "https://m.media-amazon.com/images/I/31RXwB955DL.jpg",
+      "https://m.media-amazon.com/images/I/31b-cSeKRxL.jpg",
+      "https://m.media-amazon.com/images/I/51K7uxqGAfL.jpg",
+      "https://m.media-amazon.com/images/I/31wjldcAMTL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1599,
+        "url": "https://www.amazon.in/dp/B0D967D18L?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1599,
+        "url": "https://www.flipkart.com/neemans-brunch-loafers-men/p/itmc817689998f1f"
+      },
+      {
+        "name": "Myntra",
+        "price": 1599,
+        "url": "https://www.myntra.com/casual-shoes/neemans/neemans-the-brunch-loafers-for-men/30183920/buy"
+      }
+    ],
+    "priceHistory": [
+      1599
+    ]
+  },
+  {
+    "id": "hotstyle-fashion-combo-trendy-stylish-loafers-for-men-fashion-new-multicolor-combo",
+    "name": "HotStyle Fashion Combo Trendy & Stylish Loafers for Men Fashion NEW Multicolor Combo",
+    "brand": "Brand: HotStyle",
+    "price": 451,
+    "category": "sneakers",
+    "oldPrice": 489,
+    "discount": 8,
+    "image": "https://m.media-amazon.com/images/I/51eqXWkcSFL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/51eqXWkcSFL.jpg",
+      "https://m.media-amazon.com/images/I/51ENWdNZX6L.jpg",
+      "https://m.media-amazon.com/images/I/51yuXiMbVUL.jpg",
+      "https://m.media-amazon.com/images/I/51hmXQ3rIOL.jpg",
+      "https://m.media-amazon.com/images/I/41A7xioyAjL.jpg",
+      "https://m.media-amazon.com/images/I/51R0HTOwNJL.jpg",
+      "https://m.media-amazon.com/images/I/41sjS0QbPvL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 489,
+        "url": "https://www.amazon.in/dp/B0DBHXNH8S?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 451,
+        "url": "https://www.flipkart.com/x/p/itm9c97d659d379d"
+      }
+    ],
+    "priceHistory": [
+      489,
+      451
     ]
   }
 ]

@@ -305,4 +305,24 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/woodland-men-s-leather-sneaker.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/reebok-men-s-baseliner-shoe-high-performance-sports-tennis-shoe-with-superior-traction.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/neeman-s-the-brunch-loafers-for-men-comfortable-flexible-breathable-knitted-upper-and-faux-leather.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/hotstyle-fashion-combo-trendy-stylish-loafers-for-men-fashion-new-multicolor-combo.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
