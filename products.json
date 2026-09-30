@@ -2493,5 +2493,322 @@
       489,
       451
     ]
+  },
+  {
+    "id": "puma-unisex-adult-anzarun-lite-sneaker",
+    "name": "Puma Unisex Adult Anzarun Lite Sneaker",
+    "brand": "PUMA",
+    "price": 2199,
+    "category": "sneakers",
+    "oldPrice": 5499,
+    "discount": 60,
+    "image": "https://m.media-amazon.com/images/I/51za3R42WuL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/51za3R42WuL.jpg",
+      "https://m.media-amazon.com/images/I/317Ob2SwPYL.jpg",
+      "https://m.media-amazon.com/images/I/319RCQaG9IL.jpg",
+      "https://m.media-amazon.com/images/I/41JmWY99uQL.jpg",
+      "https://m.media-amazon.com/images/I/31bD8UHnQJL.jpg",
+      "https://m.media-amazon.com/images/I/41e9qEktK6L.jpg",
+      "https://m.media-amazon.com/images/I/41+gjtzThRL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2199,
+        "url": "https://www.amazon.in/dp/B07S7QWPFZ?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2999,
+        "url": "https://www.flipkart.com/puma-anzarun-lite-sneakers-men/p/itm65a028bf39fb4?pid=SHOG536KTF6NVVZP&lid=LSTSHOG536KTF6NVVZPEUIKM1&marketplace=FLIPKART&q=PUMA+Anzarun+Lite+Sneakers+For+Men&store=osp%2Fcil%2Fe1f&srno=s_1_18&otracker=search&otracker1=search&fm=Search&iid=1e638f7a-ca73-450e-9fbf-3913a242e427.SHOG536KTF6NVVZP.SEARCH&ppt=sp&ppn=sp&qH=0b94fa7d7c449947&ov_redirect=true"
+      },
+      {
+        "name": "Myntra",
+        "price": 5499,
+        "url": "https://www.myntra.com/casual-shoes/puma/puma-unisex-white-anzarun-lite-solid-sneakers/16354772/buy"
+      }
+    ],
+    "priceHistory": [
+      5499,
+      2999,
+      2199
+    ]
+  },
+  {
+    "id": "adidas-men-sportswear-shoes-lite-racer-4-0-black",
+    "name": "adidas Men Sportswear Shoes | Lite Racer 4.0 | Black |",
+    "brand": "adidas",
+    "price": 2239,
+    "category": "sneakers",
+    "oldPrice": 2799,
+    "discount": 20,
+    "image": "https://m.media-amazon.com/images/I/71Cb6EspPqL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71Cb6EspPqL.jpg",
+      "https://m.media-amazon.com/images/I/31xjrEGoAzL.jpg",
+      "https://m.media-amazon.com/images/I/31Gi0PL5HpL.jpg",
+      "https://m.media-amazon.com/images/I/318JNKffTXL.jpg",
+      "https://m.media-amazon.com/images/I/31pI2Bu2EoL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2799,
+        "url": "https://www.amazon.in/dp/B0FCHXTZJY?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2239,
+        "url": "https://www.flipkart.com/adidas-lite-racer-4-0-sneakers-men/p/itmf67d4177ecd89?pid=SHOHDANFQRS9ZRH9&marketplace=FLIPKART&lid=LSTSHOHDANFQRS9ZRH9MYICQY&pageUID=1790763443386"
+      },
+      {
+        "name": "Myntra",
+        "price": 2239,
+        "url": "https://www.myntra.com/sports-shoes/adidas/adidas-men-lite-racer-40-sports-shoes/35240907/buy"
+      }
+    ],
+    "priceHistory": [
+      2799,
+      2239
+    ]
+  },
+  {
+    "id": "nike-mens-revolution-7-running-shoes",
+    "name": "Nike Mens Revolution 7 Running Shoes",
+    "brand": "Nike",
+    "price": 2956,
+    "category": "sneakers",
+    "oldPrice": 3326,
+    "discount": 11,
+    "image": "https://m.media-amazon.com/images/I/716VrN1qnsL._AC_SX342_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/716VrN1qnsL._AC_SX342_.jpg",
+      "https://m.media-amazon.com/images/I/716VrN1qnsL._AC_SX385_.jpg",
+      "https://m.media-amazon.com/images/I/716VrN1qnsL._AC_SX425_.jpg",
+      "https://m.media-amazon.com/images/I/716VrN1qnsL._AC_SX466_.jpg",
+      "https://m.media-amazon.com/images/I/716VrN1qnsL._AC_SX522_.jpg",
+      "https://m.media-amazon.com/images/I/716VrN1qnsL._AC_SX569_.jpg",
+      "https://m.media-amazon.com/images/I/716VrN1qnsL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/31tLAAcUObL._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/51+yYg0QIuL._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/31ormfKjPyL._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/31PXaWMjQsL._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/41sRdRd+4wL._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/31VC4OPiRdL._AC_SR38,50_.jpg",
+      "https://m.media-amazon.com/images/I/31urafFiEOL._AC_SR38,50_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2956,
+        "url": "https://www.amazon.in/dp/B0CKZCRZYC?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 3141,
+        "url": "https://www.flipkart.com/nike-revolution-7-running-shoes-men/p/itm2deb54755755b?pid=SHOHG6ZUMYBFVKUG&marketplace=FLIPKART&lid=LSTSHOHG6ZUMYBFVKUGCZA3F6&pageUID=1790763578934"
+      },
+      {
+        "name": "Myntra",
+        "price": 3326,
+        "url": "https://www.myntra.com/sports-shoes/nike/nike-revolution-7-mens-road-running-shoes-/38160183/buy"
+      }
+    ],
+    "priceHistory": [
+      3326,
+      3141,
+      2956
+    ]
+  },
+  {
+    "id": "campus-men-oxyfit-n-walking-shoes",
+    "name": "Campus Men Oxyfit (N) Walking Shoes",
+    "brand": "Campus",
+    "price": 582,
+    "category": "sneakers",
+    "oldPrice": 699,
+    "discount": 17,
+    "image": "https://m.media-amazon.com/images/I/7198NljaZlL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/7198NljaZlL.jpg",
+      "https://m.media-amazon.com/images/I/41Zi9x2RdVL.jpg",
+      "https://m.media-amazon.com/images/I/319oHyrvlbL.jpg",
+      "https://m.media-amazon.com/images/I/31YwBJG+oAL.jpg",
+      "https://m.media-amazon.com/images/I/41iIBi2N3DL.jpg",
+      "https://m.media-amazon.com/images/I/41YUyMTwSvL.jpg",
+      "https://m.media-amazon.com/images/I/41JYcwwXdFL.jpg",
+      "https://m.media-amazon.com/images/I/41biTPccWwL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 699,
+        "url": "https://www.amazon.in/dp/B09RPDCKZC?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 582,
+        "url": "https://www.flipkart.com/campus-oxyfit-n-casuals-men/p/itmceab1aacb61bb"
+      },
+      {
+        "name": "Myntra",
+        "price": 699,
+        "url": "https://www.myntra.com/sports-shoes/campus/campus-oxyfit-n-men-slip-on-walking-shoes/17221270/buy"
+      }
+    ],
+    "priceHistory": [
+      699,
+      582
+    ]
+  },
+  {
+    "id": "asian-men-boss-01-running-and-casual-wear-running-shoes-with-laces-lightweight-and-comfortable-shoes-for-men-boys-ideal-for-sports-gym-walking-and-daily-use",
+    "name": "ASIAN Men BOSS-01 Running and Casual Wear Running Shoes with Laces, Lightweight and Comfortable Shoes for Men & Boys, Ideal for Sports, Gym, Walking, and Daily Use",
+    "brand": "ASIAN",
+    "price": 974,
+    "category": "sneakers",
+    "oldPrice": 1068,
+    "discount": 9,
+    "image": "https://m.media-amazon.com/images/I/81SeNccyJgL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/81SeNccyJgL.jpg",
+      "https://m.media-amazon.com/images/I/41uSyAK5QHL.jpg",
+      "https://m.media-amazon.com/images/I/416Mh8lL2VL.jpg",
+      "https://m.media-amazon.com/images/I/41vjSYjDSyL.jpg",
+      "https://m.media-amazon.com/images/I/4165IyewCxL.jpg",
+      "https://m.media-amazon.com/images/I/513BtLEHMtL.jpg",
+      "https://m.media-amazon.com/images/I/41Y8mBWbH+L.jpg",
+      "https://m.media-amazon.com/images/I/41DGMusy3xL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 974,
+        "url": "https://www.amazon.in/dp/B0FFZG5MSX?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1068,
+        "url": "https://www.flipkart.com/asian-sneakers-sports-training-gym-walking-stylish-boss-01-running-shoes-men/p/itm7e812c088ab27"
+      }
+    ],
+    "priceHistory": [
+      1068,
+      974
+    ]
+  },
+  {
+    "id": "reebok-mens-glide-ride-m-running-shoe",
+    "name": "Reebok Mens Glide Ride M Running Shoe",
+    "brand": "Reebok",
+    "price": 2099,
+    "category": "sneakers",
+    "oldPrice": 2099,
+    "discount": 0,
+    "image": "https://m.media-amazon.com/images/I/51hoh7uTVkL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/51hoh7uTVkL.jpg",
+      "https://m.media-amazon.com/images/I/31NA7T5D02L.jpg",
+      "https://m.media-amazon.com/images/I/31hxIyQvJbL.jpg",
+      "https://m.media-amazon.com/images/I/31CtvD1xp8L.jpg",
+      "https://m.media-amazon.com/images/I/31N1OrAP9VL.jpg",
+      "https://m.media-amazon.com/images/I/41MdlF4puaL.jpg",
+      "https://m.media-amazon.com/images/I/31MGt7F6ZrL.jpg",
+      "https://m.media-amazon.com/images/I/31xJxFy0HAL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2099,
+        "url": "https://www.amazon.in/dp/B0B5HMCMRS?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2099,
+        "url": "https://www.flipkart.com/reebok-glide-ride-m-running-shoes-men/p/itm2874c2f27c26a"
+      }
+    ],
+    "priceHistory": [
+      2099
+    ]
+  },
+  {
+    "id": "skechers-mens-go-walk-7-the-construct-sneaker",
+    "name": "Skechers Mens Go Walk 7 - The Construct Sneaker",
+    "brand": "Skechers",
+    "price": 3709,
+    "category": "sneakers",
+    "oldPrice": 3849,
+    "discount": 4,
+    "image": "https://m.media-amazon.com/images/I/81WOergp1QL.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/81WOergp1QL.jpg",
+      "https://m.media-amazon.com/images/I/317IrU1I4TL.jpg",
+      "https://m.media-amazon.com/images/I/31R+Ne-ZT3L.jpg",
+      "https://m.media-amazon.com/images/I/41c6FBf3srL.jpg",
+      "https://m.media-amazon.com/images/I/41YpXTaqSRL.jpg",
+      "https://m.media-amazon.com/images/I/31vv0bZxjGL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 3849,
+        "url": "https://www.amazon.in/dp/B0CFN9Z52P?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 3709,
+        "url": "https://www.flipkart.com/skechers-go-walk-7-construct-sneakers-men/p/itmf297a16182e56?pid=SHOHAWR7PTXCMCZR&marketplace=FLIPKART&lid=LSTSHOHAWR7PTXCMCZRLK1C0X&pageUID=1790771134000"
+      },
+      {
+        "name": "Myntra",
+        "price": 3849,
+        "url": "https://www.myntra.com/sports-shoes/skechers/skechers-mens-go-walk-7-the-construct-walking-shoes/33685824/buy"
+      }
+    ],
+    "priceHistory": [
+      3849,
+      3709
+    ]
+  },
+  {
+    "id": "power-mens-xorise-100-rn-eros-m-casual",
+    "name": "Power mens Xorise+100 Rn Eros M Casual",
+    "brand": "Power",
+    "price": 1799,
+    "category": "sneakers",
+    "oldPrice": 1979,
+    "discount": 9,
+    "image": "https://m.media-amazon.com/images/I/610AZ+xelML.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/610AZ+xelML.jpg",
+      "https://m.media-amazon.com/images/I/318n-4+NZCL.jpg",
+      "https://m.media-amazon.com/images/I/31Z4xujpWnL.jpg",
+      "https://m.media-amazon.com/images/I/31RP8l3By9L.jpg",
+      "https://m.media-amazon.com/images/I/317uthEG4pL.jpg",
+      "https://m.media-amazon.com/images/I/41gytrrEphL.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1799,
+        "url": "https://www.amazon.in/dp/B0D4BS41F3?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1979,
+        "url": "https://www.flipkart.com/power-men-s-sports-shoes-comfort-durability-performance-outdoors-men/p/itmdb02d95fdebc8?pid=SHOHAVNYGEQEPTC2&lid=LSTSHOHAVNYGEQEPTC2AT9SXQ&marketplace=FLIPKART&q=POWER+XORISE%2B100+RN+Walking+Shoes+For+Men+blue&store=osp%2Fcil%2F1cu&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=2c4eca7c-e307-427b-9c5f-3c36ee73fd06.SHOHAVNYGEQEPTC2.SEARCH&ppt=sp&ppn=sp&ssid=f3911y5bjk0000001790771269902&qH=77d12e952c248711&ov_redirect=true&ov_redirect=true"
+      },
+      {
+        "name": "Myntra",
+        "price": 1799,
+        "url": "https://www.myntra.com/sports-shoes/power/power-men-xorise100-mesh-walking-shoes/29002210/buy"
+      }
+    ],
+    "priceHistory": [
+      1979,
+      1799
+    ]
   }
 ]
