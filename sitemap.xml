@@ -365,4 +365,19 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/woodland-mens-ogc-6614124-casual-shoes.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/converse-unisex-chuck-taylor-all-star-malden-street-black-mid-top-sneaker.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/new-balance-men-410-running-shoes.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
