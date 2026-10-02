@@ -1726,14 +1726,9 @@
     "category": "sneakers",
     "oldPrice": 3147,
     "discount": 44,
-    "image": "https://m.media-amazon.com/images/I/71UrHAD7hYL.jpg",
+    "image": "https://m.media-amazon.com/images/I/A1uXnv3bm0L._SL1500_.jpg",
     "gallery": [
-      "https://m.media-amazon.com/images/I/71UrHAD7hYL.jpg",
-      "https://m.media-amazon.com/images/I/41rIrk5C7qL.jpg",
-      "https://m.media-amazon.com/images/I/41Q7j9pnwYL.jpg",
-      "https://m.media-amazon.com/images/I/31O+oe0PwpL.jpg",
-      "https://m.media-amazon.com/images/I/41SEVAPPX0L.jpg",
-      "https://m.media-amazon.com/images/I/31zon6itoGL.jpg"
+     "https://m.media-amazon.com/images/I/A1uXnv3bm0L._SL1500_.jpg"
     ],
     "stores": [
       { "name": "Amazon", "price": 1749, "url": "https://www.amazon.in/dp/B0GYDQ5PZ7?tag=stylescoutin2-21" },
