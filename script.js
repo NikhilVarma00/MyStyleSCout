@@ -1,3 +1,37 @@
+/* =========================================================
+   FIREBASE
+========================================================= */
+
+import { initializeApp, getApps } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js";
+import {
+  getAuth,
+  GoogleAuthProvider,
+  signInWithPopup,
+  signOut,
+  onAuthStateChanged
+} from "https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDQcq41-886LOst86kT19mg_U1GGX-0Dzg",
+  authDomain: "stylescout-6e2b6.firebaseapp.com",
+  projectId: "stylescout-6e2b6",
+  storageBucket: "stylescout-6e2b6.firebasestorage.app",
+  messagingSenderId: "154142480948",
+  appId: "1:154142480948:web:4a7d7367123491bdd48861"
+};
+
+const firebaseApp =
+  window.__firebaseApp ||
+  (getApps().length ? getApps()[0] : initializeApp(firebaseConfig));
+
+const auth = getAuth(firebaseApp);
+const googleProvider = new GoogleAuthProvider();
+googleProvider.setCustomParameters({ prompt: "select_account" });
+
+/* =========================================================
+   DOM HELPERS
+========================================================= */
+
 const $ = (id) => document.getElementById(id);
 
 const productGrid = $("productGrid");
@@ -42,8 +76,7 @@ const filterSummary = $("filterSummary");
 const loginModal = $("loginModal");
 const loginBtn = $("loginBtn");
 const loginClose = $("loginClose");
-const loginName = $("loginName");
-const loginSubmit = $("loginSubmit");
+const googleSignInBtn = $("googleSignInBtn");
 
 
 let products = [];
@@ -242,52 +275,35 @@ function closeFilters() {
 }
 
 
-/* Open filter */
-
 if (openFilterBtn) {
-
   openFilterBtn.addEventListener(
     "click",
     openFilters
   );
-
 }
 
 
-/* Close filter */
-
 if (closeFilterBtn) {
-
   closeFilterBtn.addEventListener(
     "click",
     closeFilters
   );
-
 }
 
 
-/* Close when clicking outside */
-
 if (filterModal) {
-
   filterModal.addEventListener(
     "click",
     event => {
-
       if (event.target === filterModal) {
         closeFilters();
       }
-
     }
   );
-
 }
 
 
-/* Clear filters */
-
 if (clearAdvancedFilters) {
-
   clearAdvancedFilters.addEventListener(
     "click",
     () => {
@@ -308,14 +324,10 @@ if (clearAdvancedFilters) {
 
     }
   );
-
 }
 
 
-/* Apply filters */
-
 if (applyAdvancedFilters) {
-
   applyAdvancedFilters.addEventListener(
     "click",
     () => {
@@ -357,7 +369,6 @@ if (applyAdvancedFilters) {
 
     }
   );
-
 }
 
 
@@ -370,8 +381,6 @@ function getFilteredProducts() {
   let filtered = [...products];
 
 
-  /* Category */
-
   if (currentFilter !== "all") {
 
     filtered = filtered.filter(
@@ -381,8 +390,6 @@ function getFilteredProducts() {
 
   }
 
-
-  /* Brand */
 
   if (advancedFilters.brand !== "all") {
 
@@ -394,8 +401,6 @@ function getFilteredProducts() {
 
   }
 
-
-  /* Store */
 
   if (advancedFilters.store !== "all") {
 
@@ -411,8 +416,6 @@ function getFilteredProducts() {
 
   }
 
-
-  /* Minimum price */
 
   if (advancedFilters.minPrice !== "") {
 
@@ -431,8 +434,6 @@ function getFilteredProducts() {
   }
 
 
-  /* Maximum price */
-
   if (advancedFilters.maxPrice !== "") {
 
     const maxPrice =
@@ -450,8 +451,6 @@ function getFilteredProducts() {
   }
 
 
-  /* Discount */
-
   if (
     Number(advancedFilters.minDiscount) > 0
   ) {
@@ -467,19 +466,15 @@ function getFilteredProducts() {
   }
 
 
-  /* Sorting */
-
   if (
     sortSelect &&
     sortSelect.value === "priceLow"
   ) {
-
     filtered.sort(
       (a, b) =>
         Number(a.price) -
         Number(b.price)
     );
-
   }
 
 
@@ -487,13 +482,11 @@ function getFilteredProducts() {
     sortSelect &&
     sortSelect.value === "priceHigh"
   ) {
-
     filtered.sort(
       (a, b) =>
         Number(b.price) -
         Number(a.price)
     );
-
   }
 
 
@@ -501,13 +494,11 @@ function getFilteredProducts() {
     sortSelect &&
     sortSelect.value === "scoreHigh"
   ) {
-
     filtered.sort(
       (a, b) =>
         Number(b.discount) -
         Number(a.discount)
     );
-
   }
 
 
@@ -515,7 +506,6 @@ function getFilteredProducts() {
     sortSelect &&
     sortSelect.value === "best"
   ) {
-
     filtered.sort(
       (a, b) =>
         Number(b.discount) -
@@ -523,7 +513,6 @@ function getFilteredProducts() {
         Number(a.price) -
           Number(b.price)
     );
-
   }
 
 
@@ -958,37 +947,30 @@ function changeImage(direction) {
 
 
 if (prevImage) {
-
   prevImage.addEventListener(
     "click",
     () => changeImage(-1)
   );
-
 }
 
 
 if (nextImage) {
-
   nextImage.addEventListener(
     "click",
     () => changeImage(1)
   );
-
 }
 
 
 if (modalWishlistBtn) {
-
   modalWishlistBtn.addEventListener(
     "click",
     toggleWishlist
   );
-
 }
 
 
 if (closeModalBtn) {
-
   closeModalBtn.addEventListener(
     "click",
     () => {
@@ -1003,12 +985,10 @@ if (closeModalBtn) {
 
     }
   );
-
 }
 
 
 if (modal) {
-
   modal.addEventListener(
     "click",
     event => {
@@ -1027,7 +1007,6 @@ if (modal) {
 
     }
   );
-
 }
 
 
@@ -1083,12 +1062,10 @@ if (filterBar) {
 
 
 if (sortSelect) {
-
   sortSelect.addEventListener(
     "change",
     applyFilters
   );
-
 }
 
 
@@ -1226,9 +1203,6 @@ function runSearch() {
       .toLowerCase();
 
 
-  /*
-   * Empty search = restore normal catalog.
-   */
   if (!query) {
 
     applyFilters();
@@ -1237,10 +1211,6 @@ function runSearch() {
   }
 
 
-  /*
-   * Search the currently loaded sneaker
-   * catalog while respecting active filters.
-   */
   const baseProducts =
     getFilteredProducts();
 
@@ -1293,9 +1263,6 @@ function runSearch() {
   renderSearchResults(filtered);
 
 
-  /*
-   * Scroll to results after searching.
-   */
   const featured =
     document.getElementById(
       "featured"
@@ -1314,9 +1281,6 @@ function runSearch() {
 }
 
 
-/*
- * Normal search button.
- */
 if (searchButton && searchInput) {
 
   searchButton.addEventListener(
@@ -1325,9 +1289,6 @@ if (searchButton && searchInput) {
   );
 
 
-  /*
-   * Press Enter to search.
-   */
   searchInput.addEventListener(
     "keydown",
     event => {
@@ -1352,18 +1313,10 @@ if (searchButton && searchInput) {
 
 function setupVoiceSearch() {
 
-  /*
-   * Important:
-   * sneakers.html also loads this script,
-   * but does not contain the search controls.
-   *
-   * Therefore we must safely exit here.
-   */
   if (
     !voiceSearchBtn ||
     !searchInput
   ) {
-
     return;
   }
 
@@ -1373,14 +1326,8 @@ function setupVoiceSearch() {
     window.webkitSpeechRecognition;
 
 
-  /*
-   * Browser does not support the Web Speech API.
-   */
   if (!SpeechRecognition) {
-
-    voiceSearchBtn.style.display =
-      "none";
-
+    voiceSearchBtn.style.display = "none";
     return;
   }
 
@@ -1389,21 +1336,10 @@ function setupVoiceSearch() {
     new SpeechRecognition();
 
 
-  recognition.lang =
-    "en-IN";
-
-
-  recognition.continuous =
-    false;
-
-
-  recognition.interimResults =
-    false;
-
-
-  recognition.maxAlternatives =
-    1;
-
+  recognition.lang = "en-IN";
+  recognition.continuous = false;
+  recognition.interimResults = false;
+  recognition.maxAlternatives = 1;
 
   let listening = false;
 
@@ -1412,20 +1348,16 @@ function setupVoiceSearch() {
 
     listening = false;
 
-
     voiceSearchBtn.classList.remove(
       "listening"
     );
-
 
     voiceSearchBtn.removeAttribute(
       "aria-busy"
     );
 
-
     voiceSearchBtn.title =
       "Search by voice";
-
 
     searchInput.placeholder =
       "Search sneakers, brands, or stores...";
@@ -1433,30 +1365,23 @@ function setupVoiceSearch() {
   }
 
 
-  /*
-   * Recognition started.
-   */
   recognition.addEventListener(
     "start",
     () => {
 
       listening = true;
 
-
       voiceSearchBtn.classList.add(
         "listening"
       );
-
 
       voiceSearchBtn.setAttribute(
         "aria-busy",
         "true"
       );
 
-
       voiceSearchBtn.title =
         "Listening...";
-
 
       searchInput.placeholder =
         "Listening...";
@@ -1465,9 +1390,6 @@ function setupVoiceSearch() {
   );
 
 
-  /*
-   * Speech successfully recognized.
-   */
   recognition.addEventListener(
     "result",
     event => {
@@ -1477,7 +1399,6 @@ function setupVoiceSearch() {
         event.results[0] &&
         event.results[0][0];
 
-
       const transcript =
         result
           ? result.transcript.trim()
@@ -1485,36 +1406,18 @@ function setupVoiceSearch() {
 
 
       if (!transcript) {
-
         resetVoiceButton();
-
         return;
       }
 
-
-      /*
-       * Put the spoken words into
-       * the normal search input.
-       */
-      searchInput.value =
-        transcript;
-
-
+      searchInput.value = transcript;
       resetVoiceButton();
-
-
-      /*
-       * Automatically execute the search.
-       */
       runSearch();
 
     }
   );
 
 
-  /*
-   * Handle microphone/API errors.
-   */
   recognition.addEventListener(
     "error",
     event => {
@@ -1523,73 +1426,40 @@ function setupVoiceSearch() {
 
 
       if (
-        event.error ===
-          "not-allowed" ||
-        event.error ===
-          "service-not-allowed"
+        event.error === "not-allowed" ||
+        event.error === "service-not-allowed"
       ) {
-
-        notify(
-          "Microphone permission is blocked"
-        );
-
+        notify("Microphone permission is blocked");
       } else if (
-        event.error !==
-          "aborted" &&
-        event.error !==
-          "no-speech"
+        event.error !== "aborted" &&
+        event.error !== "no-speech"
       ) {
-
-        notify(
-          "Voice search couldn't start"
-        );
-
+        notify("Voice search couldn't start");
       }
 
     }
   );
 
 
-  /*
-   * Recognition finished.
-   */
   recognition.addEventListener(
     "end",
     resetVoiceButton
   );
 
 
-  /*
-   * Microphone button.
-   */
   voiceSearchBtn.addEventListener(
     "click",
     () => {
 
-      /*
-       * If already listening,
-       * stop recognition.
-       */
       if (listening) {
-
         recognition.stop();
-
         return;
       }
 
-
       try {
-
         recognition.start();
-
       } catch (error) {
-
-        /*
-         * Some browsers throw when
-         * recognition is already starting.
-         */
         resetVoiceButton();
-
       }
 
     }
@@ -1598,142 +1468,165 @@ function setupVoiceSearch() {
 }
 
 
-/*
- * Initialize voice search.
- */
 setupVoiceSearch();
 
 
 /* =========================================================
-   LOGIN
+   LOGIN (Firebase Google Auth)
 ========================================================= */
 
-let currentUser =
-  localStorage.getItem(
-    "stylescout_user"
-  );
-
-
-if (
-  currentUser &&
-  loginBtn
-) {
-
-  loginBtn.textContent =
-    `Hi, ${currentUser}`;
-
+function closeLoginModal() {
+  if (loginModal) loginModal.classList.remove("active");
 }
 
+function openLoginModal() {
+  if (loginModal) loginModal.classList.add("active");
+}
 
+let currentAuthUser = null;
+
+// Build the dropdown once
+const userMenu = document.createElement("div");
+userMenu.id = "userMenu";
+userMenu.style.cssText = `
+  position: fixed;
+  top: 96px;
+  right: 24px;
+  background: #0d1b18;
+  border: 1px solid rgba(120,239,198,0.2);
+  border-radius: 12px;
+  padding: 12px;
+  min-width: 240px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  z-index: 99999;
+  font-family: 'Poppins', sans-serif;
+  display: none;
+`;
+
+userMenu.innerHTML = `
+  <div style="padding: 8px 12px 12px; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 8px;">
+    <div id="userMenuName" style="font-weight: 600; color: #fff; font-size: 14px;"></div>
+    <div id="userMenuEmail" style="font-size: 12px; color: #7d8590; margin-top: 2px;"></div>
+  </div>
+  <button id="logoutMenuItem" type="button" style="
+    width: 100%;
+    padding: 10px 12px;
+    background: rgba(218,54,51,0.15);
+    border: 1px solid rgba(218,54,51,0.4);
+    color: #ff6b6b;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.15s;
+  ">Log out</button>
+`;
+
+document.body.appendChild(userMenu);
+
+// React to auth state
+onAuthStateChanged(auth, (user) => {
+  currentAuthUser = user;
+
+  if (user) {
+    const name = user.displayName || user.email || "User";
+    const firstName = name.split(" ")[0];
+
+    if (loginBtn) {
+      loginBtn.textContent = `Hi, ${firstName}`;
+      loginBtn.style.cursor = "pointer";
+    }
+
+    document.getElementById("userMenuName").textContent = name;
+    document.getElementById("userMenuEmail").textContent = user.email || "";
+
+    localStorage.setItem("stylescout_user", name);
+  } else {
+    if (loginBtn) {
+      loginBtn.textContent = "Login";
+      loginBtn.style.cursor = "pointer";
+    }
+
+    userMenu.style.display = "none";
+    localStorage.removeItem("stylescout_user");
+  }
+});
+
+// Login button — toggle dropdown when signed in, open modal when signed out
 if (loginBtn) {
+  loginBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
 
-  loginBtn.addEventListener(
-    "click",
-    () => {
-
-      if (currentUser) {
-
-        localStorage.removeItem(
-          "stylescout_user"
-        );
-
-
-        currentUser = null;
-
-
-        loginBtn.textContent =
-          "Login";
-
-
-        notify(
-          "Logged out"
-        );
-
-      } else {
-
-        if (loginModal) {
-
-          loginModal.classList.add(
-            "active"
-          );
-
-        }
-
-      }
-
+    if (currentAuthUser) {
+      userMenu.style.display =
+        userMenu.style.display === "block" ? "none" : "block";
+    } else {
+      openLoginModal();
     }
-  );
-
+  });
 }
 
+// Log out
+document.getElementById("logoutMenuItem").addEventListener("click", () => {
+  signOut(auth)
+    .then(() => {
+      userMenu.style.display = "none";
+      notify("Logged out");
+    })
+    .catch(() => notify("Logout failed"));
+});
 
+// Close dropdown when clicking anywhere else
+document.addEventListener("click", (e) => {
+  if (
+    userMenu.style.display === "block" &&
+    !userMenu.contains(e.target) &&
+    e.target !== loginBtn
+  ) {
+    userMenu.style.display = "none";
+  }
+});
+
+// Close modal
 if (loginClose) {
-
-  loginClose.addEventListener(
-    "click",
-    () =>
-      loginModal &&
-      loginModal.classList.remove(
-        "active"
-      )
-  );
-
+  loginClose.addEventListener("click", closeLoginModal);
 }
 
+if (loginModal) {
+  loginModal.addEventListener("click", (event) => {
+    if (event.target === loginModal) closeLoginModal();
+  });
+}
 
-if (loginSubmit) {
+// Google sign-in
+if (googleSignInBtn) {
+  googleSignInBtn.addEventListener("click", async () => {
+    googleSignInBtn.disabled = true;
+    const original = googleSignInBtn.innerHTML;
+    googleSignInBtn.textContent = "Signing in…";
 
-  loginSubmit.addEventListener(
-    "click",
-    () => {
-
-      const name =
-        loginName
-          ? loginName.value.trim()
-          : "";
-
-
-      if (!name) {
-        return;
+    try {
+      const result = await signInWithPopup(auth, googleProvider);
+      const name = result.user.displayName || result.user.email || "User";
+      notify(`Welcome, ${name.split(" ")[0]}!`);
+      closeLoginModal();
+    } catch (err) {
+      if (err && err.code === "auth/popup-closed-by-user") {
+        // silent
+      } else if (err && err.code === "auth/popup-blocked") {
+        notify("Popup blocked. Allow popups and try again.");
+      } else {
+        console.warn("Sign-in error:", err);
+        notify("Sign-in failed. Try again.");
       }
-
-
-      localStorage.setItem(
-        "stylescout_user",
-        name
-      );
-
-
-      currentUser =
-        name;
-
-
-      if (loginBtn) {
-
-        loginBtn.textContent =
-          `Hi, ${name}`;
-
-      }
-
-
-      if (loginModal) {
-
-        loginModal.classList.remove(
-          "active"
-        );
-
-      }
-
-
-      notify(
-        "Logged in!"
-      );
-
+    } finally {
+      googleSignInBtn.disabled = false;
+      googleSignInBtn.innerHTML = original;
     }
-  );
-
+  });
 }
-
 
 /* =========================================================
    PARTICLES
@@ -1741,180 +1634,91 @@ if (loginSubmit) {
 
 if (window.innerWidth > 680) {
 
+  const canvas = document.getElementById("particleCanvas");
 
-const canvas =
-  document.getElementById(
-    "particleCanvas"
-  );
+  if (canvas) {
 
+    const ctx = canvas.getContext("2d");
 
-if (canvas) {
+    let particles = [];
 
-  const ctx =
-    canvas.getContext("2d");
+    let mouse = {
+      x: window.innerWidth / 2,
+      y: window.innerHeight / 2
+    };
 
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
 
-  let particles = [];
+    window.addEventListener("resize", resize);
+    resize();
 
+    window.addEventListener(
+      "pointermove",
+      event => {
 
-  let mouse = {
-    x: window.innerWidth / 2,
-    y: window.innerHeight / 2
-  };
+        mouse.x = event.clientX;
+        mouse.y = event.clientY;
 
-
-  function resize() {
-
-    canvas.width =
-      window.innerWidth;
-
-    canvas.height =
-      window.innerHeight;
-
-  }
-
-
-  window.addEventListener(
-    "resize",
-    resize
-  );
-
-
-  resize();
-
-
-  window.addEventListener(
-    "pointermove",
-    event => {
-
-      mouse.x =
-        event.clientX;
-
-      mouse.y =
-        event.clientY;
-
-
-      for (
-        let i = 0;
-        i < 2;
-        i++
-      ) {
-
-        particles.push({
-
-          x: mouse.x,
-
-          y: mouse.y,
-
-          life: 1,
-
-          size:
-            Math.random() * 3 + 1.5,
-
-          dx:
-            (Math.random() - 0.5) *
-            1.5,
-
-          dy:
-            (Math.random() - 0.5) *
-            1.5
-
-        });
+        for (let i = 0; i < 2; i++) {
+          particles.push({
+            x: mouse.x,
+            y: mouse.y,
+            life: 1,
+            size: Math.random() * 3 + 1.5,
+            dx: (Math.random() - 0.5) * 1.5,
+            dy: (Math.random() - 0.5) * 1.5
+          });
+        }
 
       }
-
-    }
-  );
-
-
-  function draw() {
-
-    ctx.clearRect(
-      0,
-      0,
-      canvas.width,
-      canvas.height
     );
 
+    function draw() {
 
-    for (
-      let i =
-        particles.length - 1;
-      i >= 0;
-      i--
-    ) {
-
-      const particle =
-        particles[i];
-
-
-      particle.x +=
-        particle.dx;
-
-
-      particle.y +=
-        particle.dy;
-
-
-      particle.life -=
-        0.02;
-
-
-      particle.size *=
-        0.992;
-
-
-      ctx.fillStyle =
-        `rgba(
-          120,
-          239,
-          198,
-          ${Math.max(
-            particle.life,
-            0
-          )}
-        )`;
-
-
-      ctx.beginPath();
-
-
-      ctx.arc(
-        particle.x,
-        particle.y,
-        particle.size,
-        0,
-        Math.PI * 2
+      ctx.clearRect(
+        0, 0,
+        canvas.width,
+        canvas.height
       );
 
+      for (let i = particles.length - 1; i >= 0; i--) {
 
-      ctx.fill();
+        const particle = particles[i];
 
+        particle.x += particle.dx;
+        particle.y += particle.dy;
+        particle.life -= 0.02;
+        particle.size *= 0.992;
 
-      if (
-        particle.life <= 0
-      ) {
+        ctx.fillStyle =
+          `rgba(120, 239, 198, ${Math.max(particle.life, 0)})`;
 
-        particles.splice(
-          i,
-          1
+        ctx.beginPath();
+        ctx.arc(
+          particle.x,
+          particle.y,
+          particle.size,
+          0,
+          Math.PI * 2
         );
+        ctx.fill();
+
+        if (particle.life <= 0) {
+          particles.splice(i, 1);
+        }
 
       }
 
+      requestAnimationFrame(draw);
+
     }
 
-
-    requestAnimationFrame(
-      draw
-    );
+    draw();
 
   }
-
-
-  draw();
-
-}
 }
 
 
@@ -1930,13 +1734,7 @@ function renderWishlistDrawer() {
   if (wishlist.length === 0) {
 
     drawerContent.innerHTML = `
-      <div
-        style="
-          padding:40px;
-          text-align:center;
-          color:var(--muted);
-        "
-      >
+      <div style="padding:40px;text-align:center;color:var(--muted);">
         No saved items yet
       </div>
     `;
@@ -1950,21 +1748,13 @@ function renderWishlistDrawer() {
       .map(id => {
 
         const product =
-          products.find(
-            item =>
-              item.id === id
-          );
+          products.find(item => item.id === id);
 
-
-        if (!product) {
-          return "";
-        }
+        if (!product) return "";
 
 
         return `
-          <div
-            class="drawer-item"
-          >
+          <div class="drawer-item">
 
             <img
               src="${product.image}"
@@ -1972,34 +1762,17 @@ function renderWishlistDrawer() {
               loading="lazy"
             />
 
+            <div style="flex:1;">
 
-            <div
-              style="
-                flex:1;
-              "
-            >
-
-              <div
-                style="
-                  font-size:.9rem;
-                  font-weight:600;
-                "
-              >
+              <div style="font-size:.9rem;font-weight:600;">
                 ${product.name}
               </div>
 
-
-              <div
-                style="
-                  font-size:.8rem;
-                  color:var(--green);
-                "
-              >
+              <div style="font-size:.8rem;color:var(--green);">
                 ${money(product.price)}
               </div>
 
             </div>
-
 
             <button
               class="drawer-item-remove"
@@ -2017,9 +1790,7 @@ function renderWishlistDrawer() {
 
 
   drawerContent
-    .querySelectorAll(
-      ".drawer-item-remove"
-    )
+    .querySelectorAll(".drawer-item-remove")
     .forEach(button => {
 
       button.addEventListener(
@@ -2028,36 +1799,21 @@ function renderWishlistDrawer() {
 
           event.stopPropagation();
 
-
-          const id =
-            button.dataset.id;
-
+          const id = button.dataset.id;
 
           wishlist =
-            wishlist.filter(
-              item =>
-                item !== id
-            );
-
+            wishlist.filter(item => item !== id);
 
           localStorage.setItem(
             "stylescout_wishlist",
-            JSON.stringify(
-              wishlist
-            )
+            JSON.stringify(wishlist)
           );
 
-
           if (wishlistCount) {
-
-            wishlistCount.textContent =
-              wishlist.length;
-
+            wishlistCount.textContent = wishlist.length;
           }
 
-
           renderProducts();
-
           renderWishlistDrawer();
 
         }
@@ -2069,95 +1825,60 @@ function renderWishlistDrawer() {
 
 
 if (wishlistBtn) {
-
   wishlistBtn.addEventListener(
     "click",
     () => {
 
       if (wishlistDrawer) {
-
-        wishlistDrawer.classList.add(
-          "open"
-        );
-
+        wishlistDrawer.classList.add("open");
       }
-
 
       if (drawerOverlay) {
-
-        drawerOverlay.classList.add(
-          "active"
-        );
-
+        drawerOverlay.classList.add("active");
       }
-
 
       renderWishlistDrawer();
 
     }
   );
-
 }
 
 
 if (drawerClose) {
-
   drawerClose.addEventListener(
     "click",
     () => {
 
       if (wishlistDrawer) {
-
-        wishlistDrawer.classList.remove(
-          "open"
-        );
-
+        wishlistDrawer.classList.remove("open");
       }
 
-
       if (drawerOverlay) {
-
-        drawerOverlay.classList.remove(
-          "active"
-        );
-
+        drawerOverlay.classList.remove("active");
       }
 
     }
   );
-
 }
 
 
 if (drawerOverlay) {
-
   drawerOverlay.addEventListener(
     "click",
     event => {
 
-      if (
-        event.target ===
-        drawerOverlay
-      ) {
+      if (event.target === drawerOverlay) {
 
         if (wishlistDrawer) {
-
-          wishlistDrawer.classList.remove(
-            "open"
-          );
-
+          wishlistDrawer.classList.remove("open");
         }
 
-
-        drawerOverlay.classList.remove(
-          "active"
-        );
+        drawerOverlay.classList.remove("active");
 
       }
 
     }
   );
-
 }
 
 
@@ -2170,67 +1891,36 @@ if (drawerOverlay) {
   try {
 
     const res =
-      await fetch(
-        "products.json?t=" +
-        Date.now()
-      );
-
+      await fetch("products.json?t=" + Date.now());
 
     if (!res.ok) {
-
-      throw new Error(
-        "products.json not found"
-      );
-
+      throw new Error("products.json not found");
     }
 
-
-    const data =
-      await res.json();
-
+    const data = await res.json();
 
     if (!Array.isArray(data)) {
-
-      throw new Error(
-        "products.json is not an array"
-      );
-
+      throw new Error("products.json is not an array");
     }
-
 
     products.length = 0;
 
-
     products.push(
-      ...data.filter(
-        p =>
-          p.category ===
-          "sneakers"
-      )
+      ...data.filter(p => p.category === "sneakers")
     );
-
 
     console.log(
       `✓ Loaded ${products.length} sneakers from products.json`
     );
 
-
     populateFilterOptions();
-
     syncFilterControls();
-
     updateFilterSummary();
-
     renderProducts();
 
-
     if (wishlistCount) {
-
-      wishlistCount.textContent =
-        wishlist.length;
-
+      wishlistCount.textContent = wishlist.length;
     }
-
 
   } catch (e) {
 
@@ -2238,7 +1928,6 @@ if (drawerOverlay) {
       "Could not load products.json:",
       e.message
     );
-
 
     if (productGrid) {
 
