@@ -1489,8 +1489,6 @@ const userMenu = document.createElement("div");
 userMenu.id = "userMenu";
 userMenu.style.cssText = `
   position: fixed;
-  top: 96px;
-  right: 24px;
   background: #0d1b18;
   border: 1px solid rgba(120,239,198,0.2);
   border-radius: 12px;
@@ -1561,14 +1559,22 @@ if (loginBtn) {
     e.stopPropagation();
 
     if (currentAuthUser) {
-      userMenu.style.display =
-        userMenu.style.display === "block" ? "none" : "block";
+      const isOpen = userMenu.style.display === "block";
+      if (isOpen) {
+        userMenu.style.display = "none";
+      } else {
+        // Position right under the button
+        const rect = loginBtn.getBoundingClientRect();
+        userMenu.style.position = "fixed";
+        userMenu.style.top = (rect.bottom + 8) + "px";
+        userMenu.style.right = (window.innerWidth - rect.right) + "px";
+        userMenu.style.display = "block";
+      }
     } else {
       openLoginModal();
     }
   });
 }
-
 // Log out
 document.getElementById("logoutMenuItem").addEventListener("click", () => {
   signOut(auth)
