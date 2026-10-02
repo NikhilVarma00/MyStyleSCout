@@ -88,6 +88,7 @@ let wishlist = JSON.parse(
 let currentFilter = "all";
 let currentImageIndex = 0;
 let currentProductImages = [];
+let currentAuthUser = null;
 
 let advancedFilters = {
   brand: "all",
@@ -1472,7 +1473,7 @@ setupVoiceSearch();
 
 
 /* =========================================================
-   LOGIN (Firebase Google Auth)
+   LOGIN (Firebase Google Auth — dropdown logout)
 ========================================================= */
 
 function closeLoginModal() {
@@ -1483,55 +1484,111 @@ function openLoginModal() {
   if (loginModal) loginModal.classList.add("active");
 }
 
-// Add a Log out button next to Login (hidden until signed in)
-let logoutBtn = document.getElementById("logoutBtn");
-if (!logoutBtn && loginBtn && loginBtn.parentNode) {
-  logoutBtn = document.createElement("button");
-  logoutBtn.id = "logoutBtn";
-  logoutBtn.className = "ghost-btn";
-  logoutBtn.textContent = "Log out";
-  logoutBtn.style.display = "none";
-  logoutBtn.style.marginLeft = "8px";
-  loginBtn.parentNode.insertBefore(logoutBtn, loginBtn.nextSibling);
-}
+// Build the user dropdown once, appended to body
+const userMenu = document.createElement("div");
+userMenu.id = "userMenu";
+userMenu.style.cssText = `
+  position: fixed;
+  top: 96px;
+  right: 24px;
+  background: #0d1b18;
+  border: 1px solid rgba(120,239,198,0.2);
+  border-radius: 12px;
+  padding: 12px;
+  min-width: 240px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  z-index: 99999;
+  font-family: 'Poppins', sans-serif;
+  display: none;
+`;
+
+userMenu.innerHTML = `
+  <div style="padding: 8px 12px 12px; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 8px;">
+    <div id="userMenuName" style="font-weight: 600; color: #fff; font-size: 14px;"></div>
+    <div id="userMenuEmail" style="font-size: 12px; color: #7d8590; margin-top: 2px;"></div>
+  </div>
+  <button id="logoutMenuItem" type="button" style="
+    width: 100%;
+    padding: 10px 12px;
+    background: rgba(218,54,51,0.15);
+    border: 1px solid rgba(218,54,51,0.4);
+    color: #ff6b6b;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.15s;
+  ">Log out</button>
+`;
+
+document.body.appendChild(userMenu);
 
 // React to auth state
 onAuthStateChanged(auth, (user) => {
+  currentAuthUser = user;
+
   if (user) {
     const name = user.displayName || user.email || "User";
+    const firstName = name.split(" ")[0];
+
     if (loginBtn) {
-      loginBtn.textContent = `Hi, ${name.split(" ")[0]}`;
-      loginBtn.disabled = true;
-      loginBtn.style.cursor = "default";
+      loginBtn.textContent = `Hi, ${firstName}`;
+      loginBtn.style.cursor = "pointer";
     }
-    if (logoutBtn) logoutBtn.style.display = "inline-flex";
+
+    const nameEl = document.getElementById("userMenuName");
+    const emailEl = document.getElementById("userMenuEmail");
+    if (nameEl) nameEl.textContent = name;
+    if (emailEl) emailEl.textContent = user.email || "";
+
     localStorage.setItem("stylescout_user", name);
   } else {
     if (loginBtn) {
       loginBtn.textContent = "Login";
-      loginBtn.disabled = false;
       loginBtn.style.cursor = "pointer";
     }
-    if (logoutBtn) logoutBtn.style.display = "none";
+
+    userMenu.style.display = "none";
     localStorage.removeItem("stylescout_user");
   }
 });
 
-// Login button → open modal (only when signed out)
+// Login button — toggle dropdown when signed in, open modal when signed out
 if (loginBtn) {
-  loginBtn.addEventListener("click", () => {
-    if (!auth.currentUser) openLoginModal();
+  loginBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+
+    if (currentAuthUser) {
+      userMenu.style.display =
+        userMenu.style.display === "block" ? "none" : "block";
+    } else {
+      openLoginModal();
+    }
   });
 }
 
-// Log out button
-if (logoutBtn) {
-  logoutBtn.addEventListener("click", () => {
-    signOut(auth)
-      .then(() => notify("Logged out"))
-      .catch(() => notify("Logout failed"));
-  });
-}
+// Log out
+document.getElementById("logoutMenuItem").addEventListener("click", () => {
+  signOut(auth)
+    .then(() => {
+      userMenu.style.display = "none";
+      notify("Logged out");
+    })
+    .catch(() => notify("Logout failed"));
+});
+
+// Close dropdown when clicking anywhere else
+document.addEventListener("click", (e) => {
+  if (
+    userMenu.style.display === "block" &&
+    !userMenu.contains(e.target) &&
+    e.target !== loginBtn
+  ) {
+    userMenu.style.display = "none";
+  }
+});
 
 // Close modal
 if (loginClose) {
