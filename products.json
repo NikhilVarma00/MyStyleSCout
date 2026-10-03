@@ -2256,5 +2256,197 @@
       { "name": "Myntra", "price": 1924, "url": "https://www.myntra.com/casual-shoes/u.s.+polo+assn./us-polo-assn-capron-40-men-grey-color-sneakers/35022207/buy" }
     ],
     "priceHistory": [1924, 1920]
-  }
+  },
+
+  {
+  "id": "us-polo-aldor-black",
+  "name": "U.S. Polo Assn. ALDOR Sneakers",
+  "brand": "U.S. POLO ASSN.",
+  "price": 1729,
+  "category": "sneakers",
+  "oldPrice": 2108,
+  "discount": 18,
+  "image": "https://m.media-amazon.com/images/I/91i0ZGkdE1L._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/91i0ZGkdE1L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41tsJDX9NDL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31YAfSd2QtL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/3109OqJ7lXL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41ITfKer0TL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31OTgh89+mL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41zMLtCFh2L._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Flipkart",
+      "price": 1729,
+      "url": "https://www.flipkart.com/u-s-polo-assn-aldor-sneakers-men/p/itm7355ac0ac248d"
+    },
+    {
+      "name": "Amazon",
+      "price": 2108,
+      "url": "https://www.amazon.in/dp/B0DQP5GKC2?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Myntra",
+      "price": 1960,
+      "url": "https://www.myntra.com/casual-shoes/u.s.%2bpolo%2bassn./us-polo-assn-men-round-toe-sneakers/32296853/buy"
+    }
+  ],
+  "priceHistory": [
+    2108,
+    1960,
+    1729
+  ]
+},
+{
+  "id": "reebok-courtswift-stamina-black",
+  "name": "Reebok Courtswift Stamina Sneakers (Black)",
+  "brand": "Reebok",
+  "price": 2499,
+  "category": "sneakers",
+  "oldPrice": 2667,
+  "discount": 6,
+  "image": "https://m.media-amazon.com/images/I/71CV4iAyj6L._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/71CV4iAyj6L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31GO7Rr9n8L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31UEsfZAVqL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/312thYU1FjL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31Myoja6lrL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31HVzUhnQaL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Amazon",
+      "price": 2499,
+      "url": "https://www.amazon.in/dp/B0GS4WY675?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Myntra",
+      "price": 2667,
+      "url": "https://www.myntra.com/casual-shoes/reebok/reebok-men-round-toe-sneakers/41904505/buy"
+    }
+  ],
+  "priceHistory": [
+    2667,
+    2499
+  ]
+},
+{
+  "id": "reebok-courtswift-stamina-white",
+  "name": "Reebok Courtswift Stamina Sneakers (White)",
+  "brand": "Reebok",
+  "price": 2499,
+  "category": "sneakers",
+  "oldPrice": 2667,
+  "discount": 6,
+  "image": "https://m.media-amazon.com/images/I/714VnpJEsnL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/714VnpJEsnL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31+f656+vdL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31HC9gvJ6LL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31JJoQm9rlL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/3196TfnteML._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31MzR6CGssL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Amazon",
+      "price": 2499,
+      "url": "https://www.amazon.in/dp/B0GS56FCZR?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Myntra",
+      "price": 2667,
+      "url": "https://www.myntra.com/casual-shoes/reebok/reebok-men-round-toe-sneakers/41904502/buy"
+    }
+  ],
+  "priceHistory": [
+    2667,
+    2499
+  ]
+},
+{
+  "id": "puma-flyer-flex",
+  "name": "Puma Flyer Flex Running Shoes",
+  "brand": "PUMA",
+  "price": 1499,
+  "category": "sneakers",
+  "oldPrice": 3999,
+  "discount": 63,
+  "image": "https://m.media-amazon.com/images/I/81rbGUW5zkL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/81rbGUW5zkL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31g17DjiDmL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31-Bc3USeCL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41IW4XcmW9L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41POqWisHIL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/416Pe7jFvxL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41ldcrASqtL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Flipkart",
+      "price": 3199,
+      "url": "https://www.flipkart.com/puma-flyer-flex-running-shoes-men/p/itmac553eca65541"
+    },
+    {
+      "name": "Amazon",
+      "price": 1499,
+      "url": "https://www.amazon.in/dp/B097C4GCFJ?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Myntra",
+      "price": 3999,
+      "url": "https://www.myntra.com/20993384"
+    }
+  ],
+  "priceHistory": [
+    3999,
+    3199,
+    1499
+  ]
+},
+{
+  "id": "rare-rabbit-orla-grey",
+  "name": "Rare Rabbit Orla Grey Suede Sneakers",
+  "brand": "RARE RABBIT",
+  "price": 3249,
+  "category": "sneakers",
+  "oldPrice": 3575,
+  "discount": 9,
+  "image": "https://m.media-amazon.com/images/I/81QKdYbP1EL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/81QKdYbP1EL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41sAitA+REL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31fGxnAU7EL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41GHgcYd8sL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31MCHhmxemL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/219VLPnvEBL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21+vKXBrWrL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Flipkart",
+      "price": 3249,
+      "url": "https://www.flipkart.com/rare-rabbit-men-orla-grey-lace-up-closure-suede-sneaker-sneakers/p/itmb97836bd59349"
+    },
+    {
+      "name": "Amazon",
+      "price": 3575,
+      "url": "https://www.amazon.in/dp/B0GVKDR4J8?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Myntra",
+      "price": 3249,
+      "url": "https://www.myntra.com/casual-shoes/rare%2brabbit/rare-rabbit-men-orla-grey-primary-printed-suede-sneakers/37057449/buy"
+    }
+  ],
+  "priceHistory": [
+    3575,
+    3249
+  ]
+}
+
 ]
