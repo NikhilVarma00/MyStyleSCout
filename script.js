@@ -1,16 +1,6 @@
 /* =========================================================
-   FIREBASE
+   FIREBASE CONFIG (Lazy Loaded)
 ========================================================= */
-
-import { initializeApp, getApps } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js";
-import {
-  getAuth,
-  GoogleAuthProvider,
-  signInWithPopup,
-  signOut,
-  onAuthStateChanged
-} from "https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js";
-
 const firebaseConfig = {
   apiKey: "AIzaSyDQcq41-886LOst86kT19mg_U1GGX-0Dzg",
   authDomain: "stylescout-6e2b6.firebaseapp.com",
@@ -20,13 +10,12 @@ const firebaseConfig = {
   appId: "1:154142480948:web:4a7d7367123491bdd48861"
 };
 
-const firebaseApp =
-  window.__firebaseApp ||
-  (getApps().length ? getApps()[0] : initializeApp(firebaseConfig));
-
-const auth = getAuth(firebaseApp);
-const googleProvider = new GoogleAuthProvider();
-googleProvider.setCustomParameters({ prompt: "select_account" });
+let auth = null;
+let googleProvider = null;
+let signInWithPopup = null;
+let signOut = null;
+let onAuthStateChanged = null;
+let firebaseInitialized = false;
 
 /* =========================================================
    DOM HELPERS
@@ -889,9 +878,8 @@ function openQuickView(product) {
 
   modal.classList.add("visible");
 
-  document.body.classList.add(
-    "modal-open"
-  );
+  document.documentElement.classList.add("modal-open");
+  document.body.classList.add("modal-open");
 }
 
 
@@ -970,9 +958,8 @@ if (closeModalBtn) {
         "visible"
       );
 
-      document.body.classList.remove(
-        "modal-open"
-      );
+      document.documentElement.classList.remove("modal-open");
+      document.body.classList.remove("modal-open");
 
     }
   );
@@ -990,9 +977,8 @@ if (modal) {
           "visible"
         );
 
-        document.body.classList.remove(
-          "modal-open"
-        );
+        document.documentElement.classList.remove("modal-open");
+        document.body.classList.remove("modal-open");
 
       }
 
@@ -1463,8 +1449,55 @@ setupVoiceSearch();
 
 
 /* =========================================================
-   LOGIN (Firebase Google Auth — dropdown logout)
+   LOGIN (Firebase Google Auth — Lazy Loaded)
 ========================================================= */
+
+async function initFirebase() {
+  if (firebaseInitialized) return;
+  
+  try {
+    const { initializeApp } = await import("https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js");
+    const { getAuth, GoogleAuthProvider, signInWithPopup: sip, signOut: so, onAuthStateChanged: osac } = await import("https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js");
+
+    const firebaseApp = initializeApp(firebaseConfig);
+    auth = getAuth(firebaseApp);
+    googleProvider = new GoogleAuthProvider();
+    googleProvider.setCustomParameters({ prompt: "select_account" });
+    
+    signInWithPopup = sip;
+    signOut = so;
+    onAuthStateChanged = osac;
+    firebaseInitialized = true;
+
+    // Set up auth state listener now that Firebase is loaded
+    onAuthStateChanged(auth, (user) => {
+      currentAuthUser = user;
+      if (user) {
+        const name = user.displayName || user.email || "User";
+        const firstName = name.split(" ")[0];
+        if (loginBtn) {
+          loginBtn.textContent = `Hi, ${firstName}`;
+          loginBtn.style.cursor = "pointer";
+        }
+        const nameEl = document.getElementById("userMenuName");
+        const emailEl = document.getElementById("userMenuEmail");
+        if (nameEl) nameEl.textContent = name;
+        if (emailEl) emailEl.textContent = user.email || "";
+        localStorage.setItem("stylescout_user", name);
+      } else {
+        if (loginBtn) {
+          loginBtn.textContent = "Login";
+          loginBtn.style.cursor = "pointer";
+        }
+        userMenu.style.display = "none";
+        localStorage.removeItem("stylescout_user");
+      }
+    });
+
+  } catch (error) {
+    console.error("Failed to load Firebase:", error);
+  }
+}
 
 function closeLoginModal() {
   if (loginModal) loginModal.classList.remove("active");
@@ -1513,40 +1546,13 @@ userMenu.innerHTML = `
 
 document.body.appendChild(userMenu);
 
-// React to auth state
-onAuthStateChanged(auth, (user) => {
-  currentAuthUser = user;
-
-  if (user) {
-    const name = user.displayName || user.email || "User";
-    const firstName = name.split(" ")[0];
-
-    if (loginBtn) {
-      loginBtn.textContent = `Hi, ${firstName}`;
-      loginBtn.style.cursor = "pointer";
-    }
-
-    const nameEl = document.getElementById("userMenuName");
-    const emailEl = document.getElementById("userMenuEmail");
-    if (nameEl) nameEl.textContent = name;
-    if (emailEl) emailEl.textContent = user.email || "";
-
-    localStorage.setItem("stylescout_user", name);
-  } else {
-    if (loginBtn) {
-      loginBtn.textContent = "Login";
-      loginBtn.style.cursor = "pointer";
-    }
-
-    userMenu.style.display = "none";
-    localStorage.removeItem("stylescout_user");
-  }
-});
-
 // Login button — toggle dropdown when signed in, open modal when signed out
 if (loginBtn) {
-  loginBtn.addEventListener("click", (e) => {
+  loginBtn.addEventListener("click", async (e) => {
     e.stopPropagation();
+
+    // Initialize Firebase only when the user clicks Login
+    await initFirebase();
 
     if (currentAuthUser) {
       const isOpen = userMenu.style.display === "block";
@@ -1567,12 +1573,14 @@ if (loginBtn) {
 }
 // Log out
 document.getElementById("logoutMenuItem").addEventListener("click", () => {
-  signOut(auth)
-    .then(() => {
-      userMenu.style.display = "none";
-      notify("Logged out");
-    })
-    .catch(() => notify("Logout failed"));
+  if (signOut && auth) {
+    signOut(auth)
+      .then(() => {
+        userMenu.style.display = "none";
+        notify("Logged out");
+      })
+      .catch(() => notify("Logout failed"));
+  }
 });
 
 // Close dropdown when clicking anywhere else
@@ -1600,6 +1608,15 @@ if (loginModal) {
 // Google sign-in
 if (googleSignInBtn) {
   googleSignInBtn.addEventListener("click", async () => {
+    if (!signInWithPopup || !auth) {
+      await initFirebase();
+    }
+    
+    if (!signInWithPopup || !auth) {
+      notify("Auth service unavailable. Try again.");
+      return;
+    }
+
     googleSignInBtn.disabled = true;
     const original = googleSignInBtn.innerHTML;
     googleSignInBtn.textContent = "Signing in…";
