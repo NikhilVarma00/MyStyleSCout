@@ -2477,5 +2477,206 @@
       { "name": "Myntra", "price": 3249, "url": "https://www.myntra.com/casual-shoes/rare%2brabbit/rare-rabbit-men-orla-grey-primary-printed-suede-sneakers/37057449/buy" }
     ],
     "priceHistory": [3575, 3249]
-  }
+  },
+
+{
+  "id": "adidas-calicoz-sneaker-m",
+  "name": "Adidas CalicoZ Sneaker M",
+  "fullName": "ADIDAS CalicoZ Sneaker M Sneakers For Men (White, 7)",
+  "brand": "ADIDAS",
+  "price": 2819,
+  "category": "sneakers",
+  "oldPrice": 2999,
+  "discount": 6,
+  "image": "https://m.media-amazon.com/images/I/91c5JUT-+bL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/91c5JUT-+bL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31sB+0pwYPL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31M7jUtS5CL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41fgf8KTzCL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/4125BOXiVdL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41jfrBsz8HL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Flipkart",
+      "price": 2819,
+      "url": "https://www.flipkart.com/adidas-calicoz-sneaker-m-sneakers-men/p/itmfb8911f9582d5"
+    },
+    {
+      "name": "Amazon",
+      "price": 2999,
+      "url": "https://www.amazon.in/dp/B0GFN62SKS?tag=stylescoutin2-21"
+    }
+  ],
+  "priceHistory": [
+    2999,
+    2819
+  ]
+},
+{
+  "id": "adidas-vs-pace-20-ikd",
+  "name": "Adidas VS Pace 2.0 IKD",
+  "fullName": "ADIDAS VS PACE 2.0 IKD Sneakers For Men (White, 11)",
+  "brand": "ADIDAS",
+  "price": 1690,
+  "category": "sneakers",
+  "oldPrice": 3959,
+  "discount": 57,
+  "image": "https://m.media-amazon.com/images/I/71eSukfM9vL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/71eSukfM9vL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21U5By479rL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31Zjn1nL88L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41Pkl-x2t3L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31Og5NSPhaL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/314qYhaa6AL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31WNWV3zJrL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Flipkart",
+      "price": 1690,
+      "url": "https://www.flipkart.com/adidas-vs-pace-2-0-ikd-sneakers-men/p/itm0962a5ddcefa4"
+    },
+    {
+      "name": "Amazon",
+      "price": 2699,
+      "url": "https://www.amazon.in/dp/B0BJL3JRLX?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Myntra",
+      "price": 3959,
+      "url": "https://www.myntra.com/casual-shoes/adidas%2boriginals/adidas-originals-men-vs-pace-20-ikd-leather-sneakers/30422985/buy"
+    }
+  ],
+  "priceHistory": [
+    3959,
+    2699,
+    1690
+  ]
+},
+{
+  "id": "nike-c1ty-basketball-shoes",
+  "name": "Nike C1TY Basketball Shoes",
+  "fullName": "NIKE C1TY Basketball Shoes For Men (Brown, 7)",
+  "brand": "NIKE",
+  "price": 6521,
+  "category": "sneakers",
+  "oldPrice": 6521,
+  "discount": 0,
+  "image": "https://m.media-amazon.com/images/I/31qjtmUpmFL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/31qjtmUpmFL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31TZ2-JNhBL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31g8tNpISkL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41+ok6Yq8-L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/313vsbmb9LL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31Q9YCVi2rL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31jw0bQI3FL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71MgT6NCOSL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Flipkart",
+      "price": 6521,
+      "url": "https://www.flipkart.com/nike-c1ty-basketball-shoes-men/p/itm15d36e33b7827"
+    },
+    {
+      "name": "Amazon",
+      "price": 6521,
+      "url": "https://www.amazon.in/dp/B0GV4G6FR6?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Myntra",
+      "price": 6521,
+      "url": "https://www.myntra.com/casual-shoes/nike/nike-c1ty-shoes/41276132/buy"
+    }
+  ],
+  "priceHistory": [
+    6521
+  ]
+},
+{
+  "id": "nike-air-max-sc",
+  "name": "Nike Air Max SC",
+  "fullName": "NIKE Air Max SC Running Shoes For Men (Blue, 9)",
+  "brand": "NIKE",
+  "price": 5955,
+  "category": "sneakers",
+  "oldPrice": 5995,
+  "discount": 1,
+  "image": "https://m.media-amazon.com/images/I/31gdkb13EDL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/31gdkb13EDL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31nbD9iCvCL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41Lz0KuBT2L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/319fs3SgviL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31jrdxWn9XL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/315tEVVy3fL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31xlEDZ9vvL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71ubbFLmGDL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Flipkart",
+      "price": 5955,
+      "url": "https://www.flipkart.com/nike-air-max-sc-running-shoes-men/p/itmda6fefaf94cdc"
+    },
+    {
+      "name": "Amazon",
+      "price": 5995,
+      "url": "https://www.amazon.in/dp/B0FQN62MHD?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Myntra",
+      "price": 5995,
+      "url": "https://www.myntra.com/casual-shoes/nike/nike-air-max-sc-mens-shoes/40497307/buy"
+    }
+  ],
+  "priceHistory": [
+    5995,
+    5955
+  ]
+},
+{
+  "id": "nike-ebernon-low-premium",
+  "name": "Nike Ebernon Low Premium",
+  "fullName": "NIKE EBERNON LOW PREM Sneakers For Men (White, 9)",
+  "brand": "NIKE",
+  "price": 3547,
+  "category": "sneakers",
+  "oldPrice": 3548,
+  "discount": 0,
+  "image": "https://m.media-amazon.com/images/I/41tFyer58kL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/41tFyer58kL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/318eAWMfrhL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51k9sNahN+L._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Flipkart",
+      "price": 3548,
+      "url": "https://www.flipkart.com/nike-ebernon-low-prem-sneakers-men/p/itmfdf8a1af482a1"
+    },
+    {
+      "name": "Amazon",
+      "price": 3547,
+      "url": "https://www.amazon.in/dp/B07M67RXPY?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Myntra",
+      "price": 3548,
+      "url": "https://www.myntra.com/casual-shoes/nike/nike-men-ebernon-low-premium-sneakers/23719624/buy"
+    }
+  ],
+  "priceHistory": [
+    3548,
+    3547
+  ]
+}
+
+
+
 ]
