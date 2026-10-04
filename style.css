@@ -210,9 +210,13 @@ body.modal-open { overflow: hidden; }
   .logo-text { font-size: 1.1rem !important; }
   .ghost-btn { font-size: 0.8rem !important; padding: 8px 10px !important; }
   .login-btn { font-size: 0.8rem !important; padding: 8px 12px !important; }
-  .search-panel { flex-direction: column !important; gap: 10px !important; margin-top: 20px !important; padding: 15px !important; }
-  .search-panel input { font-size: 1rem !important; padding: 12px 0 !important; text-align: center; }
-  .search-panel button { width: 100% !important; padding: 14px !important; font-size: 1rem; }
+  
+  /* FIXED: Mobile Search Panel Layout */
+  .search-panel { display: flex !important; flex-wrap: wrap !important; justify-content: center !important; align-items: center !important; gap: 10px !important; margin-top: 20px !important; padding: 15px !important; width: 100% !important; box-sizing: border-box !important; }
+  .search-panel input { flex: 1 1 100% !important; font-size: 1rem !important; padding: 12px 0 !important; text-align: center; margin-bottom: 5px !important; }
+  .search-panel #voiceSearchBtn { flex: 0 0 auto !important; width: auto !important; min-width: 60px !important; padding: 12px !important; margin: 0 !important; }
+  .search-panel #searchButton { flex: 1 1 auto !important; width: auto !important; padding: 14px !important; font-size: 1rem; margin: 0 !important; }
+  
   .product-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 8px !important; padding: 0 10px !important; }
   .product-card { padding: 10px !important; border-radius: 14px !important; }
   .product-image-wrap img { height: 130px !important; }
@@ -665,7 +669,8 @@ footer,
 
 /* Lock background scroll when modal is open */
 body.modal-open {
-  overflow: hidden;
+  overflow: hidden !important;
+  /* Removed position: fixed to fix white background bug */
 }
 
 /* Buy Now button inside store cards */
@@ -702,5 +707,31 @@ body.modal-open {
 @media (max-width: 768px) {
   .hero-visual {
     display: none !important;
+  }
+}
+
+/* =========================================================
+   MOBILE UI FIXES (Search Panel & Heart Button)
+========================================================= */
+@media (max-width: 680px) {
+  /* Fix Heart Button Collision in Quick View */
+  #modalWishlistBtn {
+    left: 10px !important;
+    right: auto !important;
+  }
+}
+/* =========================================================
+   MOBILE FILTER BAR CENTERING FIX
+========================================================= */
+@media (max-width: 680px) {
+  .filter-bar {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .filter-bar .filter-chip,
+  #openFilterBtn,
+  .sort-select {
+    text-align: center !important;
   }
 }
