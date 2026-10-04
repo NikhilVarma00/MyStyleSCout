@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     .pdp-page { max-width: 1200px; margin: 120px auto 60px; padding: 0 24px; }
-    .pdp-back { color: #78efc6; text-decoration: none; font-size: 14px; display: inline-block; margin-bottom: 20px; }
+    .pdp-back { color: #78efc6; text-decoration: none; font-size: 16px; display: inline-block; margin-bottom: 20px; }
     .pdp-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: start; }
     .pdp-gallery-stage { position: relative; background: #fff; border-radius: 20px; padding: 24px; }
     .pdp-gallery-stage img { width: 100%; max-height: 420px; object-fit: contain; display: block; }
@@ -32,7 +32,42 @@
     @media (max-width: 768px) {
       .pdp-panel { grid-template-columns: 1fr; gap: 20px; }
     }
-  
+
+    
+    .pdp-price-history {
+  margin-top: 40px;
+  padding: 24px;
+  background: rgba(120, 239, 198, 0.05);
+  border: 1px solid rgba(120, 239, 198, 0.15);
+  border-radius: 16px;
+}
+.pdp-price-history h2 {
+  font-size: 18px;
+  margin: 0 0 16px;
+  color: #78efc6;
+}
+.pdp-price-track {
+  margin: 0 0 12px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.pdp-price-label {
+  color: #7d8590;
+  margin-right: 6px;
+}
+.pdp-price-values {
+  color: #e6edf3;
+  font-weight: 600;
+  word-break: break-word;
+}
+.pdp-price-summary {
+  margin: 0;
+  font-size: 13px;
+  color: #7d8590;
+}
+.pdp-price-summary strong {
+  color: #78efc6;
+}
       .pdp-related { margin-top: 60px; padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.08); }
     .pdp-related h2 { font-size: 22px; margin-bottom: 24px; color: #edf8f4; }
     .pdp-related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
@@ -50,6 +85,7 @@
       .pdp-related-price { font-size: 15px; }
     }
     </style>
+    
 </head>
 <body>
 
@@ -114,7 +150,7 @@
       </div>
 
     </div>
-
+    {{PRICE_HISTORY}}   
     {{RELATED}}
   </main>
   <footer style="text-align:center;padding:60px 20px;color:#7d8590;font-size:14px;">© 2026 StyleScout</footer>

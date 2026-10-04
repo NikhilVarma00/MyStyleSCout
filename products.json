@@ -1,7 +1,8 @@
 [
   {
     "id": "nike-run-defy",
-    "name": "Nike Run Defy Running Shoes",
+    "name": "Nike Run Defy",
+    "fullName": "Nike Run Defy Running Shoes",
     "brand": "NIKE",
     "price": 2796,
     "category": "sneakers",
@@ -25,7 +26,8 @@
   },
   {
     "id": "sparx-sm-323",
-    "name": "Sparx SM 323 | Stylish, Comfortable | Sneakers For Men",
+    "name": "Sparx SM 323",
+    "fullName": "Sparx SM 323 | Stylish, Comfortable | Sneakers For Men",
     "brand": "Sparx",
     "price": 629,
     "category": "sneakers",
@@ -48,7 +50,8 @@
   },
   {
     "id": "puma-club-ii-era-l",
-    "name": "Puma Club II Era L Sneakers",
+    "name": "Puma Club II Era",
+    "fullName": "Puma Club II Era L Sneakers",
     "brand": "PUMA",
     "price": 3069,
     "category": "sneakers",
@@ -72,7 +75,8 @@
   },
   {
     "id": "campus-terminator-n",
-    "name": "Campus Terminator (N) Running Shoes",
+    "name": "Campus Terminator",
+    "fullName": "Campus Terminator (N) Running Shoes",
     "brand": "CAMPUS",
     "price": 1299,
     "category": "sneakers",
@@ -96,7 +100,8 @@
   },
   {
     "id": "asian-everest-24-trekking",
-    "name": "ASIAN EVEREST-24 Trekking Shoes",
+    "name": "ASIAN Everest-24",
+    "fullName": "ASIAN EVEREST-24 Trekking Shoes",
     "brand": "ASIAN",
     "price": 1499,
     "category": "sneakers",
@@ -121,7 +126,8 @@
   },
   {
     "id": "sparx-sm-171-running",
-    "name": "Sparx SM-171 Running Shoes",
+    "name": "Sparx SM-171",
+    "fullName": "Sparx SM-171 Running Shoes",
     "brand": "SPARX",
     "price": 1124,
     "category": "sneakers",
@@ -144,7 +150,8 @@
   },
   {
     "id": "sparx-sm-680-running",
-    "name": "Sparx SM 680 Running Shoes",
+    "name": "Sparx SM 680",
+    "fullName": "Sparx SM 680 Running Shoes",
     "brand": "SPARX",
     "price": 1039,
     "category": "sneakers",
@@ -167,7 +174,8 @@
   },
   {
     "id": "us-polo-abor-30-white",
-    "name": "U.S. Polo Assn. ABOR 3.0 White Classic Canvas Sneakers",
+    "name": "U.S. Polo ABOR 3.0",
+    "fullName": "U.S. Polo Assn. ABOR 3.0 White Classic Canvas Sneakers",
     "brand": "U.S. POLO ASSN.",
     "price": 2045,
     "category": "sneakers",
@@ -191,7 +199,8 @@
   },
   {
     "id": "us-polo-coba-20",
-    "name": "U.S. Polo Assn. Coba 2.0 Sneakers",
+    "name": "U.S. Polo Coba 2.0",
+    "fullName": "U.S. Polo Assn. Coba 2.0 Sneakers",
     "brand": "U.S. POLO ASSN.",
     "price": 3112,
     "category": "sneakers",
@@ -214,7 +223,8 @@
   },
   {
     "id": "puma-smashic-comfort-casual-sneakers",
-    "name": "Puma | Smashic Comfort Casual Sneakers",
+    "name": "Puma Smashic",
+    "fullName": "Puma | Smashic Comfort Casual Sneakers",
     "brand": "PUMA",
     "price": 1574,
     "category": "sneakers",
@@ -238,7 +248,8 @@
   },
   {
     "id": "puma-mens-court-shatter-mid-sneaker",
-    "name": "Puma Mens Court Shatter Mid Sneaker",
+    "name": "Puma Court Shatter Mid",
+    "fullName": "Puma Mens Court Shatter Mid Sneaker",
     "brand": "PUMA",
     "price": 2400,
     "category": "sneakers",
@@ -263,7 +274,8 @@
   },
   {
     "id": "puma-men-velocity-trn-running-shoe",
-    "name": "Puma Men Velocity Trn Running Shoe",
+    "name": "Puma Velocity TRN",
+    "fullName": "Puma Men Velocity Trn Running Shoe",
     "brand": "PUMA",
     "price": 1482,
     "category": "sneakers",
@@ -286,7 +298,8 @@
   },
   {
     "id": "u-s-polo-assn-men-lace-up-sneaker-shoes",
-    "name": "U.S. Polo ASSN. Men Lace Up Sneaker Shoes",
+    "name": "U.S. Polo Lace Up",
+    "fullName": "U.S. Polo ASSN. Men Lace Up Sneaker Shoes",
     "brand": "U.S. POLO ASSN.",
     "price": 4799,
     "category": "sneakers",
@@ -309,7 +322,8 @@
   },
   {
     "id": "sparx-sneakers-for-men-sm-439-lace-up-casual-shoes-with-lightweight-design-cushioned-comfort-durable-sole",
-    "name": "SPARX Sneakers for Men SM-439 Lace-Up Casual Shoes with Lightweight Design, Cushioned Comfort & Durable Sole",
+    "name": "Sparx SM-439",
+    "fullName": "SPARX Sneakers for Men SM-439 Lace-Up Casual Shoes with Lightweight Design, Cushioned Comfort & Durable Sole",
     "brand": "SPARX",
     "price": 649,
     "category": "sneakers",
@@ -333,7 +347,8 @@
   },
   {
     "id": "puma-smashic-women-s-comfort-casual-sneakers",
-    "name": "Puma | Smashic Women's Comfort Casual Sneakers",
+    "name": "Puma Smashic Women's",
+    "fullName": "Puma | Smashic Women's Comfort Casual Sneakers",
     "brand": "PUMA",
     "price": 1574,
     "category": "sneakers",
@@ -358,7 +373,8 @@
   },
   {
     "id": "sparx-mens-sparx-men-blue-stylish-sneakers-shoe",
-    "name": "Sparx Mens Sparx Men Blue Stylish Sneakers Shoe",
+    "name": "Sparx Blue",
+    "fullName": "Sparx Mens Sparx Men Blue Stylish Sneakers Shoe",
     "brand": "SPARX",
     "price": 636,
     "category": "sneakers",
@@ -383,7 +399,8 @@
   },
   {
     "id": "red-tape-men-s-sneakers-white-blue-mesh-pu-round-toe-lace-up",
-    "name": "Red Tape Men's Sneakers White Blue Mesh Pu Round Toe Lace-Up",
+    "name": "Red Tape White-Blue",
+    "fullName": "Red Tape Men's Sneakers White Blue Mesh Pu Round Toe Lace-Up",
     "brand": "Red Tape",
     "price": 968,
     "category": "sneakers",
@@ -406,7 +423,8 @@
   },
   {
     "id": "boldfit-sneakers-for-man-lightweight-shoes-for-men-comfortable-sneakers-for-men-air-mesh-casual-shoes-mens-soft-cushion-insole-lace-up-casual-boys-shoe-sneaker-dripbloc",
-    "name": "Boldfit Sneakers, Lightweight Shoes for Men",
+    "name": "Boldfit Lightweight",
+    "fullName": "Boldfit Sneakers, Lightweight Shoes for Men",
     "brand": "Boldfit",
     "price": 899,
     "category": "sneakers",
@@ -429,7 +447,8 @@
   },
   {
     "id": "bacca-bucci-men-s-energy-afterburn-disruptor-sneakers",
-    "name": "Bacca Bucci Men's Energy Afterburn Disruptor Sneakers",
+    "name": "Bacca Bucci Energy Afterburn",
+    "fullName": "Bacca Bucci Men's Energy Afterburn Disruptor Sneakers",
     "brand": "Bacca Bucci",
     "price": 979,
     "category": "sneakers",
@@ -452,7 +471,8 @@
   },
   {
     "id": "bata-men-s-lace-up-sneaker",
-    "name": "Bata Men's Lace-up Sneaker",
+    "name": "Bata Lace-up",
+    "fullName": "Bata Men's Lace-up Sneaker",
     "brand": "Bata",
     "price": 971,
     "category": "sneakers",
@@ -476,7 +496,8 @@
   },
   {
     "id": "puma-men-melanite-sneaker",
-    "name": "Puma Men Melanite Sneaker",
+    "name": "Puma Melanite",
+    "fullName": "Puma Men Melanite Sneaker",
     "brand": "PUMA",
     "price": 1578,
     "category": "sneakers",
@@ -501,7 +522,8 @@
   },
   {
     "id": "skechers-men-summits-brisbane-sneakers",
-    "name": "Skechers Men Summits Brisbane Sneakers",
+    "name": "Skechers Summits Brisbane",
+    "fullName": "Skechers Men Summits Brisbane Sneakers",
     "brand": "Skechers",
     "price": 2060,
     "category": "sneakers",
@@ -525,7 +547,8 @@
   },
   {
     "id": "asian-men-thunder-07-stylish-casual-mid-top-sneaker-and-trendy-shoes-with-laces-for-men-boys-perfect-college-parties-and-outings-lightweight-comfortable-and-durable-for-all-day-use",
-    "name": "ASIAN Men THUNDER-07 Stylish Casual Mid Top Sneaker and Trendy Shoes with Laces for Men & Boys, Perfect, College, Parties and Outings, Lightweight, Comfortable, and Durable for All-Day Use",
+    "name": "ASIAN Thunder-07",
+    "fullName": "ASIAN Men THUNDER-07 Stylish Casual Mid Top Sneaker and Trendy Shoes with Laces for Men & Boys, Perfect, College, Parties and Outings, Lightweight, Comfortable, and Durable for All-Day Use",
     "brand": "ASIAN",
     "price": 654,
     "category": "sneakers",
@@ -549,7 +572,8 @@
   },
   {
     "id": "asian-men-s-cosco-13-sports-running-walking-gym-school-shoes-lightweight-eva-sole-extra-jump-casual-sneaker-lace-up-shoes-for-men-s-boy-s",
-    "name": "ASIAN Men's Cosco-13 Sports Running,Walking & Gym, School Shoes Lightweight Eva Sole Extra Jump Casual Sneaker Lace-Up Shoes for Men's & Boy's",
+    "name": "ASIAN Cosco-13",
+    "fullName": "ASIAN Men's Cosco-13 Sports Running,Walking & Gym, School Shoes Lightweight Eva Sole Extra Jump Casual Sneaker Lace-Up Shoes for Men's & Boy's",
     "brand": "ASIAN",
     "price": 649,
     "category": "sneakers",
@@ -572,7 +596,8 @@
   },
   {
     "id": "asian-men-s-mexico-11-casual-sneaker-shoes-with-synthetic-upper-lightweight-comfortable-mid-top-sneaker-shoes-for-men-s-boy-s",
-    "name": "ASIAN Men's MEXICO-11 Casual Sneaker Shoes with Synthetic Upper Lightweight Comfortable Mid Top Sneaker Shoes for Men's & Boy's",
+    "name": "ASIAN Mexico-11",
+    "fullName": "ASIAN Men's MEXICO-11 Casual Sneaker Shoes with Synthetic Upper Lightweight Comfortable Mid Top Sneaker Shoes for Men's & Boy's",
     "brand": "ASIAN",
     "price": 899,
     "category": "sneakers",
@@ -595,7 +620,8 @@
   },
   {
     "id": "puma-mens-court-shatter-low-sneaker",
-    "name": "Puma Mens Court Shatter Low Sneaker",
+    "name": "Puma Court Shatter Low",
+    "fullName": "Puma Mens Court Shatter Low Sneaker",
     "brand": "PUMA",
     "price": 2399,
     "category": "sneakers",
@@ -619,7 +645,8 @@
   },
   {
     "id": "puma-unisex-adult-shuffle-res-sneaker",
-    "name": "Puma Unisex Adult Shuffle RES Sneaker",
+    "name": "Puma Shuffle",
+    "fullName": "Puma Unisex Adult Shuffle RES Sneaker",
     "brand": "PUMA",
     "price": 1899,
     "category": "sneakers",
@@ -643,7 +670,8 @@
   },
   {
     "id": "campus-men-s-brisk-sneakers",
-    "name": "Campus Men's Brisk Sneakers",
+    "name": "Campus Brisk",
+    "fullName": "Campus Men's Brisk Sneakers",
     "brand": "Campus",
     "price": 1239,
     "category": "sneakers",
@@ -667,7 +695,8 @@
   },
   {
     "id": "boldfit-shoes-for-man-stylish-sneakers-for-man-comfortable-shoes-for-men-casual-lace-up-sneakers-for-men-lightweight-casual-sneaker-shoe-for-boys",
-    "name": "Boldfit Shoes for Man Stylish Sneakers for Man Comfortable Shoes for Men Casual Lace Up Sneakers for Men Lightweight Casual Sneaker Shoe for Boys",
+    "name": "Boldfit Casual",
+    "fullName": "Boldfit Shoes for Man Stylish Sneakers for Man Comfortable Shoes for Men Casual Lace Up Sneakers for Men Lightweight Casual Sneaker Shoe for Boys",
     "brand": "Boldfit",
     "price": 899,
     "category": "sneakers",
@@ -691,7 +720,8 @@
   },
   {
     "id": "asian-nexus-11-men-s-printed-sneakers-stylish-comfortable-for-college-travel-and-daily-use",
-    "name": "ASIAN Nexus-11 Men's Printed Sneakers Stylish, Comfortable for College Travel and Daily Use",
+    "name": "ASIAN Nexus-11",
+    "fullName": "ASIAN Nexus-11 Men's Printed Sneakers Stylish, Comfortable for College Travel and Daily Use",
     "brand": "ASIAN",
     "price": 799,
     "category": "sneakers",
@@ -716,7 +746,8 @@
   },
   {
     "id": "asian-men-s-wonder-sports-running-walking-gym-shoes-with-casual-sneaker-lightweight-lace-up-shoes-for-men-s-delta-20",
-    "name": "ASIAN Men's Wonder Sports Running,Walking & Gym Shoes with Casual Sneaker Lightweight Lace-Up Shoes for Men's Delta-20",
+    "name": "ASIAN Wonder Delta-20",
+    "fullName": "ASIAN Men's Wonder Sports Running,Walking & Gym Shoes with Casual Sneaker Lightweight Lace-Up Shoes for Men's Delta-20",
     "brand": "ASIAN",
     "price": 849,
     "category": "sneakers",
@@ -740,7 +771,8 @@
   },
   {
     "id": "neeman-s-men-s-mono-court-sneakers-lightweight-synthetic-casual-shoes-with-cushioned-eva-sole-flexible-walking-everyday-comfort-sneakers",
-    "name": "Neeman's Men’s Mono Court Sneakers | Lightweight Synthetic Casual Shoes with Cushioned EVA Sole | Flexible Walking & Everyday Comfort Sneakers",
+    "name": "Neeman's Mono Court",
+    "fullName": "Neeman's Men’s Mono Court Sneakers | Lightweight Synthetic Casual Shoes with Cushioned EVA Sole | Flexible Walking & Everyday Comfort Sneakers",
     "brand": "Neeman's",
     "price": 881,
     "category": "sneakers",
@@ -764,7 +796,8 @@
   },
   {
     "id": "campus-men-s-rustle-sneakers",
-    "name": "Campus Men's Rustle Sneakers",
+    "name": "Campus Rustle",
+    "fullName": "Campus Men's Rustle Sneakers",
     "brand": "Campus",
     "price": 1659,
     "category": "sneakers",
@@ -787,7 +820,8 @@
   },
   {
     "id": "campus-men-s-dripp-sneakers",
-    "name": "Campus Men's DRIPP Sneakers",
+    "name": "Campus Dripp",
+    "fullName": "Campus Men's DRIPP Sneakers",
     "brand": "Campus",
     "price": 1599,
     "category": "sneakers",
@@ -812,7 +846,8 @@
   },
   {
     "id": "skechers-men-modern-cool-sneakers",
-    "name": "Skechers Men Modern Cool Sneakers",
+    "name": "Skechers Modern Cool",
+    "fullName": "Skechers Men Modern Cool Sneakers",
     "brand": "Skechers",
     "price": 1679,
     "category": "sneakers",
@@ -836,7 +871,8 @@
   },
   {
     "id": "woodland-men-s-leather-casual-shoe",
-    "name": "Woodland Men's Leather Casual Shoe",
+    "name": "Woodland Leather",
+    "fullName": "Woodland Men's Leather Casual Shoe",
     "brand": "Woodland",
     "price": 2199,
     "category": "sneakers",
@@ -860,7 +896,8 @@
   },
   {
     "id": "skechers-mens-edgeride-sneaker",
-    "name": "Skechers Mens Edgeride Sneaker",
+    "name": "Skechers Edgeride",
+    "fullName": "Skechers Mens Edgeride Sneaker",
     "brand": "Skechers",
     "price": 4059,
     "category": "sneakers",
@@ -884,7 +921,8 @@
   },
   {
     "id": "adidas-air-fleetfly-men-s-running-shoes-granit-byello-lightweight-cushioned-sports-shoes-for-daily-runs-training",
-    "name": "adidas Air-Fleetfly Men's Running Shoes - Granit/BYELLO | Lightweight & Cushioned Sports Shoes for Daily Runs & Training",
+    "name": "Adidas Air-Fleetfly",
+    "fullName": "adidas Air-Fleetfly Men's Running Shoes - Granit/BYELLO | Lightweight & Cushioned Sports Shoes for Daily Runs & Training",
     "brand": "adidas",
     "price": 1600,
     "category": "sneakers",
@@ -908,7 +946,8 @@
   },
   {
     "id": "adidas-men-enry-flux-m-running-shoe",
-    "name": "adidas Men Enry Flux M Running Shoe",
+    "name": "Adidas Enry Flux M",
+    "fullName": "adidas Men Enry Flux M Running Shoe",
     "brand": "adidas",
     "price": 2619,
     "category": "sneakers",
@@ -932,7 +971,8 @@
   },
   {
     "id": "adidas-mens-hopskotch-sneaker-m-sneaker",
-    "name": "adidas Mens Hopskotch Sneaker M Sneaker",
+    "name": "Adidas Hopskotch",
+    "fullName": "adidas Mens Hopskotch Sneaker M Sneaker",
     "brand": "adidas",
     "price": 2328,
     "category": "sneakers",
@@ -956,7 +996,8 @@
   },
   {
     "id": "adidas-mens-cloudfoam-flex-laces-sports-shoes",
-    "name": "adidas Mens Cloudfoam Flex - Laces Sports Shoes",
+    "name": "Adidas Cloudfoam Flex",
+    "fullName": "adidas Mens Cloudfoam Flex - Laces Sports Shoes",
     "brand": "adidas",
     "price": 2249,
     "category": "sneakers",
@@ -980,7 +1021,8 @@
   },
   {
     "id": "asian-victoria-01-chunky-sneakers-for-women-girls-lightweight-fashion-shoes-with-cushioned-sole-cool-colour-design-stylish-look-for-casual-wear-travel-college-outfits",
-    "name": "ASIAN Victoria-01 Chunky Sneakers for Women & Girls | Lightweight Fashion Shoes with Cushioned Sole, Cool Colour Design & Stylish Look for Casual Wear, Travel, College & Outfits",
+    "name": "ASIAN Victoria-01",
+    "fullName": "ASIAN Victoria-01 Chunky Sneakers for Women & Girls | Lightweight Fashion Shoes with Cushioned Sole, Cool Colour Design & Stylish Look for Casual Wear, Travel, College & Outfits",
     "brand": "ASIAN",
     "price": 770,
     "category": "sneakers",
@@ -1004,7 +1046,8 @@
   },
   {
     "id": "red-tape-women-s-sneakers-grey-pu-round-toe-lace-up-comfort-grip-5-uk",
-    "name": "Red Tape Women's Sneakers Grey Pu Round Toe Lace-Up Comfort Grip, 5 UK",
+    "name": "Red Tape Grey",
+    "fullName": "Red Tape Women's Sneakers Grey Pu Round Toe Lace-Up Comfort Grip, 5 UK",
     "brand": "Red Tape",
     "price": 944,
     "category": "sneakers",
@@ -1027,7 +1070,8 @@
   },
   {
     "id": "campus-women-moren-running-shoes",
-    "name": "Campus Women MOREN Running Shoes",
+    "name": "Campus Moren",
+    "fullName": "Campus Women MOREN Running Shoes",
     "brand": "Campus",
     "price": 1079,
     "category": "sneakers",
@@ -1051,7 +1095,8 @@
   },
   {
     "id": "skechers-women-grand-92-be-lifted-sneakers",
-    "name": "Skechers Women Grand 92 Be Lifted Sneakers",
+    "name": "Skechers Grand 92",
+    "fullName": "Skechers Women Grand 92 Be Lifted Sneakers",
     "brand": "Skechers",
     "price": 4199,
     "category": "sneakers",
@@ -1075,7 +1120,8 @@
   },
   {
     "id": "puma-women-carina-2-0-sneaker",
-    "name": "Puma Women Carina 2.0 Sneaker",
+    "name": "Puma Carina 2.0",
+    "fullName": "Puma Women Carina 2.0 Sneaker",
     "brand": "PUMA",
     "price": 2499,
     "category": "sneakers",
@@ -1100,7 +1146,8 @@
   },
   {
     "id": "adidas-womens-advantage-base-2-0-sneaker",
-    "name": "adidas Womens Advantage Base 2.0 Sneaker",
+    "name": "Adidas Advantage Base 2.0",
+    "fullName": "adidas Womens Advantage Base 2.0 Sneaker",
     "brand": "adidas",
     "price": 2639,
     "category": "sneakers",
@@ -1120,7 +1167,8 @@
   },
   {
     "id": "nike-womens-court-vision-sneakers",
-    "name": "Nike Womens Court Vision Sneakers",
+    "name": "Nike Court Vision",
+    "fullName": "Nike Womens Court Vision Sneakers",
     "brand": "Nike",
     "price": 5471,
     "category": "sneakers",
@@ -1145,7 +1193,8 @@
   },
   {
     "id": "bacca-bucci-men-lace-up-sneaker-shoes",
-    "name": "Bacca Bucci Men Lace Up Sneaker Shoes",
+    "name": "Bacca Bucci Lace Up",
+    "fullName": "Bacca Bucci Men Lace Up Sneaker Shoes",
     "brand": "Bacca Bucci",
     "price": 1673,
     "category": "sneakers",
@@ -1169,7 +1218,8 @@
   },
   {
     "id": "campus-men-og-27-sneakers",
-    "name": "Campus Men Og-27 Sneakers",
+    "name": "Campus OG-27",
+    "fullName": "Campus Men Og-27 Sneakers",
     "brand": "Campus",
     "price": 1289,
     "category": "sneakers",
@@ -1193,7 +1243,8 @@
   },
   {
     "id": "sparx-casual-sneakers-for-men-trendy-lace-up-shoes-with-soft-cushioning-lightweight-comfort-durable-sole-everyday-fashion-wear",
-    "name": "SPARX Casual Sneakers for Men – Trendy Lace-Up Shoes with Soft Cushioning, Lightweight Comfort, Durable Sole & Everyday Fashion Wear",
+    "name": "Sparx Casual",
+    "fullName": "SPARX Casual Sneakers for Men – Trendy Lace-Up Shoes with Soft Cushioning, Lightweight Comfort, Durable Sole & Everyday Fashion Wear",
     "brand": "Brand: SPARX",
     "price": 543,
     "category": "sneakers",
@@ -1217,7 +1268,8 @@
   },
   {
     "id": "red-chief-sports-lace-up-low-ankle-casual-shoes-for-men-sneakers-for-man-men-casual-shoes-c6004",
-    "name": "Red Chief Sports Lace Up Low Ankle Casual Shoes for Men | Sneakers for Man | Men Casual Shoes | C6004",
+    "name": "Red Chief C6004",
+    "fullName": "Red Chief Sports Lace Up Low Ankle Casual Shoes for Men | Sneakers for Man | Men Casual Shoes | C6004",
     "brand": "Red Chief",
     "price": 2024,
     "category": "sneakers",
@@ -1241,7 +1293,8 @@
   },
   {
     "id": "lancer-mens-sneaker-701-sneaker",
-    "name": "Lancer Mens Sneaker-701 Sneaker",
+    "name": "Lancer 701",
+    "fullName": "Lancer Mens Sneaker-701 Sneaker",
     "brand": "Brand: Lancer",
     "price": 791,
     "category": "sneakers",
@@ -1265,7 +1318,8 @@
   },
   {
     "id": "power-mens-extreme-leather-running-shoes",
-    "name": "Power Mens Extreme Leather Running Shoes",
+    "name": "Power Extreme",
+    "fullName": "Power Mens Extreme Leather Running Shoes",
     "brand": "Power",
     "price": 1379,
     "category": "sneakers",
@@ -1289,7 +1343,8 @@
   },
   {
     "id": "converse-chuck-taylor-all-star-malden-street-black-low-top-sneaker",
-    "name": "Converse Chuck Taylor All Star Malden Street Black Low Top Sneaker",
+    "name": "Converse Chuck Taylor All Star",
+    "fullName": "Converse Chuck Taylor All Star Malden Street Black Low Top Sneaker",
     "brand": "Converse",
     "price": 3999,
     "category": "sneakers",
@@ -1314,7 +1369,8 @@
   },
   {
     "id": "reebok-men-s-sneakers-canvarsity-zane-casual-shoe-stylish-shoes-for-casual-and-everyday-wear",
-    "name": "Reebok Men's Sneakers - Canvarsity Zane - Casual Shoe - Stylish Shoes for Casual and Everyday Wear",
+    "name": "Reebok Canvarsity Zane",
+    "fullName": "Reebok Men's Sneakers - Canvarsity Zane - Casual Shoe - Stylish Shoes for Casual and Everyday Wear",
     "brand": "Reebok",
     "price": 1579,
     "category": "sneakers",
@@ -1339,7 +1395,8 @@
   },
   {
     "id": "new-balance-men-bb550-sneaker",
-    "name": "New Balance Men BB550 Sneaker",
+    "name": "New Balance BB550",
+    "fullName": "New Balance Men BB550 Sneaker",
     "brand": "new balance",
     "price": 7983,
     "category": "sneakers",
@@ -1363,7 +1420,8 @@
   },
   {
     "id": "sparx-sneakers-for-men-sm-1045-lace-up-casual-shoes-with-lightweight-design-cushioned-comfort-durable-sole",
-    "name": "SPARX Sneakers for Men SM-1045 Lace-Up Casual Shoes with Lightweight Design, Cushioned Comfort & Durable Sole",
+    "name": "Sparx SM-1045",
+    "fullName": "SPARX Sneakers for Men SM-1045 Lace-Up Casual Shoes with Lightweight Design, Cushioned Comfort & Durable Sole",
     "brand": "Brand: SPARX",
     "price": 806,
     "category": "sneakers",
@@ -1388,7 +1446,8 @@
   },
   {
     "id": "campus-men-og-31-sneakers",
-    "name": "Campus Men Og-31 Sneakers",
+    "name": "Campus OG-31",
+    "fullName": "Campus Men Og-31 Sneakers",
     "brand": "Campus",
     "price": 1219,
     "category": "sneakers",
@@ -1412,7 +1471,8 @@
   },
   {
     "id": "wrogn-men-s-pu-sneakers-lace-up-design-cushioned-breathable-sole",
-    "name": "WROGN Men's PU Sneakers | Lace-Up Design | Cushioned Breathable Sole",
+    "name": "WROGN PU",
+    "fullName": "WROGN Men's PU Sneakers | Lace-Up Design | Cushioned Breathable Sole",
     "brand": "WROGN",
     "price": 1470,
     "category": "sneakers",
@@ -1435,7 +1495,8 @@
   },
   {
     "id": "woodland-men-s-leather-sneaker",
-    "name": "Woodland Men's Leather Sneaker",
+    "name": "Woodland Leather",
+    "fullName": "Woodland Men's Leather Sneaker",
     "brand": "Woodland",
     "price": 1899,
     "category": "sneakers",
@@ -1459,7 +1520,8 @@
   },
   {
     "id": "reebok-men-s-baseliner-shoe-high-performance-sports-tennis-shoe-with-superior-traction",
-    "name": "Reebok Men's - Baseliner Shoe - High Performance Sports - Tennis Shoe with Superior Traction.",
+    "name": "Reebok Baseliner",
+    "fullName": "Reebok Men's - Baseliner Shoe - High Performance Sports - Tennis Shoe with Superior Traction.",
     "brand": "Reebok",
     "price": 2299,
     "category": "sneakers",
@@ -1483,7 +1545,8 @@
   },
   {
     "id": "neeman-s-the-brunch-loafers-for-men-comfortable-flexible-breathable-knitted-upper-and-faux-leather",
-    "name": "Neeman's The Brunch Loafers for Men | Comfortable, Flexible & Breathable Knitted Upper and Faux Leather",
+    "name": "Neeman's Brunch Loafers",
+    "fullName": "Neeman's The Brunch Loafers for Men | Comfortable, Flexible & Breathable Knitted Upper and Faux Leather",
     "brand": "Neeman's",
     "price": 1599,
     "category": "sneakers",
@@ -1507,7 +1570,8 @@
   },
   {
     "id": "hotstyle-fashion-combo-trendy-stylish-loafers-for-men-fashion-new-multicolor-combo",
-    "name": "HotStyle Fashion Combo Trendy & Stylish Loafers for Men Fashion NEW Multicolor Combo",
+    "name": "HotStyle Loafers Combo",
+    "fullName": "HotStyle Fashion Combo Trendy & Stylish Loafers for Men Fashion NEW Multicolor Combo",
     "brand": "Brand: HotStyle",
     "price": 451,
     "category": "sneakers",
@@ -1530,7 +1594,8 @@
   },
   {
     "id": "puma-unisex-adult-anzarun-lite-sneaker",
-    "name": "Puma Unisex Adult Anzarun Lite Sneaker",
+    "name": "Puma Anzarun Lite",
+    "fullName": "Puma Unisex Adult Anzarun Lite Sneaker",
     "brand": "PUMA",
     "price": 2199,
     "category": "sneakers",
@@ -1554,7 +1619,8 @@
   },
   {
     "id": "adidas-men-sportswear-shoes-lite-racer-4-0-black",
-    "name": "adidas Men Sportswear Shoes | Lite Racer 4.0 | Black |",
+    "name": "Adidas Lite Racer 4.0",
+    "fullName": "adidas Men Sportswear Shoes | Lite Racer 4.0 | Black |",
     "brand": "adidas",
     "price": 2239,
     "category": "sneakers",
@@ -1576,7 +1642,8 @@
   },
   {
     "id": "nike-mens-revolution-7-running-shoes",
-    "name": "Nike Mens Revolution 7 Running Shoes",
+    "name": "Nike Revolution 7",
+    "fullName": "Nike Mens Revolution 7 Running Shoes",
     "brand": "Nike",
     "price": 2956,
     "category": "sneakers",
@@ -1601,7 +1668,8 @@
   },
   {
     "id": "campus-men-oxyfit-n-walking-shoes",
-    "name": "Campus Men Oxyfit (N) Walking Shoes",
+    "name": "Campus Oxyfit",
+    "fullName": "Campus Men Oxyfit (N) Walking Shoes",
     "brand": "Campus",
     "price": 582,
     "category": "sneakers",
@@ -1626,7 +1694,8 @@
   },
   {
     "id": "asian-men-boss-01-running-and-casual-wear-running-shoes-with-laces-lightweight-and-comfortable-shoes-for-men-boys-ideal-for-sports-gym-walking-and-daily-use",
-    "name": "ASIAN Men BOSS-01 Running and Casual Wear Running Shoes with Laces, Lightweight and Comfortable Shoes for Men & Boys, Ideal for Sports, Gym, Walking, and Daily Use",
+    "name": "ASIAN Boss-01",
+    "fullName": "ASIAN Men BOSS-01 Running and Casual Wear Running Shoes with Laces, Lightweight and Comfortable Shoes for Men & Boys, Ideal for Sports, Gym, Walking, and Daily Use",
     "brand": "ASIAN",
     "price": 974,
     "category": "sneakers",
@@ -1650,7 +1719,8 @@
   },
   {
     "id": "reebok-mens-glide-ride-m-running-shoe",
-    "name": "Reebok Mens Glide Ride M Running Shoe",
+    "name": "Reebok Glide Ride M",
+    "fullName": "Reebok Mens Glide Ride M Running Shoe",
     "brand": "Reebok",
     "price": 2099,
     "category": "sneakers",
@@ -1674,7 +1744,8 @@
   },
   {
     "id": "skechers-mens-go-walk-7-the-construct-sneaker",
-    "name": "Skechers Mens Go Walk 7 - The Construct Sneaker",
+    "name": "Skechers Go Walk 7",
+    "fullName": "Skechers Mens Go Walk 7 - The Construct Sneaker",
     "brand": "Skechers",
     "price": 3709,
     "category": "sneakers",
@@ -1697,7 +1768,8 @@
   },
   {
     "id": "power-mens-xorise-100-rn-eros-m-casual",
-    "name": "Power mens Xorise+100 Rn Eros M Casual",
+    "name": "Power Xorise 100",
+    "fullName": "Power mens Xorise+100 Rn Eros M Casual",
     "brand": "Power",
     "price": 1799,
     "category": "sneakers",
@@ -1720,7 +1792,8 @@
   },
   {
     "id": "woodland-mens-ogc-6614124-casual-shoes",
-    "name": "Woodland Mens OGC 6614124 Casual Shoes",
+    "name": "Woodland OGC 6614124",
+    "fullName": "Woodland Mens OGC 6614124 Casual Shoes",
     "brand": "Woodland",
     "price": 1749,
     "category": "sneakers",
@@ -1738,7 +1811,8 @@
   },
   {
     "id": "converse-unisex-chuck-taylor-all-star-malden-street-black-mid-top-sneaker",
-    "name": "Converse Unisex Chuck Taylor All Star Malden Street Black Mid Top Sneaker",
+    "name": "Converse Chuck Taylor Malden Mid",
+    "fullName": "Converse Unisex Chuck Taylor All Star Malden Street Black Mid Top Sneaker",
     "brand": "Converse",
     "price": 4499,
     "category": "sneakers",
@@ -1762,7 +1836,8 @@
   },
   {
     "id": "new-balance-men-410-running-shoes",
-    "name": "New Balance Men 410 Running Shoes",
+    "name": "New Balance 410",
+    "fullName": "New Balance Men 410 Running Shoes",
     "brand": "new balance",
     "price": 3675,
     "category": "sneakers",
@@ -1784,7 +1859,8 @@
   },
   {
     "id": "campus-men-s-cyron-running-shoes",
-    "name": "Campus Men's CYRON Running Shoes",
+    "name": "Campus Cyron",
+    "fullName": "Campus Men's CYRON Running Shoes",
     "brand": "Campus",
     "price": 1399,
     "category": "sneakers",
@@ -1808,7 +1884,8 @@
   },
   {
     "id": "puma-unisex-adult-x-ray-2-square-res-sneaker",
-    "name": "Puma Unisex-Adult X-ray 2 Square Res Sneaker",
+    "name": "Puma X-ray 2 Square",
+    "fullName": "Puma Unisex-Adult X-ray 2 Square Res Sneaker",
     "brand": "PUMA",
     "price": 2619,
     "category": "sneakers",
@@ -1832,7 +1909,8 @@
   },
   {
     "id": "adidas-men-runfalcon-3-0-running-shoe",
-    "name": "adidas Men Runfalcon 3.0 Running Shoe",
+    "name": "Adidas Runfalcon 3.0",
+    "fullName": "adidas Men Runfalcon 3.0 Running Shoe",
     "brand": "adidas",
     "price": 2819,
     "category": "sneakers",
@@ -1856,7 +1934,8 @@
   },
   {
     "id": "asian-basket-14-men-s-sporty-mid-top-sneakers-with-memory-foam-cushioning-durable-grip-sole-and-athletic-design-for-basketball-and-casual-wear",
-    "name": "ASIAN Basket-14 Men’s Sporty Mid-Top Sneakers with Memory Foam Cushioning | Durable Grip Sole and Athletic Design for Basketball and Casual Wear",
+    "name": "ASIAN Basket-14",
+    "fullName": "ASIAN Basket-14 Men’s Sporty Mid-Top Sneakers with Memory Foam Cushioning | Durable Grip Sole and Athletic Design for Basketball and Casual Wear",
     "brand": "ASIAN",
     "price": 899,
     "category": "sneakers",
@@ -1879,7 +1958,8 @@
   },
   {
     "id": "skechers-men-equalizer-5-0-sneakers",
-    "name": "Skechers Men Equalizer 5.0 Sneakers",
+    "name": "Skechers Equalizer 5.0",
+    "fullName": "Skechers Men Equalizer 5.0 Sneakers",
     "brand": "Skechers",
     "price": 1609,
     "category": "sneakers",
@@ -1903,7 +1983,8 @@
   },
   {
     "id": "reebok-men-s-running-shoe-zig-dynamica-lite-sports-shoe-ideal-for-running-gym",
-    "name": "Reebok Men's Running Shoe - Zig Dynamica Lite - Sports Shoe - Ideal for Running & Gym",
+    "name": "Reebok Zig Dynamica",
+    "fullName": "Reebok Men's Running Shoe - Zig Dynamica Lite - Sports Shoe - Ideal for Running & Gym",
     "brand": "Reebok",
     "price": 2257,
     "category": "sneakers",
@@ -1927,7 +2008,8 @@
   },
   {
     "id": "bata-comfit-men-s-slip-on-sneaker",
-    "name": "Bata Comfit Men's Slip-on Sneaker",
+    "name": "Bata Comfit",
+    "fullName": "Bata Comfit Men's Slip-on Sneaker",
     "brand": "Bata Comfit",
     "price": 1187,
     "category": "sneakers",
@@ -1951,7 +2033,8 @@
   },
   {
     "id": "red-tape-athleisure-sports-shoes-for-men-in-black-low-cut-sports-shoes",
-    "name": "Red Tape Athleisure Sports Shoes for Men in Black | Low-Cut Sports Shoes.",
+    "name": "Red Tape Athleisure Black",
+    "fullName": "Red Tape Athleisure Sports Shoes for Men in Black | Low-Cut Sports Shoes.",
     "brand": "Red Tape",
     "price": 1193,
     "category": "sneakers",
@@ -1974,7 +2057,8 @@
   },
   {
     "id": "campus-men-s-swoon-running-shoes",
-    "name": "Campus Men's Swoon Running Shoes",
+    "name": "Campus Swoon",
+    "fullName": "Campus Men's Swoon Running Shoes",
     "brand": "Campus",
     "price": 999,
     "category": "sneakers",
@@ -1999,7 +2083,8 @@
   },
   {
     "id": "puma-mens-rebound-retro-mid-sneaker",
-    "name": "Puma Mens Rebound Retro Mid Sneaker",
+    "name": "Puma Rebound Retro",
+    "fullName": "Puma Mens Rebound Retro Mid Sneaker",
     "brand": "PUMA",
     "price": 3499,
     "category": "sneakers",
@@ -2024,7 +2109,8 @@
   },
   {
     "id": "adidas-men-sportswear-shoes-grand-court-2-0",
-    "name": "adidas Men Sportswear Shoes | Grand Court 2.0 |",
+    "name": "Adidas Grand Court 2.0",
+    "fullName": "adidas Men Sportswear Shoes | Grand Court 2.0 |",
     "brand": "adidas",
     "price": 3199,
     "category": "sneakers",
@@ -2048,7 +2134,8 @@
   },
   {
     "id": "nike-mens-downshifter-14-running-shoes",
-    "name": "Nike Mens Downshifter 14 Running Shoes",
+    "name": "Nike Downshifter 14",
+    "fullName": "Nike Mens Downshifter 14 Running Shoes",
     "brand": "Nike",
     "price": 4895,
     "category": "sneakers",
@@ -2073,7 +2160,8 @@
   },
   {
     "id": "nike-mens-downshifter-13-running-shoes",
-    "name": "Nike Mens Downshifter 13 Running Shoes",
+    "name": "Nike Downshifter 13",
+    "fullName": "Nike Mens Downshifter 13 Running Shoes",
     "brand": "Nike",
     "price": 4295,
     "category": "sneakers",
@@ -2097,7 +2185,8 @@
   },
   {
     "id": "sparx-mens-sm-678-running-shoe",
-    "name": "SPARX Mens Sm 678 Running Shoe",
+    "name": "Sparx SM 678",
+    "fullName": "SPARX Mens Sm 678 Running Shoe",
     "brand": "SPARX",
     "price": 999,
     "category": "sneakers",
@@ -2121,7 +2210,8 @@
   },
   {
     "id": "asian-powerplay-03-men-s-running-shoes-lightweight-memory-foam-technology-breathable-knit-shoes-with-stylish-sporty-design",
-    "name": "ASIAN Powerplay-03 Men’s Running Shoes | Lightweight Memory Foam Technology | Breathable Knit Shoes with Stylish Sporty Design",
+    "name": "ASIAN Powerplay-03",
+    "fullName": "ASIAN Powerplay-03 Men’s Running Shoes | Lightweight Memory Foam Technology | Breathable Knit Shoes with Stylish Sporty Design",
     "brand": "ASIAN",
     "price": 1099,
     "category": "sneakers",
@@ -2146,7 +2236,8 @@
   },
   {
     "id": "woodland-ogc-4433122",
-    "name": "Woodland OGC 4433122 Sneakers",
+    "name": "Woodland OGC 4433122",
+    "fullName": "Woodland OGC 4433122 Sneakers",
     "brand": "Woodland",
     "price": 3296,
     "category": "sneakers",
@@ -2169,7 +2260,8 @@
   },
   {
     "id": "woodland-ogc-6504124",
-    "name": "Woodland OGC 6504124 Sneakers",
+    "name": "Woodland OGC 6504124",
+    "fullName": "Woodland OGC 6504124 Sneakers",
     "brand": "Woodland",
     "price": 2789,
     "category": "sneakers",
@@ -2192,7 +2284,8 @@
   },
   {
     "id": "converse-chuck-taylor-all-star-high-top",
-    "name": "Converse Chuck Taylor All Star High Top Sneakers",
+    "name": "Converse Chuck Taylor High",
+    "fullName": "Converse Chuck Taylor All Star High Top Sneakers",
     "brand": "Converse",
     "price": 4799,
     "category": "sneakers",
@@ -2214,7 +2307,8 @@
   },
   {
     "id": "new-balance-373-grey",
-    "name": "New Balance 373 Sneakers",
+    "name": "New Balance 373",
+    "fullName": "New Balance 373 Sneakers",
     "brand": "New Balance",
     "price": 4525,
     "category": "sneakers",
@@ -2235,7 +2329,8 @@
   },
   {
     "id": "us-polo-capron-40-grey",
-    "name": "U.S. Polo Assn. Capron 4.0 Sneakers",
+    "name": "U.S. Polo Capron 4.0",
+    "fullName": "U.S. Polo Assn. Capron 4.0 Sneakers",
     "brand": "U.S. POLO ASSN.",
     "price": 1920,
     "category": "sneakers",
@@ -2257,196 +2352,130 @@
     ],
     "priceHistory": [1924, 1920]
   },
-
   {
-  "id": "us-polo-aldor-black",
-  "name": "U.S. Polo Assn. ALDOR Sneakers",
-  "brand": "U.S. POLO ASSN.",
-  "price": 1729,
-  "category": "sneakers",
-  "oldPrice": 2108,
-  "discount": 18,
-  "image": "https://m.media-amazon.com/images/I/91i0ZGkdE1L._SL1500_.jpg",
-  "gallery": [
-    "https://m.media-amazon.com/images/I/91i0ZGkdE1L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41tsJDX9NDL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31YAfSd2QtL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/3109OqJ7lXL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41ITfKer0TL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31OTgh89+mL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41zMLtCFh2L._SL1500_.jpg"
-  ],
-  "stores": [
-    {
-      "name": "Flipkart",
-      "price": 1729,
-      "url": "https://www.flipkart.com/u-s-polo-assn-aldor-sneakers-men/p/itm7355ac0ac248d"
-    },
-    {
-      "name": "Amazon",
-      "price": 2108,
-      "url": "https://www.amazon.in/dp/B0DQP5GKC2?tag=stylescoutin2-21"
-    },
-    {
-      "name": "Myntra",
-      "price": 1960,
-      "url": "https://www.myntra.com/casual-shoes/u.s.%2bpolo%2bassn./us-polo-assn-men-round-toe-sneakers/32296853/buy"
-    }
-  ],
-  "priceHistory": [
-    2108,
-    1960,
-    1729
-  ]
-},
-{
-  "id": "reebok-courtswift-stamina-black",
-  "name": "Reebok Courtswift Stamina Sneakers (Black)",
-  "brand": "Reebok",
-  "price": 2499,
-  "category": "sneakers",
-  "oldPrice": 2667,
-  "discount": 6,
-  "image": "https://m.media-amazon.com/images/I/71CV4iAyj6L._SL1500_.jpg",
-  "gallery": [
-    "https://m.media-amazon.com/images/I/71CV4iAyj6L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31GO7Rr9n8L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31UEsfZAVqL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/312thYU1FjL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31Myoja6lrL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31HVzUhnQaL._SL1500_.jpg"
-  ],
-  "stores": [
-    {
-      "name": "Amazon",
-      "price": 2499,
-      "url": "https://www.amazon.in/dp/B0GS4WY675?tag=stylescoutin2-21"
-    },
-    {
-      "name": "Myntra",
-      "price": 2667,
-      "url": "https://www.myntra.com/casual-shoes/reebok/reebok-men-round-toe-sneakers/41904505/buy"
-    }
-  ],
-  "priceHistory": [
-    2667,
-    2499
-  ]
-},
-{
-  "id": "reebok-courtswift-stamina-white",
-  "name": "Reebok Courtswift Stamina Sneakers (White)",
-  "brand": "Reebok",
-  "price": 2499,
-  "category": "sneakers",
-  "oldPrice": 2667,
-  "discount": 6,
-  "image": "https://m.media-amazon.com/images/I/714VnpJEsnL._SL1500_.jpg",
-  "gallery": [
-    "https://m.media-amazon.com/images/I/714VnpJEsnL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31+f656+vdL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31HC9gvJ6LL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31JJoQm9rlL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/3196TfnteML._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31MzR6CGssL._SL1500_.jpg"
-  ],
-  "stores": [
-    {
-      "name": "Amazon",
-      "price": 2499,
-      "url": "https://www.amazon.in/dp/B0GS56FCZR?tag=stylescoutin2-21"
-    },
-    {
-      "name": "Myntra",
-      "price": 2667,
-      "url": "https://www.myntra.com/casual-shoes/reebok/reebok-men-round-toe-sneakers/41904502/buy"
-    }
-  ],
-  "priceHistory": [
-    2667,
-    2499
-  ]
-},
-{
-  "id": "puma-flyer-flex",
-  "name": "Puma Flyer Flex Running Shoes",
-  "brand": "PUMA",
-  "price": 1499,
-  "category": "sneakers",
-  "oldPrice": 3999,
-  "discount": 63,
-  "image": "https://m.media-amazon.com/images/I/81rbGUW5zkL._SL1500_.jpg",
-  "gallery": [
-    "https://m.media-amazon.com/images/I/81rbGUW5zkL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31g17DjiDmL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31-Bc3USeCL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41IW4XcmW9L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41POqWisHIL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/416Pe7jFvxL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41ldcrASqtL._SL1500_.jpg"
-  ],
-  "stores": [
-    {
-      "name": "Flipkart",
-      "price": 3199,
-      "url": "https://www.flipkart.com/puma-flyer-flex-running-shoes-men/p/itmac553eca65541"
-    },
-    {
-      "name": "Amazon",
-      "price": 1499,
-      "url": "https://www.amazon.in/dp/B097C4GCFJ?tag=stylescoutin2-21"
-    },
-    {
-      "name": "Myntra",
-      "price": 3999,
-      "url": "https://www.myntra.com/20993384"
-    }
-  ],
-  "priceHistory": [
-    3999,
-    3199,
-    1499
-  ]
-},
-{
-  "id": "rare-rabbit-orla-grey",
-  "name": "Rare Rabbit Orla Grey Suede Sneakers",
-  "brand": "RARE RABBIT",
-  "price": 3249,
-  "category": "sneakers",
-  "oldPrice": 3575,
-  "discount": 9,
-  "image": "https://m.media-amazon.com/images/I/81QKdYbP1EL._SL1500_.jpg",
-  "gallery": [
-    "https://m.media-amazon.com/images/I/81QKdYbP1EL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41sAitA+REL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31fGxnAU7EL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41GHgcYd8sL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/31MCHhmxemL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/219VLPnvEBL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/21+vKXBrWrL._SL1500_.jpg"
-  ],
-  "stores": [
-    {
-      "name": "Flipkart",
-      "price": 3249,
-      "url": "https://www.flipkart.com/rare-rabbit-men-orla-grey-lace-up-closure-suede-sneaker-sneakers/p/itmb97836bd59349"
-    },
-    {
-      "name": "Amazon",
-      "price": 3575,
-      "url": "https://www.amazon.in/dp/B0GVKDR4J8?tag=stylescoutin2-21"
-    },
-    {
-      "name": "Myntra",
-      "price": 3249,
-      "url": "https://www.myntra.com/casual-shoes/rare%2brabbit/rare-rabbit-men-orla-grey-primary-printed-suede-sneakers/37057449/buy"
-    }
-  ],
-  "priceHistory": [
-    3575,
-    3249
-  ]
-}
-
+    "id": "us-polo-aldor-black",
+    "name": "U.S. Polo Aldor",
+    "fullName": "U.S. Polo Assn. ALDOR Sneakers",
+    "brand": "U.S. POLO ASSN.",
+    "price": 1729,
+    "category": "sneakers",
+    "oldPrice": 2108,
+    "discount": 18,
+    "image": "https://m.media-amazon.com/images/I/91i0ZGkdE1L._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/91i0ZGkdE1L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41tsJDX9NDL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31YAfSd2QtL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/3109OqJ7lXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41ITfKer0TL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31OTgh89+mL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41zMLtCFh2L._SL1500_.jpg"
+    ],
+    "stores": [
+      { "name": "Flipkart", "price": 1729, "url": "https://www.flipkart.com/u-s-polo-assn-aldor-sneakers-men/p/itm7355ac0ac248d" },
+      { "name": "Amazon", "price": 2108, "url": "https://www.amazon.in/dp/B0DQP5GKC2?tag=stylescoutin2-21" },
+      { "name": "Myntra", "price": 1960, "url": "https://www.myntra.com/casual-shoes/u.s.%2bpolo%2bassn./us-polo-assn-men-round-toe-sneakers/32296853/buy" }
+    ],
+    "priceHistory": [2108, 1960, 1729]
+  },
+  {
+    "id": "reebok-courtswift-stamina-black",
+    "name": "Reebok Courtswift Stamina Black",
+    "fullName": "Reebok Courtswift Stamina Sneakers (Black)",
+    "brand": "Reebok",
+    "price": 2499,
+    "category": "sneakers",
+    "oldPrice": 2667,
+    "discount": 6,
+    "image": "https://m.media-amazon.com/images/I/71CV4iAyj6L._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71CV4iAyj6L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31GO7Rr9n8L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31UEsfZAVqL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/312thYU1FjL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31Myoja6lrL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31HVzUhnQaL._SL1500_.jpg"
+    ],
+    "stores": [
+      { "name": "Amazon", "price": 2499, "url": "https://www.amazon.in/dp/B0GS4WY675?tag=stylescoutin2-21" },
+      { "name": "Myntra", "price": 2667, "url": "https://www.myntra.com/casual-shoes/reebok/reebok-men-round-toe-sneakers/41904505/buy" }
+    ],
+    "priceHistory": [2667, 2499]
+  },
+  {
+    "id": "reebok-courtswift-stamina-white",
+    "name": "Reebok Courtswift Stamina White",
+    "fullName": "Reebok Courtswift Stamina Sneakers (White)",
+    "brand": "Reebok",
+    "price": 2499,
+    "category": "sneakers",
+    "oldPrice": 2667,
+    "discount": 6,
+    "image": "https://m.media-amazon.com/images/I/714VnpJEsnL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/714VnpJEsnL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31+f656+vdL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31HC9gvJ6LL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31JJoQm9rlL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/3196TfnteML._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31MzR6CGssL._SL1500_.jpg"
+    ],
+    "stores": [
+      { "name": "Amazon", "price": 2499, "url": "https://www.amazon.in/dp/B0GS56FCZR?tag=stylescoutin2-21" },
+      { "name": "Myntra", "price": 2667, "url": "https://www.myntra.com/casual-shoes/reebok/reebok-men-round-toe-sneakers/41904502/buy" }
+    ],
+    "priceHistory": [2667, 2499]
+  },
+  {
+    "id": "puma-flyer-flex",
+    "name": "Puma Flyer Flex",
+    "fullName": "Puma Flyer Flex Running Shoes",
+    "brand": "PUMA",
+    "price": 1499,
+    "category": "sneakers",
+    "oldPrice": 3999,
+    "discount": 63,
+    "image": "https://m.media-amazon.com/images/I/81rbGUW5zkL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/81rbGUW5zkL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31g17DjiDmL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31-Bc3USeCL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41IW4XcmW9L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41POqWisHIL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/416Pe7jFvxL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41ldcrASqtL._SL1500_.jpg"
+    ],
+    "stores": [
+      { "name": "Flipkart", "price": 3199, "url": "https://www.flipkart.com/puma-flyer-flex-running-shoes-men/p/itmac553eca65541" },
+      { "name": "Amazon", "price": 1499, "url": "https://www.amazon.in/dp/B097C4GCFJ?tag=stylescoutin2-21" },
+      { "name": "Myntra", "price": 3999, "url": "https://www.myntra.com/20993384" }
+    ],
+    "priceHistory": [3999, 3199, 1499]
+  },
+  {
+    "id": "rare-rabbit-orla-grey",
+    "name": "Rare Rabbit Orla Grey",
+    "fullName": "Rare Rabbit Orla Grey Suede Sneakers",
+    "brand": "RARE RABBIT",
+    "price": 3249,
+    "category": "sneakers",
+    "oldPrice": 3575,
+    "discount": 9,
+    "image": "https://m.media-amazon.com/images/I/81QKdYbP1EL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/81QKdYbP1EL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41sAitA+REL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31fGxnAU7EL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41GHgcYd8sL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31MCHhmxemL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/219VLPnvEBL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/21+vKXBrWrL._SL1500_.jpg"
+    ],
+    "stores": [
+      { "name": "Flipkart", "price": 3249, "url": "https://www.flipkart.com/rare-rabbit-men-orla-grey-lace-up-closure-suede-sneaker-sneakers/p/itmb97836bd59349" },
+      { "name": "Amazon", "price": 3575, "url": "https://www.amazon.in/dp/B0GVKDR4J8?tag=stylescoutin2-21" },
+      { "name": "Myntra", "price": 3249, "url": "https://www.myntra.com/casual-shoes/rare%2brabbit/rare-rabbit-men-orla-grey-primary-printed-suede-sneakers/37057449/buy" }
+    ],
+    "priceHistory": [3575, 3249]
+  }
 ]

@@ -817,7 +817,7 @@ function openQuickView(product) {
             lowestPrice;
 
 
-          return `
+                   return `
             <a
               class="store-card ${
                 isBest ? "best-price" : ""
@@ -831,26 +831,16 @@ function openQuickView(product) {
                 color:inherit;
               "
             >
-
               <span class="store-name">
-
                 ${store.name}
-
-                ${
-                  isBest
-                    ? '<span class="best-badge">BEST</span>'
-                    : ''
-                }
-
+                ${isBest ? '<span class="best-badge">BEST</span>' : ''}
               </span>
-
-              <span class="store-price">
-                ${money(store.price)}
+              <span class="store-right">
+                <span class="store-price">${money(store.price)}</span>
+                <span class="buy-now-btn">Buy Now →</span>
               </span>
-
             </a>
           `;
-
         })
         .join("");
 
@@ -864,7 +854,7 @@ function openQuickView(product) {
           margin-top:14px;
           color:#78efc6;
           text-decoration:none;
-          font-size:13px;
+          font-size:15px;
           font-weight:600;
         "
       >
