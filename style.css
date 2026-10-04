@@ -668,10 +668,12 @@ footer,
 }
 
 /* Lock background scroll when modal is open */
-html.modal-open,
 body.modal-open {
+
   overflow: hidden !important;
-  height: 100% !important;
+
+  
+  /* Removed position: fixed to fix white background bug */
 }
 
 /* Buy Now button inside store cards */
