@@ -109,6 +109,66 @@ function notify(message) {
 
 
 /* =========================================================
+   PRODUCT SCHEMA (SEO)
+   Injects JSON-LD structured data for Google Rich Results.
+========================================================= */
+
+function injectProductSchema(list) {
+  const container = document.getElementById("productSchema");
+  if (container) container.remove();
+
+  if (!Array.isArray(list) || list.length === 0) return;
+
+  const itemListElement = list.map((product, index) => {
+    const offers = (Array.isArray(product.stores) ? product.stores : [])
+      .filter(s => s && s.url)
+      .map(store => ({
+        "@type": "Offer",
+        "url": store.url,
+        "priceCurrency": "INR",
+        "price": String(Number(store.price) || 0),
+        "availability": "https://schema.org/InStock",
+        "seller": { "@type": "Organization", "name": store.name }
+      }));
+
+    return {
+      "@type": "ListItem",
+      "position": index + 1,
+      "item": {
+        "@type": "Product",
+        "name": product.fullName || product.name,
+        "image": (Array.isArray(product.gallery) && product.gallery.length)
+          ? product.gallery
+          : [product.image],
+        "description":
+          (product.fullName || product.name) +
+          " — Compare prices across Amazon, Flipkart, and Myntra on StyleScout.",
+        "brand": { "@type": "Brand", "name": product.brand || "Unknown" },
+        "sku": product.id,
+        "category": "Sneakers",
+        "offers": offers
+      }
+    };
+  });
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Sneaker Price Comparison — StyleScout",
+    "url": "https://www.mystylescout.in/",
+    "numberOfItems": itemListElement.length,
+    "itemListElement": itemListElement
+  };
+
+  const script = document.createElement("script");
+  script.type = "application/ld+json";
+  script.id = "productSchema";
+  script.textContent = JSON.stringify(schema);
+  document.head.appendChild(script);
+}
+
+
+/* =========================================================
    FILTER SYSTEM
 ========================================================= */
 
@@ -566,7 +626,7 @@ function renderProducts() {
 
               <img
                 src="${product.image}"
-                alt="${product.name}"
+                alt="${product.fullName || product.name} — ${product.brand || ''}"
                 loading="lazy"
               />
 
@@ -813,7 +873,7 @@ function openQuickView(product) {
               }"
               href="${store.url || "#"}"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored nofollow noopener"
               onclick="gtag('event','store_click',{store_name:'${store.name}',product_id:'${product.id}',price:${Number(store.price) || 0}})"
               style="
                 text-decoration:none;
@@ -1111,7 +1171,7 @@ function renderSearchResults(filtered) {
 
             <img
               src="${product.image}"
-              alt="${product.name}"
+              alt="${product.fullName || product.name} — ${product.brand || ''}"
               loading="lazy"
             />
 
@@ -1773,7 +1833,7 @@ function renderWishlistDrawer() {
 
             <img
               src="${product.image}"
-              alt="${product.name}"
+              alt="${product.fullName || product.name}"
               loading="lazy"
             />
 
@@ -1924,14 +1984,13 @@ if (drawerOverlay) {
       ...data.filter(p => p.category === "sneakers")
     );
 
-    console.log(
-      `✓ Loaded ${products.length} sneakers from products.json`
-    );
-
     populateFilterOptions();
     syncFilterControls();
     updateFilterSummary();
     renderProducts();
+
+    // Inject Google Rich Results (Product) structured data
+    injectProductSchema(products);
 
     if (wishlistCount) {
       wishlistCount.textContent = wishlist.length;

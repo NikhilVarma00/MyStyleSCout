@@ -27,7 +27,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="cuelinks-verification" content="VERIFY-CL-UAQUCPER"><meta name="cuelinks-verification" content="VERIFY-CL-UAQUCPER">
+    <meta name="cuelinks-verification" content="VERIFY-CL-UAQUCPER">
 
     <title>StyleScout - Compare Sneaker Prices in India</title>
 <meta name="description" content="Compare sneaker prices across Amazon, Flipkart, and Myntra. Find the best sneaker deals in India with StyleScout.">
@@ -297,6 +297,73 @@
     <canvas id="particleCanvas"></canvas>
 
     <script type="module" src="script.js" defer></script>
+
+    <!--
+      AUTO-REL SCRIPT
+      Automatically adds rel="sponsored nofollow noopener" and target="_blank"
+      to every Amazon affiliate link on the page. Runs after script.js renders
+      the product grid, using a MutationObserver to catch dynamically added links.
+    -->
+    <script>
+      (function () {
+        var AMAZON_HOSTS = ['amazon.in', 'amzn.to', 'amzn.in'];
+        var REL_VALUE = 'sponsored nofollow noopener';
+
+        function isAmazonLink(anchor) {
+          if (!anchor || !anchor.href) return false;
+          try {
+            var url = new URL(anchor.href, window.location.href);
+            return AMAZON_HOSTS.some(function (host) {
+              return url.hostname === host || url.hostname.endsWith('.' + host);
+            });
+          } catch (e) {
+            return false;
+          }
+        }
+
+        function fixAnchor(anchor) {
+          if (!isAmazonLink(anchor)) return;
+          anchor.setAttribute('rel', REL_VALUE);
+          anchor.setAttribute('target', '_blank');
+        }
+
+        function fixAll() {
+          var anchors = document.querySelectorAll('a[href]');
+          for (var i = 0; i < anchors.length; i++) {
+            fixAnchor(anchors[i]);
+          }
+        }
+
+        // Run once DOM is ready and again after a short delay
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', fixAll);
+        } else {
+          fixAll();
+        }
+        setTimeout(fixAll, 800);
+        setTimeout(fixAll, 2000);
+
+        // Watch for dynamically added product links
+        var observer = new MutationObserver(function (mutations) {
+          mutations.forEach(function (mutation) {
+            mutation.addedNodes.forEach(function (node) {
+              if (node.nodeType !== 1) return;
+              if (node.tagName === 'A') {
+                fixAnchor(node);
+              } else if (node.querySelectorAll) {
+                var innerAnchors = node.querySelectorAll('a[href]');
+                for (var j = 0; j < innerAnchors.length; j++) {
+                  fixAnchor(innerAnchors[j]);
+                }
+              }
+            });
+          });
+        });
+
+        observer.observe(document.body, { childList: true, subtree: true });
+      })();
+    </script>
+
     <!-- SEO Content Section -->
 <section class="seo-content" style="padding: 40px; max-width: 1200px; margin: 0 auto;">
     <h2 style="font-size: 2rem; margin-bottom: 20px;">Compare Sneaker Prices Across India</h2>
