@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{META_DESC}}">
+  <link rel="canonical" href="https://www.mystylescout.in/blog/{{SLUG}}.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{META_DESC}}">
+  <meta property="og:image" content="{{OG_IMAGE}}">
+  <meta property="og:url" content="https://www.mystylescout.in/blog/{{SLUG}}.html">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Paste the <style> block from the first blog post here -->
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{TITLE}}",
+    "author": { "@type": "Organization", "name": "StyleScout" },
+    "publisher": { "@type": "Organization", "name": "StyleScout", "logo": { "@type": "ImageObject", "url": "https://www.mystylescout.in/favicon.ico" } },
+    "datePublished": "{{DATE}}",
+    "dateModified": "{{DATE}}",
+    "mainEntityOfPage": "https://www.mystylescout.in/blog/{{SLUG}}.html"
+  }
+  </script>
+</head>
+<body>
+
+  <nav class="navbar glass" aria-label="Main navigation">
+    <div class="logo-wrap">
+      <span class="brand-mark">S</span>
+      <span class="logo-text"><span class="logo-style">Style</span><span class="logo-scout">Scout</span></span>
+    </div>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#featured">Sneakers</a>
+      <a href="blog.html">Blog</a>
+    </div>
+  </nav>
+
+  <article class="blog-page">
+    <a href="../blog.html" style="color:#78efc6;text-decoration:none;font-size:14px;">← Back to blog</a>
+
+    <h1>{{TITLE}}</h1>
+    <p class="blog-meta">Updated {{DATE}} · Prices tracked across Amazon, Flipkart & Myntra</p>
+
+    {{CONTENT}}
+
+  </article>
+
+  <footer style="text-align:center;padding:60px 20px;color:#7d8590;font-size:14px;">© 2026 StyleScout</footer>
+<script>
+  fetch('../products.json')
+    .then(res => res.json())
+    .then(data => {
+      const sneakerCount = data.filter(p => p.category === "sneakers").length;
+      const el = document.getElementById('sneakerCount');
+      if (el) el.textContent = sneakerCount;
+    });
+</script>
+</body>
+</html>
