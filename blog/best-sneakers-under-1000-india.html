@@ -52,7 +52,7 @@
     "author": { "@type": "Organization", "name": "StyleScout" },
     "publisher": { "@type": "Organization", "name": "StyleScout", "logo": { "@type": "ImageObject", "url": "https://www.mystylescout.in/favicon.ico" } },
     "datePublished": "2026-10-06",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-10-08",
     "mainEntityOfPage": "https://www.mystylescout.in/blog/best-sneakers-under-1000-india.html"
   }
   </script>
@@ -67,12 +67,12 @@
     <div class="nav-links">
       <a href="../index.html">Home</a>
       <a href="../index.html#featured">Sneakers</a>
-      <a href="../index.html#footer">About</a>
+      <a href="../blog.html">Blog</a>
     </div>
   </nav>
 
   <article class="blog-page">
-    <a href="../index.html#featured" style="color:#78efc6;text-decoration:none;font-size:14px;">← Back to all sneakers</a>
+    <a href="../blog.html" style="color:#78efc6;text-decoration:none;font-size:16px;">← Back to blog</a>
 
     <h1>Best Sneakers Under ₹1000 in India (2026)</h1>
     <p class="blog-meta">Updated 6 October 2026 · Prices tracked across Amazon, Flipkart & Myntra</p>
@@ -209,5 +209,16 @@
   </article>
 
   <footer style="text-align:center;padding:60px 20px;color:#7d8590;font-size:14px;">© 2026 StyleScout</footer>
+
+  <script>
+    fetch('../products.json')
+      .then(res => res.json())
+      .then(data => {
+        const sneakerCount = data.filter(p => p.category === "sneakers").length;
+        const el = document.getElementById('sneakerCount');
+        if (el) el.textContent = sneakerCount;
+      });
+  </script>
+
 </body>
 </html>
