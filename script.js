@@ -1131,127 +1131,55 @@ if (drawerOverlay) {
 }
 
 /* =========================================================
-   HERO SLIDESHOW
+   HERO STATIC — shows best product in hero
 ========================================================= */
-function setupHeroShowcase() {
-  const container = document.getElementById("heroShowcase");
+function setupHeroStatic() {
+  const container = document.getElementById("heroStatic");
   if (!container || !Array.isArray(products) || products.length === 0) return;
 
-  const picks = products
+  const pick = products
     .filter(p => p.image && p.discount > 0 && p.stores && p.stores.length)
-    .sort((a, b) => Number(b.discount) - Number(a.discount))
-    .slice(0, 6);
+    .sort((a, b) => Number(b.discount) - Number(a.discount))[0];
 
-  if (picks.length === 0) return;
+  if (!pick) return;
 
-  const thumbFor = (url) => url
-    ? url.replace("_SL1500_", "_SL600_")
-         .replace("_SY695_", "_SL600_")
-         .replace("_SX695_", "_SL600_")
-    : url;
+  const thumb = pick.image
+    .replace("_SL1500_", "_SL600_")
+    .replace("_SY695_", "_SL600_")
+    .replace("_SX695_", "_SL600_");
 
-  const slidesHTML = picks.map((p, i) => {
-    const cheapestStore = p.stores.reduce(
-      (min, s) => (Number(s.price) < Number(min.price) ? s : min),
-      p.stores[0]
+  const cheapest = pick.stores.reduce(
+    (min, s) => (Number(s.price) < Number(min.price) ? s : min),
+    pick.stores[0]
+  );
+
+  const img = document.getElementById("heroStaticImg");
+  if (img) {
+    img.src = thumb;
+    img.alt = pick.fullName || pick.name;
+  }
+
+  const brandEl = document.getElementById("heroStaticBrand");
+  if (brandEl) brandEl.textContent = pick.brand || "";
+
+  const nameEl = document.getElementById("heroStaticName");
+  if (nameEl) nameEl.textContent = pick.name;
+
+  const priceEl = document.getElementById("heroStaticPrice");
+  if (priceEl) priceEl.textContent = money(pick.price);
+
+  const ctaEl = document.getElementById("heroStaticCta");
+  if (ctaEl && cheapest.url) {
+    ctaEl.href = cheapest.url;
+    ctaEl.setAttribute(
+      "onclick",
+      `gtag('event','store_click',{store_name:'${cheapest.name}',product_id:'${pick.id}',price:${Number(cheapest.price) || 0}})`
     );
-    const dealUrl = cheapestStore.url || "#";
-    const img = thumbFor(p.image);
-
-    return `
-      <div class="hero-slide ${i === 0 ? "active" : ""}" data-index="${i}">
-       <img
-  src="${img}"
-  alt="${p.fullName || p.name}"
-  loading="${i === 0 ? "eager" : "lazy"}"
-  decoding="async"
-  width="500"
-  height="500"
-/>
-        <div class="hero-slide-overlay">
-          <span class="hero-slide-badge">-${Number(p.discount)}%</span>
-          <div class="hero-slide-info">
-            <span class="hero-slide-brand">${p.brand || ""}</span>
-            <span class="hero-slide-name">${p.name}</span>
-            <div class="hero-slide-price-row">
-              <span class="hero-slide-price">${money(p.price)}</span>
-              <a class="hero-slide-cta" href="${dealUrl}"
-                 target="_blank" rel="sponsored nofollow noopener">View deal →</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
-  }).join("");
-
-  container.innerHTML = `
-    <div class="hero-slideshow">${slidesHTML}</div>
-    <button class="hero-arrow hero-arrow-left" type="button" aria-label="Previous">‹</button>
-    <button class="hero-arrow hero-arrow-right" type="button" aria-label="Next">›</button>
-    <div class="hero-dots">
-      ${picks.map((_, i) => `<button class="hero-dot ${i === 0 ? "active" : ""}" data-index="${i}" type="button" aria-label="Slide ${i+1}"></button>`).join("")}
-    </div>
-  `;
-
-  const slides = container.querySelectorAll(".hero-slide");
-  const dots = container.querySelectorAll(".hero-dot");
-  const prevBtn = container.querySelector(".hero-arrow-left");
-  const nextBtn = container.querySelector(".hero-arrow-right");
-  let current = 0;
-  let paused = false;
-
-  function goTo(i) {
-    slides[current].classList.remove("active");
-    dots[current].classList.remove("active");
-    current = (i + slides.length) % slides.length;
-    slides[current].classList.add("active");
-    dots[current].classList.add("active");
   }
 
-  container.addEventListener("mouseenter", () => { paused = true; });
-  container.addEventListener("mouseleave", () => { paused = false; });
-
-  setInterval(() => {
-    if (!paused) goTo(current + 1);
-  }, 4000);
-
-  if (prevBtn) {
-    prevBtn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      goTo(current - 1);
-    });
-  }
-  if (nextBtn) {
-    nextBtn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      goTo(current + 1);
-    });
-  }
-
-  dots.forEach(dot => {
-    dot.addEventListener("click", (e) => {
-      e.stopPropagation();
-      goTo(Number(dot.dataset.index));
-    });
-  });
-
-  slides.forEach(s => {
-    s.addEventListener("click", (e) => {
-      if (e.target.closest(".hero-arrow") || e.target.closest(".hero-slide-cta")) return;
-      const idx = Number(s.dataset.index);
-      const product = picks[idx];
-      if (product) openQuickView(product);
-    });
-    s.setAttribute("tabindex", "0");
-    s.setAttribute("role", "button");
-    s.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" || e.key === " ") {
-        e.preventDefault();
-        const idx = Number(s.dataset.index);
-        const product = picks[idx];
-        if (product) openQuickView(product);
-      }
-    });
+  container.addEventListener("click", (e) => {
+    if (e.target.closest(".hero-static-cta")) return;
+    window.location.href = "products/" + pick.id + ".html";
   });
 }
 
@@ -1277,7 +1205,7 @@ function setupHeroShowcase() {
 
     if (wishlistCount) wishlistCount.textContent = wishlist.length;
 
-    setupHeroShowcase();
+setupHeroStatic();
   } catch (e) {
     console.warn("Could not load products.json:", e.message);
     if (productGrid) {

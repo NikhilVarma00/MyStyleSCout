@@ -411,95 +411,51 @@ main {
   box-shadow: var(--shadow-lg);
 }
 
-.hero-showcase {
+/* =========================================================
+   HERO STATIC CARD
+========================================================= */
+.hero-static {
   position: relative;
+  width: min(100%, 460px);
+  border-radius: 24px;
+  overflow: hidden;
+  background: linear-gradient(160deg, rgba(20, 35, 31, 0.95), rgba(10, 17, 16, 0.9));
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+  cursor: pointer;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
-.hero-slideshow {
-  position: relative;
+.hero-static img {
   width: 100%;
   aspect-ratio: 1 / 1;
-  overflow: hidden;
-}
-
-.hero-slide {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: opacity 0.55s ease-in-out;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-}
-
-.hero-slide.active {
-  opacity: 1;
-  z-index: 2;
-}
-
-.hero-slide img {
-  width: 100%;
-  flex: 1;
-  min-height: 0;
-  object-fit: cover;
-  object-position: center;
-  background: #e8eaed;
+  object-fit: contain;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
   display: block;
-  padding: 0;
 }
 
-.hero-slide-overlay {
-  position: absolute;
-  inset: 0;
+.hero-static-info {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 16px;
-  pointer-events: none;
+  gap: 4px;
+  padding: 0 4px 4px;
 }
 
-.hero-slide-overlay > * { pointer-events: auto; }
-
-.hero-slide-badge {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  z-index: 3;
-  background: var(--green);
-  color: #07110b;
-  font-size: 0.72rem;
-  font-weight: 800;
-  padding: 5px 11px;
-  border-radius: 999px;
-  letter-spacing: 0.02em;
-}
-
-.hero-slide-info {
-  position: absolute;
-  left: 12px;
-  right: 12px;
-  bottom: 12px;
-  background: rgba(10, 18, 17, 0.85);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  padding: 12px 14px;
-  border-radius: 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.hero-slide-brand {
-  font-size: 0.66rem;
+.hero-static-brand {
+  font-size: 0.7rem;
   letter-spacing: 1.2px;
   text-transform: uppercase;
   color: var(--green);
   font-weight: 700;
 }
 
-.hero-slide-name {
-  font-size: 0.95rem;
+.hero-static-name {
+  font-size: 1rem;
   font-weight: 600;
   color: #ffffff;
   white-space: nowrap;
@@ -507,92 +463,36 @@ main {
   text-overflow: ellipsis;
 }
 
-.hero-slide-price-row {
+.hero-static-price-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5px;
+  margin-top: 8px;
   gap: 10px;
 }
 
-.hero-slide-price {
-  font-size: 1.3rem;
+.hero-static-price {
+  font-size: 1.4rem;
   font-weight: 800;
   color: #ffffff;
   letter-spacing: -0.02em;
 }
 
-.hero-slide-cta {
+.hero-static-cta {
   background: var(--green);
   color: #07110b;
-  padding: 7px 13px;
-  border-radius: 9px;
-  font-size: 0.78rem;
+  padding: 9px 16px;
+  border-radius: 10px;
+  font-size: 0.82rem;
   font-weight: 700;
   white-space: nowrap;
   transition: transform 0.15s;
+  text-decoration: none;
 }
 
-.hero-slide-cta:hover { transform: translateY(-1px); }
-
-.hero-dots {
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 5px;
-  z-index: 5;
+.hero-static-cta:hover {
+  transform: translateY(-1px);
 }
-
-.hero-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  border: 0;
-  background: rgba(255, 255, 255, 0.3);
-  cursor: pointer;
-  padding: 0;
-  transition: background 0.2s, width 0.2s;
-}
-
-.hero-dot.active {
-  background: var(--green);
-  width: 18px;
-  border-radius: 999px;
-}
-
-.hero-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.55);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 10;
-  transition: background 0.2s, transform 0.15s;
-  padding: 0 0 3px 0;
-}
-
-.hero-arrow:hover {
-  background: rgba(16, 185, 129, 0.9);
-  color: #07110b;
-}
-
-.hero-arrow-left { left: 10px; }
-.hero-arrow-right { right: 10px; }
 
 /* =========================================================
    SECTION HEADING
