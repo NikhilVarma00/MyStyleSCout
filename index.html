@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MFHGEX0MC9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-MFHGEX0MC9');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MFHGEX0MC9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MFHGEX0MC9');
+    </script>
 
     <!-- Firebase SDK (module) -->
     <script type="module">
@@ -26,18 +26,16 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <meta name="cuelinks-verification" content="VERIFY-CL-UAQUCPER">
 
     <title>StyleScout - Compare Sneaker Prices in India</title>
-<meta name="description" content="Compare sneaker prices across Amazon, Flipkart, and Myntra. Find the best sneaker deals in India with StyleScout.">
-<meta name="keywords" content="sneaker price comparison India, sneaker deals, Amazon vs Flipkart vs Myntra, sneakers India">
+    <meta name="description" content="Compare sneaker prices across Amazon, Flipkart, and Myntra. Find the best sneaker deals in India with StyleScout.">
+    <meta name="keywords" content="sneaker price comparison India, sneaker deals, Amazon vs Flipkart vs Myntra, sneakers India">
 
     <link rel="canonical" href="https://www.mystylescout.in/" />
-
     <link rel="icon" href="/favicon.ico" />
 
-    <!-- Open Graph (social share previews) -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.mystylescout.in/" />
     <meta property="og:site_name" content="StyleScout" />
@@ -45,10 +43,10 @@
     <meta property="og:description" content="Compare sneaker prices across Amazon, Flipkart, and Myntra. Find the best sneaker deals in India with StyleScout." />
     <meta property="og:image" content="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80" />
 
-    <!-- Twitter Card -->
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="StyleScout - Compare Sneaker Prices in India" />
-    <meta name="twitter:description" content="Compare sneaker prices across Amazon, Flipkart, and Myntra. Find the best sneaker deals in India with StyleScout." />
+    <meta name="twitter:description" content="Compare sneaker prices across Amazon, Flipkart, and Myntra." />
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80" />
 
     <!-- Structured data -->
@@ -66,31 +64,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-
-
-      <style>
-      .filter-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-      .filter-action-btn{border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);color:inherit;border-radius:999px;padding:10px 16px;cursor:pointer}
-      .filter-action-btn span{opacity:.65;font-size:.8rem;margin-left:6px}
-      .filter-modal{position:fixed;inset:0;background:rgba(0,0,0,.62);backdrop-filter:blur(8px);display:none;align-items:center;justify-content:center;z-index:9999;padding:20px}
-      .filter-modal.active{display:flex}
-      .filter-panel{width:min(520px,100%);background:#111827;border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:24px;box-shadow:0 20px 80px rgba(0,0,0,.45)}
-      .filter-panel-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:22px}
-      .filter-panel-header h3{margin:4px 0 0}
-      .filter-close{background:none;border:0;color:inherit;font-size:30px;cursor:pointer}
-      .filter-fields{display:grid;gap:16px}
-      .filter-fields label{display:grid;gap:7px;font-size:.9rem}
-      .filter-fields select,.filter-fields input{width:100%;box-sizing:border-box;background:#0b1220;color:inherit;border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:11px 12px}
-      .filter-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-      .filter-panel-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:24px}
-      .filter-clear-btn,.filter-apply-btn{border:0;border-radius:10px;padding:11px 18px;cursor:pointer}
-      .filter-clear-btn{background:rgba(255,255,255,.08);color:inherit}
-      .filter-apply-btn{background:#18c964;color:#07110b;font-weight:700}
-      .google-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:15px;border:1px solid rgba(255,255,255,.18);border-radius:16px;background:#fff;color:#1f1f1f;font-weight:600;cursor:pointer;font-size:.95rem;transition:transform .15s}
-      .google-btn:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(0,0,0,.25)}
-      .google-btn:disabled{opacity:.6;cursor:not-allowed;transform:none}
-      @media(max-width:600px){.filter-row{grid-template-columns:1fr}.filter-action-btn span{display:none}}
-    </style>
 </head>
 
   <body>
@@ -100,26 +73,36 @@
       <div class="orb orb-three"></div>
     </div>
 
-    <nav class="navbar glass" aria-label="Main navigation">
-      <div class="logo-wrap">
+    <!-- ============================================
+         NAVBAR
+    ============================================= -->
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo-wrap" href="#home">
         <span class="brand-mark">S</span>
-<span class="logo-text">
-  <span class="logo-style">Style</span><span class="logo-scout">Scout</span>
-</span>
-      </div>
+        <span class="logo-text">
+          <span class="logo-style">Style</span><span class="logo-scout">Scout</span>
+        </span>
+      </a>
+
       <div class="nav-links">
-  <a href="#home">Home</a>
-  <a href="#featured">Sneakers</a>
-  <a href="blog.html">Blog</a>
-  <a href="#footer">About</a>
-</div>
+        <a href="#home">Home</a>
+        <a href="#featured">Sneakers</a>
+        <a href="blog.html">Blog</a>
+        <a href="#footer">About</a>
+      </div>
+
       <div class="nav-actions">
-        <button class="ghost-btn" id="wishlistBtn">Wishlist <span id="wishlistCount">0</span></button>
-        <button class="login-btn" id="loginBtn">Login</button>
+        <button class="ghost-btn" id="wishlistBtn" type="button">
+          Wishlist <span id="wishlistCount">0</span>
+        </button>
+        <button class="login-btn" id="loginBtn" type="button">Login</button>
       </div>
     </nav>
 
     <main>
+      <!-- ============================================
+           HERO
+      ============================================= -->
       <section class="hero" id="home">
         <div class="hero-copy">
           <span class="eyebrow">Luxury deals. Better decisions.</span>
@@ -128,30 +111,39 @@
             <span class="title-line"><span class="word" style="--i: 1">Compare.</span></span>
             <span class="title-line"><span class="word" style="--i: 2">Save.</span></span>
           </h1>
-<p class="hero-subtitle">Compare sneaker prices across Amazon, Flipkart, and Myntra to find the best deals in India.</p>          
+          <p class="hero-subtitle">
+            Compare sneaker prices across Amazon, Flipkart, and Myntra to find the best deals in India.
+          </p>
           <div class="search-panel">
-<input id="searchInput" type="text" placeholder="Search sneakers, brands, or stores..." />           
- <button id="voiceSearchBtn" type="button">🎤</button>
+            <input id="searchInput" type="text" placeholder="Search Nike, Puma, Adidas..." />           
+             <button id="voiceSearchBtn" type="button" aria-label="Voice search">🎤</button>
             <button id="searchButton" type="button">Search</button>
           </div>
         </div>
 
         <div class="hero-visual">
           <div class="visual-glow"></div>
-          <div class="product-float product-main tilt-card hero-showcase" id="heroShowcase">
-            <!-- JS will inject slides here -->
+          <div class="product-float product-main hero-showcase" id="heroShowcase">
+            <!-- JS injects slides -->
           </div>
         </div>
       </section>
 
+      <!-- ============================================
+           CATALOG
+      ============================================= -->
       <section class="catalog" id="featured">
         <div class="section-heading">
           <span class="eyebrow">Curated picks</span>
           <h2>Best value right now</h2>
         </div>
+
         <div class="filter-bar" id="filterBar" aria-label="Sneaker filters">
-          <button class="filter-chip active" data-filter="all">All Sneakers</button>
-          <button class="filter-action-btn" id="openFilterBtn" type="button">☰ Filter <span id="filterSummary">No filters applied</span></button>
+          <button class="filter-chip active" data-filter="all" type="button">All Sneakers</button>
+          <button class="filter-action-btn" id="openFilterBtn" type="button">
+            <span class="filter-icon">☰</span> Filter
+            <span id="filterSummary">No filters applied</span>
+          </button>
           <select id="sortSelect" class="sort-select" aria-label="Sort sneakers">
             <option value="best">🔥 Best Deal</option>
             <option value="priceLow">💸 Lowest Price</option>
@@ -164,22 +156,45 @@
       </section>
     </main>
 
-    <!-- OLD FOOTER RESTORED -->
+    <!-- ============================================
+         FOOTER
+    ============================================= -->
     <footer id="footer">
-<div class="footer-brand">
-  <span class="logo-style">Style</span><span class="logo-scout">Scout</span>
-</div>
-      <p>Scout smart. Dress better.</p>
-     <div class="footer-links">
-  <a href="#home">Home</a>
-  <a href="#featured">Deals</a>
-  <a href="blog.html">Blog</a>
-  <a href="#footer">Privacy</a>
-</div>
-      <span>© 2026 StyleScout</span>
+      <div class="footer-inner">
+        <div class="footer-brand-wrap">
+          <div class="footer-brand">
+            <span class="logo-style">Style</span><span class="logo-scout">Scout</span>
+          </div>
+          <p class="footer-tagline">Scout smart. Dress better.</p>
+          <p class="footer-desc">
+            Compare sneaker prices across Amazon, Flipkart, and Myntra — so you never overpay.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="#home">Home</a>
+          <a href="#featured">Sneakers</a>
+          <a href="blog.html">Blog</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#footer">About</a>
+          <a href="#footer">Privacy</a>
+          <a href="#footer">Terms</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 StyleScout</span>
+        <span>Made in India 🇮🇳</span>
+      </div>
     </footer>
 
-    <!-- Sneaker Filter Modal -->
+    <!-- ============================================
+         FILTER MODAL
+    ============================================= -->
     <div class="filter-modal" id="filterModal">
       <div class="filter-panel">
         <div class="filter-panel-header">
@@ -187,7 +202,7 @@
             <span class="eyebrow">FILTER SNEAKERS</span>
             <h3>Find your sneaker</h3>
           </div>
-          <button class="filter-close" id="closeFilterBtn" type="button">×</button>
+          <button class="filter-close" id="closeFilterBtn" type="button" aria-label="Close">×</button>
         </div>
 
         <div class="filter-fields">
@@ -227,21 +242,26 @@
       </div>
     </div>
 
-    <!-- Quick View Modal with Arrows -->
+    <!-- ============================================
+         QUICK VIEW MODAL
+    ============================================= -->
     <div class="modal" id="quickViewModal">
-      <div class="modal-panel glass">
-        <button class="close-modal" id="closeModal">×</button>
+      <div class="modal-panel">
+        <button class="close-modal" id="closeModal" type="button" aria-label="Close">×</button>
+
         <div class="modal-gallery">
           <div class="gallery-stage">
-            <button class="gallery-arrow left" id="prevImage">‹</button>
-            <button class="wishlist-btn" id="modalWishlistBtn">♡</button>
+            <button class="gallery-arrow left" id="prevImage" type="button" aria-label="Previous">‹</button>
+            <button class="wishlist-btn" id="modalWishlistBtn" type="button" aria-label="Save">♡</button>
             <img id="modalMainImage" src="" alt="" />
-            <button class="gallery-arrow right" id="nextImage">›</button>
+            <button class="gallery-arrow right" id="nextImage" type="button" aria-label="Next">›</button>
           </div>
         </div>
+
         <div class="modal-info">
           <span class="eyebrow" id="modalBrand"></span>
           <h3 id="modalTitle"></h3>
+
           <div class="modal-price-block">
             <div>
               <span class="price-label">Now</span>
@@ -252,30 +272,36 @@
               <span id="modalOldPrice">0</span>
             </div>
           </div>
+
           <div class="stat-pills">
             <span id="modalDiscount">0% off</span>
             <span>Free returns</span>
-            <span>3+ stores</span>
+            <span id="modalStoreCount">0 stores</span>          
           </div>
+
           <div class="store-list" id="modalStores"></div>
         </div>
       </div>
     </div>
 
-    <!-- Wishlist Drawer -->
+    <!-- ============================================
+         WISHLIST DRAWER
+    ============================================= -->
     <div class="wishlist-drawer" id="wishlistDrawer">
       <div class="drawer-header">
         <h3>Saved Items</h3>
-        <button class="drawer-close" id="drawerClose">×</button>
+        <button class="drawer-close" id="drawerClose" type="button" aria-label="Close">×</button>
       </div>
       <div class="drawer-content" id="drawerContent"></div>
     </div>
     <div class="drawer-overlay" id="drawerOverlay"></div>
 
-    <!-- Login Modal -->
+    <!-- ============================================
+         LOGIN MODAL
+    ============================================= -->
     <div class="login-modal" id="loginModal">
       <div class="login-card">
-        <button class="login-close" id="loginClose">×</button>
+        <button class="login-close" id="loginClose" type="button" aria-label="Close">×</button>
         <div class="login-logo">
           <div class="logo-box">S</div>
           <h2>StyleScout</h2>
@@ -298,12 +324,7 @@
 
     <script type="module" src="script.js" defer></script>
 
-    <!--
-      AUTO-REL SCRIPT
-      Automatically adds rel="sponsored nofollow noopener" and target="_blank"
-      to every Amazon affiliate link on the page. Runs after script.js renders
-      the product grid, using a MutationObserver to catch dynamically added links.
-    -->
+    <!-- AUTO-REL SCRIPT -->
     <script>
       (function () {
         var AMAZON_HOSTS = ['amazon.in', 'amzn.to', 'amzn.in'];
@@ -316,9 +337,7 @@
             return AMAZON_HOSTS.some(function (host) {
               return url.hostname === host || url.hostname.endsWith('.' + host);
             });
-          } catch (e) {
-            return false;
-          }
+          } catch (e) { return false; }
         }
 
         function fixAnchor(anchor) {
@@ -329,52 +348,42 @@
 
         function fixAll() {
           var anchors = document.querySelectorAll('a[href]');
-          for (var i = 0; i < anchors.length; i++) {
-            fixAnchor(anchors[i]);
-          }
+          for (var i = 0; i < anchors.length; i++) fixAnchor(anchors[i]);
         }
 
-        // Run once DOM is ready and again after a short delay
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', fixAll);
-        } else {
-          fixAll();
-        }
+        } else { fixAll(); }
         setTimeout(fixAll, 800);
         setTimeout(fixAll, 2000);
 
-        // Watch for dynamically added product links
         var observer = new MutationObserver(function (mutations) {
           mutations.forEach(function (mutation) {
             mutation.addedNodes.forEach(function (node) {
               if (node.nodeType !== 1) return;
-              if (node.tagName === 'A') {
-                fixAnchor(node);
-              } else if (node.querySelectorAll) {
+              if (node.tagName === 'A') fixAnchor(node);
+              else if (node.querySelectorAll) {
                 var innerAnchors = node.querySelectorAll('a[href]');
-                for (var j = 0; j < innerAnchors.length; j++) {
-                  fixAnchor(innerAnchors[j]);
-                }
+                for (var j = 0; j < innerAnchors.length; j++) fixAnchor(innerAnchors[j]);
               }
             });
           });
         });
-
         observer.observe(document.body, { childList: true, subtree: true });
       })();
     </script>
 
     <!-- SEO Content Section -->
-<section class="seo-content" style="padding: 40px; max-width: 1200px; margin: 0 auto;">
-    <h2 style="font-size: 2rem; margin-bottom: 20px;">Compare Sneaker Prices Across India</h2>
-    <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 15px;">
+    <section class="seo-content">
+      <h2>Compare Sneaker Prices Across India</h2>
+      <p>
         StyleScout helps you compare sneaker prices across Amazon, Flipkart, and Myntra in one place.
         Search for a sneaker, check the available stores, and compare prices before you buy.
-    </p>
-    <p style="font-size: 1rem; line-height: 1.6;">
+      </p>
+      <p>
         Use the filters to narrow sneakers by brand, store, price range, and discount, then open the product
         to compare the available retailer prices.
-    </p>
-</section>
+      </p>
+    </section>
   </body>
 </html>
