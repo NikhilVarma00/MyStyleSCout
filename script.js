@@ -94,6 +94,59 @@ const money = (value) => {
 };
 
 
+/* =========================================================
+   BRAND NORMALIZATION
+   Ensures "ADIDAS", "Adidas", "adidas", "Brand: SPARX"
+   all map to one clean canonical brand name.
+========================================================= */
+
+function normalizeBrand(raw) {
+  if (!raw) return "";
+
+  let b = String(raw).trim().replace(/^Brand:\s*/i, "").trim();
+
+  const knownBrands = {
+    "adidas": "Adidas",
+    "asian": "ASIAN",
+    "bacca bucci": "Bacca Bucci",
+    "bata": "Bata",
+    "bata comfit": "Bata Comfit",
+    "boldfit": "Boldfit",
+    "campus": "Campus",
+    "converse": "Converse",
+    "hotstyle": "HotStyle",
+    "lancer": "Lancer",
+    "neeman's": "Neeman's",
+    "new balance": "New Balance",
+    "nike": "Nike",
+    "power": "Power",
+    "puma": "Puma",
+    "rare rabbit": "Rare Rabbit",
+    "red chief": "Red Chief",
+    "red tape": "Red Tape",
+    "reebok": "Reebok",
+    "skechers": "Skechers",
+    "sparx": "Sparx",
+    "the souled store": "The Souled Store",
+    "u.s. polo assn.": "U.S. Polo Assn.",
+    "u.s. polo": "U.S. Polo Assn.",
+    "us polo assn.": "U.S. Polo Assn.",
+    "us polo": "U.S. Polo Assn.",
+    "woodland": "Woodland"
+  };
+
+  const key = b.toLowerCase();
+  if (knownBrands[key]) return knownBrands[key];
+
+  // Fallback: if all-caps and longer than 5 chars, title-case it
+  if (/^[A-Z]{2,}$/.test(b) && b.length > 5) {
+    return b.charAt(0).toUpperCase() + b.slice(1).toLowerCase();
+  }
+
+  return b;
+}
+
+
 function notify(message) {
 
   if (!toast) return;
@@ -176,14 +229,7 @@ function populateFilterOptions() {
 
   if (!filterBrand || !filterStore) return;
 
-  const brands = [
-    ...new Set(
-      products
-        .map(product => product.brand)
-        .filter(Boolean)
-    )
-  ].sort((a, b) => a.localeCompare(b));
-
+  const brands = [...new Set(products.map(p => normalizeBrand(p.brand)).filter(Boolean))].sort((a, b) => a.localeCompare(b));
 
   const stores = [
     ...new Set(
@@ -442,15 +488,12 @@ function getFilteredProducts() {
 
 
   if (advancedFilters.brand !== "all") {
-
     filtered = filtered.filter(
       product =>
-        product.brand ===
+        normalizeBrand(product.brand) ===
         advancedFilters.brand
     );
-
   }
-
 
   if (advancedFilters.store !== "all") {
 
@@ -2018,3 +2061,130 @@ if (drawerOverlay) {
   }
 
 })();
+
+
+/* =========================================================
+   HERO SLIDESHOW — Featured product rotation
+========================================================= */
+
+function setupHeroShowcase() {
+  const container = document.getElementById("heroShowcase");
+  if (!container || !Array.isArray(products) || products.length === 0) return;
+
+  const picks = products
+    .filter(p => p.image && p.discount > 0 && p.stores && p.stores.length)
+    .sort((a, b) => Number(b.discount) - Number(a.discount))
+    .slice(0, 6);
+
+  if (picks.length === 0) return;
+
+  const thumbFor = (url) => url
+    ? url.replace("_SL1500_", "_SL600_")
+         .replace("_SY695_", "_SL600_")
+         .replace("_SX695_", "_SL600_")
+    : url;
+
+  const slidesHTML = picks.map((p, i) => {
+    const cheapestStore = p.stores.reduce(
+      (min, s) => (Number(s.price) < Number(min.price) ? s : min),
+      p.stores[0]
+    );
+    const dealUrl = cheapestStore.url || "#";
+    const img = thumbFor(p.image);
+
+    return `
+      <div class="hero-slide ${i === 0 ? "active" : ""}" data-index="${i}">
+        <img
+          src="${img}"
+          alt="${p.fullName || p.name}"
+          width="520" height="520"
+          loading="${i === 0 ? "eager" : "lazy"}"
+          decoding="async"
+        />
+        <div class="hero-slide-overlay">
+          <span class="hero-slide-badge">-${Number(p.discount)}%</span>
+          <div class="hero-slide-info">
+            <span class="hero-slide-brand">${p.brand || ""}</span>
+            <span class="hero-slide-name">${p.name}</span>
+            <div class="hero-slide-price-row">
+              <span class="hero-slide-price">${money(p.price)}</span>
+              <a class="hero-slide-cta" href="${dealUrl}"
+                 target="_blank" rel="sponsored nofollow noopener">View deal →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  container.innerHTML = `
+    <div class="hero-slideshow">${slidesHTML}</div>
+    <button class="hero-arrow hero-arrow-left" type="button" aria-label="Previous slide">‹</button>
+    <button class="hero-arrow hero-arrow-right" type="button" aria-label="Next slide">›</button>
+    <div class="hero-dots">
+      ${picks.map((_, i) => `<button class="hero-dot ${i === 0 ? "active" : ""}" data-index="${i}" type="button" aria-label="Slide ${i+1}"></button>`).join("")}
+    </div>
+  `;
+
+  const slides = container.querySelectorAll(".hero-slide");
+  const dots = container.querySelectorAll(".hero-dot");
+  const prevBtn = container.querySelector(".hero-arrow-left");
+  const nextBtn = container.querySelector(".hero-arrow-right");
+  let current = 0;
+  let paused = false;
+
+  function goTo(i) {
+    slides[current].classList.remove("active");
+    dots[current].classList.remove("active");
+    current = (i + slides.length) % slides.length;
+    slides[current].classList.add("active");
+    dots[current].classList.add("active");
+  }
+
+  container.addEventListener("mouseenter", () => { paused = true; });
+  container.addEventListener("mouseleave", () => { paused = false; });
+
+  setInterval(() => {
+    if (!paused) goTo(current + 1);
+  }, 4000);
+
+  if (prevBtn) {
+    prevBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      goTo(current - 1);
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      goTo(current + 1);
+    });
+  }
+
+  dots.forEach(dot => {
+    dot.addEventListener("click", (e) => {
+      e.stopPropagation();
+      goTo(Number(dot.dataset.index));
+    });
+  });
+
+  slides.forEach(s => {
+    s.addEventListener("click", (e) => {
+      if (e.target.closest(".hero-arrow") || e.target.closest(".hero-slide-cta")) return;
+      const idx = Number(s.dataset.index);
+      const product = picks[idx];
+      if (product) openQuickView(product);
+    });
+  });
+}
+
+// Wait for products to load, then run slideshow
+const heroCheck = setInterval(() => {
+  if (Array.isArray(products) && products.length > 0) {
+    clearInterval(heroCheck);
+    setupHeroShowcase();
+  }
+}, 200);
+
+setTimeout(() => clearInterval(heroCheck), 8000);

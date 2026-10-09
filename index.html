@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
@@ -66,6 +66,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+
       <style>
       .filter-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
       .filter-action-btn{border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);color:inherit;border-radius:999px;padding:10px 16px;cursor:pointer}
@@ -136,12 +138,8 @@
 
         <div class="hero-visual">
           <div class="visual-glow"></div>
-          <div class="product-float product-main tilt-card">
-            <div class="mini-tag">Best find</div>
-                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=60" alt="Sneaker" loading="lazy" />            <div class="float-info">
-              <div><span>Now</span><strong>4,299</strong></div>
-              <button type="button" class="primary-btn small">View deal</button>
-            </div>
+          <div class="product-float product-main tilt-card hero-showcase" id="heroShowcase">
+            <!-- JS will inject slides here -->
           </div>
         </div>
       </section>

@@ -56,7 +56,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.mystylescout.in/blog/campus-vs-sparx-sneakers-india.html</loc>
+    <loc>https://www.mystylescout.in/blog/Campus-vs-sparx-sneakers-india.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -106,7 +106,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.mystylescout.in/blog/best-campus-sneakers-india.html</loc>
+    <loc>https://www.mystylescout.in/blog/best-Campus-sneakers-india.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -772,6 +772,61 @@
   </url>
   <url>
     <loc>https://www.mystylescout.in/products/neemans-everyday-rise.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/puma-bmw-mms-drift-cat-11.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/us-polo-gallop.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/nike-air-max-impact-4.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/souled-store-batman-vengeance.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/asics-lyte-classic-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/asics-japan-s.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/asics-lyte-classic-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/red-tape-white-black-everyday.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/us-polo-elio.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/campus-remo-running.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mystylescout.in/products/bacca-bucci-balancer-basketball.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
