@@ -1143,11 +1143,11 @@ function setupHeroStatic() {
 
   if (!pick) return;
 
-  const thumb = pick.image
-    .replace("_SL1500_", "_SL600_")
-    .replace("_SY695_", "_SL600_")
-    .replace("_SX695_", "_SL600_");
-
+const thumb = pick.image
+  .replace("_SL1500_", "_SL400_")
+  .replace("_SY695_", "_SL400_")
+  .replace("_SX695_", "_SL400_");
+  
   const cheapest = pick.stores.reduce(
     (min, s) => (Number(s.price) < Number(min.price) ? s : min),
     pick.stores[0]
