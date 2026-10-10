@@ -28,6 +28,7 @@
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Boldfit Airframe",
+  "description": "Compare live prices for Boldfit Airframe across Amazon, Flipkart, and Myntra in India.",
   "brand": {
     "@type": "Brand",
     "name": "BOLDFIT"
@@ -50,6 +51,41 @@
       "seller": {
         "@type": "Organization",
         "name": "Amazon"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "INR"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "IN"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 1,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 3,
+            "maxValue": 5,
+            "unitCode": "DAY"
+          }
+        }
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "IN",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 7,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
       }
     },
     {
@@ -61,6 +97,41 @@
       "seller": {
         "@type": "Organization",
         "name": "Myntra"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "INR"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "IN"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 1,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 3,
+            "maxValue": 5,
+            "unitCode": "DAY"
+          }
+        }
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "IN",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 7,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
       }
     }
   ]
@@ -167,9 +238,9 @@
     .pdp-thumbs img.active { border-color: #78efc6; }
     .pdp-thumbs img:hover { border-color: rgba(120, 239, 198, 0.5); }
 
-    /* Price history (NOW IN LEFT COLUMN) */
+    /* Price history */
     .pdp-price-history {
-      margin-top: 24px; /* Reduced from 40px to fit better in the column */
+      margin-top: 24px;
       padding: 20px;
       background: rgba(120, 239, 198, 0.05);
       border: 1px solid rgba(120, 239, 198, 0.15);
@@ -197,6 +268,31 @@
       color: #7d8590;
     }
     .pdp-price-summary strong { color: #78efc6; }
+
+    /* Shipping & Returns Info */
+    .pdp-shipping-info {
+      margin-top: 24px;
+      padding: 16px;
+      background: rgba(120, 239, 198, 0.03);
+      border: 1px dashed rgba(120, 239, 198, 0.3);
+      border-radius: 12px;
+    }
+    .pdp-info-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 12px;
+      color: #c7d2cd;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    .pdp-info-row:last-child {
+      margin-bottom: 0;
+    }
+    .pdp-info-icon {
+      font-size: 1.1rem;
+      line-height: 1.2;
+    }
 
     /* Related products */
     .pdp-related {
@@ -262,7 +358,7 @@
     }
 
     /* ============================
-       NEW AMAZON-STYLE PRODUCT DETAILS
+       AMAZON-STYLE PRODUCT DETAILS
     ============================ */
     .pdp-details-container {
       margin-top: 28px;
@@ -380,7 +476,7 @@
 
     <div class="pdp-panel">
 
-      <!-- Left Column: Gallery + Price History -->
+      <!-- Left Column: Gallery + Price History + Specs -->
       <div>
         <div class="pdp-gallery-stage">
           <button class="pdp-arrow left" id="pdpPrev" aria-label="Previous image">‹</button>
@@ -391,7 +487,8 @@
           <img src="https://m.media-amazon.com/images/I/91cYgQtMb8L._SL1500_.jpg" class="active" alt=""><img src="https://m.media-amazon.com/images/I/51L-1zpc8qL._SL1500_.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/41jhBs1QzyL._SL1500_.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/51yn4Sw9pUL._SL1500_.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/41-YWOYK+GL._SL1500_.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/31gRq7+vMQL._SL1500_.jpg" class="" alt="">
         </div>
         
-        <!-- PRICE HISTORY MOVED HERE -->
+        
+        
         
       </div>
 
@@ -435,7 +532,18 @@
         </a>
         </div>
 
-        <!-- PRODUCT DETAILS INJECTED HERE -->
+        <div class="pdp-shipping-info">
+          <div class="pdp-info-row">
+            <span class="pdp-info-icon">🚚</span>
+            <span><strong>Shipping:</strong> Handled by the store (Amazon, Flipkart, or Myntra). Most platforms offer free delivery on these items.</span>
+          </div>
+          <div class="pdp-info-row">
+            <span class="pdp-info-icon">↩️</span>
+            <span><strong>Returns:</strong> Standard 7-10 day return policy applies. Please check the specific store's policy before purchasing.</span>
+          </div>
+        </div>
+
+        <!-- ABOUT SECTION INJECTED HERE -->
         
         <div class="pdp-about">
             <h3>About this sneaker</h3>
