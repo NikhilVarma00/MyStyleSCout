@@ -178,10 +178,10 @@
     .pdp-thumbs img.active { border-color: #78efc6; }
     .pdp-thumbs img:hover { border-color: rgba(120, 239, 198, 0.5); }
 
-    /* Price history */
+    /* Price history (NOW IN LEFT COLUMN) */
     .pdp-price-history {
-      margin-top: 40px;
-      padding: 24px;
+      margin-top: 24px; /* Reduced from 40px to fit better in the column */
+      padding: 20px;
       background: rgba(120, 239, 198, 0.05);
       border: 1px solid rgba(120, 239, 198, 0.15);
       border-radius: 16px;
@@ -391,7 +391,7 @@
 
     <div class="pdp-panel">
 
-      <!-- Gallery -->
+      <!-- Left Column: Gallery + Price History -->
       <div>
         <div class="pdp-gallery-stage">
           <button class="pdp-arrow left" id="pdpPrev" aria-label="Previous image">‹</button>
@@ -401,9 +401,25 @@
         <div class="pdp-thumbs" id="pdpThumbs">
           <img src="https://m.media-amazon.com/images/I/61GdjiF6U2L.jpg" class="active" alt=""><img src="https://m.media-amazon.com/images/I/410pKQGcQPL.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/41Pxfq9d0kL.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/41P6QNWbOrL.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/51clX4aeuEL.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/413h-t+UbNL.jpg" class="" alt="">
         </div>
+        
+        <!-- PRICE HISTORY MOVED HERE -->
+        
+    <section class="pdp-price-history">
+      <h2>Price History</h2>
+      <p class="pdp-price-track">
+        <span class="pdp-price-label">Tracked prices:</span>
+        <span class="pdp-price-values">₹543 → ₹799 → ₹1,113</span>
+      </p>
+      <p class="pdp-price-summary">
+        Lowest: <strong>₹543</strong> · 
+        Highest: <strong>₹1,113</strong> · 
+        Total drop: <strong>₹570</strong>
+      </p>
+    </section>
+    
       </div>
 
-      <!-- Info column -->
+      <!-- Right Column: Info -->
       <div class="modal-info">
         <span class="eyebrow">SPARX</span>
         <h1 style="font-size:1.6rem; font-weight:600; line-height:1.3; margin-top:12px; color:#fff;">SPARX Casual Sneakers for Men – Trendy Lace-Up Shoes with Soft Cushioning, Lightweight Comfort, Durable Sole & Everyday Fashion Wear</h1>
@@ -461,20 +477,7 @@
 
     </div>
 
-    
-    <section class="pdp-price-history">
-      <h2>Price History</h2>
-      <p class="pdp-price-track">
-        <span class="pdp-price-label">Tracked prices:</span>
-        <span class="pdp-price-values">₹543 → ₹799 → ₹1,113</span>
-      </p>
-      <p class="pdp-price-summary">
-        Lowest: <strong>₹543</strong> · 
-        Highest: <strong>₹1,113</strong> · 
-        Total drop: <strong>₹570</strong>
-      </p>
-    </section>
-    
+    <!-- ONLY RELATED IS LEFT OUTSIDE THE GRID NOW -->
     
         <section class="pdp-related">
           <h2>More from SPARX</h2>

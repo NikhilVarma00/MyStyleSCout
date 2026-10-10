@@ -167,10 +167,10 @@
     .pdp-thumbs img.active { border-color: #78efc6; }
     .pdp-thumbs img:hover { border-color: rgba(120, 239, 198, 0.5); }
 
-    /* Price history */
+    /* Price history (NOW IN LEFT COLUMN) */
     .pdp-price-history {
-      margin-top: 40px;
-      padding: 24px;
+      margin-top: 24px; /* Reduced from 40px to fit better in the column */
+      padding: 20px;
       background: rgba(120, 239, 198, 0.05);
       border: 1px solid rgba(120, 239, 198, 0.15);
       border-radius: 16px;
@@ -380,7 +380,7 @@
 
     <div class="pdp-panel">
 
-      <!-- Gallery -->
+      <!-- Left Column: Gallery + Price History -->
       <div>
         <div class="pdp-gallery-stage">
           <button class="pdp-arrow left" id="pdpPrev" aria-label="Previous image">‹</button>
@@ -390,9 +390,12 @@
         <div class="pdp-thumbs" id="pdpThumbs">
           <img src="https://m.media-amazon.com/images/I/91cYgQtMb8L._SL1500_.jpg" class="active" alt=""><img src="https://m.media-amazon.com/images/I/51L-1zpc8qL._SL1500_.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/41jhBs1QzyL._SL1500_.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/51yn4Sw9pUL._SL1500_.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/41-YWOYK+GL._SL1500_.jpg" class="" alt=""><img src="https://m.media-amazon.com/images/I/31gRq7+vMQL._SL1500_.jpg" class="" alt="">
         </div>
+        
+        <!-- PRICE HISTORY MOVED HERE -->
+        
       </div>
 
-      <!-- Info column -->
+      <!-- Right Column: Info -->
       <div class="modal-info">
         <span class="eyebrow">BOLDFIT</span>
         <h1 style="font-size:1.6rem; font-weight:600; line-height:1.3; margin-top:12px; color:#fff;">BoldFit Running Shoes for Man Soft EVA Sole Sports Shoes for Men Running Light Weight Shoe for Men Sports Anti Slip Gym Shoe for Man, Airframe</h1>
@@ -443,7 +446,7 @@
 
     </div>
 
-    
+    <!-- ONLY RELATED IS LEFT OUTSIDE THE GRID NOW -->
     
         <section class="pdp-related">
           <h2>More from BOLDFIT</h2>
