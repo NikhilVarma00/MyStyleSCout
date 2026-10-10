@@ -3505,5 +3505,66 @@
       { "name": "Myntra", "price": 1292, "url": "https://www.myntra.com/casual-shoes/bacca-bucci/bacca-bucci-men-grey-colourblocked-sneakers/17779494/buy" }
     ],
     "priceHistory": [1292, 1289]
-  }
+  },
+
+{
+  "id": "puma-softride-carson-sliptech-ii",
+  "name": "Puma Softride Carson Sliptech II",
+  "fullName": "PUMA Softride Carson Sliptech II Walking Shoes For Men",
+  "brand": "PUMA",
+  "price": 2279,
+  "category": "sneakers",
+  "oldPrice": 2399,
+  "discount": 5,
+  "image": "https://m.media-amazon.com/images/I/71azn4JZPBL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/71azn4JZPBL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21HPvMZREmL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21qtkj5WGRL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31Ty0BmPC5L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21FHaR5LW2L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/310RZMyWw1L._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Flipkart",
+      "price": 2399,
+      "url": "https://www.flipkart.com/puma-softride-carson-sliptech-ii-walking-shoes-men/p/itm54102fd5f3a46?pid=SHOHDMNBGXZRAHEY"
+    },
+    {
+      "name": "Amazon",
+      "price": 2279,
+      "url": "https://www.amazon.in/dp/B0F83ZRR56?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Myntra",
+      "price": 2399,
+      "url": "https://www.myntra.com/sports-shoes/puma/puma-softride-carson-sliptech-walking-shoes/36461872"
+    }
+  ],
+  "priceHistory": [2399, 2279],
+  "specs": {
+    "material": "Textile",
+    "closure_type": "Lace-Up",
+    "country_of_origin": "Cambodia",
+    "weight": "700 g",
+    "rating": "4.3",
+    "heel_type": "Flat",
+    "water_resistance_level": "Not Water Resistant",
+    "style": "Sneaker",
+    "outer_material": "Textile"
+  },
+  "about": [
+    "Style Name : Running Shoe",
+    "Model Name : Softride Carson Sliptech II",
+    "Brand Color : Black-Cool Dark Gray",
+    "Material : Textile",
+    "Activity : Running"
+  ]
+}
+
+
+
+
+
 ]

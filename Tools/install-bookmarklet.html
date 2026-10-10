@@ -27,7 +27,7 @@
       <a id="bookmarkletLink" class="bookmark-btn" href="#">🛒 Capture with StyleScout</a>
     </div>
     <div class="warn">
-      ⚠️ If you already installed the old bookmarklet, <strong>delete it</strong> and drag this new one. The old one has a bug with Flipkart prices.
+      ⚠️ If you already installed the old bookmarklet, <strong>delete it</strong> and drag this new one.
     </div>
     <p style="margin-top:20px;">Or copy the code below to paste manually into a bookmark's URL field:</p>
     <textarea id="code" readonly></textarea>
@@ -91,7 +91,7 @@
   };
 
   const host = window.location.hostname.toLowerCase();
-  let site = "", name = "", brand = "", rawPrice = "", candidateImgs = [];
+  let site = "", name = "", brand = "", rawPrice = "", candidateImgs = [], highlights = {}, aboutItems = [];
 
   const isValidImg = (src) => {
     if (!src || typeof src !== "string") return false;
@@ -176,9 +176,32 @@
     name = (jsonLd && jsonLd.name) || getTxt(["#productTitle", "h1#title", "h1"]);
     brand = (jsonLd && jsonLd.brand) || getTxt(["#bylineInfo", "a#bylineInfo"]).replace(/^(Brand:\s*|Visit the\s*)/i, "").replace(/\s+Store$/i, "").trim();
     rawPrice = (jsonLd && jsonLd.price) ? String(jsonLd.price) : getTxt([".a-price-whole", "#priceblock_ourprice", "#priceblock_dealprice"]);
+    
     const srcImgs = extractAllHDImages("#landingImage, #imgBlkFront, #altImages img", upgradeAmazonUrl);
     const dynamicImgs = extractAmazonDynamicImages();
     candidateImgs = Array.from(new Set([...srcImgs, ...dynamicImgs]));
+
+    document.querySelectorAll(".po-row, #productDetails_techSpec_section_1 tr, .prodDetTable tr").forEach(row => {
+      let keyEl = row.querySelector(".po-col-left, th, td:first-child");
+      let valEl = row.querySelector(".po-col-right, td, td:last-child");
+      if (!keyEl && row.children.length >= 2) {
+        keyEl = row.children[0];
+        valEl = row.children[1];
+      }
+      if (keyEl && valEl) {
+        const k = keyEl.textContent.replace(/[\n\r:]+/g, "").trim();
+        const v = valEl.textContent.replace(/[\n\r]+/g, "").trim();
+        if (k && v && k !== v) highlights[k] = v;
+      }
+    });
+
+    document.querySelectorAll("#feature-bullets li span.a-list-item, #feature-bullets .a-list-item").forEach(el => {
+      const text = el.textContent.trim();
+      if (text && text.toLowerCase() !== "about this item" && !aboutItems.includes(text)) {
+        aboutItems.push(text);
+      }
+    });
+
   } else if (host.includes("flipkart")) {
     site = "Flipkart";
     name = (jsonLd && jsonLd.name) || getTxt([".B_NuCI", "h1._6ERy25", ".VU-ZEz", "span.VU-ZEz", "h1"]);
@@ -195,7 +218,6 @@
   }
 
   const front = candidateImgs[0] || "";
-
   const priceDigits = rawPrice ? rawPrice.replace(/[^\d]/g, "") : "";
   const price = priceDigits ? parseInt(priceDigits, 10) : 0;
 
@@ -206,7 +228,9 @@
     url: window.location.href,
     site: site,
     image: front,   
-    gallery: candidateImgs
+    gallery: candidateImgs,
+    highlights: highlights,
+    about: aboutItems
   };
 
   const payload = encodeURIComponent(JSON.stringify(product));
@@ -225,7 +249,7 @@
     document.getElementById("code").value = rawCode;
     document.getElementById("bookmarkletLink").href = rawCode;
 
-    function copyCode() {
+    const copyCode = () => {
       navigator.clipboard.writeText(rawCode).then(() => {
         alert("Bookmarklet code copied to clipboard!");
       }).catch(() => {
@@ -234,7 +258,7 @@
         document.execCommand("copy");
         alert("Bookmarklet code copied to clipboard!");
       });
-    }
+    };
   </script>
 </body>
 </html>

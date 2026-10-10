@@ -7,7 +7,6 @@
     return "";
   };
 
-  // Robust JSON-LD Product extractor. Handles @graph wrappers, AggregateOffer, etc.
   const getJsonLdProduct = () => {
     try {
       const scripts = document.querySelectorAll('script[type="application/ld+json"]');
@@ -56,7 +55,7 @@
   };
 
   const host = window.location.hostname.toLowerCase();
-  let site = "", name = "", brand = "", rawPrice = "", candidateImgs = [];
+  let site = "", name = "", brand = "", rawPrice = "", candidateImgs = [], highlights = {}, aboutItems = [];
 
   const isValidImg = (src) => {
     if (!src || typeof src !== "string") return false;
@@ -93,9 +92,7 @@
     return imgs.filter(isValidImg);
   };
 
-  // SMART FLIPKART PRICE EXTRACTOR
   const extractFlipkartPrice = () => {
-    // 1. Try known reliable class names for the selling price
     const sellingPriceSelectors = [
       "div.Nx9bqj", "div._30jeq3", "div._16J3L3", "div.hl05eU div._30jeq3"
     ];
@@ -107,16 +104,14 @@
       }
     }
 
-    // 2. Fallback: scan all elements for text that looks like a price and pick the most prominent one
     const allElements = document.querySelectorAll("div, span, p");
     const prices = [];
     for (const el of allElements) {
-      if (el.children.length > 2) continue; // Skip large containers
+      if (el.children.length > 2) continue;
       const t = (el.textContent || "").trim();
-      // Matches ₹1,299 or ₹ 1,299
       if (/^₹\s?[\d,]+$/.test(t)) {
         const digits = t.replace(/[^\d]/g, "");
-        if (digits.length >= 3 && digits.length <= 6) { // Reasonable price range
+        if (digits.length >= 3 && digits.length <= 6) {
           const style = window.getComputedStyle(el);
           prices.push({
             el: el,
@@ -129,7 +124,6 @@
       }
     }
     if (prices.length > 0) {
-      // Sort by fontSize descending, then fontWeight descending, then price ascending
       prices.sort((a, b) => {
         if (b.fontSize !== a.fontSize) return b.fontSize - a.fontSize;
         if (b.fontWeight !== a.fontWeight) return b.fontWeight - a.fontWeight;
@@ -147,9 +141,34 @@
     name = (jsonLd && jsonLd.name) || getTxt(["#productTitle", "h1#title", "h1"]);
     brand = (jsonLd && jsonLd.brand) || getTxt(["#bylineInfo", "a#bylineInfo"]).replace(/^(Brand:\s*|Visit the\s*)/i, "").replace(/\s+Store$/i, "").trim();
     rawPrice = (jsonLd && jsonLd.price) ? String(jsonLd.price) : getTxt([".a-price-whole", "#priceblock_ourprice", "#priceblock_dealprice"]);
+    
     const srcImgs = extractAllHDImages("#landingImage, #imgBlkFront, #altImages img", upgradeAmazonUrl);
     const dynamicImgs = extractAmazonDynamicImages();
     candidateImgs = Array.from(new Set([...srcImgs, ...dynamicImgs]));
+
+    // Fixed Amazon Top Highlights (Supports .po-row layout & standard spec tables)
+    document.querySelectorAll(".po-row, #productDetails_techSpec_section_1 tr, .prodDetTable tr").forEach(row => {
+      let keyEl = row.querySelector(".po-col-left, th, td:first-child");
+      let valEl = row.querySelector(".po-col-right, td, td:last-child");
+      if (!keyEl && row.children.length >= 2) {
+        keyEl = row.children[0];
+        valEl = row.children[1];
+      }
+      if (keyEl && valEl) {
+        const k = keyEl.textContent.replace(/[\n\r:]+/g, "").trim();
+        const v = valEl.textContent.replace(/[\n\r]+/g, "").trim();
+        if (k && v && k !== v) highlights[k] = v;
+      }
+    });
+
+    // Fixed Amazon About This Item (Bullet points)
+    document.querySelectorAll("#feature-bullets li span.a-list-item, #feature-bullets .a-list-item").forEach(el => {
+      const text = el.textContent.trim();
+      if (text && text.toLowerCase() !== "about this item" && !aboutItems.includes(text)) {
+        aboutItems.push(text);
+      }
+    });
+
   } else if (host.includes("flipkart")) {
     site = "Flipkart";
     name = (jsonLd && jsonLd.name) || getTxt([".B_NuCI", "h1._6ERy25", ".VU-ZEz", "span.VU-ZEz", "h1"]);
@@ -166,7 +185,6 @@
   }
 
   const front = candidateImgs[0] || "";
-
   const priceDigits = rawPrice ? rawPrice.replace(/[^\d]/g, "") : "";
   const price = priceDigits ? parseInt(priceDigits, 10) : 0;
 
@@ -177,7 +195,9 @@
     url: window.location.href,
     site: site,
     image: front,
-    gallery: candidateImgs
+    gallery: candidateImgs,
+    highlights: highlights,
+    about: aboutItems
   };
 
   const payload = encodeURIComponent(JSON.stringify(product));

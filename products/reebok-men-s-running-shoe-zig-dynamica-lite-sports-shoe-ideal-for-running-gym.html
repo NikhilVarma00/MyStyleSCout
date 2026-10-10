@@ -262,7 +262,57 @@
       font-weight: 800;
     }
 
-    /* About this sneaker */
+    /* ============================
+       NEW AMAZON-STYLE PRODUCT DETAILS
+    ============================ */
+    .pdp-details-container {
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .pdp-details-container h3 {
+      color: #78efc6;
+      font-size: 1.1rem;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+    .details-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      gap: 10px 16px;
+      margin-bottom: 24px;
+    }
+    .details-grid .label {
+      color: #7d8590;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .details-grid .value {
+      color: #e6edf3;
+      font-size: 0.95rem;
+    }
+    .about-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .about-list li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 8px;
+      color: #c7d2cd;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    .about-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #78efc6;
+      font-weight: bold;
+    }
+
+    /* Fallback for old products */
     .pdp-about {
       margin-top: 28px;
       padding-top: 24px;
@@ -291,6 +341,7 @@
       .pdp-related-price { font-size: 15px; }
       .pdp-thumbs img { width: 54px; height: 54px; }
       .pdp-arrow { width: 34px; height: 34px; font-size: 20px; }
+      .details-grid { grid-template-columns: 1fr; gap: 6px; }
     }
   </style>
 </head>
@@ -382,10 +433,13 @@
         </a>
         </div>
 
+        <!-- PRODUCT DETAILS INJECTED HERE -->
+        
         <div class="pdp-about">
-          <h3>About this sneaker</h3>
-          <p>The Reebok Zig Dynamica by REEBOK is a popular choice for sneaker enthusiasts in India. Right now, the lowest tracked price for this shoe is ₹2,257, down from its original MRP of ₹4,999 — that is a genuine discount of 55%. We track prices daily across Amazon, Flipkart, and Myntra to find the best deals. Compare live prices using the store links above before you make a purchase.</p>
+            <h3>About this sneaker</h3>
+            <p>The Reebok Zig Dynamica by REEBOK is a popular choice for sneaker enthusiasts in India. Right now, the lowest tracked price for this shoe is ₹2,257, down from its original MRP of ₹4,999 — that is a genuine discount of 55%. We track prices daily across Amazon, Flipkart, and Myntra to find the best deals. Compare live prices using the store links above before you make a purchase.</p>
         </div>
+
       </div>
 
     </div>
@@ -460,6 +514,14 @@
               <div class="pdp-related-name">Adidas Lite Racer 4.0</div>
               <div class="pdp-related-price">₹2,239</div>
             </a>
+            <a href="puma-softride-carson-sliptech-ii.html" class="pdp-related-card">
+              <div class="pdp-related-image">
+                <img src="https://m.media-amazon.com/images/I/71azn4JZPBL._SL1500_.jpg" alt="Puma Softride Carson Sliptech II" loading="lazy">
+              </div>
+              <div class="pdp-related-brand">PUMA</div>
+              <div class="pdp-related-name">Puma Softride Carson Sliptech II</div>
+              <div class="pdp-related-price">₹2,279</div>
+            </a>
             <a href="us-polo-2fd-ciro.html" class="pdp-related-card">
               <div class="pdp-related-image">
                 <img src="https://m.media-amazon.com/images/I/91-OsMREytL._SL1500_.jpg" alt="U.S. Polo Assn. 2FD-Ciro" loading="lazy">
@@ -467,14 +529,6 @@
               <div class="pdp-related-brand">U.S. POLO ASSN.</div>
               <div class="pdp-related-name">U.S. Polo Assn. 2FD-Ciro</div>
               <div class="pdp-related-price">₹2,219</div>
-            </a>
-            <a href="woodland-men-s-leather-casual-shoe.html" class="pdp-related-card">
-              <div class="pdp-related-image">
-                <img src="https://m.media-amazon.com/images/I/61VqXkwsWML.jpg" alt="Woodland Leather" loading="lazy">
-              </div>
-              <div class="pdp-related-brand">WOODLAND</div>
-              <div class="pdp-related-name">Woodland Leather</div>
-              <div class="pdp-related-price">₹2,199</div>
             </a></div>
         </section>
   </main>
