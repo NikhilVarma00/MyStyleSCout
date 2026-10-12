@@ -3561,10 +3561,1488 @@
     "Material : Textile",
     "Activity : Running"
   ]
-}
+},
 
-
-
-
-
+  {
+    "id": "adidas-cloud-tec-m-running-shoe",
+    "name": "adidas Cloud Tec M",
+    "fullName": "adidas Men Cloud Tec M Running Shoe",
+    "brand": "adidas",
+    "price": 1519,
+    "category": "sneakers",
+    "oldPrice": 4999,
+    "discount": 70,
+    "image": "https://m.media-amazon.com/images/I/A1H7eyod08L._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/A1H7eyod08L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31j4z5lLaWL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31QWaTJAhuL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/3153KCJSrKL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31dGy2tcKmL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31FJmRng91L._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1804,
+        "url": "https://www.amazon.in/dp/B0CPVMYY2D?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1519,
+        "url": "https://www.flipkart.com/adidas-cloud-tec-m-running-shoes-men/p/itm552840897664e?pid=SHOGW4GYVM2GCQJ8"
+      },
+      {
+        "name": "Myntra",
+        "price": 1799,
+        "url": "https://www.myntra.com/sports-shoes/adidas/adidas-men-cloud-tec-black-running-shoes/26517440"
+      }
+    ],
+    "priceHistory": [1804, 1519, 1799],
+    "specs": {
+      "material_type": "Mesh",
+      "closure_type": "Lace-Up",
+      "rating": "4.0",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Rubber",
+      "outer_material_type": "Rubber",
+      "model_name": "Cloud Tec M"
+    },
+    "about": [
+      "Style Name: Low-Top",
+      "Item Weight: 770 g",
+      "Item Dimensions LxWxH: 32 x 27 x 9 Centimeters",
+      "Net Quantity: 1 Count",
+      "Generic Name: Running Shoe"
+    ]
+  },
+  {
+    "id": "red-chief-c6019-001-sneakers",
+    "name": "Red Chief C6019 001 Sneakers",
+    "fullName": "Red Chief Men’s Sneaker | Low Ankle Lace-Up Mesh & PU Shoe (C6019)",
+    "brand": "Red Chief",
+    "price": 1304,
+    "category": "sneakers",
+    "oldPrice": 4299,
+    "discount": 69,
+    "image": "https://m.media-amazon.com/images/I/31x8uVYutsL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/31x8uVYutsL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41m7nf2o2dL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41upRxClRqL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31mtqH+d-7L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/614zltLhLvL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31V8d2OJfXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41aofwACOvL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71EL+1+Fl-L._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1304,
+        "url": "https://www.amazon.in/dp/B0GHNXF8GM?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1643,
+        "url": "https://www.flipkart.com/red-chief-c6019-001-sneakers-men/p/itmc7f0dd607184c?pid=SHOHJV8KGYGJMSNS"
+      },
+      {
+        "name": "Myntra",
+        "price": 1848,
+        "url": "https://www.myntra.com/casual-shoes/red-chief/red-chief-men-textured-sneakers/39476818"
+      }
+    ],
+    "priceHistory": [1304, 1643, 1848],
+    "specs": {
+      "material_type": "Mesh",
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Synthetic Rubber",
+      "style": "Sneaker",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Breathable & Durable Upper: Premium mesh and PU material ensures ventilation and long-lasting wear.",
+      "Secure Fit: Lace-up closure provides a snug, adjustable fit for all-day comfort.",
+      "Lightweight Design: Easy to wear for extended periods without feeling heavy.",
+      "Low-Ankle Comfort: Offers natural movement and a modern sporty look.",
+      "Reliable Grip: Sturdy synthetic sole delivers stability and traction on various surfaces."
+    ]
+  },
+  {
+    "id": "red-chief-c6024-sneakers",
+    "name": "Red Chief C6024 Sneakers",
+    "fullName": "Red Chief Men’s Lace-Up Sneakers | Low Ankle Casual Shoes (C6024)",
+    "brand": "Red Chief",
+    "price": 2231,
+    "category": "sneakers",
+    "oldPrice": 5299,
+    "discount": 58,
+    "image": "https://m.media-amazon.com/images/I/91J1i29gilL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/91J1i29gilL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41bUGpIk1mL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31GsPLNoYGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/313FUwPvJzL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/614zltLhLvL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31sTu026XlL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41aIw3GftLL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2763,
+        "url": "https://www.amazon.in/dp/B0GMWQNJWK?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2231,
+        "url": "https://www.flipkart.com/red-chief-c6024-sneakers-men/p/itmf60dd1906fe62?pid=SHOHKNYZRDE8JJZF"
+      },
+      {
+        "name": "Myntra",
+        "price": 2624,
+        "url": "https://www.myntra.com/sports-shoes/red-chief/red-chief-men-walking-shoes/39992486"
+      }
+    ],
+    "priceHistory": [2763, 2231, 2624],
+    "specs": {
+      "material_type": "Polyurethane",
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Polyurethane",
+      "style": "Sneaker",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Premium Comfort: Synthetic PU and suede PU upper offers lasting comfort and a refined feel.",
+      "Secure Fit: Lace-up closure ensures an adjustable and snug fit.",
+      "Flexible Movement: Low-ankle design supports natural foot motion.",
+      "Durable Build: Strong outer sole provides stability and long-lasting wear.",
+      "Everyday Style: Suitable for casual wear, daily use, and active lifestyles."
+    ]
+  },
+  {
+    "id": "red-chief-c6018-cd02-sneakers",
+    "name": "Red Chief C6018",
+    "fullName": "Red Chief Men’s Sports Sneakers | Lace-Up | Low Ankle Casual Shoes (C6018)",
+    "brand": "Red Chief",
+    "price": 1465,
+    "category": "sneakers",
+    "oldPrice": 2155,
+    "discount": 32,
+    "image": "https://m.media-amazon.com/images/I/91yEkSKJflL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/91yEkSKJflL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31ZgUcorGDL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31HUx+kNw9L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/614zltLhLvL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31bSVSZ4TgL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41lDCZAMQ2L._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1724,
+        "url": "https://www.amazon.in/dp/B0GV8R65X6?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1465,
+        "url": "https://www.flipkart.com/red-chief-c6018-cd02-sneakers-men/p/itm285178dabaaa0?pid=SHOHHZ3VJ4Z8ZRMF"
+      },
+      {
+        "name": "Myntra",
+        "price": 2155,
+        "url": "https://www.myntra.com/sports-shoes/red-chief/red-chief-men-walking-shoes/41004868"
+      }
+    ],
+    "priceHistory": [1724, 1465, 2155],
+    "specs": {
+      "material_type": "Polyurethane",
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "style": "Sneaker",
+      "outer_material": "Polyurethane (PU)",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Secure Fit: Lace-up closure ensures a snug and adjustable fit for all-day comfort.",
+      "Low Ankle Design: Provides ease of movement while maintaining support and stability.",
+      "Durable Upper: Crafted with a synthetic PU upper for long-lasting wear.",
+      "Comfortable Lining: Soft synthetic lining enhances comfort during regular use.",
+      "Everyday Footwear: Perfect for casual, daily wear with reliable construction."
+    ]
+  },
+  {
+    "id": "red-chief-c6016-sneakers",
+    "name": "Red Chief C6016",
+    "fullName": "Red Chief Men’s Sports Sneaker | Low Ankle Lace Up Shoe with Breathable Mesh & Synthetic Upper | Lightweight Comfortable Casual Footwear (C6016)",
+    "brand": "Red Chief",
+    "price": 2719,
+    "category": "sneakers",
+    "oldPrice": 6399,
+    "discount": 58,
+    "image": "https://m.media-amazon.com/images/I/91AzXfjGJUL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/91AzXfjGJUL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51OJeHlAfuL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/5198QoMtHuL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51FSqHFj5jL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51LSMeexgaL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31wIaimYPfL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31wUTMS8PVL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 3200,
+        "url": "https://www.amazon.in/dp/B0G538GHZ7?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2719,
+        "url": "https://www.flipkart.com/red-chief-stylish-lace-up-casual-shoes-sneakers-men/p/itm5da4f27e22fc2?pid=SHOHGGFUAEWZSY9Q"
+      },
+      {
+        "name": "Myntra",
+        "price": 3199,
+        "url": "https://www.myntra.com/sports-shoes/red-chief/red-chief-men-colourblocked-sneakers/38509222"
+      }
+    ],
+    "priceHistory": [3200, 2719, 3199],
+    "specs": {
+      "material_type": "Mesh",
+      "closure_type": "Lace-Up",
+      "heel_type": "Flat",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Rubber",
+      "style": "Mid-Top",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Breathable Mesh Upper: Designed with lightweight, airy mesh that improves ventilation and keeps your feet cool during running, training, walking, and daily wear.",
+      "Durable Synthetic Support: Features sturdy synthetic overlays that add stability, structure, and long-lasting durability for active use.",
+      "Cushioned All-Day Comfort: Soft, shock-absorbing insole provides enhanced comfort, reducing foot fatigue during workouts and long hours on your feet.",
+      "Secure Lace-Up Fit: Low-ankle sports design with a lace-up ensures a snug, adjustable fit for better grip, control, and natural movement.",
+      "Versatile Sports Footwear: Ideal for running, gym sessions, training, walking, travel, and everyday casual wear—lightweight, stylish, and built for performance."
+    ]
+  },
+  {
+    "id": "red-chief-c6020-sneakers",
+    "name": "Red Chief C6020",
+    "fullName": "Red Chief Men’s Sneaker | Low Ankle Athletic Shoe (C6020)",
+    "brand": "Red Chief",
+    "price": 1213,
+    "category": "sneakers",
+    "oldPrice": 3999,
+    "discount": 70,
+    "image": "https://m.media-amazon.com/images/I/919E7zIAFiL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/919E7zIAFiL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51gRUCb4EmL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51HVy0p+HYL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31mFD04rFYL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/416R10z6j5L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/614zltLhLvL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31+zDrQdbBL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1213,
+        "url": "https://www.amazon.in/dp/B0GMTFYQFM?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1605,
+        "url": "https://www.flipkart.com/red-chief-c6020-f025-sneakers-men/p/itm3072f55a09e39?pid=SHOHKHQBDBSGVMU7"
+      },
+      {
+        "name": "Myntra",
+        "price": 1805,
+        "url": "https://www.myntra.com/sports-shoes/red-chief/red-chief-men-walking-shoes/39992499"
+      }
+    ],
+    "priceHistory": [1213, 1605, 1805],
+    "specs": {
+      "material_type": "Polyurethane",
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Synthetic Rubber",
+      "style": "Sneaker",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Durable PU Upper: Crafted with high-quality PU material, these men's sneakers are lightweight, long-lasting, and ideal for everyday wear.",
+      "Secure Lace-Up Design: Low ankle lace-up shoes provide a snug fit, adjustable comfort, and stability for all-day use.",
+      "Comfortable Athletic Footwear: Cushioned sole and flexible design make these sneakers perfect for walking, gym sessions, casual outings, or light sports.",
+      "Stylish Casual Sneakers: Modern sporty design suitable for daily wear, travel, or casual events, adding versatility to your wardrobe.",
+      "Reliable Grip and Traction: Synthetic outsole ensures excellent stability, traction, and long-lasting performance on multiple surfaces."
+    ]
+  },
+  {
+    "id": "red-tape-sneakers-grey-mesh-tpu",
+    "name": "Red Tape Grey Mesh TPU",
+    "fullName": "Red Tape Men's Sneakers Grey Mesh TPU Round Toe Lace-Up",
+    "brand": "Red Tape",
+    "price": 1499,
+    "category": "sneakers",
+    "oldPrice": 10099,
+    "discount": 85,
+    "image": "https://m.media-amazon.com/images/I/91vWkWuXvJL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/91vWkWuXvJL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/315WABGacgL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31nSWZKcMUL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41tR3n30dTL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41AQdQPoV-L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41Rnw351z2L._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1615,
+        "url": "https://www.amazon.in/dp/B0H72KG695?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1499,
+        "url": "https://www.flipkart.com/red-tape-etpu-athleisure-shoes-men-cultured-round-toe-shape-cushioning-technology-walking/p/itm305355cc4adf4?pid=SHOHZ53TBYUQSMMF"
+      },
+      {
+        "name": "Myntra",
+        "price": 1716,
+        "url": "https://www.myntra.com/sports-shoes/red-tape/red-tape-mars-men-etpu-athleisure-shoes/32033416"
+      }
+    ],
+    "priceHistory": [1615, 1499, 1716],
+    "specs": {
+      "material_type": "MESH+TPU",
+      "closure_type": "Lace-Up",
+      "heel_type": "Flat",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "ETPU+EVA+TPR+PAINT",
+      "style": "Sneaker",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Material - Sole - ETPU+EVA+TPR | Upper - Mesh + TPU | Insole Material - Memory foam",
+      "Crafted With A Sleek, Modern Aesthetic, These Shoes Transition From Workout Wear To Everyday Attire.",
+      "Features - Heel height - Flat | Toe shape - Round",
+      "Benefits - These athleisure shoes are built to last, using quality materials that can withstand daily wear and tear.",
+      "Athleisure - Sports Shoes"
+    ]
+  },
+  {
+    "id": "red-tape-sneakers-white-green",
+    "name": "Red Tape White Green",
+    "fullName": "Red Tape Men's Sneakers White Green Pu Mesh Round Toe Lace-Up",
+    "brand": "Red Tape",
+    "price": 741,
+    "category": "sneakers",
+    "oldPrice": 6799,
+    "discount": 89,
+    "image": "https://m.media-amazon.com/images/I/81+90XY-+0L._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/81+90XY-+0L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/312vJTK2kOL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/211mCawjHmL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31Xpb-8DpSL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41W9+agGLbL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41pTrwRNETL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1183,
+        "url": "https://www.amazon.in/dp/B0H72BS87H?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 741,
+        "url": "https://www.flipkart.com/red-tape-mens-lifestyle-sneakers-effortless-everyday-style-men/p/itmec3a4521ee76b?pid=SHOHFKM6XJCZPM5J"
+      },
+      {
+        "name": "Myntra",
+        "price": 948,
+        "url": "https://www.myntra.com/casual-shoes/red-tape/red-tape-men-lace-ups-round-toe-sneakers/36776598"
+      }
+    ],
+    "priceHistory": [1183, 741, 948],
+    "specs": {
+      "material_type": "PU+MESH",
+      "closure_type": "Lace-Up",
+      "heel_type": "Flat",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "EVA+TPU+TPR",
+      "style": "Sneaker",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Material - Sole - EVA + TPU + TPR | Upper - Mesh + PU | Insole - EVA Die Cut",
+      "Casual silhouette crafted for daily wear and versatility",
+      "Features - Toe shape - Round | Closure - Lace-Up | Heel height - Flat",
+      "Benefits - Lightweight sole, cushioned insole, and breathable design for all-day ease",
+      "Lifestyle - Sneakers"
+    ]
+  },
+  {
+    "id": "puma-palermo-lth-res-sneakers",
+    "name": "Puma Palermo LTH Res",
+    "fullName": "Puma Unisex-Adult Palermo LTH Res Sneaker",
+    "brand": "PUMA",
+    "price": 5830,
+    "category": "sneakers",
+    "oldPrice": 6999,
+    "discount": 16,
+    "image": "https://m.media-amazon.com/images/I/71xwLXDEemL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71xwLXDEemL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31dG7tVpyQL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/317FsU5r6QL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41-hULNvmnL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31fs2tgKjjL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41GF9sg2Q5L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41IIQSY2NXL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 6999,
+        "url": "https://www.amazon.in/dp/B0DWK3JSNP?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 5830,
+        "url": "https://www.flipkart.com/puma-palermo-lth-res-sneakers-men/p/itm0c577333612cf?pid=SHOH8Y2QZ9TYBKFC"
+      },
+      {
+        "name": "Myntra",
+        "price": 6999,
+        "url": "https://www.myntra.com/casual-shoes/puma/puma-unisex-palermo-lth-patterned-leather-sneaker/26210320"
+      }
+    ],
+    "priceHistory": [6999, 5830, 6999],
+    "specs": {
+      "material_type": "Leather",
+      "closure_type": "Lace-Up",
+      "heel_type": "Flat",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Rubber",
+      "style": "Sneaker",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Style Name: Sneaker",
+      "Model Name: Palermo Lth Res",
+      "Brand Color: White-Vapor Gray-Gum",
+      "Material: Leather",
+      "Care Instructions: Wipe with a clean dry cloth"
+    ]
+  },
+  {
+    "id": "adidas-men-elate-m-running-shoes",
+    "name": "Adidas Elate M",
+    "fullName": "Adidas Men Elate M Running Shoes",
+    "brand": "adidas",
+    "price": 1002,
+    "category": "sneakers",
+    "oldPrice": 3599,
+    "discount": 72,
+    "image": "https://m.media-amazon.com/images/I/A1mLq8R3FjL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/A1mLq8R3FjL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41r9BHvr+eL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51JyfHb7+vL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31BdziIMjnL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/316jruZR54L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31LfJAlD52L._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1440,
+        "url": "https://www.amazon.in/dp/B08FZTWV39?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1002,
+        "url": "https://www.flipkart.com/adidas-elate-m-running-shoes-men/p/itme9d1b092294f2?pid=SHOFUN8K72UFHJTH"
+      },
+      {
+        "name": "Myntra",
+        "price": 1367,
+        "url": "https://www.myntra.com/sports-shoes/adidas/adidas-men-grey-running-shoes/14609368"
+      }
+    ],
+    "priceHistory": [1440, 1002, 1367],
+    "specs": {
+      "material_type": "Mesh",
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Synthetic Rubber",
+      "style": "Low-Top",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Lightweight Mesh Upper: Designed for breathability and long-lasting comfort during runs or casual wear.",
+      "Item Weight: 850 g",
+      "Item Dimensions LxWxH: 33.5 x 21 x 13.5 Centimeters",
+      "Net Quantity: 1 Count",
+      "Generic Name: Shoe"
+    ]
+  },
+  {
+    "id": "adidas-galaxy-7-m-running-shoe",
+    "name": "Adidas Galaxy 7 M",
+    "fullName": "adidas Men Galaxy 7 M Running Shoe",
+    "brand": "adidas",
+    "price": 2856,
+    "category": "sneakers",
+    "oldPrice": 6299,
+    "discount": 55,
+    "image": "https://m.media-amazon.com/images/I/31rI--6tWcL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/31rI--6tWcL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31z21z-yXDL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31+uoOT8hnL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/411gOutxt3L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31S-gPF5p3L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31aqWwgG-DL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51mc-NwiXCL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2856,
+        "url": "https://www.amazon.in/dp/B0CKXSRZ92?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Myntra",
+        "price": 2856,
+        "url": "https://www.myntra.com/sports-shoes/adidas/adidas-men-galaxy-7-textile-lace-ups-marking-sports-shoes/37417962"
+      }
+    ],
+    "priceHistory": [2856, 2856],
+    "specs": {
+      "material_type": "Textile",
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "style": "Low-Top",
+      "outer_material": "Rubber",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "TEXTILE"
+    ]
+  },
+  {
+    "id": "bacca-bucci-trekzon-shoes",
+    "name": "Bacca Bucci TrekZON",
+    "fullName": "Bacca Bucci TrekZON Men’s Outdoor Trekking & Trail Running Shoes with AllTerraX Grip Outsole | #BePro Series",
+    "brand": "Bacca Bucci",
+    "price": 1998,
+    "category": "sneakers",
+    "oldPrice": 4499,
+    "discount": 56,
+    "image": "https://m.media-amazon.com/images/I/41sdy24bdRL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/41sdy24bdRL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51S+b8zyCkL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51wZ6+OWkmL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/513C8JtN4hL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51lNCfDYPLL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51c8rHC4NRL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41e7Q2m4NXL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1999,
+        "url": "https://www.amazon.in/dp/B0G1SFL5K2?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1998,
+        "url": "https://www.flipkart.com/bacca-bucci-trekzon-trekking-trail-all-terrax-grip-outsole-outdoors-men/p/itm54719003639ca?pid=SHOHHQEGB98WUCHF"
+      },
+      {
+        "name": "Myntra",
+        "price": 2037,
+        "url": "https://www.myntra.com/sports-shoes/bacca-bucci/bacca-bucci-men-outdoor-trekking-and-trail-running-shoes/37908311"
+      }
+    ],
+    "priceHistory": [1999, 1998, 2037],
+    "specs": {
+      "material_type": "Mesh and Fused TPU",
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "EVA and Rubber",
+      "style": "Performance Sports",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "AllTerraX Advanced Traction Outsole: The newly engineered outsole mold features multi-directional deep lugs and spike-inspired grooves that deliver exceptional ground grip and braking control on rocky, wet, and uneven surfaces — designed to conquer both mountain trails and city runs.",
+      "Protective Shell & Reinforced Upper: Hybrid upper made with abrasion-resistant woven mesh and fused TPU overlays for superior durability. The toe guard and heel cup offer added impact protection during descents or rough hikes.",
+      "Trail-Tuned Cushioning System: The dual-density EVA midsole with extended side-wall sculpting provides stability and shock absorption. Ideal for long-distance treks, trail runs, and outdoor training, balancing responsiveness with comfort.",
+      "Memory-Comfort Insole: Fitted with Bacca Bucci’s signature Memory S-Foam insole that molds to your foot shape—reducing fatigue and providing plush underfoot support during long hours of wear.",
+      "#BePro Outdoor Performance Design: Inspired by pro-grade trail shoes, TrekZON comes in four high-impact colorways—Carbon Black/Grey, Army Green, Arctic White, and Navy Blue—blending rugged aesthetics with a futuristic performance silhouette. Finished with pull loops and anti-slip laces for easy wearability."
+    ]
+  },
+  {
+    "id": "bacca-bucci-colossus-sneakers",
+    "name": "Bacca Bucci Colossus",
+    "fullName": "Bacca Bucci Colossus Men's Chunky All-Terrain Sneakers with Rugged Outsole & Ortholite Insole | Outdoor Trail Walking Shoes | Breathable Mesh & Synthetic Uppers",
+    "brand": "Bacca Bucci",
+    "price": 2199,
+    "category": "sneakers",
+    "oldPrice": 3999,
+    "discount": 45,
+    "image": "https://m.media-amazon.com/images/I/61LPgwpJd0L._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/61LPgwpJd0L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/416yhvqHLYL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41jBzuydWeL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41ekUVlmGoL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41G0YD6BZRL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31c0eCwtq+L._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2204,
+        "url": "https://www.amazon.in/dp/B0FDQNPBVL?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2199,
+        "url": "https://www.flipkart.com/bacca-bucci-colossus-sneakers-men/p/itm5daa7002b2649?pid=SHOHDABGMDPZFREH"
+      },
+      {
+        "name": "Myntra",
+        "price": 2204,
+        "url": "https://www.myntra.com/casual-shoes/bacca-bucci/bacca-bucci-men-colossus-all-terrain-chunky-sneakers-molten-blaze-uk-6/35119079"
+      }
+    ],
+    "priceHistory": [2204, 2199, 2204],
+    "specs": {
+      "material_type": "Mesh and Synthetic",
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Ethylene Vinyl Acetate",
+      "style": "Casual Sneakers",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "All-Terrain Ready: Built with an aggressive trail-style outsole that provides superior grip on uneven, rocky, or urban surfaces—perfect for outdoor walks or adventure travel.",
+      "OrthoLite Comfort: Co-branded with OrthoLite for high-performance insoles that deliver all-day cushioning, rebound, and moisture management.",
+      "Chunky Statement Design: Bold, street-style silhouette combined with high-contrast colorways (Red-Orange, Green-Black, Grey-White, Blue-Black) for a standout urban look.",
+      "Breathable & Durable: Features a lightweight mesh upper for ventilation and synthetic overlays for added structure and durability.",
+      "Versatile Use: Ideal for hiking, city walks, college, casual outings, and daily wear—style meets function for every setting."
+    ]
+  },
+  {
+    "id": "bacca-bucci-wager-basketball-shoe",
+    "name": "Bacca Bucci Wager",
+    "fullName": "Bacca Bucci Men Lace Up Basketball Shoe",
+    "brand": "Bacca Bucci",
+    "price": 1297,
+    "category": "sneakers",
+    "oldPrice": 2999,
+    "discount": 57,
+    "image": "https://m.media-amazon.com/images/I/41-KfdAceBL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/41-KfdAceBL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41VGf-8SMrL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41h9Cis1csL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51x8w1jL+iL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41XH+yupyqL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51duXOLQKTL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/716Q+hsyNAL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1297,
+        "url": "https://www.amazon.in/dp/B08Y9G8LWV?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1297,
+        "url": "https://www.flipkart.com/bacca-bucci-basketball-shoes-wager-training-gym-men/p/itmf12363ea6de05?pid=SHOGFRVPAE2YG8FP"
+      },
+      {
+        "name": "Myntra",
+        "price": 1300,
+        "url": "https://www.myntra.com/sports-shoes/bacca-bucci/bacca-bucci-men-black-and-grey-mesh-mid-top-basketball-shoes/14111122"
+      }
+    ],
+    "priceHistory": [1297, 1297, 1300],
+    "specs": {
+      "material_type": "Rubber",
+      "closure_type": "Lace-Up",
+      "heel_type": "Flat",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Phylon-Rubber & EVA Mixed",
+      "style": "Walking Shoe",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Rubber Damping Sole In Zig-Zag Shape Provides You With Strong Ground Holding In Accordance With The Sole Force Position And Supports Your Weight.",
+      "Breathable, Lightweight Textile Upper And The Molded Heel Shield Make Greater Structure, Lock Your Foot In The Right Place And Protect Your Ankle From Injury By Offering Better Support.",
+      "Durable, Wear Resistant & And Anti-Slip Material Make Our Product Your Best Choice On The Court To Win The Game.; The Upper With Venting Holes Offers Good Breathability And Sweat Perspiration To Make You Feel Dry And Comfortable During Exercise",
+      "If Any Dirt Or Damaged Product Upsets You Or For Some Reason Youâ€re Just Not Happy With The One You Received, Donâ€™t Hesitate To Contact Us, We Are Always Here To Help And Provide You With The Best After Sale Service!",
+      "Age Range Description: Adult"
+    ]
+  },
+  {
+    "id": "bacca-bucci-men-lace-up-sneaker-shoes",
+    "name": "Bacca Bucci Sneaker",
+    "fullName": "Bacca Bucci Men Lace Up Sneaker Shoes",
+    "brand": "Bacca Bucci",
+    "price": 1098,
+    "category": "sneakers",
+    "oldPrice": 2999,
+    "discount": 63,
+    "image": "https://m.media-amazon.com/images/I/91js+oQGXiL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/91js+oQGXiL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51DXC6i1srL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51+Ft4aauIL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51qraI9P-RL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41iNs6IdIML._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/418FIIGDlAL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1099,
+        "url": "https://www.amazon.in/dp/B08YCZ1RSN?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1098,
+        "url": "https://www.flipkart.com/bacca-bucci-urban-retro-series-mid-top-sneakers-men-korean-style-high-tops/p/itm22f3002699d5b?pid=SHOG3Z9GZ85ZYFHP"
+      },
+      {
+        "name": "Myntra",
+        "price": 1299,
+        "url": "https://www.myntra.com/casual-shoes/bacca-bucci/bacca-bucci-men-white-colourblocked-sneakers/14488302"
+      }
+    ],
+    "priceHistory": [1099, 1098, 1299],
+    "specs": {
+      "material_type": "Rubber",
+      "closure_type": "Lace-Up",
+      "heel_type": "Flat",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Phylon-Rubber & EVA Mixed",
+      "style": "Walking Shoe",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Sole: high-quality rubber sole for lightweight cushioning. Vertical and horizontal flex grooves give you flexibility in all directions. Don't crease and easy to clean."
+    ]
+  },
+  {
+    "id": "nike-court-borough-low-recraft-sneakers",
+    "name": "Nike Court Borough Low Recraft",
+    "fullName": "Nike Unisex Kids Court Borough Low Recraft (Gs) Sneakers",
+    "brand": "Nike",
+    "price": 3146,
+    "category": "sneakers",
+    "oldPrice": 4495,
+    "discount": 30,
+    "image": "https://m.media-amazon.com/images/I/31wUkMd+PBL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/31wUkMd+PBL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41bA-errAML._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31v7pihayzL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41+pGD8qjYL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31Zmq-w3FyL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31fQyL0sYeL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/617gPpFxeSL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 3146,
+        "url": "https://www.amazon.in/dp/B0C4PHNM4Y?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 3147,
+        "url": "https://www.flipkart.com/nike-boys-girls-lace-sneakers/p/itmb15c72c0b5dc7?pid=KSSH29SFUYN7YFMV"
+      },
+      {
+        "name": "Myntra",
+        "price": 3147,
+        "url": "https://www.myntra.com/casual-shoes/nike/nike-court-borough-low-recraft-older-kids-shoes/28292846"
+      }
+    ],
+    "priceHistory": [3146, 3147, 3147],
+    "specs": {},
+    "about": [
+      "Nike court borough low recraft big kids' shoes run (don't walk) to your new favorite borough. made for the long haul, this \"recrafted\" legend uses a combination of durable materials on the upper and outsole to achieve a classic look made in a whole new way. a redesigned toe box and midfoot give your feet a little extra room so you can run, jump and play just a bit longer and a little bit harder. more details classic laces flex grooves on the outsole",
+      "Nike court borough low recraft big kids' shoes run (don't walk) to your new favorite borough",
+      "Made for the long haul, this \"recrafted\" legend uses a combination of durable materials on the upper and outsole to achieve a classic look made in a whole new way",
+      "A redesigned toe box and midfoot give your feet a little extra room so you can run, jump and play just a bit longer and a little bit harder",
+      "Classic laces flex grooves on the outsole"
+    ]
+  },
+  {
+    "id": "nike-sb-delta-force-vulc-sneakers",
+    "name": "Nike SB Delta Force Vulc",
+    "fullName": "Nike Men's SB Delta Force Vulc Sneakers",
+    "brand": "Nike",
+    "price": 2247,
+    "category": "sneakers",
+    "oldPrice": 4495,
+    "discount": 50,
+    "image": "https://m.media-amazon.com/images/I/31CZI4XEbWL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/31CZI4XEbWL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/312xxp69EGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31mR39exDoL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31XWI2+MC+L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31UlPM6C3LL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31cpQCYxYsL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/714iL2Kg1tL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2247,
+        "url": "https://www.amazon.in/dp/B012J19FUS?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2248,
+        "url": "https://www.flipkart.com/nike-sb-delta-force-vulc-skateboard-shoes-men/p/itmc3dbbceca32bc?pid=SHOHZJ2ZDBZWPW7A"
+      },
+      {
+        "name": "Myntra",
+        "price": 2248,
+        "url": "https://www.myntra.com/sports-shoes/nike/nike-sb-delta-force-vulc-men-textured-skate-sports-shoes/43092185"
+      }
+    ],
+    "priceHistory": [2247, 2248, 2248],
+    "specs": {},
+    "about": [
+      "Weight: 0.4 Kilograms",
+      "Best for: Skateboarding",
+      "DURABILITY MEETS FLEXIBILITY. The Nike SB Delta Force Vulc is built to skate all day. Soft foam cushions every step, push and drop, while perforations on the sides help keep your feet cool through long sessions.",
+      "Premium Leather construction for durability.",
+      "Designed for Skateboarding activities.",
+      "Features iconic brand detailing and ergonomic fit."
+    ]
+  },
+  {
+    "id": "reebok-south-ferry-renew-m-sneaker",
+    "name": "Reebok South Ferry Renew M",
+    "fullName": "Reebok Mens South Ferry Renew M Sneaker",
+    "brand": "Reebok",
+    "price": 993,
+    "category": "sneakers",
+    "oldPrice": 3599,
+    "discount": 72,
+    "image": "https://m.media-amazon.com/images/I/71J6nVMCzGL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/71J6nVMCzGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31NAib3JtlL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31Zf+pttCYL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31lAfOqH4RL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41uE18aBD7L._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 993,
+        "url": "https://www.amazon.in/dp/B0C9CLTMW1?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1259,
+        "url": "https://www.flipkart.com/reebok-south-ferry-renew-m-walking-shoes-men/p/itm3b25dc71ea72c?pid=SHOGUEHTTHYGTAJH"
+      }
+    ],
+    "priceHistory": [993, 1259],
+    "specs": {
+      "material_type": "Mesh, Rubber",
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Rubber",
+      "style": "Mule",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Light Weight & Breathable Upper Mesh. Vector Side Check Execution With Netting Effect. Wonderful Printing On Heel Part. Ortholite Sock Comfort. Sole :- Perfect Gripping & Additional Cushioning Gives Power To The Shoe. Gives Your Body Little Extra Push During Fitness Running. Non- Marking Rubber Outsole Is Engineered In Such A Way That It Support Flexing Motion Of Foot While Walking & Running. It Has Great Stability On Ground And Offer Anti-Skid Resistance"
+    ]
+  },
+  {
+    "id": "reebok-billington-zev-m-sneaker",
+    "name": "Reebok Billington Zev M",
+    "fullName": "Reebok Mens Billington Zev M Sneaker",
+    "brand": "Reebok",
+    "price": 1356,
+    "category": "sneakers",
+    "oldPrice": 3999,
+    "discount": 66,
+    "image": "https://m.media-amazon.com/images/I/31pQDH5QnvL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/31pQDH5QnvL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/21ncuL+bgGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31-ITyRbvGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/311cJAK9f3L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31S-L+-V37L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/310nvM6FfnL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51Wx+rVR36L._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1356,
+        "url": "https://www.amazon.in/dp/B0F2FWH4CR?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 1356,
+        "url": "https://www.flipkart.com/reebok-billington-zev-m-running-shoes-men/p/itm47424c6123e45?pid=SHOH2E9NR4SVTZYF"
+      },
+      {
+        "name": "Myntra",
+        "price": 1679,
+        "url": "https://www.myntra.com/casual-shoes/reebok/reebok-men-lightweight-cushioned-sneakers---college-casual-street-sports---billington-zev/30844289"
+      }
+    ],
+    "priceHistory": [1356, 1356, 1679],
+    "specs": {
+      "material_type": "Mesh",
+      "closure_type": "Lace-Up",
+      "heel_type": "Flat",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Ethylene Vinyl Acetate",
+      "style": "Sneaker",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Lightweight Upper for Smooth Daily Running: Breathable upper promotes airflow and delivers a flexible, comfortable fit for smooth daily running, gym sessions, and active everyday training.",
+      "Flylite Midsole for Light Durable Cushioning: Flylite midsole technology delivers lightweight, durable cushioning through every stride - keeping runs smooth and reducing fatigue.",
+      "Traction-Pattern Outsole with EVA Sockliner: Traction-pattern rubber outsole with lightweight EVA sockliner delivers reliable grip and flexible support for daily running and gym training.",
+      "Secure Lace-Up Fit: Lace-up construction locks the foot firmly in place throughout your run - keeping you focused on performance without mid-session adjustment or slippage.",
+      "Multi-Use Sports Shoe for Active Men: Built for running, jogging, gym training, and daily casual wear - a lightweight, comfortable sports shoe for men suited to every active need."
+    ]
+  },
+  {
+    "id": "reebok-courtswift-ivy-u-sneakers",
+    "name": "Reebok Courtswift Ivy U",
+    "fullName": "Reebok Unisex Classic Shoes - COURTSWIFT Ivy U Classic Shoes | Shoes for Casual and Everyday Wear",
+    "brand": "Reebok",
+    "price": 1238,
+    "category": "sneakers",
+    "oldPrice": 3799,
+    "discount": 67,
+    "image": "https://m.media-amazon.com/images/I/718HN3z105L._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/718HN3z105L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/315dwVAz2lL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31un-p-rVnL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41dL1xh5PWL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31P4RGEHNZL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41RVNqmBDiL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1238,
+        "url": "https://www.amazon.in/dp/B0F2G7WBQG?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 3799,
+        "url": "https://www.flipkart.com/reebok-courtswift-ivy-u-sneakers-men/p/itmb38f5d02c3373?pid=SHOH2E9PH8HHYYWK"
+      },
+      {
+        "name": "Myntra",
+        "price": 1519,
+        "url": "https://www.myntra.com/casual-shoes/reebok/reebok-men-classics-lace-up-shoes/32996030"
+      }
+    ],
+    "priceHistory": [1238, 3799, 1519],
+    "specs": {
+      "material_type": "Polyurethane",
+      "closure_type": "Lace-Up",
+      "heel_type": "Flat",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Ethylene Vinyl Acetate",
+      "style": "Sneaker",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Breathable – Synthetic mesh upper ensures optimal airflow, keeping your feet cool and fresh all day.",
+      "Featherlight Feel – Designed for effortless movement, these shoes offer a lightweight build without compromising on durability.",
+      "Superior Grip – The rubber outsole provides excellent traction, ensuring stability on various surfaces.",
+      "All-Day Comfort– Engineered with cushioned insoles and ergonomic design for unmatched comfort and endurance."
+    ]
+  },
+  {
+    "id": "skechers-women-bobs-squad-chaos",
+    "name": "Skechers Women Bobs Squad Chaos",
+    "fullName": "Skechers Women Bobs Squad Chaos Renegade Par Casual Shoe",
+    "brand": "Skechers",
+    "price": 3037,
+    "category": "sneakers",
+    "oldPrice": 5499,
+    "discount": 45,
+    "image": "https://m.media-amazon.com/images/I/41tlnSbKElL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/41tlnSbKElL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/3183PFjVHzL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31rrv6RWyhL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/214EhuSCFGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41VM3IHW7rL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31tLTkN+28L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81g8fMUR3xL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 3574,
+        "url": "https://www.amazon.in/dp/B0FC2T4FF6?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 3037,
+        "url": "https://www.flipkart.com/skechers-bobs-squad-chaos-running-shoes-women/p/itm2bab0933a784d?pid=SHOHCYD6CFAQHZYS"
+      },
+      {
+        "name": "Myntra",
+        "price": 3354,
+        "url": "https://www.myntra.com/casual-shoes/skechers/skechers-women-bobs-squad-chaos-sneakers/34821556"
+      }
+    ],
+    "priceHistory": [3574, 3037, 3354],
+    "specs": {
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Rubber",
+      "style": "Sneaker",
+      "outer_material": "Rubber",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "BOBS SQUAD CHAOS",
+      "BOBS SPORT WOMENS",
+      "OutSole Name-BOBS SQUAD CHAOS"
+    ]
+  },
+  {
+    "id": "skechers-men-dlux-fitness-sneakers",
+    "name": "Skechers Men D'Lux Fitness",
+    "fullName": "Skechers Men D'Lux Fitness Sneakers",
+    "brand": "Skechers",
+    "price": 3440,
+    "category": "sneakers",
+    "oldPrice": 7499,
+    "discount": 54,
+    "image": "https://m.media-amazon.com/images/I/91Vj5iRFICL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/91Vj5iRFICL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31zgbZX75vL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31UsYadRJIL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/410ChhZQ4ML._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41wPArsVRnL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31Pa-JcrW3L._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 3440,
+        "url": "https://www.amazon.in/dp/B0D9KFVGGZ?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Myntra",
+        "price": 4799,
+        "url": "https://www.myntra.com/casual-shoes/skechers/skechers-men-dlux-fitness-new-affinity-textured-sneakers/33026335"
+      }
+    ],
+    "priceHistory": [3440, 4799],
+    "specs": {
+      "material_type": "Mesh",
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Textile",
+      "style": "Sneaker",
+      "country_of_origin": "Vietnam"
+    },
+    "about": [
+      "Relaxed Fit Engineered Mesh Lace Up Fitness Sneaker W/Air-Cooled Mf",
+      "SPORT MENS",
+      "LACE UP",
+      "OutSole Name-D'LUX FITNESS"
+    ]
+  },
+  {
+    "id": "skechers-women-dlux-fitness-walking-shoes",
+    "name": "Skechers Women D'Lux Fitness",
+    "fullName": "Skechers Womens D'LUX Fitness Walking Shoes",
+    "brand": "Skechers",
+    "price": 3399,
+    "category": "sneakers",
+    "oldPrice": 8499,
+    "discount": 60,
+    "image": "https://m.media-amazon.com/images/I/41HR9CDjXnL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/41HR9CDjXnL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/418vmn6Js4L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41rkwO9cuSL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31uHgQjjMAL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41dbeXl6-SL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/410uDrQ6pFL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/812y6chMBML._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 3399,
+        "url": "https://www.amazon.in/dp/B09PZ77QQ4?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Myntra",
+        "price": 3399,
+        "url": "https://www.myntra.com/casual-shoes/skechers/skechers-women-dlux-fitness-pure-glam-casual-lace-up-shoe/19012608"
+      }
+    ],
+    "priceHistory": [3399, 3399],
+    "specs": {
+      "material_type": "Textile, Mesh",
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Rubber",
+      "style": "Sneaker",
+      "country_of_origin": "Vietnam"
+    },
+    "about": [
+      "Relaxed Fit for a roomy comfort fit at toe and forefoot",
+      "Skechers Air-Cooled Memory Foam cushioned comfort insole",
+      "Crafted with 100% vegan materials",
+      "Lace-up engineered mesh upper with a metallic trim",
+      "Well-cushioned platform midsole for added support"
+    ]
+  },
+  {
+    "id": "skechers-men-summits-lace-up-shoe",
+    "name": "Skechers Men Summits",
+    "fullName": "Skechers Men Summits Lace Up Shoe Gray/Black",
+    "brand": "Skechers",
+    "price": 2349,
+    "category": "sneakers",
+    "oldPrice": 4999,
+    "discount": 53,
+    "image": "https://m.media-amazon.com/images/I/A19PwHXDqXL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/A19PwHXDqXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31TpKMxklhL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31kmU1FCBnL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41MwnX19wxL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41MnJ06IBBL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 2499,
+        "url": "https://www.amazon.in/dp/B0GVT3WMF3?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2499,
+        "url": "https://www.flipkart.com/skechers-summits-sneakers-men/p/itm402e009d451ec?pid=SHOHMGHKS3TTRCZE"
+      },
+      {
+        "name": "Myntra",
+        "price": 2349,
+        "url": "https://www.myntra.com/casual-shoes/skechers/skechers-summits-men-round-toe-sneakers-casual-shoes/41126105"
+      }
+    ],
+    "priceHistory": [2499, 2499, 2349],
+    "specs": {
+      "material_type": "Cotton Blend",
+      "closure_type": "Lace-Up",
+      "heel_type": "Flat",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Ethylene Vinyl Acetate",
+      "style": "Sneaker"
+    },
+    "about": [
+      "Skechers Memory Foam[trademark] cushioned comfort insole",
+      "Engineered mesh upper with lace-up front",
+      "Flexible traction outsole",
+      "2.54 cm heel height",
+      "Machine Washable"
+    ]
+  },
+  {
+    "id": "skechers-men-edgeride-sneaker",
+    "name": "Skechers Men Edgeride",
+    "fullName": "Skechers Mens Edgeride Sneaker",
+    "brand": "Skechers",
+    "price": 3399,
+    "category": "sneakers",
+    "oldPrice": 6999,
+    "discount": 51,
+    "image": "https://m.media-amazon.com/images/I/91AgS2EMSzL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/91AgS2EMSzL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31D+KF9YYuL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41B3u+iDgzL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31q9yBz2XXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41cNpNSBy5L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31fiuIPIMxL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 3399,
+        "url": "https://www.amazon.in/dp/B0F6VHHN6Z?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 3866,
+        "url": "https://www.flipkart.com/skechers-edgeride-running-shoes-men/p/itmfe469878fcbab?pid=SHOHJGZU2ZBCMCQE"
+      },
+      {
+        "name": "Myntra",
+        "price": 4199,
+        "url": "https://www.myntra.com/sports-shoes/skechers/skechers-edgeride-men-lace-ups-walking-shoes/37048607"
+      }
+    ],
+    "priceHistory": [3399, 3866, 4199],
+    "specs": {
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Rubber",
+      "style": "Sneaker",
+      "outer_material": "Rubber",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "Show off your comfort wearing Skechers Edgeride. This sporty design features a mesh lace up upper and Skechers Air-Cooled Memory Foam insole.",
+      "SPORT MENS",
+      "EVA/RUBBER",
+      "Bottom-Eva",
+      "LACE UP"
+    ]
+  },
+  {
+    "id": "skechers-women-skech-air-edge-brite-times",
+    "name": "Skechers Women Skech Air Edge Brite Times",
+    "fullName": "Skechers Women Skech Air Edge Brite Times Casual Shoe",
+    "brand": "Skechers",
+    "price": 1447,
+    "category": "sneakers",
+    "oldPrice": 6999,
+    "discount": 79,
+    "image": "https://m.media-amazon.com/images/I/A1GA9iT2j4L._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/A1GA9iT2j4L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/417ggwqP-UL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41Wgw43g-qL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/419L8yKlRuL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41T540wjrlL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/416cySfrfqL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41aYhPtMMzL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 1447,
+        "url": "https://www.amazon.in/dp/B07TXLZ1QP?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 2138,
+        "url": "https://www.flipkart.com/skechers-skech-air-edge-brite-times-running-shoes-women/p/itm006ac054acab2?pid=SHOGHDF9NTDUAQTU"
+      },
+      {
+        "name": "Myntra",
+        "price": 2659,
+        "url": "https://www.myntra.com/casual-shoes/skechers/skechers-women-black-skech-air-edge-brite-times-sneakers/18906652"
+      }
+    ],
+    "priceHistory": [1447, 2138, 2659],
+    "specs": {
+      "material_type": "Fabric",
+      "closure_type": "Pull-On",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "sole_material": "Synthetic",
+      "style": "Sneaker",
+      "country_of_origin": "Vietnam"
+    },
+    "about": [
+      "RF ENGINEERED MESH BUNGEE SLIP ON W/ AIR-COOLED MF",
+      "MEDIUM CUSHIONING"
+    ]
+  },
+  {
+    "id": "skechers-women-glide-step-altus-sneaker",
+    "name": "Skechers Women Glide-Step Altus",
+    "fullName": "Skechers Womens Glide-Step Altus Sneaker",
+    "brand": "Skechers",
+    "price": 3699,
+    "category": "sneakers",
+    "oldPrice": 8999,
+    "discount": 59,
+    "image": "https://m.media-amazon.com/images/I/41IiqqrVFpL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/41IiqqrVFpL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31evZtCmokL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/315Io9ZOYHL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41qjDKt2JTL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51W3Irfe+bL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41XpSz31VTL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41+b5lWrqZL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81hVeked-oL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 6299,
+        "url": "https://www.amazon.in/dp/B0DXQQX1KT?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 3699,
+        "url": "https://www.flipkart.com/skechers-glide-step-altus-sneakers-women/p/itm87fcd90075388?pid=SHOHKKJE3QHDZEBM"
+      }
+    ],
+    "priceHistory": [6299, 3699],
+    "specs": {},
+    "about": [
+      "Skechers Hands Free Slip-ins for an easy fit",
+      "Exclusive Heel Pillow holds your foot securely in place",
+      "Glide-Step geometric midsole designed to provide natural momentum with every step",
+      "Skechers Air-Cooled Memory Foam cushioned comfort insole"
+    ]
+  },
+  {
+    "id": "skechers-mens-go-walk-glide-step-2-0-cale",
+    "name": "Skechers Mens GO Walk Glide-Step 2.0",
+    "fullName": "Skechers Mens GO Walk Glide-Step 2.0 - CALE Slip-ins Walking Shoes",
+    "brand": "Skechers",
+    "price": 4578,
+    "category": "sneakers",
+    "oldPrice": 10999,
+    "discount": 58,
+    "image": "https://m.media-amazon.com/images/I/A1aQiZOtxBL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/A1aQiZOtxBL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41TBnunYhLL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41mZ91qaV+L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31tR47pJHIL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41Drked7nnL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41Wkh+oqOmL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 6582,
+        "url": "https://www.amazon.in/dp/B0DJG4L8JY?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Flipkart",
+        "price": 4578,
+        "url": "https://www.flipkart.com/skechers-go-walk-glide-step-2-0-cale-outdoors-men/p/itm3efead0986daa?pid=SHOHAWR68PWUW7MD"
+      },
+      {
+        "name": "Myntra",
+        "price": 7149,
+        "url": "https://www.myntra.com/sports-shoes/skechers/skechers-men-go-walk-glide-step-2.0---cale-slip-ins-walking-shoes/33685893"
+      }
+    ],
+    "priceHistory": [6582, 4578, 7149],
+    "specs": {
+      "closure_type": "Pull-On",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Not Water Resistant",
+      "style": "Walking",
+      "outer_material": "Mesh",
+      "inner_material": "Knit",
+      "country_of_origin": "Bangladesh"
+    },
+    "about": [
+      "Skechers Hands Free Slip-ins molded heel panel for an easy fit",
+      "Exclusive Heel Pillow holds your foot securely in place",
+      "Stretch Fit design for sock-like comfort",
+      "Skechers Air-Cooled Memory Foam cushioned comfort insole",
+      "Glide-Step geometric midsole designed to provide natural momentum with every step"
+    ]
+  },
+  {
+    "id": "new-balance-530-sneaker",
+    "name": "New Balance 530",
+    "fullName": "New Balance Unisex-Adult 530 Sneaker",
+    "brand": "New Balance",
+    "price": 6004,
+    "category": "sneakers",
+    "oldPrice": 11999,
+    "discount": 50,
+    "image": "https://m.media-amazon.com/images/I/319SA2CHYHL._SL1500_.jpg",
+    "gallery": [
+      "https://m.media-amazon.com/images/I/319SA2CHYHL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31bOVbE11AL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31WARnDJvHL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/311bm7RGUAL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/310tUhhXkKL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31rgwvt3jpL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/311ZGMIeAxL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71rjVG0vOXL._SL1500_.jpg"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "price": 6004,
+        "url": "https://www.amazon.in/dp/B0G26MW2Z4?tag=stylescoutin2-21"
+      },
+      {
+        "name": "Myntra",
+        "price": 6599,
+        "url": "https://www.myntra.com/casual-shoes/new-balance/new-balance-men-textured-sneakers/43443456"
+      }
+    ],
+    "priceHistory": [6004, 6599],
+    "specs": {
+      "closure_type": "Lace-Up",
+      "heel_type": "No Heel",
+      "water_resistance_level": "Water Repellent",
+      "sole_material": "Rubber",
+      "style": "Sneaker",
+      "outer_material": "Synthetic Resin",
+      "country_of_origin": "India"
+    },
+    "about": [
+      "ABZORB midsole absorbs impact through a combination of cushioning and compression resistance"
+    ]
+  }
 ]
+
+
+
+
+

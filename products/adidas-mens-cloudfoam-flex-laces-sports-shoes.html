@@ -202,6 +202,34 @@
   <link rel="stylesheet" href="../Styles/product.css">
 
   <style>
+        /* About section with View More */
+    .about-content {
+      max-height: 600px;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+    .about-content.collapsed {
+      max-height: 105px; /* Roughly 3 bullet points visible */
+    }
+    .pdp-view-more-btn {
+      display: block;
+      width: 100%;
+      background: rgba(120, 239, 198, 0.08);
+      border: 1px solid rgba(120, 239, 198, 0.2);
+      color: #78efc6;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 12px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      transition: background 0.2s;
+    }
+    .pdp-view-more-btn:hover {
+      background: rgba(120, 239, 198, 0.18);
+    }
+
     /* ============================
        PRODUCT DETAIL PAGE
     ============================ */
@@ -662,6 +690,14 @@
         <section class="pdp-related">
           <h2>You might also like</h2>
           <div class="pdp-related-grid">
+            <a href="nike-sb-delta-force-vulc-sneakers.html" class="pdp-related-card">
+              <div class="pdp-related-image">
+                <img src="https://m.media-amazon.com/images/I/31CZI4XEbWL._SL1500_.jpg" alt="Nike SB Delta Force Vulc" loading="lazy">
+              </div>
+              <div class="pdp-related-brand">Nike</div>
+              <div class="pdp-related-name">Nike SB Delta Force Vulc</div>
+              <div class="pdp-related-price">₹2,247</div>
+            </a>
             <a href="reebok-men-s-running-shoe-zig-dynamica-lite-sports-shoe-ideal-for-running-gym.html" class="pdp-related-card">
               <div class="pdp-related-image">
                 <img src="https://m.media-amazon.com/images/I/51dC5EJUeRL.jpg" alt="Reebok Zig Dynamica" loading="lazy">
@@ -670,6 +706,14 @@
               <div class="pdp-related-name">Reebok Zig Dynamica</div>
               <div class="pdp-related-price">₹2,257</div>
             </a>
+            <a href="red-chief-c6024-sneakers.html" class="pdp-related-card">
+              <div class="pdp-related-image">
+                <img src="https://m.media-amazon.com/images/I/91J1i29gilL._SL1500_.jpg" alt="Red Chief C6024 Sneakers" loading="lazy">
+              </div>
+              <div class="pdp-related-brand">Red Chief</div>
+              <div class="pdp-related-name">Red Chief C6024 Sneakers</div>
+              <div class="pdp-related-price">₹2,231</div>
+            </a>
             <a href="us-polo-2fd-ciro.html" class="pdp-related-card">
               <div class="pdp-related-image">
                 <img src="https://m.media-amazon.com/images/I/91-OsMREytL._SL1500_.jpg" alt="U.S. Polo Assn. 2FD-Ciro" loading="lazy">
@@ -677,22 +721,6 @@
               <div class="pdp-related-brand">U.S. POLO ASSN.</div>
               <div class="pdp-related-name">U.S. Polo Assn. 2FD-Ciro</div>
               <div class="pdp-related-price">₹2,219</div>
-            </a>
-            <a href="puma-softride-carson-sliptech-ii.html" class="pdp-related-card">
-              <div class="pdp-related-image">
-                <img src="https://m.media-amazon.com/images/I/71azn4JZPBL._SL1500_.jpg" alt="Puma Softride Carson Sliptech II" loading="lazy">
-              </div>
-              <div class="pdp-related-brand">PUMA</div>
-              <div class="pdp-related-name">Puma Softride Carson Sliptech II</div>
-              <div class="pdp-related-price">₹2,279</div>
-            </a>
-            <a href="woodland-men-s-leather-casual-shoe.html" class="pdp-related-card">
-              <div class="pdp-related-image">
-                <img src="https://m.media-amazon.com/images/I/61VqXkwsWML.jpg" alt="Woodland Leather" loading="lazy">
-              </div>
-              <div class="pdp-related-brand">WOODLAND</div>
-              <div class="pdp-related-name">Woodland Leather</div>
-              <div class="pdp-related-price">₹2,199</div>
             </a></div>
         </section>
   </main>
@@ -771,6 +799,20 @@
       if (e.key === 'ArrowLeft') pdpShow(pdpIndex - 1);
       if (e.key === 'ArrowRight') pdpShow(pdpIndex + 1);
     });
+
+        // ---- View More toggle for About section ----
+    var aboutToggle = document.getElementById('aboutToggle');
+    var aboutContent = document.getElementById('aboutContent');
+    if (aboutToggle && aboutContent) {
+      aboutToggle.addEventListener('click', function() {
+        aboutContent.classList.toggle('collapsed');
+        if (aboutContent.classList.contains('collapsed')) {
+          aboutToggle.textContent = 'View More ↓';
+        } else {
+          aboutToggle.textContent = 'View Less ↑';
+        }
+      });
+    }
 
     // ---- Navbar wishlist count sync ----
     try {

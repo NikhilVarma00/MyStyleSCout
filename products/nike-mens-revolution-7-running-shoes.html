@@ -203,6 +203,34 @@
   <link rel="stylesheet" href="../Styles/product.css">
 
   <style>
+        /* About section with View More */
+    .about-content {
+      max-height: 600px;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+    .about-content.collapsed {
+      max-height: 105px; /* Roughly 3 bullet points visible */
+    }
+    .pdp-view-more-btn {
+      display: block;
+      width: 100%;
+      background: rgba(120, 239, 198, 0.08);
+      border: 1px solid rgba(120, 239, 198, 0.2);
+      color: #78efc6;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 12px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      transition: background 0.2s;
+    }
+    .pdp-view-more-btn:hover {
+      background: rgba(120, 239, 198, 0.18);
+    }
+
     /* ============================
        PRODUCT DETAIL PAGE
     ============================ */
@@ -663,6 +691,22 @@
         <section class="pdp-related">
           <h2>You might also like</h2>
           <div class="pdp-related-grid">
+            <a href="skechers-women-bobs-squad-chaos.html" class="pdp-related-card">
+              <div class="pdp-related-image">
+                <img src="https://m.media-amazon.com/images/I/41tlnSbKElL._SL1500_.jpg" alt="Skechers Women Bobs Squad Chaos" loading="lazy">
+              </div>
+              <div class="pdp-related-brand">Skechers</div>
+              <div class="pdp-related-name">Skechers Women Bobs Squad Chaos</div>
+              <div class="pdp-related-price">₹3,037</div>
+            </a>
+            <a href="adidas-galaxy-7-m-running-shoe.html" class="pdp-related-card">
+              <div class="pdp-related-image">
+                <img src="https://m.media-amazon.com/images/I/31rI--6tWcL._SL1500_.jpg" alt="Adidas Galaxy 7 M" loading="lazy">
+              </div>
+              <div class="pdp-related-brand">adidas</div>
+              <div class="pdp-related-name">Adidas Galaxy 7 M</div>
+              <div class="pdp-related-price">₹2,856</div>
+            </a>
             <a href="puma-club-ii-era-l.html" class="pdp-related-card">
               <div class="pdp-related-image">
                 <img src="https://m.media-amazon.com/images/I/21DVW7zXVHL._SL1500_.jpg" alt="Puma Club II Era" loading="lazy">
@@ -678,22 +722,6 @@
               <div class="pdp-related-brand">ADIDAS</div>
               <div class="pdp-related-name">Adidas Runfalcon 3.0</div>
               <div class="pdp-related-price">₹2,819</div>
-            </a>
-            <a href="adidas-calicoz-sneaker-m.html" class="pdp-related-card">
-              <div class="pdp-related-image">
-                <img src="https://m.media-amazon.com/images/I/91c5JUT-+bL._SL1500_.jpg" alt="Adidas CalicoZ Sneaker M" loading="lazy">
-              </div>
-              <div class="pdp-related-brand">ADIDAS</div>
-              <div class="pdp-related-name">Adidas CalicoZ Sneaker M</div>
-              <div class="pdp-related-price">₹2,819</div>
-            </a>
-            <a href="us-polo-coba-20.html" class="pdp-related-card">
-              <div class="pdp-related-image">
-                <img src="https://m.media-amazon.com/images/I/41SbWGxsoBL._SL1500_.jpg" alt="U.S. Polo Coba 2.0" loading="lazy">
-              </div>
-              <div class="pdp-related-brand">U.S. POLO ASSN.</div>
-              <div class="pdp-related-name">U.S. Polo Coba 2.0</div>
-              <div class="pdp-related-price">₹3,112</div>
             </a></div>
         </section>
   </main>
@@ -772,6 +800,20 @@
       if (e.key === 'ArrowLeft') pdpShow(pdpIndex - 1);
       if (e.key === 'ArrowRight') pdpShow(pdpIndex + 1);
     });
+
+        // ---- View More toggle for About section ----
+    var aboutToggle = document.getElementById('aboutToggle');
+    var aboutContent = document.getElementById('aboutContent');
+    if (aboutToggle && aboutContent) {
+      aboutToggle.addEventListener('click', function() {
+        aboutContent.classList.toggle('collapsed');
+        if (aboutContent.classList.contains('collapsed')) {
+          aboutToggle.textContent = 'View More ↓';
+        } else {
+          aboutToggle.textContent = 'View Less ↑';
+        }
+      });
+    }
 
     // ---- Navbar wishlist count sync ----
     try {

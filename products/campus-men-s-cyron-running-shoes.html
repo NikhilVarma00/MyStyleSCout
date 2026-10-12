@@ -202,6 +202,34 @@
   <link rel="stylesheet" href="../Styles/product.css">
 
   <style>
+        /* About section with View More */
+    .about-content {
+      max-height: 600px;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+    .about-content.collapsed {
+      max-height: 105px; /* Roughly 3 bullet points visible */
+    }
+    .pdp-view-more-btn {
+      display: block;
+      width: 100%;
+      background: rgba(120, 239, 198, 0.08);
+      border: 1px solid rgba(120, 239, 198, 0.2);
+      color: #78efc6;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 12px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      transition: background 0.2s;
+    }
+    .pdp-view-more-btn:hover {
+      background: rgba(120, 239, 198, 0.18);
+    }
+
     /* ============================
        PRODUCT DETAIL PAGE
     ============================ */
@@ -670,29 +698,29 @@
               <div class="pdp-related-name">Power Extreme</div>
               <div class="pdp-related-price">₹1,379</div>
             </a>
-            <a href="wrogn-men-s-pu-sneakers-lace-up-design-cushioned-breathable-sole.html" class="pdp-related-card">
+            <a href="reebok-billington-zev-m-sneaker.html" class="pdp-related-card">
               <div class="pdp-related-image">
-                <img src="https://m.media-amazon.com/images/I/31Ytf8G9sBL.jpg" alt="WROGN PU" loading="lazy">
+                <img src="https://m.media-amazon.com/images/I/31pQDH5QnvL._SL1500_.jpg" alt="Reebok Billington Zev M" loading="lazy">
               </div>
-              <div class="pdp-related-brand">WROGN</div>
-              <div class="pdp-related-name">WROGN PU</div>
-              <div class="pdp-related-price">₹1,470</div>
+              <div class="pdp-related-brand">Reebok</div>
+              <div class="pdp-related-name">Reebok Billington Zev M</div>
+              <div class="pdp-related-price">₹1,356</div>
             </a>
-            <a href="puma-men-velocity-trn-running-shoe.html" class="pdp-related-card">
+            <a href="skechers-women-skech-air-edge-brite-times.html" class="pdp-related-card">
               <div class="pdp-related-image">
-                <img src="https://m.media-amazon.com/images/I/515KDSm0QeL.jpg" alt="Puma Velocity TRN" loading="lazy">
+                <img src="https://m.media-amazon.com/images/I/A1GA9iT2j4L._SL1500_.jpg" alt="Skechers Women Skech Air Edge Brite Times" loading="lazy">
               </div>
-              <div class="pdp-related-brand">PUMA</div>
-              <div class="pdp-related-name">Puma Velocity TRN</div>
-              <div class="pdp-related-price">₹1,482</div>
+              <div class="pdp-related-brand">Skechers</div>
+              <div class="pdp-related-name">Skechers Women Skech Air Edge Brite Times</div>
+              <div class="pdp-related-price">₹1,447</div>
             </a>
-            <a href="asian-everest-24-trekking.html" class="pdp-related-card">
+            <a href="red-chief-c6018-cd02-sneakers.html" class="pdp-related-card">
               <div class="pdp-related-image">
-                <img src="https://m.media-amazon.com/images/I/41wUoMomstL._SL1500_.jpg" alt="ASIAN Everest-24" loading="lazy">
+                <img src="https://m.media-amazon.com/images/I/91yEkSKJflL._SL1500_.jpg" alt="Red Chief C6018" loading="lazy">
               </div>
-              <div class="pdp-related-brand">ASIAN</div>
-              <div class="pdp-related-name">ASIAN Everest-24</div>
-              <div class="pdp-related-price">₹1,499</div>
+              <div class="pdp-related-brand">Red Chief</div>
+              <div class="pdp-related-name">Red Chief C6018</div>
+              <div class="pdp-related-price">₹1,465</div>
             </a></div>
         </section>
   </main>
@@ -771,6 +799,20 @@
       if (e.key === 'ArrowLeft') pdpShow(pdpIndex - 1);
       if (e.key === 'ArrowRight') pdpShow(pdpIndex + 1);
     });
+
+        // ---- View More toggle for About section ----
+    var aboutToggle = document.getElementById('aboutToggle');
+    var aboutContent = document.getElementById('aboutContent');
+    if (aboutToggle && aboutContent) {
+      aboutToggle.addEventListener('click', function() {
+        aboutContent.classList.toggle('collapsed');
+        if (aboutContent.classList.contains('collapsed')) {
+          aboutToggle.textContent = 'View More ↓';
+        } else {
+          aboutToggle.textContent = 'View Less ↑';
+        }
+      });
+    }
 
     // ---- Navbar wishlist count sync ----
     try {

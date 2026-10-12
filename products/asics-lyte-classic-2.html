@@ -202,6 +202,34 @@
   <link rel="stylesheet" href="../Styles/product.css">
 
   <style>
+        /* About section with View More */
+    .about-content {
+      max-height: 600px;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+    .about-content.collapsed {
+      max-height: 105px; /* Roughly 3 bullet points visible */
+    }
+    .pdp-view-more-btn {
+      display: block;
+      width: 100%;
+      background: rgba(120, 239, 198, 0.08);
+      border: 1px solid rgba(120, 239, 198, 0.2);
+      color: #78efc6;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 12px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      transition: background 0.2s;
+    }
+    .pdp-view-more-btn:hover {
+      background: rgba(120, 239, 198, 0.18);
+    }
+
     /* ============================
        PRODUCT DETAIL PAGE
     ============================ */
@@ -654,6 +682,14 @@
               <div class="pdp-related-name">Skechers Go Walk 7</div>
               <div class="pdp-related-price">₹3,709</div>
             </a>
+            <a href="skechers-women-glide-step-altus-sneaker.html" class="pdp-related-card">
+              <div class="pdp-related-image">
+                <img src="https://m.media-amazon.com/images/I/41IiqqrVFpL._SL1500_.jpg" alt="Skechers Women Glide-Step Altus" loading="lazy">
+              </div>
+              <div class="pdp-related-brand">Skechers</div>
+              <div class="pdp-related-name">Skechers Women Glide-Step Altus</div>
+              <div class="pdp-related-price">₹3,699</div>
+            </a>
             <a href="new-balance-men-410-running-shoes.html" class="pdp-related-card">
               <div class="pdp-related-image">
                 <img src="https://m.media-amazon.com/images/I/81S-y7FP7gL.jpg" alt="New Balance 410" loading="lazy">
@@ -669,14 +705,6 @@
               <div class="pdp-related-brand">NIKE</div>
               <div class="pdp-related-name">Nike Ebernon Low Premium</div>
               <div class="pdp-related-price">₹3,547</div>
-            </a>
-            <a href="converse-chuck-taylor-all-star-malden-street-black-low-top-sneaker.html" class="pdp-related-card">
-              <div class="pdp-related-image">
-                <img src="https://m.media-amazon.com/images/I/61jpRCxZMrL.jpg" alt="Converse Chuck Taylor All Star" loading="lazy">
-              </div>
-              <div class="pdp-related-brand">CONVERSE</div>
-              <div class="pdp-related-name">Converse Chuck Taylor All Star</div>
-              <div class="pdp-related-price">₹3,999</div>
             </a></div>
         </section>
   </main>
@@ -755,6 +783,20 @@
       if (e.key === 'ArrowLeft') pdpShow(pdpIndex - 1);
       if (e.key === 'ArrowRight') pdpShow(pdpIndex + 1);
     });
+
+        // ---- View More toggle for About section ----
+    var aboutToggle = document.getElementById('aboutToggle');
+    var aboutContent = document.getElementById('aboutContent');
+    if (aboutToggle && aboutContent) {
+      aboutToggle.addEventListener('click', function() {
+        aboutContent.classList.toggle('collapsed');
+        if (aboutContent.classList.contains('collapsed')) {
+          aboutToggle.textContent = 'View More ↓';
+        } else {
+          aboutToggle.textContent = 'View Less ↑';
+        }
+      });
+    }
 
     // ---- Navbar wishlist count sync ----
     try {

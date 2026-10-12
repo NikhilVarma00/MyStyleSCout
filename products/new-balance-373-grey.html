@@ -154,6 +154,34 @@
   <link rel="stylesheet" href="../Styles/product.css">
 
   <style>
+        /* About section with View More */
+    .about-content {
+      max-height: 600px;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+    .about-content.collapsed {
+      max-height: 105px; /* Roughly 3 bullet points visible */
+    }
+    .pdp-view-more-btn {
+      display: block;
+      width: 100%;
+      background: rgba(120, 239, 198, 0.08);
+      border: 1px solid rgba(120, 239, 198, 0.2);
+      color: #78efc6;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 12px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      transition: background 0.2s;
+    }
+    .pdp-view-more-btn:hover {
+      background: rgba(120, 239, 198, 0.18);
+    }
+
     /* ============================
        PRODUCT DETAIL PAGE
     ============================ */
@@ -586,6 +614,14 @@
               <div class="pdp-related-brand">NEW BALANCE</div>
               <div class="pdp-related-name">New Balance 410</div>
               <div class="pdp-related-price">₹3,675</div>
+            </a>
+            <a href="new-balance-530-sneaker.html" class="pdp-related-card">
+              <div class="pdp-related-image">
+                <img src="https://m.media-amazon.com/images/I/319SA2CHYHL._SL1500_.jpg" alt="New Balance 530" loading="lazy">
+              </div>
+              <div class="pdp-related-brand">New Balance</div>
+              <div class="pdp-related-name">New Balance 530</div>
+              <div class="pdp-related-price">₹6,004</div>
             </a></div>
         </section>
         <section class="pdp-related">
@@ -598,6 +634,14 @@
               <div class="pdp-related-brand">CONVERSE</div>
               <div class="pdp-related-name">Converse Chuck Taylor Malden Mid</div>
               <div class="pdp-related-price">₹4,499</div>
+            </a>
+            <a href="skechers-mens-go-walk-glide-step-2-0-cale.html" class="pdp-related-card">
+              <div class="pdp-related-image">
+                <img src="https://m.media-amazon.com/images/I/A1aQiZOtxBL._SL1500_.jpg" alt="Skechers Mens GO Walk Glide-Step 2.0" loading="lazy">
+              </div>
+              <div class="pdp-related-brand">Skechers</div>
+              <div class="pdp-related-name">Skechers Mens GO Walk Glide-Step 2.0</div>
+              <div class="pdp-related-price">₹4,578</div>
             </a>
             <a href="nike-mens-downshifter-13-running-shoes.html" class="pdp-related-card">
               <div class="pdp-related-image">
@@ -614,14 +658,6 @@
               <div class="pdp-related-brand">NIKE</div>
               <div class="pdp-related-name">Nike Revolution 8 EasyOn</div>
               <div class="pdp-related-price">₹4,295</div>
-            </a>
-            <a href="u-s-polo-assn-men-lace-up-sneaker-shoes.html" class="pdp-related-card">
-              <div class="pdp-related-image">
-                <img src="https://m.media-amazon.com/images/I/710mQePLuWL.jpg" alt="U.S. Polo Lace Up" loading="lazy">
-              </div>
-              <div class="pdp-related-brand">U.S. POLO ASSN.</div>
-              <div class="pdp-related-name">U.S. Polo Lace Up</div>
-              <div class="pdp-related-price">₹4,799</div>
             </a></div>
         </section>
   </main>
@@ -700,6 +736,20 @@
       if (e.key === 'ArrowLeft') pdpShow(pdpIndex - 1);
       if (e.key === 'ArrowRight') pdpShow(pdpIndex + 1);
     });
+
+        // ---- View More toggle for About section ----
+    var aboutToggle = document.getElementById('aboutToggle');
+    var aboutContent = document.getElementById('aboutContent');
+    if (aboutToggle && aboutContent) {
+      aboutToggle.addEventListener('click', function() {
+        aboutContent.classList.toggle('collapsed');
+        if (aboutContent.classList.contains('collapsed')) {
+          aboutToggle.textContent = 'View More ↓';
+        } else {
+          aboutToggle.textContent = 'View Less ↑';
+        }
+      });
+    }
 
     // ---- Navbar wishlist count sync ----
     try {

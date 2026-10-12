@@ -55,7 +55,7 @@
   };
 
   const host = window.location.hostname.toLowerCase();
-  let site = "", name = "", brand = "", rawPrice = "", candidateImgs = [], highlights = {}, aboutItems = [];
+  let site = "", name = "", brand = "", rawPrice = "", rawOldPrice = "", candidateImgs = [];
 
   const isValidImg = (src) => {
     if (!src || typeof src !== "string") return false;
@@ -140,34 +140,14 @@
     site = "Amazon";
     name = (jsonLd && jsonLd.name) || getTxt(["#productTitle", "h1#title", "h1"]);
     brand = (jsonLd && jsonLd.brand) || getTxt(["#bylineInfo", "a#bylineInfo"]).replace(/^(Brand:\s*|Visit the\s*)/i, "").replace(/\s+Store$/i, "").trim();
-    rawPrice = (jsonLd && jsonLd.price) ? String(jsonLd.price) : getTxt([".a-price-whole", "#priceblock_ourprice", "#priceblock_dealprice"]);
+    rawPrice = (jsonLd && jsonLd.price) ? String(jsonLd.price) : getTxt([".priceToPay .a-price-whole", "#corePrice_feature_div .a-price-whole", ".a-price .a-offscreen"]);
     
+    let mrpEl = document.querySelector('span.a-price.a-text-price span.a-offscreen, .basisPrice span.a-offscreen, .a-text-price span.a-offscreen');
+    rawOldPrice = mrpEl ? mrpEl.textContent.trim() : "";
+
     const srcImgs = extractAllHDImages("#landingImage, #imgBlkFront, #altImages img", upgradeAmazonUrl);
     const dynamicImgs = extractAmazonDynamicImages();
     candidateImgs = Array.from(new Set([...srcImgs, ...dynamicImgs]));
-
-    // Fixed Amazon Top Highlights (Supports .po-row layout & standard spec tables)
-    document.querySelectorAll(".po-row, #productDetails_techSpec_section_1 tr, .prodDetTable tr").forEach(row => {
-      let keyEl = row.querySelector(".po-col-left, th, td:first-child");
-      let valEl = row.querySelector(".po-col-right, td, td:last-child");
-      if (!keyEl && row.children.length >= 2) {
-        keyEl = row.children[0];
-        valEl = row.children[1];
-      }
-      if (keyEl && valEl) {
-        const k = keyEl.textContent.replace(/[\n\r:]+/g, "").trim();
-        const v = valEl.textContent.replace(/[\n\r]+/g, "").trim();
-        if (k && v && k !== v) highlights[k] = v;
-      }
-    });
-
-    // Fixed Amazon About This Item (Bullet points)
-    document.querySelectorAll("#feature-bullets li span.a-list-item, #feature-bullets .a-list-item").forEach(el => {
-      const text = el.textContent.trim();
-      if (text && text.toLowerCase() !== "about this item" && !aboutItems.includes(text)) {
-        aboutItems.push(text);
-      }
-    });
 
   } else if (host.includes("flipkart")) {
     site = "Flipkart";
@@ -188,16 +168,18 @@
   const priceDigits = rawPrice ? rawPrice.replace(/[^\d]/g, "") : "";
   const price = priceDigits ? parseInt(priceDigits, 10) : 0;
 
+  const oldPriceDigits = rawOldPrice ? rawOldPrice.replace(/[^\d]/g, "") : "";
+  const oldPrice = oldPriceDigits ? parseInt(oldPriceDigits, 10) : 0;
+
   const product = {
     name: name || "Unknown Product",
     brand: brand || "Unknown Brand",
     price: price,
+    oldPrice: oldPrice,
     url: window.location.href,
     site: site,
     image: front,
-    gallery: candidateImgs,
-    highlights: highlights,
-    about: aboutItems
+    gallery: candidateImgs
   };
 
   const payload = encodeURIComponent(JSON.stringify(product));

@@ -202,6 +202,34 @@
   <link rel="stylesheet" href="../Styles/product.css">
 
   <style>
+        /* About section with View More */
+    .about-content {
+      max-height: 600px;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+    .about-content.collapsed {
+      max-height: 105px; /* Roughly 3 bullet points visible */
+    }
+    .pdp-view-more-btn {
+      display: block;
+      width: 100%;
+      background: rgba(120, 239, 198, 0.08);
+      border: 1px solid rgba(120, 239, 198, 0.2);
+      color: #78efc6;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 12px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      transition: background 0.2s;
+    }
+    .pdp-view-more-btn:hover {
+      background: rgba(120, 239, 198, 0.18);
+    }
+
     /* ============================
        PRODUCT DETAIL PAGE
     ============================ */
@@ -662,6 +690,14 @@
         <section class="pdp-related">
           <h2>You might also like</h2>
           <div class="pdp-related-grid">
+            <a href="bacca-bucci-men-lace-up-sneaker-shoes.html" class="pdp-related-card">
+              <div class="pdp-related-image">
+                <img src="https://m.media-amazon.com/images/I/91js+oQGXiL._SL1500_.jpg" alt="Bacca Bucci Sneaker" loading="lazy">
+              </div>
+              <div class="pdp-related-brand">Bacca Bucci</div>
+              <div class="pdp-related-name">Bacca Bucci Sneaker</div>
+              <div class="pdp-related-price">₹1,098</div>
+            </a>
             <a href="asian-powerplay-03-men-s-running-shoes-lightweight-memory-foam-technology-breathable-knit-shoes-with-stylish-sporty-design.html" class="pdp-related-card">
               <div class="pdp-related-image">
                 <img src="https://m.media-amazon.com/images/I/71fmE6FjVYL.jpg" alt="ASIAN Powerplay-03" loading="lazy">
@@ -685,14 +721,6 @@
               <div class="pdp-related-brand">SPARX</div>
               <div class="pdp-related-name">Sparx SM 680</div>
               <div class="pdp-related-price">₹1,039</div>
-            </a>
-            <a href="sparx-sm-171-running.html" class="pdp-related-card">
-              <div class="pdp-related-image">
-                <img src="https://m.media-amazon.com/images/I/41MLa4jDeyL._SL1500_.jpg" alt="Sparx SM-171" loading="lazy">
-              </div>
-              <div class="pdp-related-brand">SPARX</div>
-              <div class="pdp-related-name">Sparx SM-171</div>
-              <div class="pdp-related-price">₹1,124</div>
             </a></div>
         </section>
   </main>
@@ -771,6 +799,20 @@
       if (e.key === 'ArrowLeft') pdpShow(pdpIndex - 1);
       if (e.key === 'ArrowRight') pdpShow(pdpIndex + 1);
     });
+
+        // ---- View More toggle for About section ----
+    var aboutToggle = document.getElementById('aboutToggle');
+    var aboutContent = document.getElementById('aboutContent');
+    if (aboutToggle && aboutContent) {
+      aboutToggle.addEventListener('click', function() {
+        aboutContent.classList.toggle('collapsed');
+        if (aboutContent.classList.contains('collapsed')) {
+          aboutToggle.textContent = 'View More ↓';
+        } else {
+          aboutToggle.textContent = 'View Less ↑';
+        }
+      });
+    }
 
     // ---- Navbar wishlist count sync ----
     try {
