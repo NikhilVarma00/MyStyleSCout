@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact StyleScout | Get in Touch</title>
+  <meta name="description" content="Contact StyleScout for questions, feedback, sneaker price corrections, technical issues and business enquiries. Connect with us by email or Instagram.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.mystylescout.in/contact.html">
+  <meta name="theme-color" content="#1a2a22">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .static-page {
+      max-width: 900px;
+      margin: 120px auto 80px;
+      padding: 0 24px;
+      color: #e6edf3;
+    }
+
+    .static-page h1 {
+      font-size: 2.6rem;
+      line-height: 1.2;
+      margin-bottom: 18px;
+      color: #edf8f4;
+    }
+
+    .static-page .intro {
+      max-width: 720px;
+      font-size: 1.08rem;
+      line-height: 1.9;
+      color: #d5e5df;
+      margin-bottom: 34px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin: 30px 0 42px;
+    }
+
+    .contact-card {
+      padding: 24px;
+      background: rgba(120, 239, 198, 0.055);
+      border: 1px solid rgba(120, 239, 198, 0.16);
+      border-radius: 18px;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .contact-card:hover {
+      border-color: rgba(120, 239, 198, 0.4);
+      transform: translateY(-3px);
+    }
+
+    .contact-card h2 {
+      font-size: 1.08rem;
+      color: #78efc6;
+      margin: 0 0 12px;
+    }
+
+    .contact-card p {
+      font-size: 0.94rem;
+      line-height: 1.8;
+      color: #c7d2cd;
+      margin-bottom: 12px;
+    }
+
+    .contact-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .contact-card a {
+      color: #78efc6;
+      font-weight: 600;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-card a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .static-page > article > h2 {
+      font-size: 1.4rem;
+      margin: 38px 0 14px;
+      color: #78efc6;
+    }
+
+    .static-page > article > p {
+      font-size: 1rem;
+      line-height: 1.9;
+      margin-bottom: 18px;
+      color: #c7d2cd;
+    }
+
+    .contact-note {
+      padding: 22px 24px;
+      margin: 28px 0;
+      background: rgba(120, 239, 198, 0.06);
+      border: 1px solid rgba(120, 239, 198, 0.18);
+      border-radius: 16px;
+    }
+
+    .contact-note p {
+      color: #c7d2cd;
+      font-size: 0.95rem;
+      line-height: 1.8;
+      margin: 0;
+    }
+
+    .static-page a {
+      color: #78efc6;
+      text-underline-offset: 3px;
+    }
+
+    @media (max-width: 640px) {
+      .static-page {
+        margin: 100px auto 60px;
+        padding: 0 20px;
+      }
+
+      .static-page h1 {
+        font-size: 2rem;
+      }
+
+      .static-page .intro {
+        font-size: 1rem;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+
+      .contact-card {
+        padding: 20px;
+      }
+
+      .static-page > article > h2 {
+        font-size: 1.2rem;
+        margin-top: 32px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .contact-card {
+        transition: none;
+      }
+
+      .contact-card:hover {
+        transform: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg-shell" aria-hidden="true">
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <div class="orb orb-three"></div>
+  </div>
+
+  <nav class="navbar" aria-label="Main navigation">
+    <a class="logo-wrap" href="index.html" aria-label="StyleScout Home">
+      <span class="brand-mark">S</span>
+      <span class="logo-text">
+        <span class="logo-style">Style</span><span class="logo-scout">Scout</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" type="button">☰</button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="index.html#featured">Sneakers</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+    </div>
+
+    <div class="nav-actions">
+      <button class="ghost-btn" id="wishlistBtn" type="button">
+        Wishlist <span id="wishlistCount">0</span>
+      </button>
+      <button class="login-btn" id="loginBtn" type="button">Login</button>
+    </div>
+  </nav>
+
+  <main class="static-page">
+    <article>
+      <h1>Contact StyleScout</h1>
+
+      <p class="intro">
+        Have a question, spotted an incorrect sneaker price, found a
+        broken link, or simply want to share feedback? We'd love to
+        hear from you. Reach out to us through email or Instagram.
+      </p>
+
+      <div class="contact-grid">
+
+        <section class="contact-card">
+          <h2>📧 General Enquiries</h2>
+          <p>
+            For questions, feedback, suggestions or anything related
+            to StyleScout.
+          
+<p><a href="mailto:mystylescout@gmail.com">mystylescout@gmail.com</a></p>        
+        </section>
+
+        <section class="contact-card">
+          <h2>🐛 Report a Price or Website Issue</h2>
+          <p>
+            Found an incorrect product price, outdated listing,
+            broken retailer link or technical issue? Let us know.
+          </p>
+          <p>
+            <a href="mailto:mystylescout@gmail.com?subject=StyleScout%20Price%20or%20Website%20Issue">
+              Report an issue by email
+            </a>
+          </p>
+        </section>
+
+        <section class="contact-card">
+          <h2>🤝 Business &amp; Partnerships</h2>
+          <p>
+            Interested in collaborations, brand partnerships or
+            business opportunities? Get in touch.
+          </p>
+          <p>
+            <a href="mailto:mystylescout@gmail.com?subject=StyleScout%20Business%20Enquiry">
+              Send a business enquiry
+            </a>
+          </p>
+        </section>
+
+        <section class="contact-card">
+          <h2>📱 Instagram</h2>
+          <p>
+            Follow StyleScout for updates and connect with us
+            on Instagram.
+          </p>
+          <p>
+            <a href="https://www.instagram.com/mystylescout.in/"
+               target="_blank"
+               rel="noopener noreferrer">
+              @mystylescout.in ↗
+            </a>
+          </p>
+        </section>
+
+      </div>
+
+      <h2>Reporting an Incorrect Price</h2>
+
+      <p>
+        Product prices, discounts and availability can change
+        frequently. If you notice information on StyleScout that
+        appears incorrect, email us with the product name and
+        retailer link. A screenshot is also helpful.
+      </p>
+
+      <p>
+        We'll review the information and make corrections where
+        appropriate. For the latest price, stock and purchase
+        details, always check the retailer's website.
+      </p>
+
+      <h2>Response Time</h2>
+
+      <p>
+        We aim to respond to enquiries within 48 hours. Response
+        times may vary during busy periods, weekends and major
+        shopping sales. Thank you for your patience.
+      </p>
+
+      <div class="contact-note">
+        <p>
+          <strong>Need help with an order?</strong> For questions
+          about payments, delivery, returns or refunds, please
+          contact the retailer directly. Purchases made through
+          retailer links are handled by the respective shopping
+          platform, not by StyleScout.
+        </p>
+      </div>
+
+      <h2>More About StyleScout</h2>
+
+      <p>
+        Learn more about us on our
+        <a href="about.html">About page</a>, review our
+        <a href="privacy.html">Privacy Policy</a>, or read our
+        <a href="affiliate-disclosure.html">Affiliate Disclosure</a>.
+      </p>
+
+      <p>
+        Thank you for being part of StyleScout. Your feedback
+        helps us improve.
+      </p>
+    </article>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand-wrap">
+        <div class="footer-brand">
+          <span class="logo-style">Style</span><span class="logo-scout">Scout</span>
+        </div>
+        <p class="footer-tagline">Scout smart. Dress better.</p>
+        <p class="footer-desc">
+          Compare sneaker prices across Amazon, Flipkart, and Myntra
+          — so you can shop smarter.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="index.html#featured">Sneakers</a>
+        <a href="blog.html">Blog</a>
+      </div>
+
+      <div class="footer-col">
+  <h4>Company</h4>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="how-it-works.html">How It Works</a>
+  <a href="price-tracking-methodology.html">Our Methodology</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms &amp; Conditions</a>
+  <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+  <a href="disclaimer.html">Disclaimer</a>
+</div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 StyleScout</span>
+      <span>Made in India 🇮🇳</span>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      var navToggle = document.getElementById('navToggle');
+      var navLinks = document.getElementById('navLinks');
+
+      if (navToggle && navLinks) {
+        navToggle.addEventListener('click', function() {
+          var isOpen = navLinks.classList.toggle('open');
+          navToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+      }
+
+      var countEl = document.getElementById('wishlistCount');
+
+      if (countEl) {
+        try {
+          var saved = JSON.parse(
+            localStorage.getItem('stylescout_wishlist') || '[]'
+          );
+
+          countEl.textContent = Array.isArray(saved) ? saved.length : 0;
+        } catch (e) {
+          countEl.textContent = '0';
+        }
+      }
+    })();
+  </script>
+</body>
+</html>

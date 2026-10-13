@@ -1,0 +1,520 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How StyleScout Works | Compare Sneaker Prices in India</title>
+
+  <meta name="description" content="Discover how StyleScout helps you compare sneaker prices across Amazon, Flipkart and Myntra, explore product details and find better deals in India.">
+
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1a2a22">
+
+  <link rel="canonical" href="https://www.mystylescout.in/how-it-works.html">
+  <link rel="icon" href="/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .static-page {
+      max-width: 820px;
+      margin: 120px auto 80px;
+      padding: 0 24px;
+      color: #e6edf3;
+    }
+
+    .static-page h1 {
+      font-size: 2.5rem;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      color: #edf8f4;
+    }
+
+    .static-page .intro {
+      font-size: 1.1rem;
+      line-height: 1.9;
+      color: #d5e5df;
+      margin-bottom: 30px;
+    }
+
+    .static-page h2 {
+      font-size: 1.4rem;
+      line-height: 1.4;
+      margin: 38px 0 14px;
+      color: #78efc6;
+    }
+
+    .static-page p {
+      font-size: 1rem;
+      line-height: 1.85;
+      margin-bottom: 16px;
+      color: #c7d2cd;
+    }
+
+    .static-page ul {
+      padding-left: 24px;
+      margin-bottom: 20px;
+    }
+
+    .static-page li {
+      line-height: 1.85;
+      margin-bottom: 9px;
+      color: #c7d2cd;
+    }
+
+    .static-page a {
+      color: #78efc6;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .static-page a:hover {
+      color: #a7f8dc;
+    }
+
+    .static-page a:focus-visible {
+      outline: 2px solid #78efc6;
+      outline-offset: 4px;
+      border-radius: 3px;
+    }
+
+    .static-page strong {
+      color: #edf8f4;
+    }
+
+    .highlight-box {
+      background: rgba(120, 239, 198, 0.07);
+      border-left: 3px solid #78efc6;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 25px 0;
+    }
+
+    .highlight-box p {
+      margin: 0;
+    }
+
+    .step-card {
+      padding: 22px 24px;
+      margin: 16px 0;
+      background: rgba(120, 239, 198, 0.06);
+      border: 1px solid rgba(120, 239, 198, 0.18);
+      border-radius: 16px;
+    }
+
+    .step-card h3 {
+      color: #78efc6;
+      font-size: 1rem;
+      line-height: 1.5;
+      margin: 0 0 8px;
+      font-weight: 600;
+    }
+
+    .step-card p {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .cta-box {
+      background: rgba(120, 239, 198, 0.06);
+      border: 1px solid rgba(120, 239, 198, 0.2);
+      border-radius: 16px;
+      padding: 24px;
+      margin-top: 36px;
+    }
+
+    .cta-box h2 {
+      margin-top: 0;
+    }
+
+    @media (max-width: 640px) {
+      .static-page {
+        margin: 100px auto 60px;
+        padding: 0 18px;
+      }
+
+      .static-page h1 {
+        font-size: 1.9rem;
+      }
+
+      .static-page h2 {
+        font-size: 1.2rem;
+        margin-top: 30px;
+      }
+
+      .static-page p,
+      .static-page li {
+        font-size: 0.95rem;
+      }
+
+      .step-card {
+        padding: 18px 20px;
+      }
+
+      .highlight-box,
+      .cta-box {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Background -->
+  <div class="bg-shell" aria-hidden="true">
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <div class="orb orb-three"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Main navigation">
+
+    <a class="logo-wrap" href="index.html" aria-label="StyleScout Home">
+      <span class="brand-mark">S</span>
+      <span class="logo-text">
+        <span class="logo-style">Style</span><span class="logo-scout">Scout</span>
+      </span>
+    </a>
+
+    <button
+      class="nav-toggle"
+      id="navToggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+      aria-controls="navLinks"
+      type="button">
+      ☰
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="index.html#featured">Sneakers</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+    </div>
+
+    <div class="nav-actions">
+      <button class="ghost-btn" id="wishlistBtn" type="button">
+        Wishlist <span id="wishlistCount">0</span>
+      </button>
+
+      <button class="login-btn" id="loginBtn" type="button">
+        Login
+      </button>
+    </div>
+
+  </nav>
+
+  <!-- Main Content -->
+  <main class="static-page">
+    <article>
+
+      <h1>How StyleScout Works</h1>
+
+      <p class="intro">
+        Finding the right sneakers at the right price shouldn't
+        mean checking multiple shopping apps one by one.
+        StyleScout makes it easier to discover sneakers, compare
+        prices and explore shopping options across Amazon,
+        Flipkart and Myntra.
+      </p>
+
+      <div class="highlight-box">
+        <p>
+          <strong>In a nutshell:</strong>
+          StyleScout brings sneaker listings and available
+          retailer prices together in one place, helping you
+          compare your options and decide where to shop.
+        </p>
+      </div>
+
+      <h2>Why We Built StyleScout</h2>
+
+      <p>
+        The same pair of sneakers can be listed at different
+        prices across online shopping platforms. Discounts,
+        offers, sizes and availability can also vary between
+        retailers.
+      </p>
+
+      <p>
+        Comparing all these options manually can take time.
+        We created StyleScout to make that process simpler
+        by bringing sneaker information and retailer links
+        together in one convenient place.
+      </p>
+
+      <h2>How StyleScout Works</h2>
+
+      <div class="step-card">
+        <h3>Step 1 — Discover Sneakers</h3>
+        <p>
+          Explore our sneaker collection and discover options
+          from popular brands across different styles,
+          categories and price ranges.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <h3>Step 2 — Explore Retailer Prices</h3>
+        <p>
+          Check the available listings for a sneaker across
+          supported shopping platforms, including Amazon,
+          Flipkart and Myntra, where available.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <h3>Step 3 — Compare Your Options</h3>
+        <p>
+          View the listed prices side by side and identify
+          the lowest displayed price among the available
+          listings. Compare product variants and seller
+          details before making your decision.
+        </p>
+      </div>
+
+      <div class="step-card">
+        <h3>Step 4 — Visit the Retailer</h3>
+        <p>
+          When you choose a shopping option, click its
+          shopping link to visit the retailer's website.
+          You can review the final product details and
+          complete your purchase directly with that retailer.
+        </p>
+      </div>
+
+      <h2>What You Can Find on StyleScout</h2>
+
+      <ul>
+        <li>
+          <strong>Sneaker listings:</strong>
+          Discover sneakers from different brands and categories.
+        </li>
+
+        <li>
+          <strong>Price comparisons:</strong>
+          Compare displayed prices across supported retailers.
+        </li>
+
+        <li>
+          <strong>Lowest-price indicators:</strong>
+          Identify the lowest listed price among the available
+          options shown on a product page.
+        </li>
+
+        <li>
+          <strong>Price history:</strong>
+          Explore historical price information where available.
+        </li>
+
+        <li>
+          <strong>Product details:</strong>
+          Review available specifications, descriptions and images.
+        </li>
+
+        <li>
+          <strong>Related products:</strong>
+          Discover other sneakers that may match your interests.
+        </li>
+      </ul>
+
+      <h2>How We Make Money</h2>
+
+      <p>
+        StyleScout is free to browse. Some of the shopping links
+        on our website are affiliate links.
+      </p>
+
+      <p>
+        This means we may earn a commission when you click
+        certain retailer links and complete qualifying purchases.
+        This may include links to Amazon, Flipkart and Myntra,
+        subject to our participation in their respective
+        affiliate programmes.
+      </p>
+
+      <p>
+        Affiliate commissions do not add a separate affiliate
+        charge to your purchase. The retailer determines
+        the final price you pay.
+      </p>
+
+      <p>
+        You can read more on our
+        <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+        page.
+      </p>
+
+      <h2>What StyleScout Does Not Do</h2>
+
+      <ul>
+        <li>We do not directly sell the sneakers listed on our website.</li>
+        <li>We do not process retailer payments or handle deliveries.</li>
+        <li>We do not manage retailer returns or refunds.</li>
+        <li>We do not control retailer prices or stock availability.</li>
+        <li>We do not guarantee that a displayed offer will remain available.</li>
+      </ul>
+
+      <h2>Why Prices May Differ</h2>
+
+      <p>
+        Retailer prices and offers can change. A product's price
+        may also vary depending on its size, colour, seller,
+        location, delivery charges or promotional offers.
+      </p>
+
+      <p>
+        There may be a delay between a retailer changing a price
+        and the updated information appearing on StyleScout.
+        Therefore, a displayed price should be treated as a
+        reference rather than a guaranteed checkout price.
+      </p>
+
+      <p>
+        <strong>
+          Always verify the final price, product variant,
+          seller and availability on the retailer's website
+          before completing your purchase.
+        </strong>
+      </p>
+
+      <p>
+        For more information, read our
+        <a href="disclaimer.html">Disclaimer</a>.
+      </p>
+
+      <div class="cta-box">
+        <h2>Ready to Find Your Next Pair?</h2>
+
+        <p>
+          Explore sneakers, compare available prices and
+          discover shopping options with StyleScout.
+        </p>
+
+        <p>
+          <a href="index.html#featured">Explore Sneakers →</a>
+        </p>
+      </div>
+
+      <h2>Have Questions?</h2>
+
+      <p>
+        Have feedback, found an incorrect listing or want to
+        suggest a sneaker? We'd be happy to hear from you.
+      </p>
+
+      <p>
+        Email:
+        <a href="mailto:mystylescout@gmail.com">
+          mystylescout@gmail.com
+        </a>
+      </p>
+
+      <p>
+        Instagram:
+        <a
+          href="https://www.instagram.com/mystylescout.in/"
+          target="_blank"
+          rel="noopener noreferrer">
+          @mystylescout.in
+        </a>
+      </p>
+
+      <p>
+        You can also visit our
+        <a href="contact.html">Contact page</a>.
+      </p>
+
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+
+    <div class="footer-inner">
+
+      <div class="footer-brand-wrap">
+        <div class="footer-brand">
+          <span class="logo-style">Style</span><span class="logo-scout">Scout</span>
+        </div>
+
+        <p class="footer-tagline">Scout smart. Dress better.</p>
+
+        <p class="footer-desc">
+          Compare sneaker prices across Amazon, Flipkart
+          and Myntra — so you can shop smarter.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="index.html#featured">Sneakers</a>
+        <a href="blog.html">Blog</a>
+      </div>
+
+      <div class="footer-col">
+  <h4>Company</h4>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="how-it-works.html">How It Works</a>
+  <a href="price-tracking-methodology.html">Our Methodology</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms &amp; Conditions</a>
+  <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+  <a href="disclaimer.html">Disclaimer</a>
+</div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 StyleScout</span>
+      <span>Made in India 🇮🇳</span>
+    </div>
+
+  </footer>
+
+  <!-- Navigation and Wishlist -->
+  <script>
+    (function() {
+      var navToggle = document.getElementById('navToggle');
+      var navLinks = document.getElementById('navLinks');
+
+      if (navToggle && navLinks) {
+        navToggle.addEventListener('click', function() {
+          var isOpen = navLinks.classList.toggle('open');
+          navToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+      }
+
+      var countEl = document.getElementById('wishlistCount');
+
+      if (countEl) {
+        try {
+          var saved = JSON.parse(
+            localStorage.getItem('stylescout_wishlist') || '[]'
+          );
+
+          countEl.textContent = Array.isArray(saved)
+            ? saved.length
+            : 0;
+
+        } catch (e) {
+          countEl.textContent = '0';
+        }
+      }
+    })();
+  </script>
+
+</body>
+</html>
