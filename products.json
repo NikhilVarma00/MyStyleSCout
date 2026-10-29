@@ -5039,7 +5039,442 @@
     "about": [
       "ABZORB midsole absorbs impact through a combination of cushioning and compression resistance"
     ]
-  }
+  },
+
+
+{
+  "id": "neemans-urban-casual-sneakers",
+  "name": "Neeman's Urban Casual Sneakers",
+  "fullName": "Neeman's Urban Casual Sneakers for Men | Stylish Canvas Casual Shoes | Lightweight Lace-Up Footwear | Breathable Comfortable Everyday Sneaker",
+  "brand": "Neeman's",
+  "price": 1999,
+  "category": "sneakers",
+  "oldPrice": 3699,
+  "discount": 46,
+  "image": "https://m.media-amazon.com/images/I/71tJD7ZjEgL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/71tJD7ZjEgL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/516qHcMCclL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41fbECDCDOL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41ehHE4EkEL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41xJBZK8LGL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31k2WGhhSiL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Amazon",
+      "price": 1999,
+      "url": "https://www.amazon.in/dp/B0BYZP6H4Y?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Flipkart",
+      "price": 1999,
+      "url": "https://www.flipkart.com/neemans-urban-casual-sneaker-shoes-men-lightweight-breathable-trendy-sneakers/p/itm83f83290e62fa?pid=SHOGZA9Z4TZXSU2T"
+    },
+    {
+      "name": "Myntra",
+      "price": 1999,
+      "url": "https://www.myntra.com/casual-shoes/neemans/neemans-urban-casual-sneaker-for-men/30334501"
+    }
+  ],
+  "priceHistory": [1999, 1999, 1999],
+  "specs": {
+    "material_type": "Cotton",
+    "closure_type": "Lace-Up",
+    "heel_type": "Flat",
+    "water_resistance_level": "Water Repellent",
+    "sole_material": "Rubber",
+    "style": "Sneaker",
+    "country_of_origin": "India"
+  },
+  "about": [
+    "VINTAGE DESIGN, MODERN TOUCH: Pop your everyday look with the Urban Casuals. This sneaker features a classic, evergreen vintage design infused with groovy colorways and a sleek, modern touch that complements every look in your wardrobe.",
+    "BREATHABLE COTTON COMFORT: The upper is crafted from a breathable natural cotton fabric, ensuring your feet stay comfortable and fresh as you move around for long hours. The lightweight build provides a snug, pleasant fit for all-day wear.",
+    "DURABLE & FLEXIBLE RUBBER OUTSOLE: Built for your daily adventures, the natural rubber outsole is both durable enough to withstand daily wear and flexible enough to move with your foot's natural motion, providing reliable traction.",
+    "ALL-DAY, ALL-SEASON WEAR: Designed with versatility in mind, these stylish lace-up sneakers are perfect for all seasons. Their timeless appeal and comfortable construction make them your go-to choice for any day of the year.",
+    "LIGHTWEIGHT & CUSHIONED: Experience true comfort with a design that is extremely breathable and cushioned. These sneakers are engineered to support you through long walks and busy days without weighing you down."
+  ]
+},
+{
+  "id": "asics-gel-contend-9",
+  "name": "ASICS Gel-Contend 9",
+  "fullName": "ASICS Gel-Contend 9",
+  "brand": "ASICS",
+  "price": 2699,
+  "category": "sneakers",
+  "oldPrice": 5999,
+  "discount": 55,
+  "image": "https://m.media-amazon.com/images/I/81ZUkN5ozGL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/81ZUkN5ozGL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41c-3BdNs-L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41atOp2U4SL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41bkeRYh1uL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41ptPmjETjL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41Au+h8b8dL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41C0CL+njiL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Amazon",
+      "price": 4199,
+      "url": "https://www.amazon.in/dp/B0DV5H9J12?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Flipkart",
+      "price": 2699,
+      "url": "https://www.flipkart.com/asics-gel-contend-9-running-shoes-men/p/itmd542f74b99787?pid=SHOHBYHFWBCUZ5W3"
+    },
+    {
+      "name": "Myntra",
+      "price": 3599,
+      "url": "https://www.myntra.com/sports-shoes/asics/asics-gel-contend-9-men-running-shoes/34036127"
+    }
+  ],
+  "priceHistory": [4199, 2699, 3599],
+  "specs": {
+    "material_type": "Mesh",
+    "closure_type": "Lace-Up",
+    "heel_type": "Flat",
+    "water_resistance_level": "Not Water Resistant",
+    "sole_material": "Foam",
+    "style": "Low-Top",
+    "country_of_origin": "India"
+  },
+  "about": [
+    "Soft Grip: The ASICSGRIP outsole provides a softer feel for better traction during runs.",
+    "Comfortable, Breathable Upper: A soft and stretchy upper provides breathability, more flexibility and comfort."
+  ]
+},
+{
+  "id": "campus-men-first-running-shoes",
+  "name": "Campus First",
+  "fullName": "Campus Men First Running Shoes",
+  "brand": "Campus",
+  "price": 1099,
+  "category": "sneakers",
+  "oldPrice": 1899,
+  "discount": 42,
+  "image": "https://m.media-amazon.com/images/I/41XIvSxjHDL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/41XIvSxjHDL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51GM1czftaL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51VG3IZVOPL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41iuqllLfpL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41TRdufTLEL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41mTuzuxiAL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/611jMI0yTHL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Amazon",
+      "price": 1099,
+      "url": "https://www.amazon.in/dp/B0915349Y4?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Flipkart",
+      "price": 1299,
+      "url": "https://www.flipkart.com/campus-first-men-s-running-shoes-pu-foam-comfort-ball-tech-support-lace-up-men/p/itmafd353906016a?pid=SHOGFGMBHNDXZKDB"
+    },
+    {
+      "name": "Myntra",
+      "price": 1299,
+      "url": "https://www.myntra.com/sports-shoes/campus/campus-first-men-lace-up-running-shoes/15474904"
+    }
+  ],
+  "priceHistory": [1099, 1299, 1299],
+  "specs": {
+    "material_type": "Mesh",
+    "closure_type": "Lace-Up",
+    "heel_type": "No Heel",
+    "water_resistance_level": "Not Water Resistant",
+    "sole_material": "Thermoplastic Elastomers",
+    "style": "Running Shoe",
+    "country_of_origin": "India"
+  },
+  "about": [
+    "Shoes' Upper- These men's shoes for men have a breathable mesh upper that lets air flow inside and keeps your feet dry and cozy. You can wear them with any outfit, whether formal or casual, for work or college. They are also suitable for outdoor activities like yoga, running, jogging, or brisk walking. The lightweight material of these shoes makes your feet feel comfortable all day long!",
+    "Shoes' Outsole- These men's shoes come equipped with a special Ball Tech in the midsole that cushions your heels for a smooth landing. This addition is colorful and fun, and they make your running shoes bounce more. You can wear these shoes for many outdoor activities, like running, gymming, walking, power yoga, and more.",
+    "Shoes' Insole- These men's Shoes have a PU Foam Insole that provides comfort for all-day use. Whether you need them for daily activities or night-outs, these running shoes for men will keep you comfortable all the time.",
+    "Style the Shoes-Pair these stylish shoes for men with slim-fitting jeans or chinos for a polished yet relaxed appearance. Carry a casual shirt on top for a stylish work-day look and replace it with a cool t-shirt to hang out with friends.",
+    "Clean your shoes- To keep these shoes in good condition just remove any dust from the surface with a dry cloth every day. Second, wash these running shoes with soap water once a month and let them air dry. These shoes are washable and easy to clean and dry."
+  ]
+},
+{
+  "id": "puma-skyrocket-lite",
+  "name": "Puma Skyrocket Lite",
+  "fullName": "Puma Unisex-Adult Skyrocket Lite Running Shoe",
+  "brand": "PUMA",
+  "price": 2249,
+  "category": "sneakers",
+  "oldPrice": 4999,
+  "discount": 55,
+  "image": "https://m.media-amazon.com/images/I/71PnDYCe1OL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/71PnDYCe1OL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21gEZam77wL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/21ts6sQz9XL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/3164JLx7vLL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31BTXASGR3L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31h1e3cP3YL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41Tuol7McpL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Amazon",
+      "price": 2249,
+      "url": "https://www.amazon.in/dp/B0C33Y87PG?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Flipkart",
+      "price": 2500,
+      "url": "https://www.flipkart.com/puma-skyrocket-lite-running-shoes-men/p/itm81e656e0bd6b8?pid=SHOH8Y2QMHHEHQ38"
+    },
+    {
+      "name": "Myntra",
+      "price": 2749,
+      "url": "https://www.myntra.com/sports-shoes/puma/puma-skyrocket-lite-men-running-shoes/32588561"
+    }
+  ],
+  "priceHistory": [2249, 2500, 2749],
+  "specs": {
+    "material_type": "Textile",
+    "closure_type": "Lace-Up",
+    "heel_type": "Flat",
+    "water_resistance_level": "Not Water Resistant",
+    "sole_material": "Rubber",
+    "style": "Classic",
+    "country_of_origin": "Vietnam"
+  },
+  "about": [
+    "Style Name : Running Shoe",
+    "Model Name : Skyrocket Lite",
+    "Brand Color : Navy-Black-White",
+    "Material : Textile",
+    "Activity : Running"
+  ]
+},
+{
+  "id": "puma-skyrocket-lite-2",
+  "name": "Puma Skyrocket Lite 2",
+  "fullName": "Puma Unisex-Adult Skyrocket Lite 2 Running Shoe",
+  "brand": "PUMA",
+  "price": 3249,
+  "category": "sneakers",
+  "oldPrice": 4999,
+  "discount": 35,
+  "image": "https://m.media-amazon.com/images/I/91YJGVps64L._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/91YJGVps64L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31r731I1PAL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41CxV+Jq0wL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41xKUgx67kL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31k6mxYWP-L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41PaDroIYoL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Amazon",
+      "price": 3249,
+      "url": "https://www.amazon.in/dp/B0F63T9C45?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Flipkart",
+      "price": 3249,
+      "url": "https://www.flipkart.com/puma-skyrocket-lite-2-running-shoes-men/p/itmf5a27f33f6ad2?pid=SHOHN4WZKH3MFQT5"
+    },
+    {
+      "name": "Myntra",
+      "price": 3249,
+      "url": "https://www.myntra.com/sports-shoes/puma/puma-skyrocket-lite-2-running-shoes/41856817"
+    }
+  ],
+  "priceHistory": [3249, 3249, 3249],
+  "specs": {
+    "material_type": "Textile",
+    "closure_type": "Lace-Up",
+    "heel_type": "Flat",
+    "water_resistance_level": "Not Water Resistant",
+    "sole_material": "Rubber",
+    "style": "Sneaker",
+    "country_of_origin": "Vietnam"
+  },
+  "about": [
+    "Style Name : Running Shoe",
+    "Model Name : Skyrocket Lite 2",
+    "Brand Color : White-Vibrant Silver-Silver",
+    "Material : Textile",
+    "Activity : Running"
+  ]
+},
+{
+  "id": "campus-men-harmony-sneakers",
+  "name": "Campus Harmony",
+  "fullName": "Campus Men Harmony Sneakers",
+  "brand": "Campus",
+  "price": 1279,
+  "category": "sneakers",
+  "oldPrice": 2999,
+  "discount": 57,
+  "image": "https://m.media-amazon.com/images/I/91HwQqmRsTL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/91HwQqmRsTL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31RrNtJmwGL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41eGQ3+LVUL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41HwMqy8HZL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41SdTAEdimL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41-HqxMDkoL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41-gBwYt8qL._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Amazon",
+      "price": 1309,
+      "url": "https://www.amazon.in/dp/B0DVYTJQ3X?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Flipkart",
+      "price": 1279,
+      "url": "https://www.flipkart.com/campus-harmony-sneakers-men/p/itme96e0987f0ae3?pid=SHOH94RGEFSNBTHA"
+    },
+    {
+      "name": "Myntra",
+      "price": 1279,
+      "url": "https://www.myntra.com/casual-shoes/campus/campus-harmony-gents-men-mesh-mid-top-sneakers-with-memory-foam/32693091"
+    }
+  ],
+  "priceHistory": [1309, 1279, 1279],
+  "specs": {
+    "material_type": "Mesh",
+    "closure_type": "Lace-Up",
+    "heel_type": "Flat",
+    "water_resistance_level": "Not Water Resistant",
+    "sole_material": "Ethylene Vinyl Acetate",
+    "style": "Sneaker",
+    "country_of_origin": "India"
+  },
+  "about": [
+    "Damn Good Looks - Bold, in-trend, and nailing that street-ready vibe, these sneakers are made to stand out.",
+    "Secure Lace-Up Fit – The lace-up closure makes these sneakers for men easy to adjust, keeping every step secure n' comfortable.",
+    "Premium Make – Crafted with top-notch materials that feel good, look sharp, and stand strong through daily wear...these shoes are total winners.",
+    "Best of Both - While the looks stay sharp, the cushioned insole of these men's sneakers makes sure comfort never takes a back seat.",
+    "Easy Care - Wipe these sneakers with a damp cloth & you've got yourself a pair that's good as new."
+  ]
+},
+{
+  "id": "campus-men-tormentor-running-shoes",
+  "name": "Campus Tormentor",
+  "fullName": "Campus Men Tormentor Running Shoes",
+  "brand": "Campus",
+  "price": 1169,
+  "category": "sneakers",
+  "oldPrice": 2499,
+  "discount": 53,
+  "image": "https://m.media-amazon.com/images/I/41YAhvolJHL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/41YAhvolJHL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51vnbFzxgrL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41AZqNNgiNL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41KOw+rAFYL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41oTTkSnvXL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51r7PYEXkzL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61AMgTk164L._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Amazon",
+      "price": 1169,
+      "url": "https://www.amazon.in/dp/B09QX51CC4?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Flipkart",
+      "price": 1199,
+      "url": "https://www.flipkart.com/campus-tormentor-walking-shoes-men/p/itm4cfe253dd8959?pid=SHOGAEEENZYDUZ4N"
+    },
+    {
+      "name": "Myntra",
+      "price": 1299,
+      "url": "https://www.myntra.com/sports-shoes/campus/campus-men-tormentor-charcoal-grey-mesh-running-shoes/16807614"
+    }
+  ],
+  "priceHistory": [1169, 1199, 1299],
+  "specs": {
+    "material_type": "Thermoplastic Polyurethane",
+    "closure_type": "Lace-Up",
+    "heel_type": "Flat",
+    "water_resistance_level": "Not Water Resistant",
+    "sole_material": "Thermoplastic Polyurethane",
+    "style": "Sneaker",
+    "country_of_origin": "India"
+  },
+  "about": [
+    "Mesh Upper- Experience the joy of a breathable mesh upper that keeps your feet fresh and comfortable. The lace-up closure ensures a snug fit, making them your perfect companions for college, the office, or a casual date night.",
+    "Outsole- Unleash your potential with the Support Tech outsole, designed to guide your feet in natural movement. Whether you're running or walking, enjoy the stability and comfort of every step.",
+    "Insole- Step onto cloud-like comfort with the Memory Foam insole that adapts to your foot's contours. The cushioned base pampers your feet, turning every journey into a delightful experience.",
+    "Styling Tips- These running shoes aren't just for the track. Pair them with jeans for a laid-back look or rock them with chinos for a smart-casual twist. From workouts to hangouts, they're the epitome of cool.",
+    "Caring Tips- To keep these shoes looking their best, gently wipe off dirt with a damp cloth and air dry them away from direct heat. Regular care ensures they stay as vibrant as your style."
+  ]
+},
+{
+  "id": "campus-men-north-plus-running-shoes",
+  "name": "Campus North Plus",
+  "fullName": "Campus Men North Plus Running Shoes",
+  "brand": "Campus",
+  "price": 999,
+  "category": "sneakers",
+  "oldPrice": 1899,
+  "discount": 47,
+  "image": "https://m.media-amazon.com/images/I/91VDePyQoHL._SL1500_.jpg",
+  "gallery": [
+    "https://m.media-amazon.com/images/I/91VDePyQoHL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/31T16Ourn3L._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41GySCE+EdL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/418ZdGTSvVL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41wNwP+dYcL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/41eyisuQt9L._SL1500_.jpg"
+  ],
+  "stores": [
+    {
+      "name": "Amazon",
+      "price": 999,
+      "url": "https://www.amazon.in/dp/B08PSHLJGL?tag=stylescoutin2-21"
+    },
+    {
+      "name": "Flipkart",
+      "price": 1219,
+      "url": "https://www.flipkart.com/campus-north-plus-running-shoes-men/p/itm8a44e2d6993b2?pid=SHOFY4DP2CHKFQ7R"
+    },
+    {
+      "name": "Myntra",
+      "price": 1219,
+      "url": "https://www.myntra.com/sports-shoes/campus/campus-north-plus-men-lace-up-running-shoes/13273434"
+    }
+  ],
+  "priceHistory": [999, 1219, 1219],
+  "specs": {
+    "material_type": "Mesh",
+    "closure_type": "Lace-Up",
+    "heel_type": "No Heel",
+    "water_resistance_level": "Not Water Resistant",
+    "sole_material": "Thermoplastic Elastomers",
+    "style": "Running Shoe",
+    "country_of_origin": "India"
+  },
+  "about": [
+    "Shoes' Upper- These shoes for men have a supportive design and a knitted vamp that feels soft and comfortable on your skin. The lace-up closure helps you adjust the fit to your preference and keep your feet secure. Whether you need them for work or leisure, these men's shoes are versatile and suitable for any occasion.",
+    "Shoes' Outsole- With an Air Capsule installed in the midsole, these casual shoes for men provide excellent comfort and cushioning for your feet. They are suitable for various outdoor activities such as running, gymming, walking, jogging, cardio, yoga, and more. The shoes have a responsive cushioning that makes them a great choice for everyday wear.",
+    "Shoes' Insole- These running shoes for men feature a Memory Foam insole that adapts to your foot shape and provides optimal arch support. Whether you walk or run, the cushioned insole ensures a comfortable and custom fit. These casual shoes are designed to enhance support with every step you take.",
+    "Style your Shoes- These lace-up running shoes for men are adaptable and stylish, featuring eye-catching color combinations and the Air-Capsule at the heel for comfort and support. Whether you need to dress up for work or dress down for comfort, these shoes can complement any semi-formal or casual outfit. They are suitable for various occasions, such as coffee dates, parties, trips, parks, or casual gatherings.",
+    "Clean your shoes- To keep these shoes in good condition just remove any dust from the surface with a dry cloth every day. Second, wash these running shoes with soap water once a month and let them air dry. These shoes are washable and easy to clean and dry."
+  ]
+}
+
+
+
+
+
+
+
 ]
 
 
