@@ -2237,3 +2237,31 @@ body.modal-open { overflow: hidden; }
   .new-price { font-size: 0.98rem; }
   .store-row { padding: 5px 7px; }
 }
+
+/* Scannable Pro/Con Box for Blog Product Cards */
+.pro-con-box {
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(120, 239, 198, 0.12);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 14px 0;
+}
+
+.pro-con-box p {
+  margin: 0 0 6px 0;
+  font-size: 0.95rem;
+}
+
+.pro-con-box p:last-child {
+  margin-bottom: 0;
+}
+
+.pro-con-box .pro-label {
+  color: #78efc6;
+  font-weight: 600;
+}
+
+.pro-con-box .con-label {
+  color: #ff9b9b;
+  font-weight: 600;
+}
