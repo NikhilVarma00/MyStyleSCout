@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>StyleScout Review</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0d1117; color: #e6edf3; margin: 0; padding: 24px; }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  .sub { color: #7d8590; font-size: 13px; margin-bottom: 20px; }
+  .toolbar { display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap; align-items: center; position: sticky; top: 0; background: #0d1117; padding: 12px 0; z-index: 100; border-bottom: 1px solid #21262d; }
+  button { padding: 10px 18px; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 600; }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+  .btn-primary { background: #238636; color: white; }
+  .btn-primary:hover:not(:disabled) { background: #2ea043; }
+  .btn-secondary { background: #21262d; color: #e6edf3; border: 1px solid #30363d; }
+  .btn-secondary:hover { background: #30363d; }
+  .btn-copy { background: #1f6feb; color: white; }
+  .btn-danger { background: #da3633; color: white; }
+  .btn-danger:hover { background: #f85149; }
+  .badge { background: #21262d; border: 1px solid #30363d; border-radius: 6px; padding: 8px 12px; font-size: 13px; color: #7d8590; }
+  .badge strong { color: #e6edf3; }
+  .progress-badge { background: #1f6feb; color: white; padding: 8px 16px; border-radius: 6px; font-weight: 700; font-size: 14px; }
+  .section { margin-bottom: 40px; }
+  .section h2 { font-size: 14px; margin: 0 0 16px; padding-bottom: 8px; border-bottom: 1px solid #21262d; color: #7d8590; text-transform: uppercase; letter-spacing: 0.5px; }
+  .amazon-card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 20px; display: flex; gap: 20px; align-items: flex-start; }
+  .amazon-card img { width: 140px; height: 140px; object-fit: contain; background: white; border-radius: 6px; }
+  .amazon-info { flex: 1; }
+  .amazon-info .title { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+  .amazon-info .meta { color: #7d8590; font-size: 13px; margin-bottom: 4px; }
+  .amazon-info .price { font-size: 24px; font-weight: 700; color: #3fb950; margin-top: 8px; }
+  .candidates { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+  .candidate { background: #161b22; border: 2px solid #30363d; border-radius: 8px; padding: 16px; position: relative; }
+  .candidate.selected { border-color: #3fb950; background: #0f2417; }
+  .candidate.selected::after { content: "✓ SELECTED"; position: absolute; top: 12px; right: 12px; background: #3fb950; color: #0d1117; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 4px; }
+  .candidate img { width: 100%; height: 200px; object-fit: contain; background: white; border-radius: 6px; margin-bottom: 12px; }
+  .candidate .title { font-size: 13px; font-weight: 500; margin-bottom: 8px; line-height: 1.4; min-height: 36px; }
+  .candidate .price { font-size: 20px; font-weight: 700; color: #3fb950; margin-bottom: 10px; }
+  .candidate .url-input { width: 100%; background: #0d1117; color: #e6edf3; border: 1px solid #30363d; border-radius: 4px; padding: 8px; font-size: 11px; font-family: monospace; margin-bottom: 10px; }
+  .candidate .url-input:focus { border-color: #58a6ff; outline: none; }
+  .candidate .row { display: flex; gap: 8px; margin-bottom: 8px; }
+  .candidate .row button { flex: 1; padding: 8px; font-size: 12px; }
+  .btn-select { background: #3fb950; color: #0d1117; }
+  .btn-deselect { background: #da3633; color: white; }
+  .btn-refresh { background: #58a6ff; color: #0d1117; }
+  .meta { font-size: 11px; color: #7d8590; display: flex; gap: 12px; margin-top: 6px; flex-wrap: wrap; }
+  .sim { color: #58a6ff; font-weight: 600; }
+  .empty { text-align: center; color: #7d8590; padding: 60px 40px; }
+  .empty h2 { color: #e6edf3; margin-bottom: 12px; }
+  .empty code { background: #21262d; padding: 4px 8px; border-radius: 4px; font-family: monospace; color: #79c0ff; font-size: 13px; }
+  .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #238636; color: white; padding: 12px 24px; border-radius: 6px; font-weight: 600; opacity: 0; transition: opacity 0.3s; pointer-events: none; z-index: 999; max-width: 80vw; text-align: center; }
+  .toast.show { opacity: 1; }
+  .toast.error { background: #da3633; }
+</style>
+</head>
+<body>
+
+<h1>StyleScout — Review</h1>
+<div class="sub" id="subtitle">Loading...</div>
+
+<div class="toolbar">
+  <span class="progress-badge" id="progress-badge" style="display:none;"></span>
+  <button class="btn-primary" id="btn-approve" onclick="approveAndNext()" disabled>✓ Approve & Next Product</button>
+  <button class="btn-danger" id="btn-skip" onclick="skipProduct()" style="display:none;">✗ Skip This Product</button>
+  <button class="btn-secondary" onclick="resetAll()">🔄 Clear All</button>
+  <button class="btn-copy" onclick="copyAllProducts()">📋 Copy ALL products</button>
+  <span class="badge">Saved: <strong id="total-count">0</strong></span>
+  <span class="badge" id="approved-status">No selection yet</span>
+</div>
+
+<div id="content"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+let bundle = null;
+let mode = "single";
+let progress = { current: 1, total: 1, remaining: 0 };
+const selected = { flipkart: null, myntra: null };
+
+async function loadCandidates() {
+  try {
+    const res = await fetch("/candidates.json?t=" + Date.now());
+    if (!res.ok) throw new Error("no candidates");
+    const data = await res.json();
+    mode = data.mode || "single";
+    progress = {
+      current: data.total - data.remaining,
+      total: data.total,
+      remaining: data.remaining,
+    };
+    bundle = data.current;
+    ["flipkart", "myntra"].forEach(r => {
+      (bundle[r] || []).forEach(c => { if (!c.edited_url) c.edited_url = c.url; });
+    });
+    selected.flipkart = null;
+    selected.myntra = null;
+    render();
+    updateTotalCount();
+    updateProgressBadge();
+  } catch (e) {
+    bundle = null;
+    document.getElementById("subtitle").textContent = "Waiting for candidates...";
+    document.getElementById("progress-badge").style.display = "none";
+    document.getElementById("btn-skip").style.display = "none";
+    document.getElementById("content").innerHTML = `
+      <div class="empty">
+        <h2>No candidates loaded</h2>
+        <p>Run <code>python main.py</code> in a second terminal, then click Reload.</p>
+        <p style="margin-top:24px;">
+          <button class="btn-secondary" onclick="loadCandidates()">↻ Reload</button>
+        </p>
+      </div>`;
+    updateStatus();
+  }
+}
+
+function updateProgressBadge() {
+  const badge = document.getElementById("progress-badge");
+  const skipBtn = document.getElementById("btn-skip");
+  if (mode === "batch" && progress.total > 1) {
+    badge.style.display = "inline-block";
+    badge.textContent = `Product ${progress.current} of ${progress.total} (${progress.remaining} remaining)`;
+    skipBtn.style.display = "inline-block";
+  } else {
+    badge.style.display = "none";
+    skipBtn.style.display = "none";
+  }
+}
+
+function render() {
+  const a = bundle.amazon;
+  document.getElementById("subtitle").innerHTML =
+    `Amazon: <strong>${esc(a.name)}</strong> · ₹${a.price}`;
+
+  document.getElementById("content").innerHTML = `
+    <div class="section">
+      <h2>Amazon Reference</h2>
+      <div class="amazon-card">
+        <img src="${a.image}" alt="">
+        <div class="amazon-info">
+          <div class="title">${esc(a.name)}</div>
+          <div class="meta">Brand: ${esc(a.brand)} · ASIN: ${a.asin || "n/a"}</div>
+          <div class="meta">Gender: ${a.gender || "?"} · Colors: ${(a.colors || []).join(", ") || "?"}</div>
+          <div class="price">₹${a.price}</div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Flipkart Candidates (${(bundle.flipkart || []).length})</h2>
+      ${renderCandidates(bundle.flipkart || [], "flipkart")}
+    </div>
+    <div class="section">
+      <h2>Myntra Candidates (${(bundle.myntra || []).length})</h2>
+      ${renderCandidates(bundle.myntra || [], "myntra")}
+    </div>
+  `;
+  updateStatus();
+}
+
+function renderCandidates(list, retailer) {
+  if (!list.length) return `<div class="empty">No ${retailer} candidates found.</div>`;
+  return `<div class="candidates">` + list.map((c, i) => {
+    const isSel = selected[retailer] === i;
+    return `
+      <div class="candidate ${isSel ? "selected" : ""}">
+        <img src="${c.image || ""}" onerror="this.style.opacity=0.2" alt="">
+        <div class="title">${esc(c.title)}</div>
+        <div class="price">₹${c.price || "?"}</div>
+        <input class="url-input" type="text" value="${esc(c.edited_url || c.url)}"
+               onchange="updateUrl('${retailer}', ${i}, this.value)">
+        <div class="row">
+          <button class="btn-refresh" onclick="rescrape('${retailer}', ${i}, this)">↻ Refetch</button>
+          ${isSel
+            ? `<button class="btn-deselect" onclick="toggleSelect('${retailer}', ${i})">Deselect</button>`
+            : `<button class="btn-select" onclick="toggleSelect('${retailer}', ${i})">✓ Use this</button>`}
+        </div>
+        <div class="meta">
+          <span class="sim">similarity: ${c.similarity || 0}</span>
+          ${c.gender ? `<span>gender: ${c.gender}</span>` : ""}
+          ${c.colors && c.colors.length ? `<span>colors: ${c.colors.join(",")}</span>` : ""}
+        </div>
+      </div>
+    `;
+  }).join("") + `</div>`;
+}
+
+function updateUrl(retailer, i, value) { bundle[retailer][i].edited_url = value.trim(); }
+
+async function rescrape(retailer, i, btn) {
+  const c = bundle[retailer][i];
+  const url = c.edited_url || c.url;
+  btn.disabled = true;
+  btn.textContent = "↻ Fetching...";
+  try {
+    const res = await fetch("/rescrape?url=" + encodeURIComponent(url));
+    const data = await res.json();
+    if (data.error) { showToast("Fetch failed: " + data.error, true); }
+    else {
+      c.title = data.title || c.title;
+      c.price = data.price || c.price;
+      c.image = data.image || c.image;
+      render();
+      showToast("✓ Refetched: " + (data.price ? "₹" + data.price : "no price"));
+    }
+  } catch (e) { showToast("Fetch error: " + e.message, true); }
+  finally { btn.disabled = false; btn.textContent = "↻ Refetch"; }
+}
+
+function toggleSelect(retailer, i) {
+  selected[retailer] = selected[retailer] === i ? null : i;
+  render();
+}
+
+function updateStatus() {
+  const el = document.getElementById("approved-status");
+  const btn = document.getElementById("btn-approve");
+  const fk = selected.flipkart !== null;
+  const my = selected.myntra !== null;
+  if (!fk && !my) {
+    el.textContent = "No selection yet";
+    el.style.color = "#7d8590";
+    btn.disabled = true;
+  } else {
+    const parts = [];
+    if (fk) parts.push("Flipkart");
+    if (my) parts.push("Myntra");
+    el.textContent = "Ready: " + parts.join(" + ");
+    el.style.color = "#3fb950";
+    btn.disabled = false;
+  }
+}
+
+function buildProduct() {
+  const fk = selected.flipkart !== null ? bundle.flipkart[selected.flipkart] : null;
+  const my = selected.myntra !== null ? bundle.myntra[selected.myntra] : null;
+  if (!fk && !my) return null;
+
+  const a = bundle.amazon;
+  const verified = [a.price];
+  const stores = [{ name: "Amazon", price: a.price, url: a.url }];
+  if (fk) { stores.push({ name: "Flipkart", price: fk.price, url: fk.edited_url || fk.url }); verified.push(fk.price); }
+  if (my) { stores.push({ name: "Myntra", price: my.price, url: my.edited_url || my.url }); verified.push(my.price); }
+
+  const lowest = Math.min(...verified);
+  const highest = Math.max(...verified);
+  const discount = highest ? Math.round((1 - lowest / highest) * 100) : 0;
+  const order = { Amazon: 0, Flipkart: 1, Myntra: 2 };
+  stores.sort((x, y) => order[x.name] - order[y.name]);
+
+  const slug = (a.name || "product").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+  return {
+    id: slug || (a.asin || "product").toLowerCase(),
+    name: a.name, brand: a.brand, price: lowest,
+    category: "sneakers", oldPrice: highest,
+    discount: Math.max(0, discount),
+    image: a.image, gallery: a.gallery,
+    stores, priceHistory: [...new Set(verified)].sort((x, y) => y - x),
+  };
+}
+
+async function approveAndNext() {
+  const product = buildProduct();
+  if (!product) { showToast("Select at least one retailer", true); return; }
+
+  try {
+    const res = await fetch("/save", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify([product]),
+    });
+    const data = await res.json();
+    if (data.error) { showToast("Save failed: " + data.error, true); return; }
+
+    await fetch("/next-product", { method: "POST" });
+    showToast(`✓ Saved! Total: ${data.total}`);
+    updateTotalCount();
+    setTimeout(loadCandidates, 400);
+  } catch (e) { showToast("Save error: " + e.message, true); }
+}
+
+async function skipProduct() {
+  try {
+    await fetch("/next-product", { method: "POST" });
+    showToast("Skipped.");
+    setTimeout(loadCandidates, 300);
+  } catch (e) { showToast("Skip failed: " + e.message, true); }
+}
+
+async function resetAll() {
+  selected.flipkart = null;
+  selected.myntra = null;
+  bundle = null;
+  try { await fetch("/clear-candidates", { method: "POST" }); } catch (e) {}
+  loadCandidates();
+}
+
+async function copyAllProducts() {
+  try {
+    const res = await fetch("/products.json?t=" + Date.now());
+    const products = await res.json();
+    await navigator.clipboard.writeText(JSON.stringify(products, null, 2));
+    showToast(`📋 Copied ${products.length} products`);
+  } catch (e) { showToast("Copy failed", true); }
+}
+
+async function updateTotalCount() {
+  try {
+    const res = await fetch("/products.json?t=" + Date.now());
+    const products = await res.json();
+    document.getElementById("total-count").textContent = Array.isArray(products) ? products.length : 0;
+  } catch (e) {}
+}
+
+function esc(s) {
+  return String(s || "").replace(/[&<>"']/g, m =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
+}
+
+function showToast(msg, isErr = false) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.className = "toast show" + (isErr ? " error" : "");
+  setTimeout(() => t.className = "toast", 3000);
+}
+
+loadCandidates();
+</script>
+</body>
+</html>
