@@ -160,6 +160,48 @@
       </section>
     </main>
 
+          <!-- SMART FEEDBACK WIDGET -->
+      <div id="feedback-widget" style="display: none; text-align: center; margin: 40px auto; padding: 30px 20px; max-width: 600px; background: rgba(120,239,198,0.05); border: 1px solid rgba(120,239,198,0.2); border-radius: 16px;">
+        <h3 style="color: #edf8f4; margin-top: 0; font-size: 1.2rem;">Did you find the sneaker you were looking for?</h3>
+        <div id="feedback-buttons" style="display: flex; justify-content: center; gap: 15px; margin-top: 20px;">
+          <button onclick="logFeedback('yes')" style="padding: 10px 24px; background: #78efc6; color: #000; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1rem;">Yes</button>
+          <button onclick="logFeedback('no')" style="padding: 10px 24px; background: transparent; border: 2px solid #78efc6; color: #78efc6; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1rem;">No</button>
+        </div>
+      </div>
+
+      <script>
+        function logFeedback(answer) {
+          if (typeof gtag === 'function') {
+            gtag('event', 'user_feedback', {
+              'response': answer,
+              'search_query': document.getElementById('searchInput') ? document.getElementById('searchInput').value : 'unknown'
+            });
+          }
+          
+          const buttons = document.getElementById('feedback-buttons');
+          const originalHTML = buttons.innerHTML;
+          buttons.innerHTML = '<p style="color: #78efc6; font-weight: bold; margin: 0;">Thanks for the feedback! 🙏</p>';
+          
+          // Reset after 3 seconds so they can leave feedback for the next search
+          setTimeout(() => {
+            buttons.innerHTML = originalHTML;
+          }, 3000);
+        }
+
+        // Show widget when user types in the search bar
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) {
+          searchInput.addEventListener('input', function() {
+            const widget = document.getElementById('feedback-widget');
+            if (this.value.trim().length > 0) {
+              widget.style.display = 'block'; 
+            } else {
+              widget.style.display = 'none'; 
+            }
+          });
+        }
+      </script>
+
     <!-- ============================================
          FOOTER
     ============================================= -->
