@@ -12,6 +12,19 @@ from playwright.sync_api import sync_playwright
 
 BASE_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = BASE_DIR / "output"
+import os
+import re
+import sys
+import time
+from pathlib import Path
+from urllib.parse import quote_plus, urlparse, unquote, parse_qs
+
+import requests
+from dotenv import load_dotenv
+from playwright.sync_api import sync_playwright
+
+BASE_DIR = Path(__file__).resolve().parent
+OUTPUT_DIR = BASE_DIR / "output"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 load_dotenv(BASE_DIR / ".env")
@@ -146,10 +159,10 @@ def similarity_score(amazon_title, amazon_brand, candidate_title, amazon_slug=""
         return 0
     core = model_tokens(amazon_title, amazon_brand, amazon_slug)
     if not core:
-        return 50   # brand matched but nothing distinctive — floor score
+        return 50  
     matched = [t for t in core if t in c.split()]
     if not matched:
-        return 30   # brand matched but no model tokens matched
+        return 30   
     if len(core) >= 3:
         score = 60 + (len(matched) / len(core)) * 40
     elif len(core) == 2:
@@ -525,7 +538,8 @@ def main():
     print(f"\n=== Processing {len(links)} product(s) ===")
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=HEADLESS, channel="msedge")
+        # FIXED: Removed channel="msedge" so it uses Playwright's built-in Chromium
+        browser = p.chromium.launch(headless=HEADLESS)
         context = browser.new_context(
             viewport={"width": 1366, "height": 900},
             locale="en-IN",
