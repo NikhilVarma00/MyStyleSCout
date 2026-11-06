@@ -64,15 +64,14 @@ def build_schema(product, url, description_text):
             }
         })
     
-    # Fix: Truncate name and sku to valid lengths
     safe_name = product.get("name", "")[:150]
     safe_sku = product.get("id", "")[:50]
     
     schema = {
         "@context": "https://schema.org",
         "@type": "Product",
-        "name": safe_name,               # Truncated
-        "sku": safe_sku,                 # Added and truncated
+        "name": safe_name,
+        "sku": safe_sku,
         "description": description_text,
         "brand": {"@type": "Brand", "name": product.get("brand", "")},
         "image": product.get("gallery") or [product.get("image", "")],
@@ -178,7 +177,6 @@ def build_about_html(product, fallback_text):
     if "about" in product and product["about"]:
         about_items = "".join([f"<li>{item}</li>" for item in product["about"]])
         
-        # Only add the toggle if there are 4+ bullet points
         show_button = len(product["about"]) > 3
         button_html = '<button class="pdp-view-more-btn" id="aboutToggle" type="button">View More ↓</button>' if show_button else ''
         collapse_class = 'collapsed' if show_button else ''
@@ -211,7 +209,6 @@ def build_related_html(product, all_products):
 
     same_brand = []
     for p in all_products:
-        # Safeguard: skip if p is not a dict
         if not isinstance(p, dict):
             continue
         try:
@@ -229,7 +226,6 @@ def build_related_html(product, all_products):
 
     similar_price = []
     for p in all_products:
-        # Safeguard: skip if p is not a dict
         if not isinstance(p, dict):
             continue
         try:
@@ -360,47 +356,16 @@ def build_sitemap(slugs):
         xml += f'    <lastmod>{today}</lastmod>\n'
         xml += f'    <changefreq>{freq}</changefreq>\n    <priority>{prio}</priority>\n  </url>\n'
 
-    blog_posts = [
-        "blog/best-sneakers-under-1000-india.html",
-        "blog/best-running-shoes-under-2000-india.html",
-        "blog/best-gym-shoes-under-1500-india.html",
-        "blog/best-white-sneakers-for-men-india.html",
-        "blog/best-sneakers-for-college-students-india.html",
-        "blog/puma-vs-adidas-sneakers-india.html",
-        "blog/campus-vs-sparx-sneakers-india.html",
-        "blog/nike-revolution-vs-downshifter-india.html",
-        "blog/skechers-vs-new-balance-india.html",
-        "blog/best-puma-sneakers-under-3000-india.html",
-        "blog/best-adidas-sneakers-under-3000-india.html",
-        "blog/sneaker-price-tracking-30-days.html",
-        "blog/best-sneakers-under-800-india.html",
-        "blog/nike-revolution-7-review-india.html",
-        "blog/best-sneakers-under-1500-india.html",
-        "blog/puma-vs-skechers-india.html",
-        "blog/best-campus-sneakers-india.html",
-        "blog/are-skechers-good-for-running.html",
-        "blog/best-running-shoes-for-beginners-india.html",
-        "blog/nike-vs-puma-under-3000-india.html",
-        "blog/best-asian-sneakers-india.html",
-        "blog/best-us-polo-sneakers-india.html",
-        "blog/best-slip-on-sneakers-india.html",
-        "blog/asics-japan-s-vs-lyte-classic.html",
-        "blog/best-red-tape-sneakers-india.html",
-        "blog/compare-sneaker-prices-india.html",
-        "blog/best-running-shoes-under-1500-india.html",
-        "blog/amazon-great-indian-festival-sneaker-deals.html",
-        "blog/flipkart-big-billion-days-sneaker-deals.html",
-        "blog/myntra-end-of-reason-sale-sneaker-deals.html",
-        "blog/amazon-vs-flipkart-vs-myntra-sale-sneaker-deals.html",
-        "blog/best-red-chief-bacca-bucci-sneakers-india.html",
-        "blog/best-skechers-sneakers-india-new.html",
-        "blog/best-reebok-sneakers-india.html",
-    ]
-
-    for post in blog_posts:
-        xml += f'  <url>\n    <loc>{SITE_URL}/{post}</loc>\n'
-        xml += f'    <lastmod>{today}</lastmod>\n'
-        xml += '    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n'
+    # ==========================================
+    # DYNAMIC BLOG SITEMAP GENERATION
+    # ==========================================
+    blog_dir = BASE_DIR / "blog"
+    if blog_dir.exists():
+        for filepath in blog_dir.glob("*.html"):
+            post_path = f"blog/{filepath.name}"
+            xml += f'  <url>\n    <loc>{SITE_URL}/{post_path}</loc>\n'
+            xml += f'    <lastmod>{today}</lastmod>\n'
+            xml += '    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n'
 
     for slug in slugs:
         xml += f'  <url>\n    <loc>{SITE_URL}/products/{slug}.html</loc>\n'
@@ -417,7 +382,6 @@ def main():
         print("No products found in products.json")
         return
 
-    # Filter out malformed items
     valid_products = []
     for idx, p in enumerate(products):
         if not isinstance(p, dict):

@@ -6,10 +6,12 @@
   <title>Blog — Sneaker Guides & Price Comparisons | StyleScout</title>
   <meta name="description" content="Guides, comparisons, and price breakdowns for sneakers in India. Find the best deals across Amazon, Flipkart, and Myntra.">
   <link rel="canonical" href="https://www.mystylescout.in/blog.html">
+  <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
   <style>
     .blog-index { max-width: 900px; margin: 120px auto 60px; padding: 0 24px; }
     .blog-index h1 { font-size: 2.4rem; color: #edf8f4; margin-bottom: 12px; }
@@ -21,22 +23,32 @@
     .blog-card p { color: #c7d2cd; font-size: 0.95rem; line-height: 1.6; margin: 0; }
   </style>
 </head>
-  <!-- Affiliate Disclosure -->
-<p style="font-size: 0.85rem; color: #7d859d; margin-top: 10px; margin-bottom: 24px; text-align: center;"><em>ⓘ As an Amazon Associate I earn from qualifying purchases. <a href="../affiliate-disclosure.html" style="color: #78efc6; text-decoration: underline;">Learn more</a>.</em></p>   
+<body>
+
+  <!-- Top Amazon Disclosure Banner -->
+  <div style="text-align: center; padding: 10px; font-size: 0.9rem; color: #7d8590; background: rgba(255,255,255,0.02); border-bottom: 1px solid rgba(255,255,255,0.05);">
+    As an Amazon Associate I earn from qualifying purchases. <a href="affiliate-disclosure.html" style="color: #78efc6; text-decoration: underline;">Learn more</a>
   </div>
 
-<body>
   <nav class="navbar glass" aria-label="Main navigation">
-    <div class="logo-wrap">
+    <a class="logo-wrap" href="index.html" aria-label="StyleScout Home">
       <span class="brand-mark">S</span>
       <span class="logo-text"><span class="logo-style">Style</span><span class="logo-scout">Scout</span></span>
-    </div>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">☰</button>
+
     <div class="nav-links" id="navLinks">
-  <a href="index.html">Home</a>
-  <a href="index.html#featured">Sneakers</a>
-  <a href="blog.html">Blog</a>
-  <a href="about.html">About</a>
-</div>
+      <a href="index.html">Home</a>
+      <a href="index.html#featured">Sneakers</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+    </div>
+    
+    <div class="nav-actions">
+      <button class="ghost-btn" id="wishlistBtn" type="button">Wishlist <span id="wishlistCount">0</span></button>
+      <button class="login-btn" id="loginBtn" type="button">Login</button>
+    </div>
   </nav>
 
   <main class="blog-index">
@@ -48,7 +60,7 @@
         <h2>Best Sneakers Under ₹1000 in India (2026)</h2>
         <p>We tracked 179 sneakers across Amazon, Flipkart, and Myntra. Here are the 10 best under ₹1,000 — with real prices.</p>
       </a>
-      <a class="blog-card" href="blog/best-running-shoes-under-2000-india.html">
+      <a class="blog-card" href="blog/best-running-shoes-under-2000-india-new.html">
         <h2>Best Running Shoes Under ₹2000 in India (2026)</h2>
         <p>We tracked prices across Amazon, Flipkart, and Myntra. Here are the 7 best running shoes under ₹2000.</p>
       </a>
@@ -68,7 +80,7 @@
         <h2>Puma vs Adidas: Which Sneakers Are Better Value in India? (2026)</h2>
         <p>We compared real prices, durability, comfort, and style of Puma vs Adidas sneakers in India. Here's which brand offers better value.</p>
       </a>
-      <a class="blog-card" href="blog/Campus-vs-sparx-sneakers-india.html">
+      <a class="blog-card" href="blog/campus-vs-sparx-sneakers-india.html">
         <h2>Campus vs Sparx: Which Budget Sneaker Brand Wins in India? (2026)</h2>
         <p>We compared real prices, durability, and comfort of Campus vs Sparx sneakers in India. Here's which budget brand is worth your money.</p>
       </a>
@@ -77,8 +89,8 @@
         <p>We compared the Nike Revolution 7 and Downshifter 13 on price, comfort, and durability. Here's which budget Nike running shoe is right for you.</p>
       </a>
       <a class="blog-card" href="blog/skechers-vs-new-balance-india.html">
-        <h2>Skechers vs New balance: Worth the Premium in India? (2026)</h2>
-        <p>We compared Skechers and New balance on price, durability, and style. Here's whether New balance is actually worth double the price.</p>
+        <h2>Skechers vs New Balance: Worth the Premium in India? (2026)</h2>
+        <p>We compared Skechers and New Balance on price, durability, and style. Here's whether New Balance is actually worth double the price.</p>
       </a>
       <a class="blog-card" href="blog/best-puma-sneakers-under-3000-india.html">
         <h2>Best Puma Sneakers Under ₹3000 in India (2026)</h2>
@@ -90,7 +102,7 @@
       </a>
       <a class="blog-card" href="blog/sneaker-price-tracking-30-days.html">
         <h2>I Tracked Sneaker Prices for 30 Days — Here's What I Found (2026)</h2>
-        <p>We tracked 179sneakers across Amazon, Flipkart, and Myntra for 30 days. Here's what we learned about real discounts, fake deals, and the best time to buy.</p>
+        <p>We tracked 179 sneakers across Amazon, Flipkart, and Myntra for 30 days. Here's what we learned about real discounts, fake deals, and the best time to buy.</p>
       </a>
       <a class="blog-card" href="blog/best-sneakers-under-800-india.html">
         <h2>Best Sneakers Under ₹800 in India (2026)</h2>
@@ -108,7 +120,7 @@
         <h2>Puma vs Skechers: Which is Better for Daily Wear in India? (2026)</h2>
         <p>We compared Puma and Skechers on real prices, comfort, and durability. Here's which brand gives you more value for daily wear.</p>
       </a>
-      <a class="blog-card" href="blog/best-Campus-sneakers-india.html">
+      <a class="blog-card" href="blog/best-campus-sneakers-india.html">
         <h2>Best Campus Sneakers in India (2026) — Top 7 Picks</h2>
         <p>We tracked Campus sneaker prices across Amazon, Flipkart, and Myntra. Here are the 7 best Campus sneakers in India right now.</p>
       </a>
@@ -124,7 +136,7 @@
         <h2>Nike vs Puma: Which is Better Value Under ₹3000 in India? (2026)</h2>
         <p>We compared Nike and Puma sneakers under ₹3000 in India on real prices, comfort, and durability. Here's which brand gives you more for your money.</p>
       </a>
-            <a class="blog-card" href="blog/best-asian-sneakers-india.html">
+      <a class="blog-card" href="blog/best-asian-sneakers-india.html">
         <h2>Best ASIAN Sneakers in India (2026) - Top 8 Picks</h2>
         <p>We compared live prices across Amazon, Flipkart, and Myntra to find the top 8 ASIAN shoes for running, walking, and casual wear.</p>
       </a>
@@ -144,15 +156,15 @@
         <h2>Top 5 Red Tape Sneakers Under ₹1500 in India (2026)</h2>
         <p>Red Tape is a dominant budget brand in India. We found the top 5 Red Tape sneakers under ₹1500.</p>
       </a>
-            <a class="blog-card" href="blog/compare-sneaker-prices-india.html">
+      <a class="blog-card" href="blog/compare-sneaker-prices-india.html">
         <h2>Compare Sneaker Prices Online in India (2026) - Save Money on Shoes</h2>
         <p>Stop overpaying. Learn how to compare shoe prices across Amazon, Flipkart, and Myntra with our ultimate price guide.</p>
       </a>
-            <a class="blog-card" href="blog/best-running-shoes-under-1500-india.html">
+      <a class="blog-card" href="blog/best-running-shoes-under-1500-india.html">
         <h2>Best Running Shoes Under ₹1500 in India (2026) - Top 8 Picks</h2>
         <p>We compared live prices across Amazon, Flipkart, and Myntra to find the best budget running shoes for casual joggers and gym-goers.</p>
       </a>
-            <a class="blog-card" href="blog/amazon-great-indian-festival-sneaker-deals.html">
+      <a class="blog-card" href="blog/amazon-great-indian-festival-sneaker-deals.html">
         <h2>Amazon Great Indian Festival 2026: Best Sneaker Deals Live Now</h2>
         <p>Track live price drops on sneakers during the Amazon Great Indian Festival. Save big on Nike, Puma, ASIAN, and more.</p>
       </a>
@@ -160,7 +172,7 @@
         <h2>Flipkart Big Billion Days 2026: Best Sneaker Deals & Price Drops</h2>
         <p>Flipkart Big Billion Days is live! Track the biggest price drops on sneakers from Puma, Sparx, Campus, and more.</p>
       </a>
-            <a class="blog-card" href="blog/myntra-end-of-reason-sale-sneaker-deals.html">
+      <a class="blog-card" href="blog/myntra-end-of-reason-sale-sneaker-deals.html">
         <h2>Myntra End of Reason Sale (EORS) 2026: Best Sneaker Deals & Discounts</h2>
         <p>Track live price drops on sneakers during the Myntra End of Reason Sale. Save big on Puma, ASIAN, Red Tape, and more.</p>
       </a>
@@ -168,7 +180,7 @@
         <h2>Amazon vs Flipkart vs Myntra: Which Sale Has the Best Sneaker Deals in 2026?</h2>
         <p>We compare the sneaker deals across Amazon, Flipkart, and Myntra to find out which platform has the best discounts.</p>
       </a>
-            <a class="blog-card" href="blog/best-red-chief-bacca-bucci-sneakers-india.html">
+      <a class="blog-card" href="blog/best-red-chief-bacca-bucci-sneakers-india.html">
         <h2>Best Red Chief & Bacca Bucci Sneakers in India (2026) - Top 8 Picks</h2>
         <p>We compared live prices to find the best budget-friendly sneakers from Red Chief and Bacca Bucci.</p>
       </a>
@@ -176,38 +188,45 @@
         <h2>Best Skechers Sneakers for Men & Women in India (2026) - Top 8 Picks</h2>
         <p>Discover the most comfortable Skechers sneakers for walking, running, and daily wear.</p>
       </a>
-            <a class="blog-card" href="blog/best-reebok-sneakers-india.html">
-        <h2>Best  ok Sneakers in India (2026) - Top 6 Picks for Running & Casual</h2>
+      <a class="blog-card" href="blog/best-reebok-sneakers-india.html">
+        <h2>Best Reebok Sneakers in India (2026) - Top 6 Picks for Running & Casual</h2>
         <p>We compared live prices to find the best Reebok sneakers for running, gym, and daily wear.</p>
       </a>
-      
+      <a class="blog-card" href="blog/best-sneakers-for-college-students-lucknow.html">
+        <h2>Best Sneakers for College Students in Lucknow (2026)</h2>
+        <p>Top budget-friendly and durable sneaker picks for students in Lucknow.</p>
+      </a>
+      <a class="blog-card" href="blog/best-sneakers-for-college-students-mumbai.html">
+        <h2>Best Sneakers for College Students in Mumbai (2026)</h2>
+        <p>Top budget-friendly and durable sneaker picks for students in Mumbai.</p>
+      </a>
     </div>
   </main>
 
-    <footer id="footer">
+  <footer id="footer">
     <div class="footer-inner">
       <div class="footer-brand-wrap">
         <div class="footer-brand"><span class="logo-style">Style</span><span class="logo-scout">Scout</span></div>
         <p class="footer-tagline">Scout smart. Dress better.</p>
+        <p class="footer-desc">Compare sneaker prices across Amazon, Flipkart and Myntra to make a more informed buying decision.</p>
       </div>
       <div class="footer-col">
         <h4>Explore</h4>
-        <a href="../index.html">Home</a>
-        <a href="../index.html#featured">Sneakers</a>
-        <a href="../blog.html">Blog</a>
+        <a href="index.html">Home</a>
+        <a href="index.html#featured">Sneakers</a>
+        <a href="blog.html">Blog</a>
       </div>
 
       <div class="footer-col">
         <h4>Company</h4>
-        <a href="../about.html">About</a>
-        <a href="../contact.html">Contact</a>
-        <a href="../how-it-works.html">How It Works</a>
-        <a href="../price-tracking-methodology.html">Our Methodology</a>
-        <a href="../privacy.html">Privacy Policy</a>
-        <a href="../terms.html">Terms &amp; Conditions</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="price-tracking-methodology.html">Our Methodology</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
         <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
-        <a href="../disclaimer.html">Disclaimer</a>
-
+        <a href="disclaimer.html">Disclaimer</a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -216,5 +235,32 @@
     </div>
   </footer>
 
+  <script>
+    (function () {
+      const navToggle = document.getElementById("navToggle");
+      const navLinks = document.getElementById("navLinks");
+      if (navToggle && navLinks) {
+        navToggle.addEventListener("click", function () {
+          const isOpen = navLinks.classList.toggle("open");
+          navToggle.setAttribute("aria-expanded", String(isOpen));
+          navToggle.innerHTML = isOpen ? "&times;" : "☰";
+        });
+        navLinks.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            navLinks.classList.remove("open");
+            navToggle.setAttribute("aria-expanded", "false");
+            navToggle.innerHTML = "☰";
+          });
+        });
+      }
+      const wishlistCount = document.getElementById("wishlistCount");
+      if (wishlistCount) {
+        try {
+          const saved = JSON.parse(localStorage.getItem("stylescout_wishlist") || "[]");
+          wishlistCount.textContent = Array.isArray(saved) ? saved.length : 0;
+        } catch (error) { wishlistCount.textContent = "0"; }
+      }
+    })();
+  </script>
 </body>
 </html>
