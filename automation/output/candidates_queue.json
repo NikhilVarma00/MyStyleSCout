@@ -1,1 +1,184 @@
-[]
+[
+  {
+    "amazon": {
+      "asin": "B07TLXNXCH",
+      "url": "https://www.amazon.in/NIKE-WMNS-SB-ALLEYOOP-WHITE-BLACK-6UK/dp/B07TLXNXCH?crid=X2TXQDGQW32K&dib=eyJ2IjoiMSJ9.XNYN2YLMTPB5B6vhGnbBXew-qQjFtWqrC4RSJtj6UmhE3Ixanrg536mGIZAAm6Hx2IZCEIaWeURrY7KBhtciwzmSw4o_x4WeQQKpr2VU6NjS4c0yDVt0vT-2rSOgz9MAmXakDpdQ0fYlbbkE1W4QfSkGV6wkWfsT6wR2LVtTL5N1Gk-C_HgxbsJoUCZdUKuKCZ5UcsEQckLK3tK_LUFpYhwIBGaPs7vizEAHi15qGTq8KJUxeZaOf9JOM3YMhABahzD88nO5IcdUepxX0g8cTSznANAEUJIJf26GdEylO10.wKxk4dhbKsYYIu1wVl9X3-jM6zfbFET320EZv2C1X68&dib_tag=se&keywords=Nike%2BDunk%2BLow%2B%28Panda%2B%26%2BWomen%27s%2Bcolors&nsdOptOutParam=true&qid=1793795187&sprefix=nike%2Bdunk%2Blow%2Bpanda%2B%26%2Bwomen%27s%2Bcolors%2Caps%2C369&sr=8-5&th=1&psc=1&linkCode=ll2&tag=stylescoutin2-21&linkId=eb3eb1cf5c101a4f530f04ec54c9f3ce&ref_=as_li_ss_tl",
+      "slug": "NIKE-WMNS-SB-ALLEYOOP-WHITE-BLACK-6UK",
+      "brand": "Nike",
+      "name": "Nike Unisex-Adult WMNS Sb Alleyoop Running",
+      "price": 5350,
+      "oldPrice": 6295,
+      "discount": 15,
+      "image": "https://m.media-amazon.com/images/I/71rCSHC0BLL._AC_SX342_.jpg",
+      "gallery": [
+        "https://m.media-amazon.com/images/I/71rCSHC0BLL._AC_SX342_.jpg",
+        "https://m.media-amazon.com/images/I/71rCSHC0BLL._AC_SX385_.jpg",
+        "https://m.media-amazon.com/images/I/71rCSHC0BLL._AC_SX425_.jpg",
+        "https://m.media-amazon.com/images/I/71rCSHC0BLL._AC_SX466_.jpg",
+        "https://m.media-amazon.com/images/I/71rCSHC0BLL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/71rCSHC0BLL._AC_SX569_.jpg",
+        "https://m.media-amazon.com/images/I/71rCSHC0BLL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/31DllMC5+ML._AC_SR38,50_.jpg",
+        "https://m.media-amazon.com/images/I/31fvg501sGL._AC_SR38,50_.jpg",
+        "https://m.media-amazon.com/images/I/31Cu+fssZ-L._AC_SR38,50_.jpg",
+        "https://m.media-amazon.com/images/I/31zGJ8AFAtL._AC_SR38,50_.jpg",
+        "https://m.media-amazon.com/images/I/31TRFEAE3XL._AC_SR38,50_.jpg",
+        "https://m.media-amazon.com/images/I/21tzdlI76PL._AC_SR38,50_.jpg",
+        "https://m.media-amazon.com/images/I/41fl7mDhneL._AC_SR38,50_.jpg"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "gender": "unisex"
+    },
+    "flipkart": [
+      {
+        "retailer": "Flipkart",
+        "title": "NIKE WMNS SB ALLEYOOP Sneakers For Women - Buy NIKE WMNS SB ALLEYOOP Sneakers For Women Online at Best Price - Shop Online for Footwears in India | Flipkart.com",
+        "price": 6295,
+        "url": "https://www.flipkart.com/nike-sb-alleyoop-sneakers-women/p/itme0822c1504c26",
+        "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/shoe/q/2/f/-watermarked-original-imahh6w2kd9hgk2s.jpeg",
+        "gender": "women",
+        "colors": [],
+        "similarity": 80
+      },
+      {
+        "retailer": "Flipkart",
+        "title": "NIKE WMNS SB ALLEYOOP Sneakers For Women - Buy NIKE WMNS SB ALLEYOOP Sneakers For Women Online at Best Price - Shop Online for Footwears in India | Flipkart.com",
+        "price": 4407,
+        "url": "https://www.flipkart.com/nike-sb-alleyoop-sneakers-women/p/itm8a7b776c7ca49",
+        "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/shoe/v/z/e/-watermarked-original-imahdh5r4s9ehjfg.jpeg",
+        "gender": "women",
+        "colors": [],
+        "similarity": 80
+      },
+      {
+        "retailer": "Flipkart",
+        "title": "NIKE WMNS SB ALLEYOOP Sneakers For Women - Buy NIKE WMNS SB ALLEYOOP Sneakers For Women Online at Best Price - Shop Online for Footwears in India | Flipkart.com",
+        "price": 6295,
+        "url": "https://www.flipkart.com/nike-sneakers-women/p/itme0822c1504c26",
+        "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/shoe/q/2/f/-watermarked-original-imahh6w2kd9hgk2s.jpeg",
+        "gender": "women",
+        "colors": [],
+        "similarity": 80
+      },
+      {
+        "retailer": "Flipkart",
+        "title": "NIKE WMNS SB ALLEYOOP Sneakers For Women - Buy NIKE WMNS SB ALLEYOOP Sneakers For Women Online at Best Price - Shop Online for Footwears in India | Flipkart.com",
+        "price": 6295,
+        "url": "https://www.flipkart.com/nike-sb-alleyoop-skateboard-shoes-women/p/itme0822c1504c26",
+        "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/shoe/q/2/f/-watermarked-original-imahh6w2kd9hgk2s.jpeg",
+        "gender": "women",
+        "colors": [],
+        "similarity": 80
+      },
+      {
+        "retailer": "Flipkart",
+        "title": "NIKE WMNS SB ALLEYOOP Sneakers For Women - Buy NIKE WMNS SB ALLEYOOP Sneakers For Women Online at Best Price - Shop Online for Footwears in India | Flipkart.com",
+        "price": 4407,
+        "url": "https://www.flipkart.com/nike-sneakers-women/p/itm8a7b776c7ca49",
+        "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/shoe/v/z/e/-watermarked-original-imahdh5r4s9ehjfg.jpeg",
+        "gender": "women",
+        "colors": [],
+        "similarity": 80
+      },
+      {
+        "retailer": "Flipkart",
+        "title": "NIKE sb alleyoop Skateboard Shoes For Unisex - Buy NIKE sb alleyoop Skateboard Shoes For Unisex Online at Best Price - Shop Online for Footwears in India | Flipkart.com",
+        "price": 6495,
+        "url": "https://www.flipkart.com/nike-sb-alleyoop-skateboard-shoes-men/p/itmbcf233db8d502",
+        "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/shoe/n/n/l/-watermarked-original-imahgbrwbtr5ravz.jpeg",
+        "gender": "unisex",
+        "colors": [],
+        "similarity": 73
+      },
+      {
+        "retailer": "Flipkart",
+        "title": "NIKE sb alleyoop Skateboard Shoes For Men - Buy NIKE sb alleyoop Skateboard Shoes For Men Online at Best Price - Shop Online for Footwears in India | Flipkart.com",
+        "price": 3897,
+        "url": "https://www.flipkart.com/nike-sb-alleyoop-sneakers-men/p/itmbfc9a4d5d98b9",
+        "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/shoe/r/4/d/10-cj0882-005-10-nike-particle-grey-brt-cactus-photon-dust-white-original-imahctzr9hsehmww.jpeg",
+        "gender": "men",
+        "colors": [],
+        "similarity": 73
+      }
+    ],
+    "myntra": [
+      {
+        "retailer": "Myntra",
+        "title": "Buy Nike Unisex Black SB Alleyoop Skateboarding Shoes -  - Footwear for Unisex",
+        "price": 6495,
+        "url": "https://www.myntra.com/casual-shoes/nike/nike-unisex-black-sb-alleyoop-skateboarding-shoes/11979890/buy",
+        "image": "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_75,w_1080/v1/assets/images/11979890/2024/2/28/137c4b71-74ff-4b5d-946a-91cd1a9d4ee01709111426600-Nike-Unisex-Black-SB-ALLEYOOP-Skateboarding-Shoes-2917091114-2.jpg",
+        "gender": "unisex",
+        "colors": [
+          "black"
+        ],
+        "similarity": 80
+      },
+      {
+        "retailer": "Myntra",
+        "title": "Buy Nike Unisex Black SB Alleyoop Skateboarding Shoes -  - Footwear for Unisex",
+        "price": 6495,
+        "url": "https://www.myntra.com/shoes/nike/nike-unisex-black-sb-alleyoop-skateboarding-shoes/11980016/buy",
+        "image": "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_75,w_1080/v1/assets/images/11980016/2024/2/6/f29ee65a-2974-468c-805a-fd8fe66728e01707201766163-Nike-Unisex-Black-SB-ALLEYOOP-Skateboarding-Shoes-9371707201-1.jpg",
+        "gender": "unisex",
+        "colors": [
+          "black"
+        ],
+        "similarity": 80
+      },
+      {
+        "retailer": "Myntra",
+        "title": "Buy Nike SB Alleyoop Women Skate Shoe -  - Footwear for Women",
+        "price": 6295,
+        "url": "https://www.myntra.com/casual-shoes/nike/nike-sb-alleyoop-women-skate-shoe/33475100/buy",
+        "image": "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_75,w_1080/v1/assets/images/2025/APRIL/4/FWOypz6y_132a74e727724cf59f97d2ab66fc6f2f.jpg",
+        "gender": "women",
+        "colors": [],
+        "similarity": 73
+      },
+      {
+        "retailer": "Myntra",
+        "title": "Buy Nike SB Alleyoop Women's Skate Shoe -  - Footwear for Women",
+        "price": 6295,
+        "url": "https://www.myntra.com/sports-shoes/nike/nike-sb-alleyoop-womens-skate-shoe/31686307/buy",
+        "image": "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_75,w_1080/v1/assets/images/2024/NOVEMBER/20/uwr4Ecsx_af3c56ad4c5a409890ba9c3fac08300f.jpg",
+        "gender": "women",
+        "colors": [],
+        "similarity": 73
+      },
+      {
+        "retailer": "Myntra",
+        "title": "Buy Nike SB Alleyoop Skate Shoes -  - Footwear for Men",
+        "price": 6495,
+        "url": "https://www.myntra.com/casual-shoes/nike/nike-sb-alleyoop-skate-shoes/34800103/buy",
+        "image": "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_75,w_1080/v1/assets/images/2025/JUNE/9/ygBRMutq_f2c6e95e745e4a6bbc00dbda855d1feb.jpg",
+        "gender": "men",
+        "colors": [],
+        "similarity": 73
+      },
+      {
+        "retailer": "Myntra",
+        "title": "Buy Nike Unisex SB Alleyoop Skate Shoes -  - Footwear for Men",
+        "price": 6495,
+        "url": "https://www.myntra.com/sports-shoes/nike/nike-men-sb-alleyoop-skate-shoes/23186574/buy",
+        "image": "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_75,w_1080/v1/assets/images/23186574/2023/5/15/8b8204d8-24d9-4476-82c1-921cb31c51fe1684130600301NikeSBAlleyoopSkateShoes1.jpg",
+        "gender": "men",
+        "colors": [],
+        "similarity": 73
+      },
+      {
+        "retailer": "Myntra",
+        "title": "Buy Nike SB Alleyoop Skate Shoes -  - Footwear for Men",
+        "price": 6495,
+        "url": "https://www.myntra.com/sports-shoes/nike/nike-sb-alleyoop-skate-shoes/46382429/buy",
+        "image": "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_75,w_1080/v1/assets/images/2026/SEPTEMBER/18/7d976f06fb144a8590c38e43bebd8eaa.jpg",
+        "gender": "men",
+        "colors": [],
+        "similarity": 73
+      }
+    ]
+  }
+]

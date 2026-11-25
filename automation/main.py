@@ -1,18 +1,6 @@
 import json
 import os
-import re
-import sys
-import time
-from pathlib import Path
-from urllib.parse import quote_plus, urlparse, unquote, parse_qs
-
-import requests
-from dotenv import load_dotenv
-from playwright.sync_api import sync_playwright
-
-BASE_DIR = Path(__file__).resolve().parent
-OUTPUT_DIR = BASE_DIR / "output"
-import os
+import random
 import re
 import sys
 import time
@@ -26,6 +14,7 @@ from playwright.sync_api import sync_playwright
 BASE_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = BASE_DIR / "output"
 OUTPUT_DIR.mkdir(exist_ok=True)
+PROFILE_DIR = BASE_DIR / ".browser_profile"
 
 load_dotenv(BASE_DIR / ".env")
 
@@ -85,8 +74,10 @@ def clean_text(value: str) -> str:
     value = re.sub(r"[^a-z0-9]+", " ", value)
     return re.sub(r"\s+", " ", value).strip()
 
+
 def tokens(value: str):
     return clean_text(value).split()
+
 
 def dedupe(items):
     seen, out = set(), []
@@ -96,6 +87,7 @@ def dedupe(items):
             seen.add(key)
             out.append(item)
     return out
+
 
 def parse_money(text: str):
     if not text:
@@ -110,10 +102,12 @@ def parse_money(text: str):
             pass
     return None
 
+
 def extract_colors_from_text(text: str):
     if not text:
         return set()
     return {c for c in KNOWN_COLORS if c in set(clean_text(text).split())}
+
 
 def extract_colors_from_url_slug(url: str):
     if not url:
@@ -122,6 +116,7 @@ def extract_colors_from_url_slug(url: str):
     slug = url.split("/")[-1] if "/" in url else url
     slug = re.sub(r"[^a-z0-9]+", " ", slug)
     return {c for c in KNOWN_COLORS if c in set(slug.split())}
+
 
 def extract_gender_from_text(text: str):
     if not text:
@@ -134,6 +129,7 @@ def extract_gender_from_text(text: str):
     if "unisex" in words:
         return "unisex"
     return None
+
 
 def model_tokens(title: str, brand: str, url_slug: str = ""):
     brand_words = set(tokens(brand))
@@ -152,6 +148,7 @@ def model_tokens(title: str, brand: str, url_slug: str = ""):
             seen.add(t)
     return out[:8]
 
+
 def similarity_score(amazon_title, amazon_brand, candidate_title, amazon_slug=""):
     a_brand = clean_text(amazon_brand)
     c = clean_text(candidate_title)
@@ -159,10 +156,10 @@ def similarity_score(amazon_title, amazon_brand, candidate_title, amazon_slug=""
         return 0
     core = model_tokens(amazon_title, amazon_brand, amazon_slug)
     if not core:
-        return 50  
+        return 50
     matched = [t for t in core if t in c.split()]
     if not matched:
-        return 30   
+        return 30
     if len(core) >= 3:
         score = 60 + (len(matched) / len(core)) * 40
     elif len(core) == 2:
@@ -170,6 +167,7 @@ def similarity_score(amazon_title, amazon_brand, candidate_title, amazon_slug=""
     else:
         score = 85
     return min(int(score), 100)
+
 
 def safe_goto(page, url, timeout=45000, attempts=2):
     last = None
@@ -184,6 +182,7 @@ def safe_goto(page, url, timeout=45000, attempts=2):
     print(f"  ! Could not open page: {type(last).__name__}: {last}")
     return False
 
+
 def text_from_selectors(page, selectors):
     for selector in selectors:
         try:
@@ -195,6 +194,7 @@ def text_from_selectors(page, selectors):
         except Exception:
             continue
     return ""
+
 
 def get_url_slug(url):
     try:
@@ -345,16 +345,23 @@ def candidate_queries(product):
 
     return dedupe(queries)[:3]
 
-def search_via_duckduckgo(page, retailer, query, limit=15):
-    site = "flipkart.com" if retailer == "Flipkart" else "myntra.com"
-    search_url = "https://html.duckduckgo.com/html/?q=" + quote_plus(f"site:{site} {query}")
-    if not safe_goto(page, search_url, timeout=30000, attempts=2):
-        return []
-    page.wait_for_timeout(1800)
 
+def _extract_search_links(page, retailer, site, limit):
     out = []
-    try:
-        for a in page.locator("a.result__a").all():
+    selectors = [
+        'a[data-testid="result-title-a"]',  # Standard DuckDuckGo
+        "a.result__a",                       # HTML DuckDuckGo
+        "li.b_algo h2 a",                    # Bing fallback
+    ]
+    for sel in selectors:
+        try:
+            anchors = page.locator(sel).all()
+        except Exception:
+            anchors = []
+        if not anchors:
+            continue
+
+        for a in anchors:
             href = a.get_attribute("href") or ""
             title = (a.inner_text() or "").strip()
             if "uddg=" in href:
@@ -373,10 +380,45 @@ def search_via_duckduckgo(page, retailer, query, limit=15):
             if title and len(title) > 5:
                 out.append({"title": title, "url": href})
                 if len(out) >= limit:
-                    break
-    except Exception:
-        pass
+                    return out
+        if out:
+            break
     return out
+
+
+def search_via_duckduckgo(page, retailer, query, limit=15):
+    site = "flipkart.com" if retailer == "Flipkart" else "myntra.com"
+    q_encoded = quote_plus(f"site:{site} {query}")
+
+    # 1. Try standard DuckDuckGo first (far fewer CAPTCHAs than html.duckduckgo.com)
+    ddg_url = f"https://duckduckgo.com/?q={q_encoded}&ia=web"
+    if safe_goto(page, ddg_url, timeout=30000, attempts=2):
+        page.wait_for_timeout(random.randint(2500, 4000))
+
+        body_txt = ""
+        try:
+            body_txt = page.locator("body").inner_text(timeout=1500).lower()
+        except Exception:
+            pass
+
+        if "bots use duckduckgo" in body_txt or "confirm this search was made by a human" in body_txt:
+            if not HEADLESS:
+                print("  ! DuckDuckGo CAPTCHA detected. Solve it in the browser window, then press Enter here...")
+                input()
+                page.wait_for_timeout(2000)
+
+        results = _extract_search_links(page, retailer, site, limit)
+        if results:
+            return results
+
+    # 2. Automatic fallback to Bing if DuckDuckGo returned 0 results or stayed blocked
+    bing_url = f"https://www.bing.com/search?q={q_encoded}"
+    if safe_goto(page, bing_url, timeout=30000, attempts=2):
+        page.wait_for_timeout(random.randint(2500, 4000))
+        return _extract_search_links(page, retailer, site, limit)
+
+    return []
+
 
 def scrape_product_page(page, retailer, url, fallback_title=""):
     if not safe_goto(page, url, timeout=40000, attempts=2):
@@ -461,10 +503,13 @@ def scrape_product_page(page, retailer, url, fallback_title=""):
         "colors": sorted(extract_colors_from_text(title)),
     }
 
+
 def find_candidates_for_retailer(page, retailer, amazon_product):
     queries = candidate_queries(amazon_product)
     all_candidates = []
-    for q in queries:
+    for idx, q in enumerate(queries):
+        if idx > 0:
+            time.sleep(random.uniform(3.0, 5.5))
         all_candidates.extend(search_via_duckduckgo(page, retailer, q))
         if len(all_candidates) >= 12:
             break
@@ -500,7 +545,7 @@ def find_candidates_for_retailer(page, retailer, amazon_product):
 def read_links():
     if not LINKS_FILE.exists():
         print(f"ERROR: {LINKS_FILE} not found.")
-        print(f"Create it and paste one Amazon affiliate URL per line.")
+        print("Create it and paste one Amazon affiliate URL per line.")
         sys.exit(1)
     raw = LINKS_FILE.read_text(encoding="utf-8").splitlines()
     links = []
@@ -520,14 +565,29 @@ def read_links():
 # ============================================================
 
 def process_one(context, url):
+    amz_page = context.new_page()
     try:
-        amazon = extract_amazon(context.new_page(), url)
-        fk = find_candidates_for_retailer(context.new_page(), "Flipkart", amazon)
-        my = find_candidates_for_retailer(context.new_page(), "Myntra", amazon)
-        return {"amazon": amazon, "flipkart": fk, "myntra": my}
+        amazon = extract_amazon(amz_page, url)
     except Exception as e:
         print(f"  x Failed: {e}")
         return None
+    finally:
+        amz_page.close()
+
+    fk_page = context.new_page()
+    try:
+        fk = find_candidates_for_retailer(fk_page, "Flipkart", amazon)
+    finally:
+        fk_page.close()
+
+    my_page = context.new_page()
+    try:
+        my = find_candidates_for_retailer(my_page, "Myntra", amazon)
+    finally:
+        my_page.close()
+
+    return {"amazon": amazon, "flipkart": fk, "myntra": my}
+
 
 def main():
     links = read_links()
@@ -538,14 +598,15 @@ def main():
     print(f"\n=== Processing {len(links)} product(s) ===")
 
     with sync_playwright() as p:
-        # FIXED: Removed channel="msedge" so it uses Playwright's built-in Chromium
-        browser = p.chromium.launch(headless=HEADLESS)
-        context = browser.new_context(
+        context = p.chromium.launch_persistent_context(
+            user_data_dir=str(PROFILE_DIR),
+            headless=HEADLESS,
             viewport={"width": 1366, "height": 900},
             locale="en-IN",
             timezone_id="Asia/Kolkata",
+            args=["--disable-blink-features=AutomationControlled"],
             user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "Mozilla/5.0 (X11; Linux x86_64) "
                 "AppleWebKit/537.36 (KHTML, like Gecko) "
                 "Chrome/140.0.0.0 Safari/537.36"
             ),
@@ -565,26 +626,26 @@ def main():
                     )
                     print(f"  ✓ Saved {len(queue)} products to queue")
                 else:
-                    print(f"  x Skipped (failed to process)")
+                    print("  x Skipped (failed to process)")
 
                 # Delay between products (except after last)
                 if i < len(links):
                     print(f"  Waiting {DELAY_BETWEEN_PRODUCTS}s before next...")
                     time.sleep(DELAY_BETWEEN_PRODUCTS)
 
-            print(f"\n=== DONE ===")
+            print("\n=== DONE ===")
             print(f"Scraped {len(queue)}/{len(links)} products -> {QUEUE_FILE}")
-            print(f"Open http://localhost:8000 to review.")
+            print("Open http://localhost:8000 to review.")
 
         except KeyboardInterrupt:
             print(f"\n\nInterrupted. {len(queue)} products saved to queue.")
-            print(f"Open http://localhost:8000 to review what's saved.")
+            print("Open http://localhost:8000 to review what's saved.")
         except Exception as e:
             print(f"\nFAILED: {e}\n")
             print(f"{len(queue)} products saved before failure.")
         finally:
             context.close()
-            browser.close()
+
 
 if __name__ == "__main__":
     main()

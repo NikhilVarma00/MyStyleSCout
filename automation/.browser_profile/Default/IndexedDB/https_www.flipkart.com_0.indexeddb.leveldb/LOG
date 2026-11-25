@@ -1,0 +1,12 @@
+2026/11/25-17:18:51.219 1f16 Reusing MANIFEST /home/nikhil/Desktop/MyStyleSCout/automation/.browser_profile/Default/IndexedDB/https_www.flipkart.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/25-17:18:51.219 1f16 Recovering log #4
+2026/11/25-17:18:51.397 1f16 Reusing old log /home/nikhil/Desktop/MyStyleSCout/automation/.browser_profile/Default/IndexedDB/https_www.flipkart.com_0.indexeddb.leveldb/000004.log 
+2026/11/25-17:18:53.138 1f17 Level-0 table #8: started
+2026/11/25-17:18:53.386 1f17 Level-0 table #8: 2516673 bytes OK
+2026/11/25-17:18:53.568 1f17 Delete type=0 #4
+2026/11/25-17:19:01.589 1f17 Compacting 1@1 + 1@2 files
+2026/11/25-17:19:01.821 1f17 Generated table #9@1: 854 keys, 1551931 bytes
+2026/11/25-17:19:01.821 1f17 Compacted 1@1 + 1@2 files => 1551931 bytes
+2026/11/25-17:19:02.080 1f17 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/25-17:19:02.081 1f17 Delete type=2 #5
+2026/11/25-17:19:02.081 1f17 Delete type=2 #8

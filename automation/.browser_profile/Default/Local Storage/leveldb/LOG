@@ -1,0 +1,14 @@
+2026/11/25-17:14:03.933 1f45 Creating DB /home/nikhil/Desktop/MyStyleSCout/automation/.browser_profile/Default/Local Storage/leveldb since it was missing.
+2026/11/25-17:14:04.769 1f45 Reusing MANIFEST /home/nikhil/Desktop/MyStyleSCout/automation/.browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/11/25-17:16:34.140 1f49 Level-0 table #5: started
+2026/11/25-17:16:34.395 1f49 Level-0 table #5: 71284 bytes OK
+2026/11/25-17:16:34.550 1f49 Delete type=0 #3
+2026/11/25-17:17:35.000 1f49 Level-0 table #7: started
+2026/11/25-17:17:35.120 1f49 Level-0 table #7: 33647 bytes OK
+2026/11/25-17:17:35.338 1f49 Delete type=0 #4
+2026/11/25-17:17:43.635 1f49 Level-0 table #9: started
+2026/11/25-17:17:43.707 1f49 Level-0 table #9: 35112 bytes OK
+2026/11/25-17:17:43.751 1f49 Delete type=0 #6
+2026/11/25-17:20:12.808 1f45 Level-0 table #11: started
+2026/11/25-17:20:13.383 1f45 Level-0 table #11: 34507 bytes OK
+2026/11/25-17:20:14.052 1f45 Delete type=0 #8
